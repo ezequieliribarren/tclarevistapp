@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <title>Nueva Noticia</title>
+   <style>
+      .vincular,
+      .video {
+         display: none;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="container p-4">
+      <button onclick="mostrarDiv('cargar-noticia')">Cargar Noticia</button>
+      <button onclick="mostrarDiv('vincular')">Vincular Tanda</button>
+      <button onclick="mostrarDiv('video')">Video</button>
+      <div class="cargar-noticia">
+         <form method="POST" action="/new-entry" enctype="multipart/form-data" class="card card-body">
+            <div class="form-group">
+               <label for="categoria">Categoría</label>
+               <select class="form-control" name="categoria" required>
+                  <option value="Turismo Carretera">Turismo Carretera</option>
+                  <option value="Turismo Nacional">Turismo Nacional</option>
+                  <option value="TC Pick Up">TC Pick Up</option>
+                  <option value="TC Pista">TC Pista</option>
+                  <option value="TC Mouras">TC Mouras</option>
+                  <option value="TC Pista Mouras">TC Pista Mouras</option>
+                  <option value="TC Pista Pick Up">TC Pista Pick Up</option>
+                  <option value="F2 Nacional">Formula 2 Nacional</option>
+                  <option value="TC 2000">TC 2000</option>
+                  <option value="TC 2000 Series">TC 2000 Series</option>
+                  <option value="Top Race">Top Race</option>
+                  <option value="Top Race Series">Top Race Series</option>
+                  <option value="Rally">Rally</option>
+                  <option value="F1">Fórmula 1</option>
+                  <option value="Moto GP">Moto GP</option>
+                  <option value="Nascar">Nascar</option>
+                  <option value="Rally Mundial">Rally Mundial</option>
+                  <option value="Dakar">Dakar</option>
+                  <option value="TCR">TCR</option>
+                  <option value="FE">Fórmula E</option>
+                  <option value="Rally Cross Country">Rally Cross Country</option>
+               </select>
+            </div>
+
+            <div class="form-group">
+               <label for="title">Titulo</label>
+               <input class="form-control" type="text" name="title" placeholder="Ingresa el titulo" autofocus required>
+            </div>
+            <div class="form-group">
+               <label for="file">Imagen</label>
+               <input class="form-control" type="file" name="image" placeholder="Enlace" autofocus required>
+           </div>
+            <div class="form-group">
+               <label for="cuerpo">Cuerpo de la noticia</label>
+               <textarea cols="30" rows="10" class="form-control" type="text" name="cuerpo"
+                  placeholder="Ingresa el texto" autofocus required></textarea>
+            </div>
+            <input type="submit" value="Guardar Noticia" class="btn btn-secondary">
+         </form>
+         <div>
+            <h2>General</h2>
+            <ul>
+               <% if (noticias && noticias.general) { %>
+                  <% for (let i=noticias.general.length - 1; i>= Math.max(noticias.general.length - 10, 0); i--) { %>
+                     <li>
+                        ID: <%= noticias.general[i].id %> - Título: <%= noticias.general[i].title %> Categoria: <%=
+                                 noticias.general[i].categoria %>
+                                 <form method="POST" action="/move-to-priority/<%= noticias.general[i].id %>">
+                                    <input type="hidden" name="priority" value="primaria">
+                                    <button type="submit" class="btn btn-success">Mover a Primaria</button><a
+                                       href="/delete/<%= noticias.general[i].id %>" class="btn btn-danger">Eliminar</a>
+                                 </form>
+                     </li>
+                     <% } %>
+                        <% } else { %>
+                           <li>No hay noticias generales disponibles</li>
+                           <% } %>
+            </ul>
+
+            <h2>Primaria</h2>
+            <ul>
+               <% if (noticias && noticias.prioridad && noticias.prioridad.primaria) { %>
+                  <% for (let i=noticias.prioridad.primaria.length - 1; i>= Math.max(noticias.prioridad.primaria.length
+                     - 10, 0); i--) { %>
+                     <li>ID: <%= noticias.prioridad.primaria[i].id %> - Título: <%= noticias.prioridad.primaria[i].title
+                              %> Categoria: <%= noticias.prioridad.primaria[i].categoria %>
+                                 <a href="/delete/<%= noticias.prioridad.primaria[i].id %>"
+                                    class="btn btn-danger">Eliminar</a>
+                     </li>
+                     <% } %>
+                        <% } else { %>
+                           <li>No hay noticias primarias disponibles</li>
+                           <% } %>
+            </ul>
+
+            <h2>Secundaria</h2>
+            <ul>
+               <% if (noticias && noticias.prioridad && noticias.prioridad.secundaria) { %>
+                  <% for (let i=noticias.prioridad.secundaria.length - 1; i>=
+                     Math.max(noticias.prioridad.secundaria.length - 10, 0); i--) { %>
+                     <li>ID: <%= noticias.prioridad.secundaria[i].id %> - Título: <%=
+                              noticias.prioridad.secundaria[i].title %> Categoria: <%=
+                                 noticias.prioridad.secundaria[i].categoria %>
+                                 <a href="/delete/<%= noticias.prioridad.secundaria[i].id %>"
+                                    class="btn btn-danger">Eliminar</a>
+                     </li>
+                     <% } %>
+                        <% } else { %>
+                           <li>No hay noticias secundarias disponibles</li>
+                           <% } %>
+            </ul>
+
+            <h2>Terciaria</h2>
+            <ul>
+               <% if (noticias && noticias.prioridad && noticias.prioridad.terciaria) { %>
+                  <% for (let i=noticias.prioridad.terciaria.length - 1; i>=
+                     Math.max(noticias.prioridad.terciaria.length - 10, 0); i--) { %>
+                     <li>
+                        <% if (noticias.prioridad.terciaria[i]) { %>
+                           ID: <%= noticias.prioridad.terciaria[i].id %> - Título: <%=
+                                 noticias.prioridad.terciaria[i].title %> Categoria: <%=
+                                    noticias.prioridad.terciaria[i].categoria %>
+                                    <a href="/delete/<%= noticias.prioridad.terciaria[i].id %>"
+                                       class="btn btn-danger">Eliminar</a>
+                                    <% } else { %>
+                                       Puedes agregar un mensaje o lógica adicional si la noticia no existe -->
+                                       <p>Noticia no disponible en esta posición</p>
+                                       <% } %>
+                     </li>
+                     <% } %>
+                        <% } else { %>
+                           <li>No hay noticias terciarias disponibles</li>
+                           <% } %>
+            </ul>
+         </div>
+      </div>
+      <div class="vincular">
+         <form method="POST" action="/vincular" enctype="multipart/form-data">
+            <div class="form-group">
+               <label for="title">Titulo</label>
+               <input class="form-control" type="text" name="title" placeholder="Ingresa el titulo" autofocus required>
+            </div>
+            <div class="form-group">
+               <label for="file">Imagen</label>
+               <input class="form-control" type="file" name="image" placeholder="Enlace" autofocus required>
+           </div>
+            <div class="form-group">
+               <label for="link">Link</label>
+               <input class="form-control" type="text" name="link" placeholder="Ingresa el link sin espacios" autofocus required>
+            </div>
+            <input type="submit" value="Vincular" class="btn btn-secondary">
+         </form>
+      </div>
+
+      <div class="video">
+         <form method="POST" action="/video">
+            <div class="form-group">
+               <label for="image">Video</label>
+               <input class="form-control" type="text" name="title" placeholder="Url del video" autofocus required>
+            </div>
+            <div class="form-group">
+               <label for="categoria">Categoría</label>
+               <select class="form-control" name="categoria" required>
+                  <option value="Turismo Carretera">Turismo Carretera</option>
+                  <option value="Turismo Nacional">Turismo Nacional</option>
+                  <option value="TC Pick Up">TC Pick Up</option>
+                  <option value="TC Pista">TC Pista</option>
+                  <option value="TC Mouras">TC Mouras</option>
+                  <option value="TC Pista Mouras">TC Pista Mouras</option>
+                  <option value="TC Pista Pick Up">TC Pista Pick Up</option>
+                  <option value="F2 Nacional">Formula 2 Nacional</option>
+                  <option value="TC 2000">TC 2000</option>
+                  <option value="TC 2000 Series">TC 2000 Series</option>
+                  <option value="Top Race">Top Race</option>
+                  <option value="Top Race Series">Top Race Series</option>
+                  <option value="Rally">Rally</option>
+                  <option value="F1">Fórmula 1</option>
+                  <option value="Moto GP">Moto GP</option>
+                  <option value="Nascar">Nascar</option>
+                  <option value="Rally Mundial">Rally Mundial</option>
+                  <option value="Dakar">Dakar</option>
+                  <option value="TCR">TCR</option>
+                  <option value="FE">Fórmula E</option>
+                  <option value="Rally Cross Country">Rally Cross Country</option>
+               </select>
+            </div>
+            <input type="submit" value="Guardar" class="btn btn-secondary">
+         </form>
+      </div>
+
+
+   </div>
+
+   <script>
+      function mostrarDiv(divId) {
+         // Oculta todos los divs
+         document.querySelector('.cargar-noticia').style.display = 'none';
+         document.querySelector('.vincular').style.display = 'none';
+         document.querySelector('.video').style.display = 'none';
+
+         // Muestra el div seleccionado
+         document.querySelector('.' + divId).style.display = 'block';
+      }
+   </script>
+</body>
+
+</html>
