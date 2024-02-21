@@ -358,9 +358,51 @@ router.post('/video', (req, res) => {
     res.redirect('/new-entry');
 });
 
-const obtenerResultados = require('./tcpk/entrenamiento1');
+// PUBLICIDAD
+router.post('/publicidad', upload.single('image'), (req, res) => {
+    const now = moment();
+    const formattedDate = now.tz('America/Argentina/Buenos_Aires').format();
+    const { link } = req.body; // Actualizado para obtener los campos del formulario desde req.body
+
+    const publicidad = {
+        id: uuidv4(),
+        date: formattedDate,
+        image: `images/${req.file.filename}`, // Ahora accedes al nombre del archivo desde req.file
+        link
+    };
+
+    // Ruta al archivo JSON de vincular
+    const vincularFilePath = 'src/publicidad.json';
+
+    let publicidades = [];
+
+    if (fs.existsSync(vincularFilePath)) {
+        const jsonNoticias = fs.readFileSync(vincularFilePath, 'utf-8');
+        // Verificar si el JSON tiene un formato válido antes de intentar analizarlo
+        if (jsonNoticias.trim() !== '') {
+            publicidades = JSON.parse(jsonNoticias);
+        }
+    }
+
+    publicidades.unshift(publicidad);
+
+    const jsonNoticiasActualizado = JSON.stringify(publicidades, null, 2);
+
+    fs.writeFileSync(vincularFilePath, jsonNoticiasActualizado, 'utf-8');
+
+    res.redirect('/new-entry');
+});
+
+
+// const calendariof1 = require('./f1');
+
+// calendariof1()
+//   .then(eventos => console.log(JSON.stringify(eventos)))
+//   .catch(error => console.error('Error:', error));
+
 // const obtenerResultados2 = require('./tcpk/resultadosFinal');
-// const copaDeOro = require('./copaDeOro');
+const copaDeOro = require('./copaDeOro');
+const rallyArgentino = require('./rally-argentino');
 // const obtenerHorarios = require('./horariosActc');
 // const obtenerPilotos = require('./pilotosInscriptos');
 
@@ -371,13 +413,11 @@ async function init() {
     // console.log(data)
     // const data4 = await obtenerPilotos.obtenerYMostrarDatos();
     // console.log(data4)
-    const data2 = await obtenerResultados.obtenerYMostrarDatos();
-    console.log(data2)
     // const data5 = await obtenerResultados2.obtenerYMostrarDatos();
     // console.log(data5)
     
-    // const data3 = await copaDeOro();
-    // console.log(data3)
+    const data3 = await rallyArgentino();
+    console.log(data3)
   } catch (error) {
 
   }

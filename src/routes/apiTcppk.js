@@ -153,11 +153,4 @@ router.get('/restcppk/serie2', async (req, res) => {
     });
   
 
-
-
-
-
-
-  
-
   module.exports = router;

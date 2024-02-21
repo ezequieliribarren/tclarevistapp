@@ -33,6 +33,11 @@ const apiVideos = require('./routes/api-videos.js');
 app.use('/api-videos', apiVideos);
 
 
+// API PUBLICIDADES
+const apiPublicidades = require('./routes/api-publicidad.js');
+app.use('/publicidades', apiPublicidades);
+
+
 // APIS RESULTADOS ACTC
 const apiTcpk = require('./routes/apiTcpk.js');
 app.use('/apiTcpk', apiTcpk);
