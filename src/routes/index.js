@@ -34,6 +34,8 @@ const filePaths = [
     'src/noticias/tc-pista-pick-up.json',
     'src/noticias/tc-pick-up.json',
     'src/noticias/top-race-series.json',
+    'src/noticias/turismo-pista.json',
+    'src/noticias/indycar-series.json',
     'src/noticias/tc-pista-mouras.json'
 ];
 
@@ -138,9 +140,9 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 router.post('/new-entry', upload.single('image'), (req, res) => {
-    const { title, cuerpo, categoria } = req.body;
+    const { title, cuerpo, categoria, video, idVideo, param } = req.body;
 
-    if (!title || !req.file || !cuerpo || !categoria) {
+    if (!title || !categoria) {
         res.status(400).send('Faltan campos');
         return;
     }
@@ -150,13 +152,22 @@ router.post('/new-entry', upload.single('image'), (req, res) => {
     // Agrega la zona horaria de Argentina a la fecha
     const formattedDate = now.tz('America/Argentina/Buenos_Aires').format();
 
+    let image = ""; // Establece la imagen como una cadena vacía por defecto
+
+    if (req.file) {
+        image = `images/${req.file.filename}`; // Si hay una imagen cargada, utiliza su nombre de archivo
+    }
+
     const nuevaNoticia = {
         id: uuidv4(),
         categoria: Array.isArray(categoria) ? categoria : [categoria],
         title,
         priority: "general",
         date: formattedDate,
-        image: `images/${req.file.filename}`, // Ruta de la imagen en public
+        param,
+        image, // Utiliza la imagen determinada anteriormente
+        video,
+        idVideo,
         cuerpo,
     };
     // Verifica la prioridad seleccionada
@@ -277,6 +288,42 @@ function moverNoticiaAPrimaria(noticias, noticiaId) {
 }
 
 
+
+function eliminarNoticiaDeArchivoPorCategoria(id, filePath) {
+    if (fs.existsSync(filePath)) {
+        try {
+            const jsonNoticias = fs.readFileSync(filePath, 'utf-8');
+            const noticias = JSON.parse(jsonNoticias);
+
+            // Filtrar las noticias que no coincidan con el ID a eliminar
+            const noticiasFiltradas = noticias.filter(noticia => noticia.id !== id);
+
+            // Escribe de vuelta al archivo JSON la información actualizada
+            const jsonNoticiasActualizado = JSON.stringify(noticiasFiltradas);
+            fs.writeFileSync(filePath, jsonNoticiasActualizado, 'utf-8');
+        } catch (error) {
+            console.error(`Error al analizar o escribir en el archivo JSON ${filePath}:`, error.message);
+        }
+    }
+}
+
+function eliminarNoticiaEnArrayYCategoria(array, id, categoria, esGeneral) {
+    const indice = array.findIndex(noticia => noticia.id === id);
+    if (indice !== -1) {
+        // Elimina la noticia del array en memoria
+        const noticiaEliminada = array.splice(indice, 1)[0];
+
+        // Eliminar también del archivo JSON de la categoría si no es general
+        if (!esGeneral) {
+            const categoriaFilePath = `src/noticias/${categoria.toLowerCase().replace(/\s+/g, '-')}.json`;
+            eliminarNoticiaDeArchivoPorCategoria(id, categoriaFilePath);
+        }
+
+        return noticiaEliminada; // Devuelve la noticia eliminada para su posterior manipulación si es necesario
+    }
+    return null; // Retorna null si no se encuentra la noticia en el array en memoria
+}
+
 // VINCULAR
 router.post('/vincular', upload.single('image'), (req, res) => {
     const now = moment();
@@ -320,44 +367,67 @@ router.post('/vincular', upload.single('image'), (req, res) => {
 });
 
 
+
+
 // VIDEOS
-router.post('/video', (req, res) => {
-    const { title, categoria } = req.body;
+// router.post('/video', (req, res) => {
+//     const { id, url, categoria, title } = req.body;
 
-    if (!title || !categoria) {
-        res.status(400).send('Faltan campos');
-        return;
-    }
+//     if (!id || !url || !categoria ||!title) {
+//         res.status(400).send('Faltan campos');
+//         return;
+//     }
 
-    const videoEntry = {
-        id: uuidv4(),
-        title,
-        categoria,
-        videoUrl: req.body.videoUrl,
-        date: moment().tz('America/Argentina/Buenos_Aires').format(),
-    };
+//     const videoEntry = {
+//         id,
+//         url,
+//         title,
+//         categoria,
+//         date: moment().tz('America/Argentina/Buenos_Aires').format(),
+//     };
 
-    // Ruta al archivo JSON de la categoría correspondiente
-    const categoriaFilePath = `src/videos/${categoria.toLowerCase()}.json`;
+//     // Ruta al archivo JSON de la categoría correspondiente
+//     const categoriaFilePath = `src/videos/${categoria.toLowerCase()}.json`;
 
-    let videosCategoria = [];
+//     let videosCategoria = [];
 
-    if (fs.existsSync(categoriaFilePath)) {
-        const jsonVideos = fs.readFileSync(categoriaFilePath, 'utf-8');
-        if (jsonVideos.trim() !== '') {
-            videosCategoria = JSON.parse(jsonVideos);
-        }
-    }
+//     if (fs.existsSync(categoriaFilePath)) {
+//         const jsonVideos = fs.readFileSync(categoriaFilePath, 'utf-8');
+//         if (jsonVideos.trim() !== '') {
+//             videosCategoria = JSON.parse(jsonVideos);
+//         }
+//     }
 
-    videosCategoria.unshift(videoEntry);
+//     videosCategoria.unshift(videoEntry);
 
-    const jsonVideosActualizado = JSON.stringify(videosCategoria, null, 2);
+//     const jsonVideosActualizado = JSON.stringify(videosCategoria, null, 2);
 
-    fs.writeFileSync(categoriaFilePath, jsonVideosActualizado, 'utf-8');
+//     fs.writeFileSync(categoriaFilePath, jsonVideosActualizado, 'utf-8');
 
-    res.redirect('/new-entry');
-});
+//     // Llama a la función para guardar en videos.json
+//     guardarEnVideosJSON(videoEntry);
 
+//     res.redirect('/new-entry');
+// });
+
+// function guardarEnVideosJSON(videoEntry) {
+//     const videosFilePath = 'src/videos/videos.json';
+
+//     let videos = [];
+
+//     if (fs.existsSync(videosFilePath)) {
+//         const jsonVideos = fs.readFileSync(videosFilePath, 'utf-8');
+//         if (jsonVideos.trim() !== '') {
+//             videos = JSON.parse(jsonVideos);
+//         }
+//     }
+
+//     videos.unshift(videoEntry);
+
+//     const jsonVideosActualizado = JSON.stringify(videos, null, 2);
+
+//     fs.writeFileSync(videosFilePath, jsonVideosActualizado, 'utf-8');
+// }
 // PUBLICIDAD
 router.post('/publicidad', upload.single('image'), (req, res) => {
     const now = moment();

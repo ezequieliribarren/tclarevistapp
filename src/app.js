@@ -28,11 +28,6 @@ const apiCategorias = require('./routes/api-categorias.js');
 app.use('/api-categorias', apiCategorias);
 
 
-// API VIDEOS CATEGORIAS
-const apiVideos = require('./routes/api-videos.js');
-app.use('/api-videos', apiVideos);
-
-
 // API PUBLICIDADES
 const apiPublicidades = require('./routes/api-publicidad.js');
 app.use('/publicidades', apiPublicidades);

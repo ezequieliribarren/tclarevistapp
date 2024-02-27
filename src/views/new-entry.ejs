@@ -25,42 +25,52 @@
             <div class="form-group">
                <label for="categoria">Categoría</label>
                <select class="form-control" name="categoria" required>
-                  <option value="Turismo Carretera">Turismo Carretera</option>
-                  <option value="Turismo Nacional">Turismo Nacional</option>
-                  <option value="TC Pick Up">TC Pick Up</option>
-                  <option value="TC Pista">TC Pista</option>
-                  <option value="TC Mouras">TC Mouras</option>
-                  <option value="TC Pista Mouras">TC Pista Mouras</option>
-                  <option value="TC Pista Pick Up">TC Pista Pick Up</option>
-                  <option value="F2 Nacional">Formula 2 Nacional</option>
-                  <option value="TC 2000">TC 2000</option>
-                  <option value="TC 2000 Series">TC 2000 Series</option>
-                  <option value="Top Race">Top Race</option>
-                  <option value="Top Race Series">Top Race Series</option>
-                  <option value="Rally">Rally</option>
-                  <option value="F1">Fórmula 1</option>
-                  <option value="Moto GP">Moto GP</option>
-                  <option value="Nascar">Nascar</option>
-                  <option value="Rally Mundial">Rally Mundial</option>
-                  <option value="Dakar">Dakar</option>
-                  <option value="TCR">TCR</option>
-                  <option value="FE">Fórmula E</option>
-                  <option value="Rally Cross Country">Rally Cross Country</option>
+                  <option value="Turismo Carretera" data-param="tc">Turismo Carretera</option>
+                  <option value="Turismo Nacional" data-param="tn">Turismo Nacional</option>
+                  <option value="TC Pick Up" data-param="tcp">TC Pick Up</option>
+                  <option value="TC Pista" data-param="tcp">TC Pista</option>
+                  <option value="TC Mouras" data-param="tcm">TC Mouras</option>
+                  <option value="TC Pista Mouras" data-param="tcpm">TC Pista Mouras</option>
+                  <option value="TC Pista Pick Up" data-param="tcppk">TC Pista Pick Up</option>
+                  <option value="Formula 2 Nacional" data-param="f2-nacional">Fórmula 2 Nacional</option>
+                  <option value="TC 2000" data-param="tc2000">TC 2000</option>
+                  <option value="TC 2000 Series" data-param="tc2000-series">TC 2000 Series</option>
+                  <option value="Top Race" data-param="tr">Top Race</option>
+                  <option value="Top Race Series" data-param="tr-series">Top Race Series</option>
+                  <option value="Turismo Pista" data-param="tp">Turismo Pista</option>
+                  <option value="Rally" data-param="rally-argentino">Rally</option>
+                  <option value="Fórmula 1" data-param="f1">Fórmula 1</option>
+                  <option value="Moto GP" data-param="moto-gp">Moto GP</option>
+                  <option value="Indycar Series" data-param="indycar-series">Indycar Series</option>
+                  <option value="Nascar" data-param="nascar">Nascar</option>
+                  <option value="Rally Mundial" data-param="rally-mundial">Rally Mundial</option>
+                  <option value="Dakar" data-param="dakar">Dakar</option>
+                  <option value="TCR" data-param="tcr">TCR</option>
+                  <option value="Fórmula E" data-param="formula-e">Fórmula E</option>
+                  <option value="Rally Cross Country" data-param="rally-cross-country">Rally Cross Country</option>
                </select>
             </div>
-
+            <input type="hidden" name="param" id="param-field" value="">
             <div class="form-group">
                <label for="title">Titulo</label>
                <input class="form-control" type="text" name="title" placeholder="Ingresa el titulo" autofocus required>
             </div>
             <div class="form-group">
                <label for="file">Imagen</label>
-               <input class="form-control" type="file" name="image" placeholder="Enlace" autofocus required>
+               <input class="form-control" type="file" name="image" placeholder="Enlace" autofocus>
+            </div>
+            <div class="form-group">
+               <label for="title">Video</label>
+               <input class="form-control" type="text" name="video" placeholder="Url del video" autofocus>
+            </div>
+            <div class="form-group">
+               <label for="image">Id</label>
+               <input class="form-control" type="text" name="idVideo" placeholder="Id del video" autofocus>
             </div>
             <div class="form-group">
                <label for="cuerpo">Cuerpo de la noticia</label>
                <textarea cols="30" rows="10" class="form-control" type="text" name="cuerpo"
-                  placeholder="Ingresa el texto" autofocus required></textarea>
+                  placeholder="Ingresa el texto" autofocus></textarea>
             </div>
             <input type="submit" value="Guardar Noticia" class="btn btn-secondary">
          </form>
@@ -160,12 +170,23 @@
          </form>
       </div>
 
-      <div class="video">
-         <form method="POST" action="/video">
+      <!-- <div class="video">
+         <form method="POST" action="/video">     
             <div class="form-group">
-               <label for="image">Video</label>
-               <input class="form-control" type="text" name="title" placeholder="Url del video" autofocus required>
+               <label for="image">Título</label>
+               <input class="form-control" type="text" name="title" placeholder="Titulo del video" autofocus required>
             </div>
+
+            <div class="form-group">
+               <label for="image">Url</label>
+               <input class="form-control" type="text" name="url" placeholder="Url del video" autofocus required>
+            </div>
+
+            <div class="form-group">
+               <label for="image">Id</label>
+               <input class="form-control" type="text" name="id" placeholder="Id del video" autofocus required>
+            </div>
+    
             <div class="form-group">
                <label for="categoria">Categoría</label>
                <select class="form-control" name="categoria" required>
@@ -194,7 +215,7 @@
             </div>
             <input type="submit" value="Guardar" class="btn btn-secondary">
          </form>
-      </div>
+      </div> -->
 
       <div class="publicidad">
          <form method="POST" action="/publicidad" enctype="multipart/form-data">
@@ -204,8 +225,7 @@
             </div>
             <div class="form-group">
                <label for="link">Link</label>
-               <input class="form-control" type="text" name="link" placeholder="Ingresa el link sin espacios" autofocus
-                  >
+               <input class="form-control" type="text" name="link" placeholder="Ingresa el link sin espacios" autofocus>
             </div>
             <input type="submit" value="Guardar" class="btn btn-secondary">
          </form>
@@ -224,6 +244,17 @@
          // Muestra el div seleccionado
          document.querySelector('.' + divId).style.display = 'block';
       }
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var categoriaSelect = document.querySelector('select[name="categoria"]');
+        var paramField = document.getElementById('param-field');
+
+        categoriaSelect.addEventListener('change', function() {
+            var selectedOption = categoriaSelect.options[categoriaSelect.selectedIndex];
+            var paramValue = selectedOption.dataset.param;
+            paramField.value = paramValue;
+        });
+    });
    </script>
 </body>
 
