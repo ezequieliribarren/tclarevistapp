@@ -13,7 +13,7 @@ const {serie2} = require ('./tc/serie2.js')
 const {final} = require ('./tc/final.js')
 
 // 1° ENTRENAMIENTO
-router.get('/restc/en1', async (req, res) => {
+router.get('/en1', async (req, res) => {
     try {
       // Obtén los datos completos
       const datos = await en1();
@@ -27,7 +27,7 @@ router.get('/restc/en1', async (req, res) => {
   });
 
 // 2° ENTRENAMIENTO
-router.get('/restc/en2', async (req, res) => {
+router.get('/en2', async (req, res) => {
     try {
       // Obtén los datos completos
       const datos = await en2();
@@ -41,7 +41,7 @@ router.get('/restc/en2', async (req, res) => {
   });
 
   // 3° ENTRENAMIENTO
-router.get('/restc/en3', async (req, res) => {
+router.get('/en3', async (req, res) => {
     try {
       // Obtén los datos completos
       const datos = await en3();
@@ -55,7 +55,7 @@ router.get('/restc/en3', async (req, res) => {
   });
 
   // 4° ENTRENAMIENTO
-router.get('/restc/en4', async (req, res) => {
+router.get('/en4', async (req, res) => {
     try {
       // Obtén los datos completos
       const datos = await en4();
@@ -69,7 +69,7 @@ router.get('/restc/en4', async (req, res) => {
   });
 
   // 5° ENTRENAMIENTO
-router.get('/restc/en5', async (req, res) => {
+router.get('/en5', async (req, res) => {
     try {
       // Obtén los datos completos
       const datos = await en5();
@@ -83,7 +83,7 @@ router.get('/restc/en5', async (req, res) => {
   });
 
   // 6° ENTRENAMIENTO
-router.get('/restc/en6', async (req, res) => {
+router.get('/en6', async (req, res) => {
     try {
       // Obtén los datos completos
       const datos = await en6();
@@ -97,7 +97,7 @@ router.get('/restc/en6', async (req, res) => {
   });
 
 // CLASIFICACION
-router.get('/restc/clasificacion', async (req, res) => {
+router.get('/clasificacion', async (req, res) => {
   try {
     // Obtén los datos completos
     const datos = await clasificacion();
@@ -111,7 +111,7 @@ router.get('/restc/clasificacion', async (req, res) => {
 });
 
 // 1° SERIE
-router.get('/restc/serie1', async (req, res) => {
+router.get('/serie1', async (req, res) => {
       try {
         // Obtén los datos completos
         const datos = await serie1();
@@ -125,7 +125,7 @@ router.get('/restc/serie1', async (req, res) => {
     });
 
 // 2° SERIE
-router.get('/restc/serie2', async (req, res) => {
+router.get('/serie2', async (req, res) => {
   try {
     // Obtén los datos completos
     const datos = await serie2();
@@ -139,7 +139,7 @@ router.get('/restc/serie2', async (req, res) => {
 });
 
 // 6° FINAL
-router.get('/restc/final', async (req, res) => {
+router.get('/final', async (req, res) => {
       try {
         // Obtén los datos completos
         const datos = await final();

@@ -44,7 +44,7 @@ router.get('/delete/:id', (req, res) => {
     const id = req.params.id;
 
     // Llamada a la función eliminarNoticiaDeArchivo con el id y las rutas de archivo
-    eliminarNoticiaDeArchivo(id, filePaths); 
+    eliminarNoticiaDeArchivo(id, filePaths);
 
     function eliminarNoticiaEnArrayYCategoria(array, id) {
         const indice = array.findIndex(noticia => noticia.id === id);
@@ -139,8 +139,8 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-router.post('/new-entry', upload.single('image'), (req, res) => {
-    const { title, cuerpo, categoria, video, idVideo, param } = req.body;
+router.post('/new-entry', upload.fields([{ name: 'image', maxCount: 1 }, { name: 'secondImage', maxCount: 1 }]), (req, res) => {
+    const { title, cuerpo, categoria, video, idVideo, param, imageCuerpo } = req.body;
 
     if (!title || !categoria) {
         res.status(400).send('Faltan campos');
@@ -152,10 +152,15 @@ router.post('/new-entry', upload.single('image'), (req, res) => {
     // Agrega la zona horaria de Argentina a la fecha
     const formattedDate = now.tz('America/Argentina/Buenos_Aires').format();
 
-    let image = ""; // Establece la imagen como una cadena vacía por defecto
+    let image = "";
+    let secondImage = "";
 
-    if (req.file) {
-        image = `images/${req.file.filename}`; // Si hay una imagen cargada, utiliza su nombre de archivo
+    if (req.files['image']) {
+        image = `images/${req.files['image'][0].filename}`;
+    }
+
+    if (req.files['secondImage']) {
+        secondImage = `images/${req.files['secondImage'][0].filename}`;
     }
 
     const nuevaNoticia = {
@@ -165,40 +170,43 @@ router.post('/new-entry', upload.single('image'), (req, res) => {
         priority: "general",
         date: formattedDate,
         param,
-        image, // Utiliza la imagen determinada anteriormente
+        image,
+        secondImage, // Agrega el segundo parámetro para la segunda imagen
         video,
         idVideo,
         cuerpo,
+        imageCuerpo
     };
+
     // Verifica la prioridad seleccionada
     if (nuevaNoticia.priority && ["primaria", "secundaria", "terciaria"].includes(nuevaNoticia.priority.toLowerCase())) {
         // Si tiene prioridad, agrega la noticia al array correspondiente
         noticias.prioridad[priority.toLowerCase()] = noticias.prioridad[priority.toLowerCase()] || [];
         noticias.prioridad[priority.toLowerCase()].unshift(nuevaNoticia);
 
- // Mueve la noticia anterior al array general
- moverNoticia(noticias.prioridad[priority.toLowerCase()]);
-} else {
-    // Si no tiene prioridad, agrega la noticia al array general
-    noticias.general = noticias.general || [];
-    noticias.general.push(nuevaNoticia);
-}
-
-// Restringir la noticia a categorías únicas (eliminar duplicados)
-const categoriasUnicas = Array.from(new Set(nuevaNoticia.categoria));
-
-// Guarda las noticias actualizadas en el archivo JSON
-guardarNoticiasEnArchivo();
-
-// Verifica las categorías seleccionadas
-categoriasUnicas.forEach(cat => {
-    if (cat.toLowerCase() !== 'general') {
-        // Si es otra categoría, sigue el procedimiento actual
-        guardarNoticiaEnCategoria(nuevaNoticia, cat);
+        // Mueve la noticia anterior al array general
+        moverNoticia(noticias.prioridad[priority.toLowerCase()]);
+    } else {
+        // Si no tiene prioridad, agrega la noticia al array general
+        noticias.general = noticias.general || [];
+        noticias.general.push(nuevaNoticia);
     }
-});
 
-res.redirect('/new-entry');
+    // Restringir la noticia a categorías únicas (eliminar duplicados)
+    const categoriasUnicas = Array.from(new Set(nuevaNoticia.categoria));
+
+    // Guarda las noticias actualizadas en el archivo JSON
+    guardarNoticiasEnArchivo();
+
+    // Verifica las categorías seleccionadas
+    categoriasUnicas.forEach(cat => {
+        if (cat.toLowerCase() !== 'general') {
+            // Si es otra categoría, sigue el procedimiento actual
+            guardarNoticiaEnCategoria(nuevaNoticia, cat);
+        }
+    });
+
+    res.redirect('/new-entry');
 });
 
 router.post('/move-to-priority/:id', (req, res) => {
@@ -368,66 +376,6 @@ router.post('/vincular', upload.single('image'), (req, res) => {
 
 
 
-
-// VIDEOS
-// router.post('/video', (req, res) => {
-//     const { id, url, categoria, title } = req.body;
-
-//     if (!id || !url || !categoria ||!title) {
-//         res.status(400).send('Faltan campos');
-//         return;
-//     }
-
-//     const videoEntry = {
-//         id,
-//         url,
-//         title,
-//         categoria,
-//         date: moment().tz('America/Argentina/Buenos_Aires').format(),
-//     };
-
-//     // Ruta al archivo JSON de la categoría correspondiente
-//     const categoriaFilePath = `src/videos/${categoria.toLowerCase()}.json`;
-
-//     let videosCategoria = [];
-
-//     if (fs.existsSync(categoriaFilePath)) {
-//         const jsonVideos = fs.readFileSync(categoriaFilePath, 'utf-8');
-//         if (jsonVideos.trim() !== '') {
-//             videosCategoria = JSON.parse(jsonVideos);
-//         }
-//     }
-
-//     videosCategoria.unshift(videoEntry);
-
-//     const jsonVideosActualizado = JSON.stringify(videosCategoria, null, 2);
-
-//     fs.writeFileSync(categoriaFilePath, jsonVideosActualizado, 'utf-8');
-
-//     // Llama a la función para guardar en videos.json
-//     guardarEnVideosJSON(videoEntry);
-
-//     res.redirect('/new-entry');
-// });
-
-// function guardarEnVideosJSON(videoEntry) {
-//     const videosFilePath = 'src/videos/videos.json';
-
-//     let videos = [];
-
-//     if (fs.existsSync(videosFilePath)) {
-//         const jsonVideos = fs.readFileSync(videosFilePath, 'utf-8');
-//         if (jsonVideos.trim() !== '') {
-//             videos = JSON.parse(jsonVideos);
-//         }
-//     }
-
-//     videos.unshift(videoEntry);
-
-//     const jsonVideosActualizado = JSON.stringify(videos, null, 2);
-
-//     fs.writeFileSync(videosFilePath, jsonVideosActualizado, 'utf-8');
-// }
 // PUBLICIDAD
 router.post('/publicidad', upload.single('image'), (req, res) => {
     const now = moment();
@@ -470,27 +418,27 @@ router.post('/publicidad', upload.single('image'), (req, res) => {
 //   .then(eventos => console.log(JSON.stringify(eventos)))
 //   .catch(error => console.error('Error:', error));
 
-// const obtenerResultados2 = require('./tcpk/resultadosFinal');
-const copaDeOro = require('./copaDeOro');
-const rallyArgentino = require('./rally-argentino');
-// const obtenerHorarios = require('./horariosActc');
-// const obtenerPilotos = require('./pilotosInscriptos');
+const obtenerResultados2 = require('./tcpk/final');
+// const copaDeOro = require('./copaDeOro');
+// const rallyArgentino = require('./rally-argentino');
+// // const obtenerHorarios = require('./horariosActc');
+// // const obtenerPilotos = require('./pilotosInscriptos');
 
 
 async function init() {
-  try {
-    // const data = await obtenerHorarios.obtenerYMostrarDatos();
-    // console.log(data)
-    // const data4 = await obtenerPilotos.obtenerYMostrarDatos();
-    // console.log(data4)
-    // const data5 = await obtenerResultados2.obtenerYMostrarDatos();
-    // console.log(data5)
-    
-    const data3 = await rallyArgentino();
-    console.log(data3)
-  } catch (error) {
+//     try {
+//         // const data = await obtenerHorarios.obtenerYMostrarDatos();
+//         // console.log(data)
+//         // const data4 = await obtenerPilotos.obtenerYMostrarDatos();
+//         // console.log(data4)
+        const data5 = await obtenerResultados2.final();
+        console.log(data5)
 
-  }
+//         // const data3 = await rallyArgentino();
+//         // console.log(data3)
+//     } catch (error) {
+
+//     }
 }
 
 init();

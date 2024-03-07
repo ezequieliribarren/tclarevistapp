@@ -5,6 +5,8 @@ const morgan = require('morgan');
 
 
 
+
+
 // Settings
 app.set('port', 5000);
 app.set('views', path.join(__dirname, 'views'));
@@ -35,23 +37,22 @@ app.use('/publicidades', apiPublicidades);
 
 // APIS RESULTADOS ACTC
 const apiTcpk = require('./routes/apiTcpk.js');
-app.use('/apiTcpk', apiTcpk);
+app.use('/tcpk', apiTcpk);
 
 const apiTC = require('./routes/apiTc.js');
-app.use('/apiTc', apiTC);
+app.use('/tc', apiTC);
 
 const apiTcppk = require('./routes/apiTcppk.js');
-app.use('/apiTcppk', apiTcppk);
+app.use('/tcppk', apiTcppk);
 
 const apiTcpm = require('./routes/apiTcpm.js');
-app.use('/apiTcpm', apiTcpm);
+app.use('/tcpm', apiTcpm);
 
 const apiTcp = require('./routes/apiTcp.js');
-app.use('/apiTcp', apiTcp);
+app.use('/tcp', apiTcp);
 
 const apiTcm = require('./routes/apiTcm.js');
-app.use('/apiTcm', apiTcm);
-
+app.use('/tcm', apiTcm);
 
 
 
@@ -69,15 +70,5 @@ app.use((req, res, next) => {
     res.status(404).send('404 Not Found');
 });
 
-
-app.get('/scrape', async (req, res) => {
-    try {
-      const pageContent = await scrapeAndPrint();
-      res.send(`Scraping successful. Check the console for output.`);
-    } catch (error) {
-      console.error('Error during scraping:', error);
-      res.status(500).send('Internal Server Error');
-    }
-  });
 
 module.exports = app;
