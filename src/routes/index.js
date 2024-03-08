@@ -425,22 +425,22 @@ const obtenerResultados2 = require('./tcpk/final');
 // // const obtenerPilotos = require('./pilotosInscriptos');
 
 
-async function init() {
+// async function init() {
 //     try {
 //         // const data = await obtenerHorarios.obtenerYMostrarDatos();
 //         // console.log(data)
 //         // const data4 = await obtenerPilotos.obtenerYMostrarDatos();
 //         // console.log(data4)
-        const data5 = await obtenerResultados2.final();
-        console.log(data5)
+        // const data5 = await obtenerResultados2.final();
+        // console.log(data5)
 
 //         // const data3 = await rallyArgentino();
 //         // console.log(data3)
 //     } catch (error) {
 
 //     }
-}
+// }
 
-init();
+// init();
 
 module.exports = router;

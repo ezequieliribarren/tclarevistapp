@@ -13,149 +13,164 @@ const {serie2} = require ('./tcp/serie2.js')
 const {final} = require ('./tcp/final.js')
 
 // 1° ENTRENAMIENTO
-router.get('/restcp/en1', async (req, res) => {
-    try {
-      // Obtén los datos completos
-      const datos = await en1();
-      
-      // Envía los resultados filtrados como respuesta JSON
-      res.send(datos);
-    } catch (error) {
-      console.error('Error al obtener los resultados del primer entrenamiento:', error);
-      res.status(500).json({ error: 'Error al obtener los resultados del primer entrenamiento' });
+router.get('/en1/:indice', async (req, res) => {
+  const indice = parseInt(req.params.indice);
+  try {
+    const datos = await en1();
+    if (indice < datos.length) {
+        res.send(datos[indice]);
+    } else {
+        res.status(404).json({ error: 'No se encontró el índice especificado' });
     }
-  });
+} catch (error) {
+    console.error(`Error al obtener los resultados del array ${indice}:`, error);
+    res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+}
+});
 
 // 2° ENTRENAMIENTO
-router.get('/restcp/en2', async (req, res) => {
-    try {
-      // Obtén los datos completos
-      const datos = await en2();
-      
-      // Envía los resultados filtrados como respuesta JSON
-      res.send(datos);
-    } catch (error) {
-      console.error('Error al obtener los resultados del primer entrenamiento:', error);
-      res.status(500).json({ error: 'Error al obtener los resultados del primer entrenamiento' });
+router.get('/en2/:indice', async (req, res) => {
+  const indice = parseInt(req.params.indice);
+  try {
+    const datos = await en2();
+    if (indice < datos.length) {
+        res.send(datos[indice]);
+    } else {
+        res.status(404).json({ error: 'No se encontró el índice especificado' });
     }
-  });
+} catch (error) {
+    console.error(`Error al obtener los resultados del array ${indice}:`, error);
+    res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+}
+});
 
   // 3° ENTRENAMIENTO
-router.get('/restcp/en3', async (req, res) => {
+  router.get('/en3/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
     try {
-      // Obtén los datos completos
       const datos = await en3();
-      
-      // Envía los resultados filtrados como respuesta JSON
-      res.send(datos);
-    } catch (error) {
-      console.error('Error al obtener los resultados del primer entrenamiento:', error);
-      res.status(500).json({ error: 'Error al obtener los resultados del primer entrenamiento' });
-    }
+      if (indice < datos.length) {
+          res.send(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+  } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+  }
   });
 
   // 4° ENTRENAMIENTO
-router.get('/restcp/en4', async (req, res) => {
+  router.get('/en4/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
     try {
-      // Obtén los datos completos
       const datos = await en4();
-      
-      // Envía los resultados filtrados como respuesta JSON
-      res.send(datos);
-    } catch (error) {
-      console.error('Error al obtener los resultados del primer entrenamiento:', error);
-      res.status(500).json({ error: 'Error al obtener los resultados del primer entrenamiento' });
-    }
+      if (indice < datos.length) {
+          res.send(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+  } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+  }
   });
 
   // 5° ENTRENAMIENTO
-router.get('/restcp/en5', async (req, res) => {
+  router.get('/en5/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
     try {
-      // Obtén los datos completos
       const datos = await en5();
-      
-      // Envía los resultados filtrados como respuesta JSON
-      res.send(datos);
-    } catch (error) {
-      console.error('Error al obtener los resultados del primer entrenamiento:', error);
-      res.status(500).json({ error: 'Error al obtener los resultados del primer entrenamiento' });
-    }
+      if (indice < datos.length) {
+          res.send(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+  } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+  }
   });
 
   // 6° ENTRENAMIENTO
-router.get('/restcp/en6', async (req, res) => {
+  router.get('/en6/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
     try {
-      // Obtén los datos completos
       const datos = await en6();
-      
-      // Envía los resultados filtrados como respuesta JSON
-      res.send(datos);
-    } catch (error) {
-      console.error('Error al obtener los resultados del primer entrenamiento:', error);
-      res.status(500).json({ error: 'Error al obtener los resultados del primer entrenamiento' });
-    }
+      if (indice < datos.length) {
+          res.send(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+  } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+  }
   });
 
 // CLASIFICACION
-router.get('/restcp/clasificacion', async (req, res) => {
+router.get('/clasificacion/:indice', async (req, res) => {
+  const indice = parseInt(req.params.indice);
   try {
-    // Obtén los datos completos
     const datos = await clasificacion();
-    
-    // Envía los resultados filtrados como respuesta JSON
-    res.send(datos);
-  } catch (error) {
-    console.error('Error al obtener los resultados del primer entrenamiento:', error);
-    res.status(500).json({ error: 'Error al obtener los resultados del primer entrenamiento' });
-  }
+    if (indice < datos.length) {
+        res.send(datos[indice]);
+    } else {
+        res.status(404).json({ error: 'No se encontró el índice especificado' });
+    }
+} catch (error) {
+    console.error(`Error al obtener los resultados del array ${indice}:`, error);
+    res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+}
 });
 
 // 1° SERIE
-    router.get('/restcp/serie1', async (req, res) => {
-      try {
-        // Obtén los datos completos
-        const datos = await serie1();
-        
-        // Envía los resultados filtrados como respuesta JSON
-        res.send(datos);
-      } catch (error) {
-        console.error('Error al obtener los resultados del primer entrenamiento:', error);
-        res.status(500).json({ error: 'Error al obtener los resultados del primer entrenamiento' });
-      }
-    });
+router.get('/serie1/:indice', async (req, res) => {
+  const indice = parseInt(req.params.indice);
+  try {
+    const datos = await serie1();
+    if (indice < datos.length) {
+        res.send(datos[indice]);
+    } else {
+        res.status(404).json({ error: 'No se encontró el índice especificado' });
+    }
+} catch (error) {
+    console.error(`Error al obtener los resultados del array ${indice}:`, error);
+    res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+}
+});
 
 // 2° SERIE
-router.get('/restcp/serie2', async (req, res) => {
+router.get('/serie2/:indice', async (req, res) => {
+  const indice = parseInt(req.params.indice);
   try {
-    // Obtén los datos completos
     const datos = await serie2();
-    
-    // Envía los resultados filtrados como respuesta JSON
-    res.send(datos);
-  } catch (error) {
-    console.error('Error al obtener los resultados del primer entrenamiento:', error);
-    res.status(500).json({ error: 'Error al obtener los resultados del primer entrenamiento' });
-  }
+    if (indice < datos.length) {
+        res.send(datos[indice]);
+    } else {
+        res.status(404).json({ error: 'No se encontró el índice especificado' });
+    }
+} catch (error) {
+    console.error(`Error al obtener los resultados del array ${indice}:`, error);
+    res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+}
 });
 
 // 6° FINAL
-    router.get('/restcp/final', async (req, res) => {
-      try {
-        // Obtén los datos completos
-        const datos = await final();
-        
-        // Envía los resultados filtrados como respuesta JSON
-        res.send(datos);
-      } catch (error) {
-        console.error('Error al obtener los resultados del primer entrenamiento:', error);
-        res.status(500).json({ error: 'Error al obtener los resultados del primer entrenamiento' });
+router.get('/final/:indice', async (req, res) => {
+  const indice = parseInt(req.params.indice);
+  try {
+      const datos = await final();
+      if (indice < datos.length) {
+          res.send(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
       }
-    });
-  
-
-
-
-
+  } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+  }
+});
 
 
   
