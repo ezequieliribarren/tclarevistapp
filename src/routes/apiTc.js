@@ -11,6 +11,9 @@ const {clasificacion} = require ('./tc/clasificacion.js')
 const {serie1} = require ('./tc/serie1.js')
 const {serie2} = require ('./tc/serie2.js')
 const {final} = require ('./tc/final.js')
+const { obtenerYMostrarDatos, horarios } = require('./tc/horarios.js');
+const { pilotos } = require('./tc/pilotos.js');
+
 
 // 1° ENTRENAMIENTO
 router.get('/en1/:indice', async (req, res) => {
@@ -172,6 +175,36 @@ router.get('/final/:indice', async (req, res) => {
   }
 });
 
-  
+// HORARIOS
+router.get('/horarios/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await horarios();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+  });
 
+// PILOTOS
+
+router.get('/pilotos/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await pilotos();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+  });
   module.exports = router;

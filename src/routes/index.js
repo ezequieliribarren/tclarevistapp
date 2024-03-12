@@ -412,35 +412,39 @@ router.post('/publicidad', upload.single('image'), (req, res) => {
 });
 
 
-// const calendariof1 = require('./f1');
-
-// calendariof1()
-//   .then(eventos => console.log(JSON.stringify(eventos)))
-//   .catch(error => console.error('Error:', error));
-
-const obtenerResultados2 = require('./tcpk/final');
-// const copaDeOro = require('./copaDeOro');
-// const rallyArgentino = require('./rally-argentino');
-// // const obtenerHorarios = require('./horariosActc');
-// // const obtenerPilotos = require('./pilotosInscriptos');
+// const obtenerHorarios = require('./tcpk/horarios');
+// const rallyArgentino = require('./rally-argentino')
 
 
 // async function init() {
 //     try {
-//         // const data = await obtenerHorarios.obtenerYMostrarDatos();
-//         // console.log(data)
-//         // const data4 = await obtenerPilotos.obtenerYMostrarDatos();
-//         // console.log(data4)
-        // const data5 = await obtenerResultados2.final();
-        // console.log(data5)
-
-//         // const data3 = await rallyArgentino();
-//         // console.log(data3)
+//         const data = await rallyArgentino();
+//         console.log(data);
 //     } catch (error) {
-
+//         console.error('Error al obtener y mostrar datos:', error);
 //     }
 // }
 
 // init();
+
+const { en6 } = require('./tcpk/entrenamiento5');
+
+async function imprimirInformacion() {
+  try {
+    const resultados = await en6();
+    // Recorre los resultados y los imprime
+    resultados.forEach((resultadosPorUrl, index) => {
+      console.log(`Resultados para la URL ${index + 1}:`);
+      resultadosPorUrl.forEach((resultado, i) => {
+        console.log(`Resultado ${i + 1}:`, resultado);
+      });
+    });
+  } catch (error) {
+    console.error('Error al imprimir información:', error);
+  }
+}
+
+imprimirInformacion();
+
 
 module.exports = router;

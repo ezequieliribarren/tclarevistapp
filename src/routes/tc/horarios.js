@@ -2,16 +2,16 @@ const cheerio = require('cheerio');
 const request = require('request-promise');
 const obtenerDatosDesdeGoogleSheet = require('../googleSheets.js');
 
-async function en6() {
+async function horarios() {
   try {
     // Obtener los datos desde Google Sheets
-    const sheetId = "2030835384"; // ID de la hoja que deseas obtener
+    const sheetId = "1872673772"; // ID de la hoja que deseas obtener
     const datos = await obtenerDatosDesdeGoogleSheet(sheetId);
 
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
-      .filter(fila => fila.c[13] !== null) // Filtrar las filas con valor null
-      .map(fila => fila.c[13].v);
+      .filter(fila => fila.c[6] !== null) // Filtrar las filas con valor null
+      .map(fila => fila.c[6].v);
 
     // Array para almacenar todas las promesas de las solicitudes
     const promesasSolicitudes = [];
@@ -43,18 +43,15 @@ async function obtenerResultados(url) {
 
     const resultados = [];
 
-    // Realizar scraping para la página actual
-    $('.table tr').each((i, row) => {
-      const columns = $(row).find('td');
-      const pos = $(columns[0]).text().trim();
-      const nro = $(columns[1]).text().trim();
-      const piloto = $(columns[2]).text().trim();
-      const marca = $(columns[3]).text().trim();
-      const vueltas = $(columns[4]).text().trim();
-      const tiempo = $(columns[5]).text().trim();
-      const diferencia = $(columns[6]).text().trim();
+      // Realizar scraping para la página actual
+      $('.table tr').each((i, row) => {
+        const columns = $(row).find('td');
+        const horario = $(columns[0]).text().trim(); // Ajusta según la columna correspondiente en tu Google Sheets
+        const tipo = $(columns[1]).text().trim(); // Ajusta según la columna correspondiente en tu Google Sheets
+        const categoria = $(columns[2]).text().trim(); // Ajusta según la columna correspondiente en tu Google Sheets
+        const grupo = $(columns[3]).text().trim(); // Ajusta según la columna correspondiente en tu Google Sheets
 
-      resultados.push({ pos, nro, piloto, marca, vueltas, tiempo, diferencia });
+        resultados.push({ horario, tipo, categoria, grupo });
     });
 
     // Eliminar los objetos vacíos si existen
@@ -68,7 +65,6 @@ async function obtenerResultados(url) {
     throw error;
   }
 }
-
 module.exports = {
-  en6
+  horarios
 };

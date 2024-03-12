@@ -2,16 +2,16 @@ const cheerio = require('cheerio');
 const request = require('request-promise');
 const obtenerDatosDesdeGoogleSheet = require('../googleSheets.js');
 
-async function en6() {
+async function pilotos() {
   try {
     // Obtener los datos desde Google Sheets
-    const sheetId = "2030835384"; // ID de la hoja que deseas obtener
+    const sheetId = "1872673772"; // ID de la hoja que deseas obtener
     const datos = await obtenerDatosDesdeGoogleSheet(sheetId);
 
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
-      .filter(fila => fila.c[13] !== null) // Filtrar las filas con valor null
-      .map(fila => fila.c[13].v);
+      .filter(fila => fila.c[7] !== null) // Filtrar las filas con valor null
+      .map(fila => fila.c[7].v);
 
     // Array para almacenar todas las promesas de las solicitudes
     const promesasSolicitudes = [];
@@ -43,32 +43,30 @@ async function obtenerResultados(url) {
 
     const resultados = [];
 
-    // Realizar scraping para la página actual
-    $('.table tr').each((i, row) => {
-      const columns = $(row).find('td');
-      const pos = $(columns[0]).text().trim();
-      const nro = $(columns[1]).text().trim();
-      const piloto = $(columns[2]).text().trim();
-      const marca = $(columns[3]).text().trim();
-      const vueltas = $(columns[4]).text().trim();
-      const tiempo = $(columns[5]).text().trim();
-      const diferencia = $(columns[6]).text().trim();
+      // Realizar scraping para la página actual
+      $('.table tr').each((i, row) => {
+        const columns = $(row).find('td');
+        const pos = $(columns[0]).text().trim();
+        const nro = $(columns[1]).text().trim();
+        const piloto = $(columns[2]).text().trim();
+        const marca = $(columns[3]).text().trim();
+        const vueltas = $(columns[4]).text().trim();
+        const tiempo = $(columns[5]).text().trim();
+        const diferencia = $(columns[6]).text().trim();
 
-      resultados.push({ pos, nro, piloto, marca, vueltas, tiempo, diferencia });
-    });
+        resultados.push({ pos, nro, piloto, marca, vueltas, tiempo, diferencia });
+      });
+ // Eliminar los objetos vacíos si existen
+ const resultadosFiltrados = resultados.filter(resultado => {
+  return !Object.values(resultado).every(value => value === '');
+});
 
-    // Eliminar los objetos vacíos si existen
-    const resultadosFiltrados = resultados.filter(resultado => {
-      return !Object.values(resultado).every(value => value === '');
-    });
-
-    return resultadosFiltrados;
-  } catch (error) {
-    console.error('Error fetching data:', error);
-    throw error;
-  }
+return resultadosFiltrados;
+} catch (error) {
+console.error('Error fetching data:', error);
+throw error;
 }
-
+}
 module.exports = {
-  en6
+pilotos
 };

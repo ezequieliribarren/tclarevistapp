@@ -11,6 +11,9 @@ const {clasificacion} = require ('./tcppk/clasificacion.js')
 const {serie1} = require ('./tcppk/serie1.js')
 const {serie2} = require ('./tcppk/serie2.js')
 const {final} = require ('./tcppk/final.js')
+const { obtenerYMostrarDatos } = require('./tcppk/horarios.js');
+const { pilotos } = require('./tcppk/pilotos.js');
+
 
 // 1° ENTRENAMIENTO
 router.get('/en1/:indice', async (req, res) => {
@@ -170,6 +173,41 @@ router.get('/final/:indice', async (req, res) => {
       console.error(`Error al obtener los resultados del array ${indice}:`, error);
       res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
   }
+});
+
+// HORARIOS
+router.get('/horarios/:indice', async (req, res) => {
+    try {
+        const indice = parseInt(req.params.indice); // Convertir el índice a un número entero
+        const horariosDeUrl = await obtenerYMostrarDatos(indice); // Obtener los horarios desde tu función
+  
+        if (horariosDeUrl) {
+            res.send(horariosDeUrl); // Enviar los horarios correspondientes al índice
+        } else {
+            res.status(404).json({ error: 'No se encontraron horarios para el índice especificado' });
+        }
+    } catch (error) {
+        console.error('Error al obtener los horarios:', error);
+        res.status(500).json({ error: 'Error al obtener los horarios' });
+    }
+});
+
+
+// PILOTOS
+router.get('/pilotos/:indice', async (req, res) => {
+    try {
+        const indice = parseInt(req.params.indice); // Convertir el índice a un número entero
+        const pilotosDeUrl = await pilotos(indice); // Obtener los pilotos desde tu función
+
+        if (pilotosDeUrl) {
+            res.send(pilotosDeUrl); // Enviar los pilotos correspondientes al índice
+        } else {
+            res.status(404).json({ error: 'No se encontraron pilotos para el índice especificado' });
+        }
+    } catch (error) {
+        console.error('Error al obtener los pilotos:', error);
+        res.status(500).json({ error: 'Error al obtener los pilotos' });
+    }
 });
 
   
