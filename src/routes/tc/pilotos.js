@@ -1,12 +1,11 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
-const obtenerDatosDesdeGoogleSheet = require('../googleSheets.js');
-
+const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
 async function pilotos() {
   try {
     // Obtener los datos desde Google Sheets
     const sheetId = "1872673772"; // ID de la hoja que deseas obtener
-    const datos = await obtenerDatosDesdeGoogleSheet(sheetId);
+      const datos = await obtenerDatosDesdeGoogleSheets([sheetId]); // Pasar el sheetId como un arreglo
 
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
@@ -36,6 +35,11 @@ async function pilotos() {
 
 async function obtenerResultados(url) {
   try {
+    if (url === "") {
+      // Si la URL es "", devolver un valor predeterminado (por ejemplo, un arreglo vacío)
+      return [];
+    }
+
     const $ = await request({
       uri: url,
       transform: body => cheerio.load(body)
@@ -43,29 +47,29 @@ async function obtenerResultados(url) {
 
     const resultados = [];
 
-      // Realizar scraping para la página actual
-      $('.table tr').each((i, row) => {
-        const columns = $(row).find('td');
-        const pos = $(columns[0]).text().trim();
-        const nro = $(columns[1]).text().trim();
-        const piloto = $(columns[2]).text().trim();
-        const marca = $(columns[3]).text().trim();
-        const vueltas = $(columns[4]).text().trim();
-        const tiempo = $(columns[5]).text().trim();
-        const diferencia = $(columns[6]).text().trim();
+    // Realizar scraping para la página actual
+    $('.table tr').each((i, row) => {
+      const columns = $(row).find('td');
+      const titles = $(row).find('th');
+      const title = titles.text().trim();
+      const numero = $(columns[0]).text().trim();
+      const piloto = $(columns[1]).text().trim();
+      const img = $(columns[2]).html();
+    
 
-        resultados.push({ pos, nro, piloto, marca, vueltas, tiempo, diferencia });
-      });
- // Eliminar los objetos vacíos si existen
- const resultadosFiltrados = resultados.filter(resultado => {
-  return !Object.values(resultado).every(value => value === '');
-});
+      resultados.push({ numero, piloto, img, title });
+    });
 
-return resultadosFiltrados;
-} catch (error) {
-console.error('Error fetching data:', error);
-throw error;
-}
+    // Eliminar los objetos vacíos si existen
+    const resultadosFiltrados = resultados.filter(resultado => {
+      return !Object.values(resultado).every(value => value === '');
+    });
+
+    return resultadosFiltrados;
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    throw error;
+  }
 }
 module.exports = {
 pilotos

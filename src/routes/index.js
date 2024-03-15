@@ -427,24 +427,24 @@ router.post('/publicidad', upload.single('image'), (req, res) => {
 
 // init();
 
-const { en6 } = require('./tcpk/entrenamiento5');
+// const { en6 } = require('./tcpk/entrenamiento5');
 
-async function imprimirInformacion() {
-  try {
-    const resultados = await en6();
-    // Recorre los resultados y los imprime
-    resultados.forEach((resultadosPorUrl, index) => {
-      console.log(`Resultados para la URL ${index + 1}:`);
-      resultadosPorUrl.forEach((resultado, i) => {
-        console.log(`Resultado ${i + 1}:`, resultado);
-      });
-    });
-  } catch (error) {
-    console.error('Error al imprimir información:', error);
-  }
-}
+// async function imprimirInformacion() {
+//   try {
+//     const resultados = await en6();
+//     // Recorre los resultados y los imprime
+//     resultados.forEach((resultadosPorUrl, index) => {
+//       console.log(`Resultados para la URL ${index + 1}:`);
+//       resultadosPorUrl.forEach((resultado, i) => {
+//         console.log(`Resultado ${i + 1}:`, resultado);
+//       });
+//     });
+//   } catch (error) {
+//     console.error('Error al imprimir información:', error);
+//   }
+// }
 
-imprimirInformacion();
+// imprimirInformacion();
 
 
 module.exports = router;

@@ -1,7 +1,10 @@
+// googleSheets.js
+
 const fetch = require('node-fetch');
 
-function generarEnlaceConParametros(sheetId) {
-  const spreadsheetId = "15F2oc2Aki9WnGWgKFo4Ms3kzpuUR3BoUe8nkM15-Vgo";
+const spreadsheetId = "15F2oc2Aki9WnGWgKFo4Ms3kzpuUR3BoUe8nkM15-Vgo";
+
+function generarEnlaceConParametros(spreadsheetId, sheetId) {
   const enlace = `https://docs.google.com/spreadsheets/d/${spreadsheetId}/gviz/tq?tqx=out:json&gid=${sheetId}`;
   return enlace;
 }
@@ -11,7 +14,7 @@ async function obtenerDatosDesdeGoogleSheets(sheetIds) {
 
   for (const sheetId of sheetIds) {
     try {
-      const enlace = generarEnlaceConParametros(sheetId);
+      const enlace = generarEnlaceConParametros(spreadsheetId, sheetId);
       const response = await fetch(enlace);
       const textData = await response.text();
       const jsonData = textData.substring(47, textData.length - 2);
@@ -25,4 +28,8 @@ async function obtenerDatosDesdeGoogleSheets(sheetIds) {
   return datosPorHoja;
 }
 
-module.exports = obtenerDatosDesdeGoogleSheets;
+
+
+
+
+module.exports = { obtenerDatosDesdeGoogleSheets };

@@ -1,12 +1,11 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
-const obtenerDatosDesdeGoogleSheet = require('../googleSheets.js');
-
+const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
 async function horarios() {
   try {
     // Obtener los datos desde Google Sheets
     const sheetId = "1872673772"; // ID de la hoja que deseas obtener
-    const datos = await obtenerDatosDesdeGoogleSheet(sheetId);
+      const datos = await obtenerDatosDesdeGoogleSheets([sheetId]); // Pasar el sheetId como un arreglo
 
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
@@ -36,6 +35,11 @@ async function horarios() {
 
 async function obtenerResultados(url) {
   try {
+    if (url === "") {
+      // Si la URL es "", devolver un valor predeterminado (por ejemplo, un arreglo vacío)
+      return [];
+    }
+
     const $ = await request({
       uri: url,
       transform: body => cheerio.load(body)
@@ -43,16 +47,23 @@ async function obtenerResultados(url) {
 
     const resultados = [];
 
-      // Realizar scraping para la página actual
-      $('.table tr').each((i, row) => {
-        const columns = $(row).find('td');
-        const horario = $(columns[0]).text().trim(); // Ajusta según la columna correspondiente en tu Google Sheets
-        const tipo = $(columns[1]).text().trim(); // Ajusta según la columna correspondiente en tu Google Sheets
-        const categoria = $(columns[2]).text().trim(); // Ajusta según la columna correspondiente en tu Google Sheets
-        const grupo = $(columns[3]).text().trim(); // Ajusta según la columna correspondiente en tu Google Sheets
+   // Realizar scraping para la página actual
+   $('.table tr').each((i, row) => {
+    const columns = $(row).find('td');
+    const titles = $(row).find('th');
+    const title = titles.text().trim();
+    const horario = $(columns[0]).text().trim();
+    const tipo = $(columns[1]).text().trim();
+    const categoria = $(columns[2]).text().trim();
+    const grupo = $(columns[3]).text().trim();
 
-        resultados.push({ horario, tipo, categoria, grupo });
-    });
+    // Verificar si el título no es nulo antes de agregarlo al array de horarios
+    if (title !== '') {
+        resultados.push({ title });
+    }
+
+    resultados.push({ categoria, tipo, grupo, horario });
+});
 
     // Eliminar los objetos vacíos si existen
     const resultadosFiltrados = resultados.filter(resultado => {

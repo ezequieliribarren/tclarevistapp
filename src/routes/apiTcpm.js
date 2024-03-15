@@ -177,42 +177,34 @@ router.get('/final/:indice', async (req, res) => {
 
 // HORARIOS
 router.get('/horarios/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
     try {
-        const indice = parseInt(req.params.indice); // Convertir el índice a un número entero
-        const horariosDeUrl = await obtenerYMostrarDatos(indice); // Obtener los horarios desde tu función
-  
-        if (horariosDeUrl) {
-            res.send(horariosDeUrl); // Enviar los horarios correspondientes al índice
+        const datos = await horarios();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
         } else {
-            res.status(404).json({ error: 'No se encontraron horarios para el índice especificado' });
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
         }
     } catch (error) {
-        console.error('Error al obtener los horarios:', error);
-        res.status(500).json({ error: 'Error al obtener los horarios' });
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
     }
-});
-
+  });
 
 // PILOTOS
-router.get('/pilotos/:indice', async (req, res) => {
-    try {
-        const indice = parseInt(req.params.indice); // Convertir el índice a un número entero
-        const pilotosDeUrl = await pilotos(indice); // Obtener los pilotos desde tu función
 
-        if (pilotosDeUrl) {
-            res.send(pilotosDeUrl); // Enviar los pilotos correspondientes al índice
+router.get('/pilotos/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await pilotos();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
         } else {
-            res.status(404).json({ error: 'No se encontraron pilotos para el índice especificado' });
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
         }
     } catch (error) {
-        console.error('Error al obtener los pilotos:', error);
-        res.status(500).json({ error: 'Error al obtener los pilotos' });
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
     }
-});
-
-  
-
-
-  
-
+  });
   module.exports = router;

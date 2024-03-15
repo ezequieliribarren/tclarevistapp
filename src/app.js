@@ -54,6 +54,9 @@ app.use('/tcp', apiTcp);
 const apiTcm = require('./routes/apiTcm.js');
 app.use('/tcm', apiTcm);
 
+const rally = require('./routes/apiRally.js');
+app.use('/rally-argentino', rally);
+
 
 
 

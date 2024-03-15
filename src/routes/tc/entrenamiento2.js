@@ -1,12 +1,12 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
-const obtenerDatosDesdeGoogleSheet = require('../googleSheets.js');
+const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
 
 async function en2() {
   try {
     // Obtener los datos desde Google Sheets
     const sheetId = "1872673772"; // ID de la hoja que deseas obtener
-    const datos = await obtenerDatosDesdeGoogleSheet(sheetId);
+      const datos = await obtenerDatosDesdeGoogleSheets([sheetId]); // Pasar el sheetId como un arreglo
 
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
@@ -35,7 +35,12 @@ async function en2() {
 }
 
 async function obtenerResultados(url) {
- try {
+  try {
+    if (url === "") {
+      // Si la URL es "", devolver un valor predeterminado (por ejemplo, un arreglo vacío)
+      return [];
+    }
+
     const $ = await request({
       uri: url,
       transform: body => cheerio.load(body)
