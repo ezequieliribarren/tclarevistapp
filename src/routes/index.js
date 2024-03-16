@@ -295,8 +295,6 @@ function moverNoticiaAPrimaria(noticias, noticiaId) {
     }
 }
 
-
-
 function eliminarNoticiaDeArchivoPorCategoria(id, filePath) {
     if (fs.existsSync(filePath)) {
         try {
@@ -375,76 +373,22 @@ router.post('/vincular', upload.single('image'), (req, res) => {
 });
 
 
-
 // PUBLICIDAD
-router.post('/publicidad', upload.single('image'), (req, res) => {
-    const now = moment();
-    const formattedDate = now.tz('America/Argentina/Buenos_Aires').format();
-    const { link } = req.body; // Actualizado para obtener los campos del formulario desde req.body
+const { obtenerResultados } = require('./ip/final');
 
-    const publicidad = {
-        id: uuidv4(),
-        date: formattedDate,
-        image: `images/${req.file.filename}`, // Ahora accedes al nombre del archivo desde req.file
-        link
-    };
-
-    // Ruta al archivo JSON de vincular
-    const vincularFilePath = 'src/publicidad.json';
-
-    let publicidades = [];
-
-    if (fs.existsSync(vincularFilePath)) {
-        const jsonNoticias = fs.readFileSync(vincularFilePath, 'utf-8');
-        // Verificar si el JSON tiene un formato válido antes de intentar analizarlo
-        if (jsonNoticias.trim() !== '') {
-            publicidades = JSON.parse(jsonNoticias);
-        }
+async function imprimirResultados() {
+    try {
+        // Obtener los resultados
+        const resultados = await obtenerResultados();
+        console.log('Resultados:', resultados); // Imprimir resultados por el terminal
+        return resultados;
+    } catch (error) {
+        console.error('Error al imprimir datos:', error);
     }
+}
 
-    publicidades.unshift(publicidad);
-
-    const jsonNoticiasActualizado = JSON.stringify(publicidades, null, 2);
-
-    fs.writeFileSync(vincularFilePath, jsonNoticiasActualizado, 'utf-8');
-
-    res.redirect('/new-entry');
-});
-
-
-// const obtenerHorarios = require('./tcpk/horarios');
-// const rallyArgentino = require('./rally-argentino')
-
-
-// async function init() {
-//     try {
-//         const data = await rallyArgentino();
-//         console.log(data);
-//     } catch (error) {
-//         console.error('Error al obtener y mostrar datos:', error);
-//     }
-// }
-
-// init();
-
-// const { en6 } = require('./tcpk/entrenamiento5');
-
-// async function imprimirInformacion() {
-//   try {
-//     const resultados = await en6();
-//     // Recorre los resultados y los imprime
-//     resultados.forEach((resultadosPorUrl, index) => {
-//       console.log(`Resultados para la URL ${index + 1}:`);
-//       resultadosPorUrl.forEach((resultado, i) => {
-//         console.log(`Resultado ${i + 1}:`, resultado);
-//       });
-//     });
-//   } catch (error) {
-//     console.error('Error al imprimir información:', error);
-//   }
-// }
-
-// imprimirInformacion();
+// Llamar a la función para que se ejecute
+imprimirResultados();
 
 
 module.exports = router;
