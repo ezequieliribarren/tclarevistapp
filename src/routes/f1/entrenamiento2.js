@@ -34,49 +34,50 @@ async function en2() {
 }
 
 async function obtenerResultados(url) {
-    try {
-      if (url === "") {
-        // Si la URL es "", devolver un valor predeterminado (por ejemplo, un arreglo vacío)
-        return [];
-      }
-  
-      const html = await request(url);
-      const $ = cheerio.load(html);
-  
-      const resultados = [];
-    
-      // Iterar sobre cada fila de la tabla
-      $('.resultsarchive-table tbody tr').each((i, row) => {
-        const columns = $(row).find('td');
-        const pos = $(columns[1]).text().trim();
-        const nro = $(columns[2]).text().trim();
-        let piloto = $(columns[3]).text().trim();
-        const marca = $(columns[4]).text().trim();
-        const tiempo = $(columns[5]).text().trim();
-        const diferencia = $(columns[6]).text().trim();
-        const vueltas = $(columns[7]).text().trim();
-  
-        // Limpiar el nombre del piloto
-        piloto = piloto.replace(/\s+/g, ' '); // Eliminar espacios adicionales
-        const nombreApellido = piloto.split(' ');
-        const nombre = nombreApellido[0];
-        const apellido = nombreApellido.slice(1).join(' ');
-  
-        // Limpiar el tiempo
-        const tiempoLimpiado = tiempo.replace(/^\d+:/, ''); // Eliminar minutos si es mayor a 1 hora
-  
-        // Limpiar la diferencia
-        const diferenciaLimpiada = diferencia.replace(/^\+/, ''); // Eliminar el signo '+' si está presente
-  
-        resultados.push({ pos, nro, nombre, apellido, marca, tiempo: tiempoLimpiado, diferencia: diferenciaLimpiada, vueltas });
-      });
-  
-      return resultados;
-    } catch (error) {
-      console.error('Error fetching data:', error);
-      throw error;
+  try {
+    if (url === "") {
+      // Si la URL es "", devolver un valor predeterminado (por ejemplo, un arreglo vacío)
+      return [];
     }
+
+    const html = await request(url);
+    const $ = cheerio.load(html);
+
+    const resultados = [];
+  
+    // Iterar sobre cada fila de la tabla
+    $('.resultsarchive-table tbody tr').each((i, row) => {
+      const columns = $(row).find('td');
+      const pos = $(columns[1]).text().trim();
+      const nro = $(columns[2]).text().trim();
+      let piloto = $(columns[3]).text().trim();
+      const marca = $(columns[4]).text().trim();
+      const tiempo = $(columns[5]).text().trim();
+      const diferencia = $(columns[6]).text().trim();
+      const vueltas = $(columns[7]).text().trim();
+
+      // Limpiar el nombre del piloto
+      piloto = piloto.replace(/\s+/g, ' '); // Eliminar espacios adicionales
+      const nombreApellido = piloto.split(' ');
+      const nombre = nombreApellido[0];
+      const apellido = nombreApellido.slice(1).join(' ');
+
+      // Limpiar el tiempo
+      const tiempoLimpiado = tiempo.replace(/^\d+:/, ''); // Eliminar minutos si es mayor a 1 hora
+
+      // Limpiar la diferencia
+      const diferenciaLimpiada = diferencia.replace(/^\+/, ''); // Eliminar el signo '+' si está presente
+
+      resultados.push({ pos, nro, nombre, piloto, apellido, marca, tiempo: tiempoLimpiado, diferencia: diferenciaLimpiada, vueltas });
+    });
+
+    return resultados;
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    throw error;
   }
+}
+
   
 
 module.exports = {

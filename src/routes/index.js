@@ -374,21 +374,18 @@ router.post('/vincular', upload.single('image'), (req, res) => {
 
 
 // PUBLICIDAD
-const { obtenerResultados } = require('./ip/final');
+const { final } = require('./motogp/final');
 
-async function imprimirResultados() {
-    try {
-        // Obtener los resultados
-        const resultados = await obtenerResultados();
-        console.log('Resultados:', resultados); // Imprimir resultados por el terminal
-        return resultados;
-    } catch (error) {
-        console.error('Error al imprimir datos:', error);
-    }
-}
-
-// Llamar a la función para que se ejecute
-imprimirResultados();
-
+// Llama a la función final
+final()
+  .then(resultados => {
+    // Imprime los resultados por la consola
+    console.log('Resultados obtenidos:');
+    console.log(resultados);
+  })
+  .catch(error => {
+    // Manejo de errores
+    console.error('Error al obtener los resultados:', error);
+  });
 
 module.exports = router;

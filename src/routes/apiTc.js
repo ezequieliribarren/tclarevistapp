@@ -10,6 +10,7 @@ const {en6} = require ('./tc/entrenamiento6.js')
 const {clasificacion} = require ('./tc/clasificacion.js')
 const {serie1} = require ('./tc/serie1.js')
 const {serie2} = require ('./tc/serie2.js')
+const {serie3} = require ('./tc/serie3.js')
 const {final} = require ('./tc/final.js')
 const { obtenerYMostrarDatos, horarios } = require('./tc/horarios.js');
 const { pilotos } = require('./tc/pilotos.js');
@@ -158,6 +159,22 @@ router.get('/serie2/:indice', async (req, res) => {
     res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
 }
 });
+
+// 3° SERIE
+router.get('/serie3/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+      const datos = await serie3();
+      if (indice < datos.length) {
+          res.send(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+  } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+  }
+  });
 
 // 6° FINAL
 router.get('/final/:indice', async (req, res) => {

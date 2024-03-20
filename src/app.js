@@ -64,6 +64,10 @@ app.use('/rally-argentino', rally);
 const f1 = require('./routes/apiF1.js');
 app.use('/f1', f1);
 
+// API MOTO-GP
+const motogp = require('./routes/apiMotogp.js');
+app.use('/moto-gp', motogp);
+
 
 
 

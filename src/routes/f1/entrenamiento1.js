@@ -68,7 +68,7 @@ async function obtenerResultados(url) {
         // Limpiar la diferencia
         const diferenciaLimpiada = diferencia.replace(/^\+/, ''); // Eliminar el signo '+' si está presente
   
-        resultados.push({ pos, nro, nombre, apellido, marca, tiempo: tiempoLimpiado, diferencia: diferenciaLimpiada, vueltas });
+        resultados.push({ pos, nro, nombre, piloto, apellido, marca, tiempo: tiempoLimpiado, diferencia: diferenciaLimpiada, vueltas });
       });
   
       return resultados;

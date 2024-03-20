@@ -1,0 +1,80 @@
+const cheerio = require('cheerio');
+const request = require('request-promise');
+const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
+
+async function final() {
+  try {
+    // Obtener los datos desde Google Sheets
+    const sheetId = "1872673772"; // ID de la hoja que deseas obtener
+    const datos = await obtenerDatosDesdeGoogleSheets([sheetId]); // Pasar el sheetId como un arreglo
+
+    // Filtrar y obtener solo las URL que no son null
+    const urlsEntrenamiento = datos[0].data
+      .filter(fila => fila.c[18] !== null) // Filtrar las filas con valor null
+      .map(fila => fila.c[18].v);
+      console.log(urlsEntrenamiento)
+
+    // Array para almacenar todas las promesas de las solicitudes
+    const promesasSolicitudes = [];
+
+    // Enviar solicitudes en paralelo
+    for (const url of urlsEntrenamiento) {
+      promesasSolicitudes.push(obtenerResultados(url));
+    }
+
+    // Esperar a que todas las solicitudes se completen
+    const resultadosPorUrl = await Promise.all(promesasSolicitudes);
+
+    console.log('Resultados por URL:', resultadosPorUrl);
+
+    // Devolver los resultados obtenidos
+    return resultadosPorUrl;
+  } catch (error) {
+    console.error('Error al obtener y mostrar datos:', error);
+    throw error;
+  }
+}
+
+async function obtenerResultados(url) {
+  try {
+    if (url === "") {
+      // Si la URL es "", devolver un valor predeterminado (por ejemplo, un arreglo vacío)
+      return [];
+    }
+
+    const $ = await request({
+      uri: url,
+      transform: body => cheerio.load(body)
+    });
+
+    const resultados = [];
+
+    // Realizar scraping para la página actual
+    $('.results-table__body-row').each((i, row) => {
+      const columns = $(row).find('.results-table__body-cell');
+      const pos = $(columns[0]).text().trim();
+      const nro = $(columns[1]).find('.results-table__body-cell--number').text().trim();
+      const piloto = $(columns[1]).find('.results-table__rider-name').text().trim();
+      const marca = $(columns[1]).find('.results-table__rider-name-wrapper .results-table__body-cell--team').text().trim();
+      const vueltas = $(columns[3]).text().trim();
+      const tiempo = $(columns[4]).text().trim();
+      const diferencia = $(columns[5]).text().trim();
+
+      resultados.push({ pos, nro, piloto, marca, vueltas, tiempo, diferencia });
+    });
+
+    // Eliminar los objetos vacíos si existen
+    const resultadosFiltrados = resultados.filter(resultado => {
+      return !Object.values(resultado).every(value => value === '');
+    });
+
+    return resultadosFiltrados;
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    throw error;
+  }
+}
+
+module.exports = {
+  final
+};

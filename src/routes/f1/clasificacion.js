@@ -10,8 +10,8 @@ async function clasificacion() {
 
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
-      .filter(fila => fila.c[11] !== null) // Filtrar las filas con valor null
-      .map(fila => fila.c[11].v);
+      .filter(fila => fila.c[14] !== null) // Filtrar las filas con valor null
+      .map(fila => fila.c[14].v);
 
     const promesasSolicitudes = [];
 

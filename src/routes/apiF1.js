@@ -6,7 +6,8 @@ const {en2} = require ('./f1/entrenamiento2.js')
 const {en3} = require ('./f1/entrenamiento3.js')
 const {clasificacion} = require ('./f1/clasificacion.js')
 const {sprint} = require ('./f1/sprint.js')
-const {final} = require ('./f1/final.js')
+const {final} = require ('./f1/final.js');
+const { pilotos } = require('./f1/pilotos.js');
 
 
 // 1° ENTRENAMIENTO
@@ -75,7 +76,7 @@ router.get('/clasificacion/:indice', async (req, res) => {
 
 
 // SPRINT
-router.get('/sprint/:indice', async (req, res) => {
+router.get('/serie3/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {
       const datos = await sprint();
@@ -105,5 +106,21 @@ router.get('/sprint/:indice', async (req, res) => {
         res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
     }
   });
+
+    // FINAL
+    router.get('/pilotos/:indice', async (req, res) => {
+        const indice = parseInt(req.params.indice);
+        try {
+            const datos = await pilotos();
+            if (indice < datos.length) {
+                res.send(datos[indice]);
+            } else {
+                res.status(404).json({ error: 'No se encontró el índice especificado' });
+            }
+        } catch (error) {
+            console.error(`Error al obtener los resultados del array ${indice}:`, error);
+            res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+        }
+      });
 
   module.exports = router;
