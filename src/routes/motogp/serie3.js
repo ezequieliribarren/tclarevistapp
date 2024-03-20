@@ -37,60 +37,54 @@ async function serie3() {
 }
 
 async function obtenerResultados(url) {
-    try {
-      if (!url) {
-        console.error('URL no definida');
-        return []; // Devolver un array vacío si la URL no está definida
-      }
-  
-      const html = await request(url);
-      const $ = cheerio.load(html);
-  
-      const resultados = [];
-  
-      // Modificar el selector para apuntar a la tabla de resultados correcta
-      const tableRows = $('.ms-result-table tbody tr');
-      
-      // Iterar sobre cada fila de la tabla
-      tableRows.each((index, element) => {
-        const $row = $(element);
-        const pos = $row.find('.ms-table_field--pos .ms-table_row-value').text().trim();
-        const piloto = $row.find('.ms-table_field--result_driver_id .name-short').text().trim();
-        const equipo = $row.find('.ms-table_field--result_driver_id .team').text().trim();
-        const numero = $row.find('.ms-table_field--number .ms-table_row-value').text().trim();
-        const marca = $row.find('.ms-table_field--car_make .ms-table_row-value').text().trim();
-        const vueltas = $row.find('.ms-table_field--laps .ms-table_row-value').text().trim();
-        let tiempo = $row.find('.ms-table_field--time').text().trim();
-        const dif = $row.find('.ms-table_cell ms-table_field--interval .ms-table_row-value').text().trim();
-        const puntos = $row.find('.ms-table_field--points .ms-table_row-value').text().trim();
-
-        // Limpiar y normalizar los tiempos
-        tiempo = tiempo.replace(/\n/g, '').trim(); // Eliminar saltos de línea y espacios en blanco
-        const tiempoFormato = tiempo.match(/(\d{2}'\d{2}.\d{3})/); // Extraer el tiempo en formato hh:mm:ss
-        const tiempoFinal = tiempoFormato ? tiempoFormato[0] : '';
-
-        // Eliminar los datos obsoletos de los tiempos
-        const tiempoLimpio = tiempoFinal.split(' ').pop(); // Tomar el último valor, que es el tiempo relevante
-
-        resultados.push({
-            pos,
-            piloto,
-            equipo,
-            numero,
-            marca,
-            vueltas,
-            tiempo: tiempoLimpio,
-            puntos,
-            dif
-        });
-    });
-      
-      return resultados;
-    } catch (error) {
-      console.error('Error fetching data:', error);
-      throw error;
+  try {
+    if (!url) {
+      console.error('URL no definida');
+      return []; // Devolver un array vacío si la URL no está definida
     }
+
+    const html = await request(url);
+    const $ = cheerio.load(html);
+
+    const resultados = [];
+
+    // Modificar el selector para apuntar a la tabla de resultados correcta
+    const tableRows = $('.ms-result-table tbody tr');
+    
+    // Iterar sobre cada fila de la tabla
+    tableRows.each((index, element) => {
+      const $row = $(element);
+      const pos = $row.find('.ms-table_field--pos .ms-table_row-value').text().trim();
+      const piloto = $row.find('.ms-table_field--result_driver_id .name-short').text().trim();
+      const equipo = $row.find('.ms-table_field--result_driver_id .team').text().trim();
+      const numero = $row.find('.ms-table_field--number .ms-table_row-value').text().trim();
+      const marca = $row.find('.ms-table_field--car_make .ms-table_row-value').text().trim();
+      const vueltas = $row.find('.ms-table_field--laps .ms-table_row-value').text().trim();
+      const tiempoDiferencia = $row.find('.ms-table_field--time').text().trim();
+      const puntos = $row.find('.ms-table_field--points .ms-table_row-value').text().trim();
+
+      // Extraer el tiempo y la diferencia del tiempoDiferencia
+      const [diferencia, tiempo] = tiempoDiferencia.split(/\s+/);
+
+      resultados.push({
+          pos,
+          piloto,
+          equipo,
+          numero,
+          marca,
+          vueltas,
+          tiempo,
+          puntos,
+          diferencia
+      });
+    });
+    
+    return resultados;
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    throw error;
   }
+}
 
 module.exports = {
   serie3,

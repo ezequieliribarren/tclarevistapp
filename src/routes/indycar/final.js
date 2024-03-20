@@ -5,7 +5,7 @@ const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 async function final() {
   try {
     // Obtener los datos desde Google Sheets
-    const sheetId = "287281711"; // ID de la hoja que deseas obtener
+    const sheetId = "239413181"; // ID de la hoja que deseas obtener
     const datos = await obtenerDatosDesdeGoogleSheets([sheetId]); // Pasar el sheetId como un arreglo
 
     // Filtrar y obtener solo las URL que no son null
@@ -38,19 +38,18 @@ async function final() {
 
 // Limpiar el tiempo y la diferencia
 function limpiarTiempo(tiempo) {
-  // Utilizar una expresión regular para extraer el tiempo en el formato hh:mm'ss.fff
-  const regex = /\s+(\d{1,2}:\d{2}'\d{2}\.\d{3})\s+/;
-  const match = tiempo.match(regex);
-
-  if (match && match.length > 1) {
-    // Si se encuentra el patrón, devolver el tiempo en el formato deseado
-    return match[1];
-  } else {
-    // Si no se encuentra el patrón, devolver el tiempo sin cambios
-    return tiempo.trim();
+    // Utilizar una expresión regular para extraer el tiempo en el formato mm'ss.ffff
+    const regex = /(\d{1,2})'(\d{1,2}\.\d{4})/;
+    const match = tiempo.match(regex);
+  
+    if (match) {
+      // Si se encuentra el patrón, devolver el tiempo en el formato deseado
+      return match[1] + "'" + match[2];
+    } else {
+      // Si no se encuentra el patrón, devolver el tiempo sin cambios
+      return tiempo;
+    }
   }
-}
-
 
   function limpiarDiferencia(diferencia) {
     // Utilizar expresión regular para eliminar espacios en blanco y caracteres no deseados
@@ -69,7 +68,7 @@ function limpiarTiempo(tiempo) {
   
       const resultados = [];
   
-      const tableRows = $('.ms-result-table-wrapper table tr.ms-table_row');
+      const tableRows = $('tr.ms-table_row');
   
       tableRows.each((index, element) => {
         const $row = $(element);
@@ -81,7 +80,7 @@ function limpiarTiempo(tiempo) {
         const tiempo = limpiarTiempo($row.find('.ms-table_field--time .ms-table_row-value').text());
         const diferencia = limpiarDiferencia($row.find('.ms-table_field--interval .ms-table_row-value').text());
         const puntos = $row.find('.ms-table_field--avg_speed .ms-table_row-value').text().trim();
-  
+      
         resultados.push({
           pos,
           piloto,
@@ -93,13 +92,17 @@ function limpiarTiempo(tiempo) {
           puntos
         });
       });
-      resultados.splice(0, 2); // Elimina los dos primeros elementos del array resultados
+      resultados.splice(0, 2); 
+      resultados.splice(-6);
+
+
       return resultados;
     } catch (error) {
       console.error('Error fetching data:', error);
       throw error;
     }
   }
+  
   
 
 module.exports = {

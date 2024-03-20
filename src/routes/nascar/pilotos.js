@@ -2,16 +2,16 @@ const cheerio = require('cheerio');
 const request = require('request-promise');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 
-async function en2() {
+async function pilotos() {
   try {
     // Obtener los datos desde Google Sheets
-    const sheetId = "1456952227"; // ID de la hoja que deseas obtener
+    const sheetId = "287281711"; // ID de la hoja que deseas obtener
     const datos = await obtenerDatosDesdeGoogleSheets([sheetId]); // Pasar el sheetId como un arreglo
 
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
-      .filter(fila => fila.c[9] !== null) // Filtrar las filas con valor null
-      .map(fila => fila.c[9].v);
+      .filter(fila => fila.c[7] !== null) // Filtrar las filas con valor null
+      .map(fila => fila.c[7].v);
 
     console.log(urlsEntrenamiento);
 
@@ -36,6 +36,27 @@ async function en2() {
   }
 }
 
+// Limpiar el tiempo y la diferencia
+function limpiarTiempo(tiempo) {
+  // Utilizar una expresión regular para extraer el tiempo en el formato hh:mm'ss.fff
+  const regex = /\s+(\d{1,2}:\d{2}'\d{2}\.\d{3})\s+/;
+  const match = tiempo.match(regex);
+
+  if (match && match.length > 1) {
+    // Si se encuentra el patrón, devolver el tiempo en el formato deseado
+    return match[1];
+  } else {
+    // Si no se encuentra el patrón, devolver el tiempo sin cambios
+    return tiempo.trim();
+  }
+}
+
+
+function limpiarDiferencia(diferencia) {
+  // Utilizar expresión regular para eliminar espacios en blanco y caracteres no deseados
+  return diferencia.replace(/\s+/g, '').replace(/\\n+/g, '').replace(/['']+/g, '').trim();
+}
+
 async function obtenerResultados(url) {
   try {
     if (!url) {
@@ -48,37 +69,31 @@ async function obtenerResultados(url) {
 
     const resultados = [];
 
-    // Modificar el selector para apuntar a la tabla de resultados correcta
-    const tableRows = $('.ms-result-table tbody tr');
-    
-    // Iterar sobre cada fila de la tabla
+    const tableRows = $('.ms-result-table-wrapper table tr.ms-table_row');
+
     tableRows.each((index, element) => {
       const $row = $(element);
       const pos = $row.find('.ms-table_field--pos .ms-table_row-value').text().trim();
       const piloto = $row.find('.ms-table_field--result_driver_id .name-short').text().trim();
       const equipo = $row.find('.ms-table_field--result_driver_id .team').text().trim();
       const numero = $row.find('.ms-table_field--number .ms-table_row-value').text().trim();
-      const marca = $row.find('.ms-table_field--car_make .ms-table_row-value').text().trim();
       const vueltas = $row.find('.ms-table_field--laps .ms-table_row-value').text().trim();
-      const tiempoDiferencia = $row.find('.ms-table_field--time').text().trim();
-      const puntos = $row.find('.ms-table_field--points .ms-table_row-value').text().trim();
-
-      // Extraer el tiempo y la diferencia del tiempoDiferencia
-      const [diferencia, tiempo] = tiempoDiferencia.split(/\s+/);
+      const tiempo = limpiarTiempo($row.find('.ms-table_field--time .ms-table_row-value').text());
+      const diferencia = limpiarDiferencia($row.find('.ms-table_field--interval .ms-table_row-value').text());
+      const puntos = $row.find('.ms-table_field--avg_speed .ms-table_row-value').text().trim();
 
       resultados.push({
-          pos,
-          piloto,
-          equipo,
-          numero,
-          marca,
-          vueltas,
-          tiempo,
-          puntos,
-          diferencia
+        pos,
+        piloto,
+        equipo,
+        numero,
+        vueltas,
+        tiempo,
+        diferencia,
+        puntos
       });
     });
-    
+    resultados.splice(0, 2); // Elimina los dos primeros elementos del array resultados
     return resultados;
   } catch (error) {
     console.error('Error fetching data:', error);
@@ -86,7 +101,7 @@ async function obtenerResultados(url) {
   }
 }
 
-module.exports = {
-  en2,
 
+module.exports = {
+  pilotos,
 };

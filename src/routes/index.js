@@ -373,8 +373,8 @@ router.post('/vincular', upload.single('image'), (req, res) => {
 });
 
 
-// PUBLICIDAD
-const { final } = require('./motogp/final');
+// // PUBLICIDAD
+const { final } = require('./nascar/final');
 
 // Llama a la función final
 final()

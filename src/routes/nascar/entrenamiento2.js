@@ -2,7 +2,7 @@ const cheerio = require('cheerio');
 const request = require('request-promise');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 
-async function final() {
+async function en2() {
   try {
     // Obtener los datos desde Google Sheets
     const sheetId = "287281711"; // ID de la hoja que deseas obtener
@@ -10,8 +10,8 @@ async function final() {
 
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
-      .filter(fila => fila.c[18] !== null) // Filtrar las filas con valor null
-      .map(fila => fila.c[18].v);
+      .filter(fila => fila.c[9] !== null) // Filtrar las filas con valor null
+      .map(fila => fila.c[9].v);
 
     console.log(urlsEntrenamiento);
 
@@ -103,5 +103,5 @@ function limpiarTiempo(tiempo) {
   
 
 module.exports = {
-    final,
+    en2,
 };

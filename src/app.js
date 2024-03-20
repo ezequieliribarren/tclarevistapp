@@ -59,7 +59,6 @@ app.use('/tcm', apiTcm);
 const rally = require('./routes/apiRally.js');
 app.use('/rally-argentino', rally);
 
-
 // API F1
 const f1 = require('./routes/apiF1.js');
 app.use('/f1', f1);
@@ -67,6 +66,15 @@ app.use('/f1', f1);
 // API MOTO-GP
 const motogp = require('./routes/apiMotogp.js');
 app.use('/moto-gp', motogp);
+
+// API INDYCAR
+const indycar = require('./routes/apiIndycar.js');
+app.use('/indycar-series', indycar);
+
+// API NASCAR
+const nascar = require('./routes/apiNascar.js');
+app.use('/nascar', nascar);
+
 
 
 
