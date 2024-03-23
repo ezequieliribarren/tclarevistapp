@@ -374,18 +374,12 @@ router.post('/vincular', upload.single('image'), (req, res) => {
 
 
 // // PUBLICIDAD
-const { final } = require('./nascar/final');
+const scrapeData = require('./ip/3.js');
 
-// Llama a la función final
-final()
-  .then(resultados => {
-    // Imprime los resultados por la consola
-    console.log('Resultados obtenidos:');
-    console.log(resultados);
-  })
-  .catch(error => {
-    // Manejo de errores
-    console.error('Error al obtener los resultados:', error);
-  });
+scrapeData().then(data => {
+    console.log('Datos obtenidos:', data);
+}).catch(error => {
+    console.error('Ocurrió un error:', error);
+});
 
 module.exports = router;
