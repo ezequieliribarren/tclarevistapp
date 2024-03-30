@@ -3,6 +3,7 @@ const router = express.Router();
 const fsPromises = require('fs').promises;
 const campeonatos = require('./campeonatos.js');
 const { obtenerYMostrarDatos } = require('./horariosActc.js');
+const copaDeOro = require('./copaDeOro.js');
 
 
 // API TODAS LAS NOTICIAS
@@ -19,15 +20,37 @@ router.get('/noticias', async (req, res) => {
 
 
   // API CAMPEONATOS
-  router.get('/campeonatos', async (req, res) => {
+  router.get('/campeonatos/:categoria', async (req, res) => {
+    const categoria = req.params.categoria.toLowerCase(); // Convierte la categoría a minúsculas para que sea insensible a mayúsculas/minúsculas
     try {
-      const campeonatosData = await campeonatos();
-      res.send(campeonatosData);
+        const datos = await campeonatos();
+        if (categoria in datos) {
+            res.send(datos[categoria]);
+        } else {
+            res.status(404).json({ error: 'No se encontró la categoría especificada' });
+        }
     } catch (error) {
+        console.error('Error al realizar scraping:', error);
+        res.status(500).send('Error interno del servidor');
+    }
+});
+
+  // API COPA DE ORO
+router.get('/copa-de-oro/:categoria', async (req, res) => {
+  const categoria = req.params.categoria.toLowerCase(); // Convierte la categoría a minúsculas para que sea insensible a mayúsculas/minúsculas
+  try {
+      const datos = await copaDeOro();
+      if (categoria in datos) {
+          res.send(datos[categoria]);
+      } else {
+          res.status(404).json({ error: 'No se encontró la categoría especificada' });
+      }
+  } catch (error) {
       console.error('Error al realizar scraping:', error);
       res.status(500).send('Error interno del servidor');
-    }
-  });
+  }
+});
+
 
   // API HORARIOS
   // 1° ENTRENAMIENTO

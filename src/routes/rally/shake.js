@@ -47,24 +47,35 @@ async function obtenerResultados(url) {
     });
 
     const tablaPosiciones = [];
-    $('.titulo_grande_blanco3').each((i, row) => {
+
+    // Buscamos todas las filas de la tabla con la clase "texto_datos"
+    $('.texto_datos').each((i, row) => {
       const columns = $(row).find('td');
 
-      if (columns.length >= 5) {
-        const posicion = $(columns[0]).text().trim().replace(/\n/g, '').replace(/\s+/g, ' ');
-        const numero = $(columns[2]).text().trim().replace(/\n/g, '').replace(/\s+/g, ' ');
-        const piloto = $(columns[3]).text().trim().replace(/\n/g, '').replace(/\s+/g, ' ');
-        const dif2 = $(columns[7]).next().text().trim().replace(/\n/g, '').replace(/\s+/g, ' ');
+      // Verificamos si hay suficientes columnas para extraer la información
+      if (columns.length >= 9) {
+        const posicion = $(columns[0]).text().trim(); // Posición
+        const numero = $(columns[1]).text().trim(); // Número
+        const piloto = $(columns[2]).text().trim(); // Piloto
+        const vehiculo = $(columns[3]).text().trim(); // Vehículo
+        const categoria = $(columns[4]).text().trim(); // Categoría
+        const tramo1 = $(columns[6]).text().trim(); // Tiempo Tramo 1
+        const tramo2 = $(columns[7]).text().trim(); // Tiempo Tramo 2
+        const tramo3 = $(columns[8]).text().trim(); // Tiempo Tramo 3
+        const dif2 = $(columns[8]).text().trim(); // Diferencia
 
-        if (columns.length >= 6) {
-          const tiempo = $(columns[4]).text().trim().replace(/\n/g, '').replace(/\s+/g, ' ');
-          const dif = $(columns[5]).text().trim().replace(/\n/g, '').replace(/\s+/g, ' ');
-
-
-          tablaPosiciones.push({ posicion, numero, piloto, tiempo, dif, dif2 });
-        } else {
-          tablaPosiciones.push({ posicion, numero, piloto });
-        }
+        // Agregamos los datos extraídos a la tabla de posiciones
+        tablaPosiciones.push({ 
+          posicion, 
+          numero, 
+          piloto, 
+          vehiculo, 
+          categoria, 
+          tramo1, 
+          tramo2, 
+          tramo3, 
+          dif2 
+        });
       }
     });
 
@@ -74,6 +85,7 @@ async function obtenerResultados(url) {
     throw error;
   }
 }
+
 
 module.exports = {
   shake

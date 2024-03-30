@@ -16,7 +16,7 @@ router.get('/:category', async (req, res) => {
       'nascar': 'nascar.json',
       'dakar': 'dakar.json',
       'rally-mundial': 'rally-mundial.json',
-      'rally-cross-country': 'rally-cross-country.json',
+      'arg-mundo': 'arg-mundo.json',
       'rally-argentino': 'rally.json',
       'tc2000': 'tc-2000.json',
       'tc2000-series': 'tc-2000-series.json',

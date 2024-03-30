@@ -34,7 +34,26 @@ async function scrapeData1menu() {
                 let siblingElement = sibling.nextElementSibling;
                 const datas = [];
                 while (siblingElement && siblingElement.tagName === 'LI' && siblingElement.classList.contains('datas')) {
-                    datas.push(siblingElement.textContent.trim());
+                    // Verificar si el elemento tiene un <i>
+                    const icono = siblingElement.querySelector('i');
+                    let estado = '';
+                    if (icono) {
+                        const img = icono.querySelector('img');
+                        if (img) {
+                            const src = img.getAttribute('src');
+                            if (src.includes('ppcev_state_4.png')) {
+                                estado = 'finalizado';
+                            } else if (src.includes('ppcev_state_2.png')) {
+                                estado = 'vivo';
+                            } else {
+                                estado = 'próximo';
+                            }
+                        } else {
+                            estado = 'próximo';
+                        }
+                    }
+                    
+                    datas.push({ text: siblingElement.textContent.trim(), estado }); // Agregar el texto y el estado
                     siblingElement = siblingElement.nextElementSibling;
                 }
                 return datas;
@@ -43,8 +62,6 @@ async function scrapeData1menu() {
             results[results.length - 1].items = await liDatas.jsonValue();
         }
 
-        // Eliminar el último objeto del array results
-        results.splice(-1, 1);
 
         return results;
     } catch (error) {
@@ -59,7 +76,10 @@ async function scrapeData1menu() {
 scrapeData1menu().then(resultados => {
     resultados.forEach(resultado => {
         console.log('Title:', resultado.title);
-        console.log('Items:', resultado.items);
+        resultado.items.forEach(item => {
+            console.log('Item:', item.text);
+            console.log('Estado:', item.estado);
+        });
     });
 }).catch(error => {
     console.error('Ocurrió un error:', error);

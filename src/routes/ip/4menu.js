@@ -62,8 +62,6 @@ async function scrapeData4menu() {
             results[results.length - 1].items = await liDatas.jsonValue();
         }
 
-        // Eliminar el último objeto del array results
-        results.splice(-1, 1);
 
         return results;
     } catch (error) {

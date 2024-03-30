@@ -27,7 +27,7 @@ const filePaths = [
     'src/noticias/dakar.json',
     'src/noticias/fe.json',
     'src/noticias/moto-gp.json',
-    'src/noticias/rally-cross-country.json',
+    'src/noticias/arg-mundo.json',
     'src/noticias/tc-mouras.json',
     'src/noticias/tc-pista.json',
     'src/noticias/tcr.json',
@@ -374,12 +374,13 @@ router.post('/vincular', upload.single('image'), (req, res) => {
 
 
 // // PUBLICIDAD
-const scrapeData = require('./ip/3.js');
+// const {en1} = require('./fe/entrenamiento1');
 
-scrapeData().then(data => {
-    console.log('Datos obtenidos:', data);
-}).catch(error => {
-    console.error('Ocurrió un error:', error);
-});
+// en1().then(data => {
+//     console.log('Datos obtenidos:', data);
+// }).catch(error => {
+//     console.error('Ocurrió un error:', error);
+// });
+
 
 module.exports = router;
