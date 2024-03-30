@@ -79,6 +79,10 @@ app.use('/nascar', nascar);
 const rallym = require('./routes/apiRallym.js');
 app.use('/rally-mundial', rallym);
 
+// API FORMULA-E
+const fe = require('./routes/apiFe.js');
+app.use('/formula-e', fe);
+
 // API IP 1 
 const scrapeData = require('./routes/ip/1.js');
 app.get('/ip1/:indice', async (req, res) => {
