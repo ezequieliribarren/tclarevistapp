@@ -115,6 +115,7 @@ if (fs.existsSync(noticiasFilePath)) {
         console.error('Error al analizar el archivo JSON de noticias generales:', error.message);
     }
 }
+
 router.get('/new-entry', (req, res) => {
     res.render('new-entry', {
         noticias: noticias || {}
@@ -331,6 +332,11 @@ function eliminarNoticiaEnArrayYCategoria(array, id, categoria, esGeneral) {
 }
 
 // VINCULAR
+
+router.get('/vincular', (req, res) => {
+    res.render('vincular'); // Renderiza la plantilla vincular.ejs o el archivo HTML correspondiente
+});
+
 router.post('/vincular', upload.single('image'), (req, res) => {
     const now = moment();
     const formattedDate = now.tz('America/Argentina/Buenos_Aires').format();
@@ -374,6 +380,44 @@ router.post('/vincular', upload.single('image'), (req, res) => {
 
 
 // // PUBLICIDAD
+router.get('/publicidad', (req, res) => {
+    res.render('publicidad'); 
+});
+
+// PUBLICIDAD
+router.post('/publicidad', upload.single('image'), (req, res) => {
+    const now = moment();
+    const formattedDate = now.tz('America/Argentina/Buenos_Aires').format();
+    const { link } = req.body; // Actualizado para obtener los campos del formulario desde req.body
+
+    const publicidad = {
+        id: uuidv4(),
+        date: formattedDate,
+        image: `images/${req.file.filename}`, // Ahora accedes al nombre del archivo desde req.file
+        link
+    };
+
+    // Ruta al archivo JSON de vincular
+    const vincularFilePath = 'src/publicidad.json';
+
+    let publicidades = [];
+
+    if (fs.existsSync(vincularFilePath)) {
+        const jsonNoticias = fs.readFileSync(vincularFilePath, 'utf-8');
+        // Verificar si el JSON tiene un formato válido antes de intentar analizarlo
+        if (jsonNoticias.trim() !== '') {
+            publicidades = JSON.parse(jsonNoticias);
+        }
+    }
+
+    publicidades.unshift(publicidad);
+
+    const jsonNoticiasActualizado = JSON.stringify(publicidades, null, 2);
+
+    fs.writeFileSync(vincularFilePath, jsonNoticiasActualizado, 'utf-8');
+
+    res.redirect('/publicidad');
+});
 // const {en1} = require('./fe/entrenamiento1');
 
 // en1().then(data => {

@@ -4,9 +4,6 @@ const path = require('path');
 const morgan = require('morgan');
 
 
-
-
-
 // Settings
 app.set('port', 5000);
 app.set('views', path.join(__dirname, 'views'));
@@ -29,6 +26,9 @@ app.use('/api', apiRoutes);
 const apiCategorias = require('./routes/api-categorias.js');
 app.use('/api-categorias', apiCategorias);
 
+// API VINCULAR
+const apiVincular = require('./routes/apiVincular.js');
+app.use('/api-vincular', apiVincular);
 
 // API PUBLICIDADES
 const apiPublicidades = require('./routes/api-publicidad.js');
@@ -148,8 +148,6 @@ app.get('/ip2menu/', async (req, res) => {
         res.status(500).json({ error: 'Error al obtener los resultados' });
     }
 });
-
-
 
 // API IP 3
 const scrapeData3 = require('./routes/ip/3.js');
