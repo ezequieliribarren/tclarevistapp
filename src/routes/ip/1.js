@@ -45,10 +45,10 @@ async function scrapeData() {
                     // Si el elemento li.datas no es clickeable, obtener su contenido interno
                     tanda = await page.evaluate(li => li.innerText, li);
                 }
-
+            
                 // Esperar a que la tabla esté disponible
                 await page.waitForSelector('table.table');
-
+            
                 // Verificar si está en vivo o finalizado
                 const icono = await li.$('i img');
                 let estado = '';
@@ -56,7 +56,7 @@ async function scrapeData() {
                     const src = await icono.evaluate(img => img.getAttribute('src'));
                     estado = src.includes('ppcev_state_4.png') ? 'finalizado' : 'vivo';
                 }
-
+            
                 // Obtener los datos de la tabla del 'li datas' actual
                 const datosTabla = await page.$$eval('table.table tbody tr', rows => {
                     return rows.map(row => {
@@ -72,7 +72,7 @@ async function scrapeData() {
                         };
                     });
                 });
-                
+            
                 // Retornar los datos de la tabla del 'li datas' actual
                 resultados.push({
                     Tanda: tanda,
@@ -80,7 +80,6 @@ async function scrapeData() {
                     DatosTabla: datosTabla
                 });
             }
-
             return resultados;
         } else {
             console.log('La URL obtenida desde Google Sheets es nula. No se puede continuar.');

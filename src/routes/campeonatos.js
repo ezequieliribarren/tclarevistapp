@@ -67,19 +67,24 @@ async function obtenerResultados(url) {
     });
 
     const tablaPosiciones = [];
-    $('.table tr').each((i, row) => {
+    $('table, .table, .table-group-divider').find('tr').each((i, row) => {
       const columns = $(row).find('td');
       const posicion = $(columns[0]).text().trim();
       const nro = $(columns[1]).text().trim();
-      const piloto = $(columns[2]).text().trim();
+      const piloto1 = $(columns[2]).text().trim();
       const victorias = $(columns[3]).text().trim();
       const marca = $(columns[4]).html();
       const puntos = $(columns[5]).text().trim();
 
+      piloto = piloto1.split(' ').filter((word, index, self) => self.indexOf(word) === index).join(' ');
+
       tablaPosiciones.push({ nro, posicion, piloto, marca, puntos, victorias });
     });
 
-    return tablaPosiciones;
+    const tablaPosicionesSlice = tablaPosiciones.slice(1);
+    
+
+    return tablaPosicionesSlice;
   } catch (error) {
     console.error('Error fetching data:', error);
     throw error;

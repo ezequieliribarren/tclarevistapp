@@ -164,6 +164,8 @@ router.post('/new-entry', upload.fields([{ name: 'image', maxCount: 1 }, { name:
         secondImage = `images/${req.files['secondImage'][0].filename}`;
     }
 
+    
+
     const nuevaNoticia = {
         id: uuidv4(),
         categoria: Array.isArray(categoria) ? categoria : [categoria],
@@ -418,13 +420,16 @@ router.post('/publicidad', upload.single('image'), (req, res) => {
 
     res.redirect('/publicidad');
 });
-// const {en1} = require('./fe/entrenamiento1');
+const campeonatoTc2000 = require('./campeonatoTc2000');
 
-// en1().then(data => {
-//     console.log('Datos obtenidos:', data);
-// }).catch(error => {
-//     console.error('Ocurrió un error:', error);
-// });
+// Llama a la función campeonatoTc2000 y maneja su resultado
+campeonatoTc2000()
+  .then(resultado => {
+    console.log("Resultado del campeonato TC2000:", resultado);
+  })
+  .catch(error => {
+    console.error("Error al obtener el campeonato TC2000:", error);
+  });
 
 
 module.exports = router;

@@ -54,6 +54,14 @@ app.use('/tcp', apiTcp);
 const apiTcm = require('./routes/apiTcm.js');
 app.use('/tcm', apiTcm);
 
+// API TOP-RACE
+const apiTopRace = require('./routes/apiTopRace.js');
+app.use('/tr', apiTopRace);
+
+// API TOP-RACE-SERIES
+const apiTopRaceSeries = require('./routes/apiTopRaceSeries.js');
+app.use('/tr-series', apiTopRaceSeries);
+
 
 // API RALLY ARGENTINO
 const rally = require('./routes/apiRally.js');
@@ -83,20 +91,30 @@ app.use('/rally-mundial', rallym);
 const fe = require('./routes/apiFe.js');
 app.use('/formula-e', fe);
 
+
+
+
+
+
+
 // API IP 1 
 const scrapeData = require('./routes/ip/1.js');
-app.get('/ip1/:indice', async (req, res) => {
-    const indice = parseInt(req.params.indice);
+app.get('/ip1/', async (req, res) => {
     try {
         const resultados = await scrapeData();
-        if (indice < resultados.length) {
-            res.json(resultados[indice]);
+        if (resultados) {
+            const carreras = resultados.map(resultado => ({
+                Tanda: resultado.Tanda,
+                Estado: resultado.Estado,
+                DatosTabla: resultado.DatosTabla
+            }));
+            res.json(carreras);
         } else {
-            res.status(404).json({ error: 'No se encontró el índice especificado' });
+            res.status(500).json({ error: 'Error al obtener los resultados' });
         }
     } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+        console.error('Error al obtener los resultados:', error);
+        res.status(500).json({ error: 'Error al obtener los resultados' });
     }
 });
 
@@ -182,7 +200,6 @@ app.get('/ip3menu/', async (req, res) => {
     }
 });
 
-
 // API IP 4
 const scrapeData4 = require('./routes/ip/4.js');
 app.get('/ip4/:indice', async (req, res) => {
@@ -215,6 +232,8 @@ app.get('/ip4menu/', async (req, res) => {
         res.status(500).json({ error: 'Error al obtener los resultados' });
     }
 });
+
+
 
 
 // Rutas de renderizado

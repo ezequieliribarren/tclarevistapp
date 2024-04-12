@@ -17,26 +17,27 @@
 
 <body style="background-color: black;">
    <div class="container p-5">
-      <nav style="border-radius: 10px;" class="navbar navbar-expand-lg navbar-light bg-light">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
+      <nav style="border-radius: 10px;" class="navbar navbar-expand-lg navbar-light bg-dark">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse" id="navbarNav">
-           <ul sty class="navbar-nav">
-             <li class="nav-item m-1">
-                 <a class="nav-link btn btn-warning" href="/new-entry">Noticias</a>
+            <ul sty class="navbar-nav">
+               <li class="nav-item m-1">
+                  <a class="nav-link btn btn-warning" href="/new-entry">Noticias</a>
                </li>
-             <li class="nav-item m-1">
-               <a class="nav-link btn btn-warning" href="/vincular">Vincular</a>
-             </li>
-             <li class="nav-item m-1">
-               <a class="nav-link btn btn-warning" href="/publicidad">Publicidad</a>
-             </li>
-           </ul>
+               <li class="nav-item m-1">
+                  <a class="nav-link btn btn-warning" href="/vincular">Vincular</a>
+               </li>
+               <li class="nav-item m-1">
+                  <a class="nav-link btn btn-warning" href="/publicidad">Publicidad</a>
+               </li>
+            </ul>
          </div>
-       </nav>
+      </nav>
       <h1 style="color: white; margin: 1rem 0;">Noticias</h1>
-      <div  style="border-radius: 20px;" class="cargar-noticia">
+      <div style="border-radius: 20px;" class="cargar-noticia">
          <form method="POST" action="/new-entry" enctype="multipart/form-data" class="card card-body">
             <div class="form-group">
                <label for="categoria">Categoría</label>
@@ -78,7 +79,7 @@
             </div>
             <div class="form-group">
                <label for="file">Imagen en el cuerpo de la noticia</label>
-               <input  class='form-control' type="file" id="imageCuerpo" name="secondImage">
+               <input class='form-control' type="file" id="imageCuerpo" name="secondImage">
             </div>
             <div class="form-group">
                <label for="title">Video</label>
@@ -101,17 +102,22 @@
          </form>
          <div>
             <h2 style="color: white; margin: 1rem 0;">General</h2>
-            <ul style="border: solid 1px #FE0; border-radius: 10px;  background-color: rgb(58, 58, 58); width: 100%; display: flex; flex-wrap: wrap;">
+            <ul
+               style="border: solid 1px #FE0; border-radius: 10px;  background-color: rgb(58, 58, 58); width: 100%; display: flex; flex-wrap: wrap;">
                <% if (noticias && noticias.general) { %>
                   <% for (let i=noticias.general.length - 1; i>= Math.max(noticias.general.length - 10, 0); i--) { %>
                      <li style="color: white; margin: 1rem 0; list-style: none; width: 50%;">
-                        <h5><strong>Título</strong> <%= noticias.general[i].title %></h5><h5> <strong>Categoria</strong> <%=
-                                 noticias.general[i].categoria %></h5>
-                                 <form method="POST" action="/move-to-priority/<%= noticias.general[i].id %>">
-                                    <input type="hidden" name="priority" value="primaria">
-                                    <button style="margin: 0 0.5rem;" type="submit" class="btn btn-success">Primaria</button><a
-                                       href="/delete/<%= noticias.general[i].id %>" class="btn btn-danger">Eliminar</a>
-                                 </form>
+                        <h5><strong>Título</strong>
+                           <%= noticias.general[i].title %>
+                        </h5>
+                        <h5> <strong>Categoria</strong>
+                           <%= noticias.general[i].categoria %>
+                        </h5>
+                        <form method="POST" action="/move-to-priority/<%= noticias.general[i].id %>">
+                           <input type="hidden" name="priority" value="primaria">
+                           <button style="margin: 0 0.5rem;" type="submit" class="btn btn-success">Primaria</button><a
+                              href="/delete/<%= noticias.general[i].id %>" class="btn btn-danger">Eliminar</a>
+                        </form>
                      </li>
                      <% } %>
                         <% } else { %>
@@ -124,11 +130,12 @@
                <% if (noticias && noticias.prioridad && noticias.prioridad.primaria) { %>
                   <% for (let i=noticias.prioridad.primaria.length - 1; i>= Math.max(noticias.prioridad.primaria.length
                      - 10, 0); i--) { %>
-                     <li style="color: white;  list-style: none; display: flex; align-items: center; padding: 1rem 0;"> <h6 style="margin: 0 1rem;">Título: <%= noticias.prioridad.primaria[i].title
-                              %></h6>
-                     <h6 style="margin: 0 1rem;">Categoria: <%= noticias.prioridad.primaria[i].categoria %></h6> 
-                                 <a href="/delete/<%= noticias.prioridad.primaria[i].id %>"
-                                    class="btn btn-danger">Eliminar</a>
+                     <li style="color: white;  list-style: none; display: flex; align-items: center; padding: 1rem 0;">
+                        <h6 style="margin: 0 1rem;">Título: <%= noticias.prioridad.primaria[i].title %>
+                        </h6>
+                        <h6 style="margin: 0 1rem;">Categoria: <%= noticias.prioridad.primaria[i].categoria %>
+                        </h6>
+                        <a href="/delete/<%= noticias.prioridad.primaria[i].id %>" class="btn btn-danger">Eliminar</a>
                      </li>
                      <% } %>
                         <% } else { %>
@@ -142,12 +149,11 @@
                   <% for (let i=noticias.prioridad.secundaria.length - 1; i>=
                      Math.max(noticias.prioridad.secundaria.length - 10, 0); i--) { %>
                      <li style="color: white;  list-style: none; display: flex; align-items: center; padding: 1rem 0;">
-                        <h6 style="margin: 0 1rem;">Título: <%=
-                              noticias.prioridad.secundaria[i].title %></h6>
-                        <h6 style="margin: 0 1rem;">Categoria: <%=
-                                 noticias.prioridad.secundaria[i].categoria %></h6> 
-                                 <a href="/delete/<%= noticias.prioridad.secundaria[i].id %>"
-                                    class="btn btn-danger">Eliminar</a>
+                        <h6 style="margin: 0 1rem;">Título: <%= noticias.prioridad.secundaria[i].title %>
+                        </h6>
+                        <h6 style="margin: 0 1rem;">Categoria: <%= noticias.prioridad.secundaria[i].categoria %>
+                        </h6>
+                        <a href="/delete/<%= noticias.prioridad.secundaria[i].id %>" class="btn btn-danger">Eliminar</a>
                      </li>
                      <% } %>
                         <% } else { %>
@@ -162,16 +168,16 @@
                      Math.max(noticias.prioridad.terciaria.length - 10, 0); i--) { %>
                      <li style="color: white;  list-style: none; display: flex; align-items: center; padding: 1rem 0;">
                         <% if (noticias.prioridad.terciaria[i]) { %>
-                        <h6 style="margin: 0 1rem;">Título: <%=
-                                 noticias.prioridad.terciaria[i].title %></h6>
-                        <h6 style="margin: 0 1rem;">Categoria: <%=
-                                    noticias.prioridad.terciaria[i].categoria %></h6> 
-                                    <a href="/delete/<%= noticias.prioridad.terciaria[i].id %>"
-                                       class="btn btn-danger">Eliminar</a>
-                                    <% } else { %>
-                                       Puedes agregar un mensaje o lógica adicional si la noticia no existe -->
-                                       <p>Noticia no disponible en esta posición</p>
-                                       <% } %>
+                           <h6 style="margin: 0 1rem;">Título: <%= noticias.prioridad.terciaria[i].title %>
+                           </h6>
+                           <h6 style="margin: 0 1rem;">Categoria: <%= noticias.prioridad.terciaria[i].categoria %>
+                           </h6>
+                           <a href="/delete/<%= noticias.prioridad.terciaria[i].id %>"
+                              class="btn btn-danger">Eliminar</a>
+                           <% } else { %>
+                              Puedes agregar un mensaje o lógica adicional si la noticia no existe -->
+                              <p>Noticia no disponible en esta posición</p>
+                              <% } %>
                      </li>
                      <% } %>
                         <% } else { %>
@@ -195,13 +201,25 @@
       }
 
       function destacar() {
-        var textarea = document.getElementById('editor');
-        var selectedText = textarea.value.substring(textarea.selectionStart, textarea.selectionEnd);
-        var newText = textarea.value.substring(0, textarea.selectionStart) +
+         var textarea = document.getElementById('editor');
+         var selectedText = textarea.value.substring(textarea.selectionStart, textarea.selectionEnd);
+         var newText = textarea.value.substring(0, textarea.selectionStart) +
             '<strong>' + selectedText + '</strong>' +
             textarea.value.substring(textarea.selectionEnd);
-        textarea.value = newText;
-    }
+         textarea.value = newText;
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+         var categoriaSelect = document.querySelector('select[name="categoria"]');
+         var paramField = document.getElementById('param-field');
+
+         categoriaSelect.addEventListener('change', function () {
+            var selectedOption = categoriaSelect.options[categoriaSelect.selectedIndex];
+            var paramValue = selectedOption.dataset.param;
+            paramField.value = paramValue;
+         });
+      });
+
    </script>
 </body>
 

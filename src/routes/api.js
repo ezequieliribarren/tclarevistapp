@@ -4,6 +4,8 @@ const fsPromises = require('fs').promises;
 const campeonatos = require('./campeonatos.js');
 const { obtenerYMostrarDatos } = require('./horariosActc.js');
 const copaDeOro = require('./copaDeOro.js');
+const campeonatoTc2000 = require('./campeonatoTc2000.js');
+const campeonatoRallyArgentino = require ('./campeonatoRallyArgentino.js')
 
 
 // API TODAS LAS NOTICIAS
@@ -34,6 +36,29 @@ router.get('/noticias', async (req, res) => {
         res.status(500).send('Error interno del servidor');
     }
 });
+
+// API CAMPEONATO TC2000
+router.get('/campeonato/tc2000', async (req, res) => {
+  try {
+    const datos = await campeonatoTc2000();
+    res.json(datos);
+  } catch (error) {
+    console.error('Error al obtener datos del campeonato TC2000:', error);
+    res.status(500).send('Error interno del servidor');
+  }
+});
+
+// API CAMPEONATO RALLY ARGENTINO
+router.get('/campeonato/rally-argentino', async (req, res) => {
+  try {
+    const datos = await campeonatoRallyArgentino();
+    res.json(datos);
+  } catch (error) {
+    console.error('Error al obtener datos del campeonato TC2000:', error);
+    res.status(500).send('Error interno del servidor');
+  }
+});
+
 
   // API COPA DE ORO
 router.get('/copa-de-oro/:categoria', async (req, res) => {
