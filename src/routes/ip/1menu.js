@@ -90,7 +90,7 @@ async function scrapeData1menu() {
                             }
                         }
                                     
-                        datas.push({ tanda: siblingElement.textContent.trim(), estado }); // Agregar el texto y el estado
+                        datas.push({ tanda: siblingElement.textContent.trim(), estado, ip: "ip1" }); // Agregar el texto y el estado
                         siblingElement = siblingElement.nextElementSibling;
                     }
                     return datas;
@@ -126,6 +126,7 @@ scrapeData1menu().then(resultados => {
                 console.log('Item:', item.tanda);
                 console.log('Estado:', item.estado);
                 console.log('Categoria:', item.categoria); // Mostrar la categoría
+                console.log('ip:', "ip1"); // Mostrar la categoría
             });
         });
     }

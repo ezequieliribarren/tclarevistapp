@@ -34,58 +34,60 @@ async function shake() {
     }
   }
 
-async function obtenerResultados(url) {
-  try {
-    if (url === "") {
-      // Si la URL es "", devolver un valor predeterminado (por ejemplo, un arreglo vacío)
-      return [];
-    }
-
-    const $ = await request({
-      uri: url,
-      transform: body => cheerio.load(body)
-    });
-
-    const tablaPosiciones = [];
-
-    // Buscamos todas las filas de la tabla con la clase "texto_datos"
-    $('.texto_datos').each((i, row) => {
-      const columns = $(row).find('td');
-
-      // Verificamos si hay suficientes columnas para extraer la información
-      if (columns.length >= 9) {
-        const posicion = $(columns[0]).text().trim(); // Posición
-        const numero = $(columns[1]).text().trim(); // Número
-        const piloto = $(columns[2]).text().trim(); // Piloto
-        const vehiculo = $(columns[3]).text().trim(); // Vehículo
-        const categoria = $(columns[4]).text().trim(); // Categoría
-        const tramo1 = $(columns[6]).text().trim(); // Tiempo Tramo 1
-        const tramo2 = $(columns[7]).text().trim(); // Tiempo Tramo 2
-        const tramo3 = $(columns[8]).text().trim(); // Tiempo Tramo 3
-        const dif2 = $(columns[8]).text().trim(); // Diferencia
-
-        // Agregamos los datos extraídos a la tabla de posiciones
-        tablaPosiciones.push({ 
-          posicion, 
-          numero, 
-          piloto, 
-          vehiculo, 
-          categoria, 
-          tramo1, 
-          tramo2, 
-          tramo3, 
-          dif2 
-        });
+  async function obtenerResultados(url) {
+    try {
+      if (url === "") {
+        // Si la URL es "", devolver un valor predeterminado (por ejemplo, un arreglo vacío)
+        return [];
       }
-    });
-
-    return tablaPosiciones;
-  } catch (error) {
-    console.error('Error fetching data:', error);
-    throw error;
+  
+      const $ = await request({
+        uri: url,
+        transform: body => cheerio.load(body)
+      });
+  
+      const tablaPosiciones = [];
+  
+      // Buscamos todas las filas de la tabla con la clase "texto_datos"
+      $('.texto_datos').each((i, row) => {
+        const columns = $(row).find('td');
+  
+        // Verificamos si hay suficientes columnas para extraer la información
+        if (columns.length >= 9) {
+          const posicion = $(columns[0]).text().trim(); // Posición
+          const numero = $(columns[1]).text().trim(); // Número
+          let piloto = $(columns[2]).text().trim(); // Piloto
+          const vehiculo = $(columns[3]).text().trim(); // Vehículo
+          const categoria = $(columns[4]).text().trim(); // Categoría
+          const tramo1 = $(columns[6]).text().trim(); // Tiempo Tramo 1
+          const tramo2 = $(columns[7]).text().trim(); // Tiempo Tramo 2
+          const tramo3 = $(columns[8]).text().trim(); // Tiempo Tramo 3
+          const dif2 = $(columns[8]).text().trim(); // Diferencia
+  
+          // Limpiar los signos de puntuación del nombre del piloto
+          piloto = piloto.replace(/[^\w\s]/gi, '');
+  
+          // Agregamos los datos extraídos a la tabla de posiciones
+          tablaPosiciones.push({ 
+            posicion, 
+            numero, 
+            piloto, 
+            vehiculo, 
+            categoria, 
+            tramo1, 
+            tramo2, 
+            tramo3, 
+            dif2 
+          });
+        }
+      });
+  
+      return tablaPosiciones;
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      throw error;
+    }
   }
-}
-
 
 module.exports = {
   shake

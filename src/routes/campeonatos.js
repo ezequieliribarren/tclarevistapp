@@ -67,6 +67,8 @@ async function obtenerResultados(url) {
     });
 
     const tablaPosiciones = [];
+    const disputadas = 'Disputadas: ' + $('.race-completion .num').text().trim();
+
     $('table, .table, .table-group-divider').find('tr').each((i, row) => {
       const columns = $(row).find('td');
       const posicion = $(columns[0]).text().trim();
@@ -82,7 +84,11 @@ async function obtenerResultados(url) {
     });
 
     const tablaPosicionesSlice = tablaPosiciones.slice(1);
-    
+
+    // Agregar información de disputadas al primer elemento del arreglo
+    if (tablaPosicionesSlice.length > 0) {
+      tablaPosicionesSlice[0].disputadas = disputadas;
+    }
 
     return tablaPosicionesSlice;
   } catch (error) {
@@ -90,5 +96,6 @@ async function obtenerResultados(url) {
     throw error;
   }
 }
+
 
 module.exports = campeonatos;

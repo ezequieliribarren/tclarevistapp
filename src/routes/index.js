@@ -420,16 +420,21 @@ router.post('/publicidad', upload.single('image'), (req, res) => {
 
     res.redirect('/publicidad');
 });
-const campeonatoTc2000 = require('./campeonatoTc2000');
 
-// Llama a la función campeonatoTc2000 y maneja su resultado
-campeonatoTc2000()
-  .then(resultado => {
-    console.log("Resultado del campeonato TC2000:", resultado);
-  })
-  .catch(error => {
-    console.error("Error al obtener el campeonato TC2000:", error);
-  });
+
+// const obtenerClasificacionF1 = require('./f1/live');
+
+// async function mostrarClasificacion() {
+//     try {
+//         const clasificacion = await obtenerClasificacionF1();
+//         console.log('Clasificación de Fórmula 1:');
+//         console.table(clasificacion); // Imprime la clasificación como una tabla en la consola
+//     } catch (error) {
+//         console.error('Error al obtener la clasificación:', error);
+//     }
+// }
+
+// mostrarClasificacion();
 
 
 module.exports = router;

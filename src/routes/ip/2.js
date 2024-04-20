@@ -18,43 +18,27 @@ async function scrapeData2() {
             // Ir a la URL obtenida desde Google Sheets
             await page.goto(url);
 
-            // Esperar a que la página cargue completamente
-            await page.waitForNavigation({ waitUntil: 'networkidle0' });
-
             // Esperar a que el segundo botón del menú esté disponible
             await page.waitForSelector('.menuTabFijo li:nth-child(2) a', { timeout: 35000 });
 
-            // Obtener el segundo botón del menú y hacer clic en él
-            await page.click('.menuTabFijo li:nth-child(2) a');
+            // Obtener los elementos .datas dentro de #titleAct para obtener las próximas tandas
+            const proximasTandas = await page.$$eval('#titleAct .datas', datas => datas.map(data => data.textContent.trim()));
 
-            // Esperar a que al menos un elemento 'li' con clase 'datas' esté disponible
-            await page.waitForSelector('li.datas', { timeout: 35000 });
+            // Obtener los días utilizando la función scrapeData2menu
+            const dias = await scrapeDias(page);
 
-            // Obtener el contenido dentro del div con id 'div_ppcev_content'
-            const divContent = await page.$('#div_ppcev_content');
-
-            // Obtener el texto del h3 dentro del div 'radiousTop3Ppcev' dentro de 'div_ppcev_content'
-            let categoria = await divContent.$eval('#radiousTop3Ppcev h3', h3 => h3.textContent.trim());
-
-            // Extraer el texto entre paréntesis
-            categoria = categoria.match(/\((.*?)\)/)[1];
-
-            // Obtener todos los elementos 'li' con clase 'datas'
-            const liDatas = await page.$$('li.datas');
+            // Obtener los títulos utilizando la función scrapeData2menu
+            const titles = await scrapeTitles(page);
 
             // Array para almacenar los resultados de cada 'li datas'
             const resultados = [];
 
             // Iterar sobre cada 'li datas'
-            for (const [index, li] of liDatas.entries()) {
+            for (const [index, li] of proximasTandas.entries()) {
                 // Obtener la tanda y procesarla
-                const tandaElement = await li.$('.datas');
-                let tanda = '';
-                if (tandaElement) {
-                    tanda = (await (await tandaElement.getProperty('textContent')).jsonValue()).split('\n')[0].trim().toUpperCase();
-                }
+                let tanda = li.trim().toUpperCase();
 
-                // Hacer clic en el elemento 'li'
+                // Hacer clic en el 'li datas' actual
                 await li.click();
 
                 // Esperar a que la tabla esté disponible
@@ -83,17 +67,22 @@ async function scrapeData2() {
                         };
                     });
                 });
-                
+
                 // Retornar los datos de la tabla del 'li datas' actual
                 resultados.push({
-                    Categoria: categoria,
                     Tanda: tanda,
                     Estado: estado,
                     DatosTabla: datosTabla
                 });
             }
 
-            return resultados;
+            // Retornar todos los resultados juntos junto con los días, las próximas tandas y los títulos
+            return {
+                Dias: dias,
+                ProximasTandas: proximasTandas,
+                Resultados: resultados,
+                Titles: titles
+            };
         } else {
             console.log('La URL obtenida desde Google Sheets es nula. No se puede continuar.');
             return null;
@@ -106,26 +95,55 @@ async function scrapeData2() {
     }
 }
 
+// Función para obtener los días utilizando la lógica de scrapeData2menu
+async function scrapeDias(page) {
+    const results = await scrapeData2menu(page);
+    return results.map(result => result.title);
+}
+
+// Función para obtener los títulos utilizando la lógica de scrapeData2menu
+async function scrapeTitles(page) {
+    const results = await scrapeData2menu(page);
+    return results.reduce((titles, result) => {
+        return [...titles, ...result.items.map(item => item.tanda)];
+    }, []);
+}
+
+// Función que realiza la lógica de scrapeData2menu para obtener los títulos y los días
+async function scrapeData2menu(page) {
+    // Copia del código de scrapeData2menu
+    // ...
+
+    // Aquí retornas los resultados obtenidos de la misma manera que en scrapeData2menu
+}
+
 // Se ejecuta al iniciar el script
 scrapeData2().then(resultados => {
     if (resultados) {
+        const data = [];
         resultados.forEach(resultado => {
-            console.log('Categoria:', resultado.Categoria);
-            console.log('Tanda:', resultado.Tanda);
-            console.log('Estado:', resultado.Estado);
-            
-            // Iterar sobre los datos de la tabla
-            resultado.DatosTabla.forEach(fila => {
-                console.log('Pos:', fila.Pos);
-                console.log('Numero:', fila.Numero);
-                console.log('Piloto:', fila.Piloto);
-                console.log('Marca:', fila.Marca);
-                console.log('Vueltas:', fila.Vueltas);
-                console.log('Tiempo:', fila.Tiempo);
-                console.log('Diferencia:', fila.Diferencia);
-                console.log('---');
+            resultado.Resultados.forEach(tanda => {
+                const tandaInfo = {
+                    tanda: tanda.Tanda,
+                    estado: tanda.Estado,
+                    titles: resultado.Titles // Agregar los títulos al objeto tandaInfo
+                };
+                // Agrupar por día
+                const diaIndex = tanda.Tanda.indexOf(' ');
+                const dia = tanda.Tanda.substring(0, diaIndex);
+                const categoriaIndex = tanda.Tanda.lastIndexOf(' ');
+                const categoria = tanda.Tanda.substring(diaIndex, categoriaIndex).trim();
+                let diaExistente = data.find(item => item.title === dia);
+                if (!diaExistente) {
+                    diaExistente = { title: dia, items: [], categoria: categoria, titles: resultado.Titles }; // Agregar los títulos al objeto diaExistente
+                    data.push(diaExistente);
+                }
+                diaExistente.items.push(tandaInfo);
             });
         });
+
+        // Imprimir los datos reestructurados
+        console.log(JSON.stringify(data, null, 2));
     }
 }).catch(error => {
     console.error('Ocurrió un error:', error);

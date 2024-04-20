@@ -1,0 +1,202 @@
+[
+  {
+    "posicion": "1°",
+    "piloto": "Max Verstappen",
+    "dorsal": "1",
+    "pais": "Holanda",
+    "equipo": "Red Bull",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "-",
+    "tiempo": ""
+  },
+  {
+    "posicion": "2°",
+    "piloto": "Sergio Pérez",
+    "dorsal": "11",
+    "pais": "México",
+    "equipo": "Red Bull",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "+12\"535",
+    "tiempo": ""
+  },
+  {
+    "posicion": "3°",
+    "piloto": "Carlos Sainz",
+    "dorsal": "55",
+    "pais": "España",
+    "equipo": "Ferrari",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "+20\"866",
+    "tiempo": ""
+  },
+  {
+    "posicion": "4°",
+    "piloto": "Charles Leclerc",
+    "dorsal": "16",
+    "pais": "Mónaco",
+    "equipo": "Ferrari",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "+26\"522",
+    "tiempo": ""
+  },
+  {
+    "posicion": "5°",
+    "piloto": "Lando Norris",
+    "dorsal": "4",
+    "pais": "Gran Bretaña",
+    "equipo": "McLaren",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "+29\"700",
+    "tiempo": ""
+  },
+  {
+    "posicion": "6°",
+    "piloto": "Fernando Alonso",
+    "dorsal": "14",
+    "pais": "España",
+    "equipo": "Aston Martin",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "+44\"272",
+    "tiempo": ""
+  },
+  {
+    "posicion": "7°",
+    "piloto": "George Russell",
+    "dorsal": "63",
+    "pais": "Gran Bretaña",
+    "equipo": "Mercedes",
+    "neumatico": "assets/img/neumatico-M.png",
+    "vueltas": "+45\"951",
+    "tiempo": ""
+  },
+  {
+    "posicion": "8°",
+    "piloto": "Oscar Piastri",
+    "dorsal": "81",
+    "pais": "Australia",
+    "equipo": "McLaren",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "+47\"525",
+    "tiempo": ""
+  },
+  {
+    "posicion": "9°",
+    "piloto": "Lewis Hamilton",
+    "dorsal": "44",
+    "pais": "Gran Bretaña",
+    "equipo": "Mercedes",
+    "neumatico": "assets/img/neumatico-M.png",
+    "vueltas": "+48\"626",
+    "tiempo": ""
+  },
+  {
+    "posicion": "10°",
+    "piloto": "Yuki Tsunoda",
+    "dorsal": "22",
+    "pais": "Japón",
+    "equipo": "Racing Bulls",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "+1 vuelta",
+    "tiempo": ""
+  },
+  {
+    "posicion": "11°",
+    "piloto": "Nico Hülkenberg",
+    "dorsal": "27",
+    "pais": "Alemania",
+    "equipo": "Haas",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "+1 vuelta",
+    "tiempo": ""
+  },
+  {
+    "posicion": "12°",
+    "piloto": "Lance Stroll",
+    "dorsal": "18",
+    "pais": "Canadá",
+    "equipo": "Aston Martin",
+    "neumatico": "assets/img/neumatico-B.png",
+    "vueltas": "+1 vuelta",
+    "tiempo": ""
+  },
+  {
+    "posicion": "13°",
+    "piloto": "Kevin Magnussen",
+    "dorsal": "20",
+    "pais": "Dinamarca",
+    "equipo": "Haas",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "+1 vuelta",
+    "tiempo": ""
+  },
+  {
+    "posicion": "14°",
+    "piloto": "Valtteri Bottas",
+    "dorsal": "77",
+    "pais": "Finlandia",
+    "equipo": "Sauber",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "+1 vuelta",
+    "tiempo": ""
+  },
+  {
+    "posicion": "15°",
+    "piloto": "Esteban Ocon",
+    "dorsal": "31",
+    "pais": "Francia",
+    "equipo": "Alpine",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "+1 vuelta",
+    "tiempo": ""
+  },
+  {
+    "posicion": "16°",
+    "piloto": "Pierre Gasly",
+    "dorsal": "10",
+    "pais": "Francia",
+    "equipo": "Alpine",
+    "neumatico": "assets/img/neumatico-M.png",
+    "vueltas": "+1 vuelta",
+    "tiempo": ""
+  },
+  {
+    "posicion": "17°",
+    "piloto": "Logan Sargeant",
+    "dorsal": "2",
+    "pais": "Estados Unidos",
+    "equipo": "Williams",
+    "neumatico": "assets/img/neumatico-B.png",
+    "vueltas": "+1 vuelta",
+    "tiempo": ""
+  },
+  {
+    "posicion": "18°",
+    "piloto": "Guanyu Zhou",
+    "dorsal": "24",
+    "pais": "China",
+    "equipo": "Sauber",
+    "neumatico": "assets/img/neumatico-D.png",
+    "vueltas": "FUERA DE CARRERA",
+    "tiempo": ""
+  },
+  {
+    "posicion": "19°",
+    "piloto": "Alex Albon",
+    "dorsal": "23",
+    "pais": "Tailandia",
+    "equipo": "Williams",
+    "neumatico": "assets/img/neumatico-B.png",
+    "vueltas": "FUERA DE CARRERA",
+    "tiempo": ""
+  },
+  {
+    "posicion": "20°",
+    "piloto": "Daniel Ricciardo",
+    "dorsal": "3",
+    "pais": "Australia",
+    "equipo": "Racing Bulls",
+    "neumatico": "assets/img/neumatico-M.png",
+    "vueltas": "FUERA DE CARRERA",
+    "tiempo": ""
+  }
+]
