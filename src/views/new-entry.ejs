@@ -6,7 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-   <title>Nueva Noticia</title>
+   <title>Panel de Control</title>
    <style>
       .vincular,
       .video {
@@ -69,30 +69,31 @@
                </select>
             </div>
             <input type="hidden" name="param" id="param-field" value="">
-            <div class="form-group">
+            <div class="form-group" style="margin-top: 0.5rem;">
                <label for="title">Titulo</label>
                <input class="form-control" type="text" name="title" placeholder="Ingresa el titulo" autofocus required>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin-top: 0.5rem;">
                <label for="file">Imagen</label>
                <input class="form-control" type="file" name="image" placeholder="Enlace" autofocus>
             </div>
-            <div class="form-group">
-               <label for="file">Imagen en el cuerpo de la noticia</label>
-               <input class='form-control' type="file" id="imageCuerpo" name="secondImage">
+            <div class="form-group" style="margin-top: 0.5rem;">
+               <label for="file">Imágenes en el cuerpo de la noticia</label>
+               <input class='form-control' type="file" id="imageCuerpo" name="imageCuerpo" multiple>
             </div>
-            <div class="form-group">
-               <label for="title">Video</label>
-               <input class="form-control" type="text" name="video" placeholder="Url del video" autofocus>
-            </div>
-            <div class="form-group">
-               <label for="image">Id</label>
+            <div class="form-group" style="margin-top: 0.5rem;">
+               <label for="image">Video</label>
                <input class="form-control" type="text" name="idVideo" placeholder="Id del video" autofocus>
             </div>
-            <div class="form-group">
-               <label for="cuerpo">Cuerpo de la noticia</label>
-               <button type="button" onclick="destacar()">Destacar</button>
+            <div class="form-group" style="margin-top: 1rem;">
                <button type="button" onclick="agregarCitaTextual()">Cita Textual</button>
+               <button type="button" onclick="destacar()">Destacar</button>
+               <button type="button" onclick="vinculo()">Vinculo</button>
+               <button type="button" onclick="agregarImagen()">Foto</button>
+               <button type="button" onclick="agregarVideo()">Video</button>
+               <button type="button" onclick="tanda()">Tanda</button>
+               <button type="button" onclick="linkFecha()">Link Fecha</button>
+               <button type="button" onclick="audio()">Audio</button>
                <textarea id="editor" cols="30" rows="10" class="form-control" type="text" name="cuerpo"
                   placeholder="Ingresa el texto" autofocus></textarea>
             </div>
@@ -184,6 +185,7 @@
                            <li>No hay noticias terciarias disponibles</li>
                            <% } %>
             </ul>
+
          </div>
       </div>
 
@@ -219,6 +221,59 @@
             paramField.value = paramValue;
          });
       });
+
+
+      function agregarImagen() {
+         var editor = document.getElementById('editor');
+         var posicionCursor = editor.selectionStart;
+         var textoAnterior = editor.value.substring(0, posicionCursor);
+         var textoPosterior = editor.value.substring(posicionCursor, editor.value.length);
+         var imagenHTML = '<img src="http://localhost:5000/" alt="Imagen">';
+         var nuevoContenido = textoAnterior + imagenHTML + textoPosterior;
+         editor.value = nuevoContenido;
+      }
+
+      function vinculo() {
+         var editor = document.getElementById('editor');
+         var posicionCursor = editor.selectionStart;
+         var textoAnterior = editor.value.substring(0, posicionCursor);
+         var textoPosterior = editor.value.substring(posicionCursor, editor.value.length);
+         var imagenHTML = '<a href=""></a>';
+         var nuevoContenido = textoAnterior + imagenHTML + textoPosterior;
+         editor.value = nuevoContenido;
+      }
+
+      function agregarVideo() {
+         var editor = document.getElementById('editor');
+         var posicionCursor = editor.selectionStart;
+         var textoAnterior = editor.value.substring(0, posicionCursor);
+         var textoPosterior = editor.value.substring(posicionCursor, editor.value.length);
+         var imagenHTML = `<iframe src='https://www.youtube.com/embed/' width='640' height='360' scrolling='no' frameborder='0'></iframe>`;
+         var nuevoContenido = textoAnterior + imagenHTML + textoPosterior;
+         editor.value = nuevoContenido;
+      }
+
+      function linkFecha() {
+         var editor = document.getElementById('editor');
+         var posicionCursor = editor.selectionStart;
+         var textoAnterior = editor.value.substring(0, posicionCursor);
+         var textoPosterior = editor.value.substring(posicionCursor, editor.value.length);
+         var linkHTML = "<h4>Podés acceder al Centro de Carrera haciendo</h4> <a href='tu_url_aqui' className='link-noticias'>CLICK AQUÍ</a>";
+         var nuevoContenido = textoAnterior + linkHTML + textoPosterior;
+         editor.value = nuevoContenido;
+      }
+
+
+      function audio() {
+         var editor = document.getElementById('editor');
+         var posicionCursor = editor.selectionStart;
+         var textoAnterior = editor.value.substring(0, posicionCursor);
+         var textoPosterior = editor.value.substring(posicionCursor, editor.value.length);
+         var audioHTML = '<audio src="tu_archivo.mp3" controls="controls" preload="none"></audio>';
+         var nuevoContenido = textoAnterior + audioHTML + textoPosterior;
+         editor.value = nuevoContenido;
+      }
+
 
    </script>
 </body>

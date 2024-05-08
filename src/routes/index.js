@@ -133,15 +133,22 @@ const storage = multer.diskStorage({
         cb(null, 'src/public/images');
     },
     filename: (req, file, cb) => {
-        const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
-        cb(null, file.fieldname + '-' + uniqueSuffix + path.extname(file.originalname));
+        const imagePath = 'src/public/images/' + file.originalname;
+        fs.access(imagePath, fs.constants.F_OK, (err) => {
+            if (err) {
+                // El archivo no existe, puedes usar este nombre de archivo
+                cb(null, file.originalname);
+            } else {
+                // El archivo ya existe, devuelve un mensaje de error
+                cb(new Error('El nombre de la imagen ya existe en la carpeta pública'));
+            }
+        });
     }
 });
 
 const upload = multer({ storage: storage });
-
-router.post('/new-entry', upload.fields([{ name: 'image', maxCount: 1 }, { name: 'secondImage', maxCount: 1 }]), (req, res) => {
-    const { title, cuerpo, categoria, video, idVideo, param, imageCuerpo } = req.body;
+router.post('/new-entry', upload.fields([{ name: 'image', maxCount: 1 }, { name: 'secondImage', maxCount: 1 }, { name: 'imageCuerpo', maxCount: 10 }]), (req, res) => {
+    const { title, cuerpo, categoria, video, idVideo, param } = req.body;
 
     if (!title || !categoria) {
         res.status(400).send('Faltan campos');
@@ -155,6 +162,7 @@ router.post('/new-entry', upload.fields([{ name: 'image', maxCount: 1 }, { name:
 
     let image = "";
     let secondImage = "";
+    let imageCuerpo = [];
 
     if (req.files['image']) {
         image = `images/${req.files['image'][0].filename}`;
@@ -164,7 +172,9 @@ router.post('/new-entry', upload.fields([{ name: 'image', maxCount: 1 }, { name:
         secondImage = `images/${req.files['secondImage'][0].filename}`;
     }
 
-    
+    if (req.files['imageCuerpo']) {
+        imageCuerpo = req.files['imageCuerpo'].map(file => `images/${file.filename}`);
+    }
 
     const nuevaNoticia = {
         id: uuidv4(),
@@ -174,8 +184,9 @@ router.post('/new-entry', upload.fields([{ name: 'image', maxCount: 1 }, { name:
         date: formattedDate,
         param,
         image,
-        secondImage, // Agrega el segundo parámetro para la segunda imagen
-        video,
+        secondImage,
+        video: "https://www.youtube.com/watch?v="+idVideo,
+        miniatura: "https://i1.ytimg.com/vi/" + idVideo + "/mqdefault.jpg",
         idVideo,
         cuerpo,
         imageCuerpo
@@ -422,19 +433,16 @@ router.post('/publicidad', upload.single('image'), (req, res) => {
 });
 
 
-// const obtenerClasificacionF1 = require('./f1/live');
+// const { menu } = require('./tcp/menu');
 
-// async function mostrarClasificacion() {
-//     try {
-//         const clasificacion = await obtenerClasificacionF1();
-//         console.log('Clasificación de Fórmula 1:');
-//         console.table(clasificacion); // Imprime la clasificación como una tabla en la consola
-//     } catch (error) {
-//         console.error('Error al obtener la clasificación:', error);
-//     }
-// }
-
-// mostrarClasificacion();
+// menu()
+//   .then(resultados => {
+//     console.log('Resultados obtenidos:');
+//     console.log(JSON.stringify(resultados));
+//   })
+//   .catch(error => {
+//     console.error('Ocurrió un error:', error);
+//   });
 
 
 module.exports = router;

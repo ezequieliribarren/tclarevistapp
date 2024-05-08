@@ -1,17 +1,1 @@
-[
-    {
-        "id": "f8ab7f2e-4290-443a-a88d-9c997418f804",
-        "categoria": [
-            "Arg Mundo"
-        ],
-        "title": "UN ARGENTINO EN EL MUNDO",
-        "priority": "general",
-        "date": "2024-03-26T14:51:44-03:00",
-        "param": "arg-mundo",
-        "image": "images/image-1711475504046-542675912.jpg",
-        "secondImage": "",
-        "video": "",
-        "idVideo": "",
-        "cuerpo": "ARGENTINO"
-    }
-]
+[{"id":"f8ab7f2e-4290-443a-a88d-9c997418f804","categoria":["Arg Mundo"],"title":"UN ARGENTINO EN EL MUNDO","priority":"general","date":"2024-03-26T14:51:44-03:00","param":"arg-mundo","image":"images/image-1711475504046-542675912.jpg","secondImage":"","video":"","idVideo":"","cuerpo":"ARGENTINO"}]

@@ -13,6 +13,7 @@ const {serie2} = require ('./tcp/serie2.js')
 const {final} = require ('./tcp/final.js')
 const { obtenerYMostrarDatos } = require('./tcp/horarios.js');
 const { pilotos } = require('./tcp/pilotos.js');
+const { menu } = require('./tcp/menu.js');
 
 
 // 1° ENTRENAMIENTO
@@ -205,6 +206,22 @@ router.get('/pilotos/:indice', async (req, res) => {
     } catch (error) {
         console.error(`Error al obtener los resultados del array ${indice}:`, error);
         res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+  });
+
+
+  router.get('/menu/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+      const datos = await menu();
+      if (indice < datos.length) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
     }
   });
   module.exports = router;
