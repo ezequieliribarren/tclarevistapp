@@ -119,14 +119,14 @@ app.get('/ip1/', async (req, res) => {
 
         // Combinar los resultados
         const combinedResults = {
-            ip1: resultados1.map(resultado => ({
+            ip1: resultados1 && resultados1.map(resultado => ({
                 Tanda: resultado.Tanda,
                 Estado: resultado.Estado,
                 DatosTabla: resultado.DatosTabla
             })),
             ip1menu: resultados1menu
         };
-
+        
         res.json(combinedResults);
     } catch (error) {
         console.error('Error al obtener los resultados:', error);
