@@ -128,6 +128,28 @@ router.get('/', (req, res) => {
     });
 });
 
+// AUDIO
+const audioStorage = multer.diskStorage({
+    destination: (req, file, cb) => {
+        cb(null, 'src/public/audio');
+    },
+    filename: (req, file, cb) => {
+        const audioPath = 'src/public/audio/' + file.originalname;
+        fs.access(audioPath, fs.constants.F_OK, (err) => {
+            if (err) {
+                // El archivo no existe, puedes usar este nombre de archivo
+                cb(null, file.originalname);
+            } else {
+                // El archivo ya existe, devuelve un mensaje de error
+                cb(new Error('El nombre del audio ya existe en la carpeta pública'));
+            }
+        });
+    }
+});
+
+
+
+// IMAGENES
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, 'src/public/images');
@@ -147,8 +169,18 @@ const storage = multer.diskStorage({
 });
 
 const upload = multer({ storage: storage });
-router.post('/new-entry', upload.fields([{ name: 'image', maxCount: 1 }, { name: 'secondImage', maxCount: 1 }, { name: 'imageCuerpo', maxCount: 10 }]), (req, res) => {
+const uploadAudio = multer({ storage: audioStorage });
+
+router.post('/new-entry', upload.fields([
+    { name: 'image', maxCount: 1 },
+    { name: 'secondImage', maxCount: 1 },
+    { name: 'imageCuerpo', maxCount: 10 },
+    { name: 'audio', maxCount: 1 }
+]), (req, res) => {
     const { title, cuerpo, categoria, video, idVideo, param } = req.body;
+    
+    // Obtener la ubicación del archivo de audio
+    const audioFile = req.files['audio'] ? `audio/${req.files['audio'][0].filename}` : '';
 
     if (!title || !categoria) {
         res.status(400).send('Faltan campos');
@@ -185,13 +217,14 @@ router.post('/new-entry', upload.fields([{ name: 'image', maxCount: 1 }, { name:
         param,
         image,
         secondImage,
-        video: "https://www.youtube.com/watch?v="+idVideo,
-        miniatura: "https://i1.ytimg.com/vi/" + idVideo + "/mqdefault.jpg",
+        video: idVideo ? `https://www.youtube.com/watch?v=${idVideo}` : "", 
+        miniatura: idVideo ? `https://i1.ytimg.com/vi/${idVideo}/mqdefault.jpg` : "", 
         idVideo,
         cuerpo,
-        imageCuerpo
+        imageCuerpo,
+        audio: audioFile 
     };
-
+    
     // Verifica la prioridad seleccionada
     if (nuevaNoticia.priority && ["primaria", "secundaria", "terciaria"].includes(nuevaNoticia.priority.toLowerCase())) {
         // Si tiene prioridad, agrega la noticia al array correspondiente
@@ -354,6 +387,7 @@ router.post('/vincular', upload.single('image'), (req, res) => {
     const now = moment();
     const formattedDate = now.tz('America/Argentina/Buenos_Aires').format();
     const { link, title } = req.body; // Actualizado para obtener los campos del formulario desde req.body
+    const vivo = req.body.vivo ? true : false; // Verifica si la casilla de verificación "Vivo" está marcada
 
     // Verifica si los campos del formulario están presentes
     if (!req.file || !link || !title) {
@@ -366,7 +400,8 @@ router.post('/vincular', upload.single('image'), (req, res) => {
         title,
         date: formattedDate,
         image: `images/${req.file.filename}`, // Ahora accedes al nombre del archivo desde req.file
-        link
+        link,
+        vivo // Agrega la propiedad "vivo" al objeto de la noticia vinculada
     };
 
     // Ruta al archivo JSON de vincular
@@ -394,7 +429,7 @@ router.post('/vincular', upload.single('image'), (req, res) => {
 
 // // PUBLICIDAD
 router.get('/publicidad', (req, res) => {
-    res.render('publicidad'); 
+    res.render('publicidad');
 });
 
 // PUBLICIDAD
@@ -433,7 +468,7 @@ router.post('/publicidad', upload.single('image'), (req, res) => {
 });
 
 
-// const { menu } = require('./tcp/menu');
+// const { menu } = require('./top-race-series/menu');
 
 // menu()
 //   .then(resultados => {

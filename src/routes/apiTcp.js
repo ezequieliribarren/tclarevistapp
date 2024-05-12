@@ -13,7 +13,7 @@ const {serie2} = require ('./tcp/serie2.js')
 const {final} = require ('./tcp/final.js')
 const { obtenerYMostrarDatos } = require('./tcp/horarios.js');
 const { pilotos } = require('./tcp/pilotos.js');
-const { menu } = require('./tcp/menu.js');
+const { sheets, menu } = require('./tcp/menu.js');
 
 
 // 1° ENTRENAMIENTO

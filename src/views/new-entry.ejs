@@ -74,6 +74,10 @@
                <input class="form-control" type="text" name="title" placeholder="Ingresa el titulo" autofocus required>
             </div>
             <div class="form-group" style="margin-top: 0.5rem;">
+               <label for="videoCheckbox">Video</label>
+               <input type="checkbox" id="videoCheckbox" onchange="toggleVideoFields()">
+            </div>
+            <div class="form-group" style="margin-top: 0.5rem;" id="imageInputContainer">
                <label for="file">Imagen</label>
                <input class="form-control" type="file" name="image" placeholder="Enlace" autofocus>
             </div>
@@ -81,9 +85,14 @@
                <label for="file">Imágenes en el cuerpo de la noticia</label>
                <input class='form-control' type="file" id="imageCuerpo" name="imageCuerpo" multiple>
             </div>
+            <div class="form-group">
+               <label for="idVideo" id="idVideoLabel" style="display: none;">ID del Video</label>
+               <input class="form-control" type="text" name="idVideo" id="idVideo" placeholder="ID del video"
+                  style="display: none;">
+            </div>
             <div class="form-group" style="margin-top: 0.5rem;">
-               <label for="image">Video</label>
-               <input class="form-control" type="text" name="idVideo" placeholder="Id del video" autofocus>
+               <label for="file">Audio</label>
+               <input class='form-control' type="file" id="audio" name="audio" accept="audio/*" multiple>
             </div>
             <div class="form-group" style="margin-top: 1rem;">
                <button type="button" onclick="agregarCitaTextual()">Cita Textual</button>
@@ -93,7 +102,6 @@
                <button type="button" onclick="agregarVideo()">Video</button>
                <button type="button" onclick="tanda()">Tanda</button>
                <button type="button" onclick="linkFecha()">Link Fecha</button>
-               <button type="button" onclick="audio()">Audio</button>
                <textarea id="editor" cols="30" rows="10" class="form-control" type="text" name="cuerpo"
                   placeholder="Ingresa el texto" autofocus></textarea>
             </div>
@@ -263,19 +271,52 @@
          editor.value = nuevoContenido;
       }
 
+   </script>
 
-      function audio() {
-         var editor = document.getElementById('editor');
-         var posicionCursor = editor.selectionStart;
-         var textoAnterior = editor.value.substring(0, posicionCursor);
-         var textoPosterior = editor.value.substring(posicionCursor, editor.value.length);
-         var audioHTML = '<audio src="tu_archivo.mp3" controls="controls" preload="none"></audio>';
-         var nuevoContenido = textoAnterior + audioHTML + textoPosterior;
-         editor.value = nuevoContenido;
+   <script>
+      // Función para actualizar el valor del campo param cuando cambia la selección de categoría
+      function actualizarParam() {
+         var categoriaSelect = document.querySelector('select[name="categoria"]');
+         var paramField = document.getElementById('param-field');
+         var selectedOption = categoriaSelect.options[categoriaSelect.selectedIndex];
+         var paramValue = selectedOption.getAttribute('data-param');
+         paramField.value = paramValue;
       }
 
+      // Asignar el evento onchange al select de categoría para llamar a la función actualizarParam
+      document.querySelector('select[name="categoria"]').onchange = actualizarParam;
 
+      // Llamar a la función actualizarParam inicialmente para establecer el valor correcto al cargar la página
+      actualizarParam();
    </script>
+
+   <script>
+      function toggleVideoFields() {
+         var videoCheckbox = document.getElementById("videoCheckbox");
+         var idVideoLabel = document.getElementById("idVideoLabel");
+         var idVideoInput = document.getElementById("idVideo");
+         var imageInputContainer = document.getElementById("imageInputContainer");
+
+         if (videoCheckbox.checked) {
+            idVideoLabel.style.display = "block";
+            idVideoInput.style.display = "block";
+            imageInputContainer.style.display = "none";
+         } else {
+            idVideoLabel.style.display = "none";
+            imageInputContainer.style.display = "block";
+            idVideoInput.style.display = "none";
+         }
+      }
+   </script>
+<script>
+function tanda() {
+  var editor = document.getElementById("editor");
+  var iframeSrc = "URL_DEL_IFRAME"; // Reemplaza "URL_DEL_IFRAME" con la URL del iframe que deseas agregar
+  var iframe = "<iframe class='custom-iframe' src='" + iframeSrc + "' width='100%' scrolling='yes' frameborder='0' allowfullscreen='allowfullscreen' style='height: calc(100% - 70rem - 50rem); margin-top: 70rem; margin-bottom: 50rem;'></iframe>";
+  editor.value += "\n" + iframe;
+}
+
+</script>
 </body>
 
 </html>

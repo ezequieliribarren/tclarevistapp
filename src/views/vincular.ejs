@@ -32,18 +32,22 @@
         <h1 style="color: white;">Vincular</h1>
         
         <form method="POST" action="/vincular" enctype="multipart/form-data">
-            <div class="form-group">
+            <div class="form-group" style="margin-top: 0.5rem; color: white;">
                 <label for="title">Titulo</label>
                 <input class="form-control" type="text" name="title" placeholder="Ingresa el titulo" autofocus required>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin-top: 0.5rem; color: white;">
                 <label for="file">Imagen</label>
                 <input class="form-control" type="file" name="image" placeholder="Enlace" autofocus required>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin-top: 0.5rem; color: white;">
                 <label for="link">Link</label>
                 <input class="form-control" type="text" name="link" placeholder="Ingresa el link sin espacios" autofocus
                     required>
+            </div>
+            <div class="form-group" style="margin-top: 0.5rem; color: white;">
+              <label for="vivo">Vivo</label>
+              <input type="checkbox" id="vivo" name="vivo">
             </div>
             <input type="submit" value="Vincular" class="btn btn-secondary">
         </form>

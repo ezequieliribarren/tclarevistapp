@@ -9,7 +9,7 @@ async function scrapeData4() {
         // Obtener los datos desde Google Sheets
         const sheetId = "1579842406"; // ID de la hoja de cálculo que deseas obtener
         const datos = await obtenerDatosDesdeGoogleSheets([sheetId]); // Pasar el sheetId como un arreglo
-
+        
         // Obtener la URL de la columna 3, fila 1
         const url = datos[0].data[1].c.find((_, index) => index === 3)?.v || null;
 
@@ -18,75 +18,57 @@ async function scrapeData4() {
             // Ir a la URL obtenida desde Google Sheets
             await page.goto(url);
 
-            // Esperar a que la página cargue completamente
-            await page.waitForNavigation({ waitUntil: 'networkidle0' });
-
             // Esperar a que el tercer botón del menú esté disponible
-            await page.waitForSelector('.menuTabFijo li:nth-child(4) a', { timeout: 35000 });
+            await page.waitForSelector('.menuTabFijo li:nth-child(4) a', { timeout: 2000 });
 
             // Obtener el tercer botón del menú y hacer clic en él
             await page.click('.menuTabFijo li:nth-child(4) a');
 
             // Esperar a que al menos un elemento 'li' con clase 'datas' esté disponible
-            await page.waitForSelector('li.datas', { timeout: 35000 });
+            await page.waitForSelector('li.datas a');
 
-            // Obtener el contenido dentro del div con id 'div_ppcev_content'
-            const divContent = await page.$('#div_ppcev_content');
+            // Obtener todos los enlaces dentro de los elementos 'li' con clase 'datas'
+            const enlacesDatas = await page.$$('li.datas a');
 
-            // Obtener el texto del h3 dentro del div 'radiousTop3Ppcev' dentro de 'div_ppcev_content'
-            let categoria = await divContent.$eval('#radiousTop3Ppcev h3', h3 => h3.textContent.trim());
-
-            // Extraer el texto entre paréntesis
-            categoria = categoria.match(/\((.*?)\)/)[1];
-
-            // Obtener todos los elementos 'li' con clase 'datas'
-            const liDatas = await page.$$('li.datas');
-
-            // Array para almacenar los resultados de cada 'li datas'
+            // Array para almacenar los resultados de todas las tandas
             const resultados = [];
 
-            // Iterar sobre cada 'li datas'
-            for (const [index, li] of liDatas.entries()) {
-                // Obtener la tanda y procesarla
-                const tandaElement = await li.$('.datas');
-                let tanda = '';
-                if (tandaElement) {
-                    tanda = (await (await tandaElement.getProperty('textContent')).jsonValue()).split('\n')[0].trim().toUpperCase();
-                }
-
-                // Hacer clic en el elemento 'li'
-                await li.click();
+            // Iterar sobre cada enlace 'a' dentro de los 'li datas'
+            for (const enlace of enlacesDatas) {
+                // Hacer clic en el enlace 'a' dentro del 'li datas'
+                await enlace.click();
 
                 // Esperar a que la tabla esté disponible
                 await page.waitForSelector('table.table');
 
-                // Verificar si está en vivo o finalizado
-                const icono = await li.$('i img');
-                let estado = '';
-                if (icono) {
-                    const src = await icono.evaluate(img => img.getAttribute('src'));
-                    estado = src.includes('ppcev_state_4.png') ? 'finalizado' : 'vivo';
-                }
-
-                // Obtener los datos de la tabla del 'li datas' actual
+                // Obtener los datos de la tabla
                 const datosTabla = await page.$$eval('table.table tbody tr', rows => {
                     return rows.map(row => {
                         const columns = row.querySelectorAll('td');
+                        // Modificar la forma de obtener la columna 3
+                        const marcaColumn = columns[3];
+                        const marcaText = marcaColumn ? (marcaColumn.querySelector('img') ? marcaColumn.querySelector('img').getAttribute('src') : '') : '';
                         return {
                             Pos: columns[0] ? columns[0].textContent.trim() : '',
                             Numero: columns[1] ? columns[1].textContent.trim() : '',
                             Piloto: columns[2] ? columns[2].textContent.trim() : '',
-                            Marca: columns[3] ? columns[3].textContent.trim() : '',
+                            // Cambiar la asignación de Marca para usar el contenido del atributo src del elemento img
+                            Marca: marcaText,
                             Vueltas: columns[4] ? columns[4].textContent.trim() : '',
                             Tiempo: columns[5] ? columns[5].textContent.trim() : '',
                             Diferencia: columns[6] ? columns[6].textContent.trim() : ''
                         };
                     });
                 });
-                
-                // Retornar los datos de la tabla del 'li datas' actual
+
+                // Obtener la tanda del 'li datas' actual
+                let tanda = await enlace.evaluate(el => el.textContent.trim().toUpperCase());
+
+                // Verificar si está en vivo o finalizado
+                let estado = await enlace.$eval('i img', img => img.src.includes('ppcev_state_4.png') ? 'finalizado' : 'vivo');
+
+                // Agregar los datos de la tanda al array de resultados
                 resultados.push({
-                    Categoria: categoria,
                     Tanda: tanda,
                     Estado: estado,
                     DatosTabla: datosTabla
@@ -106,11 +88,11 @@ async function scrapeData4() {
     }
 }
 
+
 // Se ejecuta al iniciar el script
 scrapeData4().then(resultados => {
     if (resultados) {
         resultados.forEach(resultado => {
-            console.log('Categoria:', resultado.Categoria);
             console.log('Tanda:', resultado.Tanda);
             console.log('Estado:', resultado.Estado);
             

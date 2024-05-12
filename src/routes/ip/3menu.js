@@ -89,7 +89,7 @@ async function scrapeData3menu() {
                             }
                         }
                         
-                        datas.push({ tanda: siblingElement.textContent.trim(), estado }); // Agregar el texto y el estado
+                        datas.push({ tanda: siblingElement.textContent.trim(), estado, ip:"ip3" }); // Agregar el texto y el estado
                         siblingElement = siblingElement.nextElementSibling;
                     }
                     return datas;

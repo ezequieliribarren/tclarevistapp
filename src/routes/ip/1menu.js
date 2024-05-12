@@ -9,7 +9,7 @@ async function scrapeData1menu() {
         // Obtener los datos desde Google Sheets
         const sheetId = "1579842406"; // ID de la hoja de cálculo que deseas obtener
         const datos = await obtenerDatosDesdeGoogleSheets([sheetId]); // Pasar el sheetId como un arreglo
-        
+
         // Obtener la URL de la columna 3, fila 1
         const url = datos[0].data[1].c.find((_, index) => index === 3)?.v || null;
 
@@ -18,42 +18,48 @@ async function scrapeData1menu() {
             // Ir a la URL obtenida desde Google Sheets
             await page.goto(url);
 
-            // Esperar a que el primer botón del menú esté disponible o hasta que pasen 500 ms
+            // Esperar a que el elemento <p> con la clase "logout" esté disponible
+            const logoutContent = await page.evaluate(() => {
+                const logoutElement = document.querySelector('.logout');
+                return logoutElement ? logoutElement.textContent.trim() : null;
+            });
+
+            // Esperar a que el segundo botón del menú esté disponible o hasta que pasen 500 ms
             await Promise.race([
                 page.waitForSelector('.menuTabFijo li:nth-child(1) a', { timeout: 500 }),
                 page.waitForTimeout(500)
             ]);
 
-            // Verificar si existe el primer botón del menú
-            const firstMenuItem = await page.$('.menuTabFijo li:nth-child(1) a');
+            // Verificar si existe el segundo botón del menú
+            const secondMenuItem = await page.$('.menuTabFijo li:nth-child(1) a');
 
             // Si no existe, retornar un array vacío
-            if (!firstMenuItem) {
+            if (!secondMenuItem) {
                 return [];
             }
 
             // Obtener el texto del botón y asignarlo a la variable categoria
-            const categoria = await page.evaluate(element => element.textContent.trim(), firstMenuItem);
+            const categoria = await page.evaluate(element => element.textContent.trim(), secondMenuItem);
 
             // Esperar 1000 ms para verificar si es clickeable
             await page.waitForTimeout(1000);
 
             // Verificar si el botón es clickeable
-            const isClickable = await page.evaluate(element => !element.disabled, firstMenuItem);
+            const isClickable = await page.evaluate(element => !element.disabled, secondMenuItem);
 
             // Si no es clickeable, retornar un array vacío
             if (!isClickable) {
                 return [];
             }
 
-            // Hacer clic en el primer botón del menú
-            await firstMenuItem.click();
+            // Hacer clic en el segundo botón del menú
+            await secondMenuItem.click();
 
             // Esperar un breve momento para que la página se cargue completamente
             await page.waitForTimeout(2000); // Puedes ajustar este valor según sea necesario
 
             // Esperar a que el elemento menuTabFijo esté disponible
-            await page.waitForSelector('.menuTabFijo', { timeout: 35000 });
+            await page.waitForSelector('.menuTabFijo', { timeout: 1000 });
 
             const results = [];
 
@@ -62,9 +68,8 @@ async function scrapeData1menu() {
 
             // Iterar sobre los elementos h3
             for (const h3 of h3Elements) {
-                // Obtener el texto del h3 como categoría
-                const categoria = await page.evaluate(h3 => h3.textContent.trim(), h3); 
-                results.push({ title: categoria, items: [] });
+                const tanda = await page.evaluate(h3 => h3.textContent.trim(), h3);
+                results.push({ title: tanda, items: [], categoria, circuito: logoutContent }); // Agregar la categoría y el nombre del logout aquí
 
                 // Obtener todos los elementos li.datas dentro del hermano siguiente del h3
                 const liDatas = await h3.evaluateHandle(sibling => {
@@ -89,8 +94,8 @@ async function scrapeData1menu() {
                                 estado = 'próximo';
                             }
                         }
-                                    
-                        datas.push({ tanda: siblingElement.textContent.trim(), estado, ip: "ip1" }); // Agregar el texto y el estado
+                        
+                        datas.push({ tanda: siblingElement.textContent.trim(), estado,  ip: "ip1" }); 
                         siblingElement = siblingElement.nextElementSibling;
                     }
                     return datas;
@@ -98,11 +103,6 @@ async function scrapeData1menu() {
 
                 results[results.length - 1].items = await liDatas.jsonValue();
             }
-
-            // Agregar la propiedad categoria a cada objeto del array results
-            results.forEach(result => {
-                result.categoria = categoria;
-            });
 
             return results;
         } else {
@@ -121,12 +121,12 @@ async function scrapeData1menu() {
 scrapeData1menu().then(resultados => {
     if (resultados) {
         resultados.forEach(resultado => {
+            console.log('Circuito:', resultado.circuito); // Mostrar el nombre del logout
             console.log('Title:', resultado.title);
             resultado.items.forEach(item => {
                 console.log('Item:', item.tanda);
                 console.log('Estado:', item.estado);
-                console.log('Categoria:', item.categoria); // Mostrar la categoría
-                console.log('ip:', "ip1"); // Mostrar la categoría
+                console.log('Categoria:', resultado.categoria); // Mostrar la categoría
             });
         });
     }

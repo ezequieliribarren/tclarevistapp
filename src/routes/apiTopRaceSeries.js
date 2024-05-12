@@ -7,6 +7,7 @@ const { clasificacion } = require('./top-race-series/clasificacion.js')
 const { serie1 } = require('./top-race-series/serie1.js')
 const { serie2 } = require('./top-race-series/serie2.js')
 const { final } = require('./top-race-series/final.js')
+const { sheets, menu } = require('./top-race-series/menu.js');
 
 
 // 1° ENTRENAMIENTO
@@ -105,5 +106,20 @@ router.get('/final/:indice', async (req, res) => {
         res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
     }
 });
+
+router.get('/menu/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+      const datos = await menu();
+      if (indice < datos.length) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+  });
 
 module.exports = router;

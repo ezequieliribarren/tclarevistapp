@@ -13,6 +13,8 @@ const {serie2} = require ('./tcpm/serie2.js')
 const {final} = require ('./tcpm/final.js')
 const { obtenerYMostrarDatos } = require('./tcpm/horarios.js');
 const { pilotos } = require('./tcpm/pilotos.js');
+const { sheets, menu } = require('./tcpm/menu.js');
+
 
 
 // 1° ENTRENAMIENTO
@@ -205,6 +207,21 @@ router.get('/pilotos/:indice', async (req, res) => {
     } catch (error) {
         console.error(`Error al obtener los resultados del array ${indice}:`, error);
         res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+  });
+
+  router.get('/menu/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+      const datos = await menu();
+      if (indice < datos.length) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
     }
   });
   module.exports = router;
