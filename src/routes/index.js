@@ -468,16 +468,15 @@ router.post('/publicidad', upload.single('image'), (req, res) => {
 });
 
 
-// const { menu } = require('./top-race-series/menu');
+// const { vivo } = require('./rally/vivo');
 
-// menu()
+// vivo()
 //   .then(resultados => {
 //     console.log('Resultados obtenidos:');
-//     console.log(JSON.stringify(resultados));
+//     console.log(resultados); // No necesitas JSON.stringify porque ya debería estar en formato de objeto o arreglo
 //   })
 //   .catch(error => {
 //     console.error('Ocurrió un error:', error);
 //   });
-
 
 module.exports = router;

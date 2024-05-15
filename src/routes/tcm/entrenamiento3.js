@@ -49,12 +49,12 @@ async function obtenerResultados(url) {
     const resultados = [];
 
     // Realizar scraping para la página actual
-    $('.table tr').each((i, row) => {
+    $('.table tbody tr').each((i, row) => {
       const columns = $(row).find('td');
       const pos = $(columns[0]).text().trim();
       const nro = $(columns[1]).text().trim();
       const piloto = $(columns[2]).text().trim();
-      const marca = $(columns[3]).text().trim();
+      const marca = $(columns[3]).find('img').attr('alt').trim(); // Modificado para obtener la marca desde el atributo 'alt' de la imagen
       const vueltas = $(columns[4]).text().trim();
       const tiempo = $(columns[5]).text().trim();
       const diferencia = $(columns[6]).text().trim();

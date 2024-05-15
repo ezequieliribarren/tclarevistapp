@@ -1,6 +1,8 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
+const unorm = require('unorm');
+
 
 async function p2() {
   try {
@@ -36,15 +38,16 @@ async function p2() {
 
 async function obtenerResultados(url) {
   try {
-    if (url === "") {
-      // Si la URL es "", devolver un valor predeterminado (por ejemplo, un arreglo vacío)
+    if (url === "" || url === "-") {
       return [];
     }
 
-    const $ = await request({
+    const body = await request({
       uri: url,
-      transform: body => cheerio.load(body)
+      encoding: 'latin1', // Especifica la codificación de caracteres
     });
+
+    const $ = cheerio.load(body);
 
     const tablaPosiciones = [];
     $('.titulo_grande_blanco3').each((i, row) => {
@@ -54,16 +57,19 @@ async function obtenerResultados(url) {
         const posicion = $(columns[0]).text().trim().replace(/\n/g, '').replace(/\s+/g, ' ');
         const numero = $(columns[2]).text().trim().replace(/\n/g, '').replace(/\s+/g, ' ');
         const piloto = $(columns[3]).text().trim().replace(/\n/g, '').replace(/\s+/g, ' ');
+
+        // Eliminar acentos del nombre del piloto utilizando unorm
+        const pilotoSinAcentos = unorm.nfd(piloto).replace(/[\u0300-\u036f]/g, '');
+
         const dif2 = $(columns[7]).next().text().trim().replace(/\n/g, '').replace(/\s+/g, ' ');
 
         if (columns.length >= 6) {
           const tiempo = $(columns[4]).text().trim().replace(/\n/g, '').replace(/\s+/g, ' ');
           const dif = $(columns[5]).text().trim().replace(/\n/g, '').replace(/\s+/g, ' ');
 
-
-          tablaPosiciones.push({ posicion, numero, piloto, tiempo, dif, dif2 });
+          tablaPosiciones.push({ posicion, numero, piloto: pilotoSinAcentos, tiempo, dif, dif2 });
         } else {
-          tablaPosiciones.push({ posicion, numero, piloto });
+          tablaPosiciones.push({ posicion, numero, piloto: pilotoSinAcentos });
         }
       }
     });
@@ -74,6 +80,8 @@ async function obtenerResultados(url) {
     throw error;
   }
 }
+
+
 
 module.exports = {
   p2
