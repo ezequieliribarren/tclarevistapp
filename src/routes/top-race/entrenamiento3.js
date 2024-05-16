@@ -2,16 +2,16 @@ const cheerio = require('cheerio');
 const request = require('request-promise');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
 
-async function en2() {
+async function en3() {
   try {
     // Obtener los datos desde Google Sheets
-    const sheetId = "435208865"; // ID de la hoja que deseas obtener
+    const sheetId = "1197579525"; // ID de la hoja que deseas obtener
     const datos = await obtenerDatosDesdeGoogleSheets([sheetId]); // Pasar el sheetId como un arreglo
 
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
-      .filter(fila => fila.c[9] !== null) // Filtrar las filas con valor null
-      .map(fila => fila.c[9].v);
+      .filter(fila => fila.c[10] !== null) // Filtrar las filas con valor null
+      .map(fila => fila.c[10].v);
 
     // Array para almacenar todas las promesas de las solicitudes
     const promesasSolicitudes = [];
@@ -48,12 +48,12 @@ async function obtenerResultados(url) {
     const resultados = [];
 
     // Realizar scraping para la página actual
-    $('.table tbody tr').each((i, row) => {
+    $('.table tr').each((i, row) => {
       const columns = $(row).find('td');
       const pos = $(columns[0]).text().trim();
       const nro = $(columns[1]).text().trim();
       const piloto = $(columns[2]).text().trim();
-      const marca = $(columns[3]).find('img').attr('alt').trim(); // Modificado para obtener la marca desde el atributo 'alt' de la imagen
+      const marca = $(columns[3]).text().trim();
       const vueltas = $(columns[4]).text().trim();
       const tiempo = $(columns[5]).text().trim();
       const diferencia = $(columns[6]).text().trim();
@@ -73,5 +73,5 @@ async function obtenerResultados(url) {
   }
 }
   module.exports = {
-    en2
+    en3
   };

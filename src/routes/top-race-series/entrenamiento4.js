@@ -2,7 +2,7 @@ const cheerio = require('cheerio');
 const request = require('request-promise');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
 
-async function en2() {
+async function en4() {
   try {
     // Obtener los datos desde Google Sheets
     const sheetId = "435208865"; // ID de la hoja que deseas obtener
@@ -10,8 +10,8 @@ async function en2() {
 
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
-      .filter(fila => fila.c[9] !== null) // Filtrar las filas con valor null
-      .map(fila => fila.c[9].v);
+      .filter(fila => fila.c[11] !== null) // Filtrar las filas con valor null
+      .map(fila => fila.c[11].v);
 
     // Array para almacenar todas las promesas de las solicitudes
     const promesasSolicitudes = [];
@@ -73,5 +73,5 @@ async function obtenerResultados(url) {
   }
 }
   module.exports = {
-    en2
+    en4
   };

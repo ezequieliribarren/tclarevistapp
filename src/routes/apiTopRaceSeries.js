@@ -8,6 +8,9 @@ const { serie1 } = require('./top-race-series/serie1.js')
 const { serie2 } = require('./top-race-series/serie2.js')
 const { final } = require('./top-race-series/final.js')
 const { sheets, menu } = require('./top-race-series/menu.js');
+const { en4 } = require('./top-race-series/entrenamiento4.js');
+const { en3 } = require('./top-race-series/entrenamiento3.js');
+const { serie3 } = require('./top-race-series/serie3.js');
 
 
 // 1° ENTRENAMIENTO
@@ -31,6 +34,38 @@ router.get('/en2/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {
         const datos = await en2();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+
+// 3° ENTRENAMIENTO
+router.get('/en3/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await en3();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+
+// 4° ENTRENAMIENTO (PRUEBAS LIBRES)
+router.get('/en4/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await en4();
         if (indice < datos.length) {
             res.send(datos[indice]);
         } else {
@@ -90,6 +125,24 @@ router.get('/serie2/:indice', async (req, res) => {
         res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
     }
 });
+
+
+// SPRINT 
+router.get('/serie3/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await serie3();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+
 
 //  FINAL
 router.get('/final/:indice', async (req, res) => {

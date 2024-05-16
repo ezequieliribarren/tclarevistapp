@@ -36,8 +36,7 @@ async function serie1() {
 
 async function obtenerResultados(url) {
   try {
-    if (url === "") {
-      // Si la URL es "", devolver un valor predeterminado (por ejemplo, un arreglo vacío)
+    if (url === "" || url === "-") {
       return [];
     }
 
