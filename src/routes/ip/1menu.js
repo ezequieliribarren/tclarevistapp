@@ -26,12 +26,12 @@ async function scrapeData1menu() {
 
             // Esperar a que el segundo botón del menú esté disponible o hasta que pasen 500 ms
             await Promise.race([
-                page.waitForSelector('.menuTabFijo li:nth-child(2) a', { timeout: 500 }),
+                page.waitForSelector('.menuTabFijo li:nth-child(1) a', { timeout: 500 }),
                 page.waitForTimeout(500)
             ]);
 
             // Verificar si existe el segundo botón del menú
-            const secondMenuItem = await page.$('.menuTabFijo li:nth-child(2) a');
+            const secondMenuItem = await page.$('.menuTabFijo li:nth-child(1) a');
 
             // Si no existe, retornar un array vacío
             if (!secondMenuItem) {
