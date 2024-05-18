@@ -284,8 +284,6 @@ app.get('/ip4menu/', async (req, res) => {
 
 
 
-
-
 const obtenerClasificacionF1 = require('./routes/f1/live.js');
 
 app.get('/f1/live', async (req, res) => {
@@ -297,7 +295,6 @@ app.get('/f1/live', async (req, res) => {
         res.status(500).json({ error: 'Error al obtener la clasificación de F1' });
     }
 });
-
 
 
 

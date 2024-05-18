@@ -62,7 +62,7 @@ async function scrapeData2menu() {
             await page.waitForSelector('.menuTabFijo', { timeout: 1000 });
 
             const results = [];
-            let objetos = 0; // Contador de objetos
+            let globalIndice = 0; // Contador de índice global
 
             // Obtener todos los elementos h3 dentro de div_activities
             const h3Elements = await page.$$('#div_activities h3');
@@ -70,25 +70,47 @@ async function scrapeData2menu() {
             // Iterar sobre los elementos h3
             for (const h3 of h3Elements) {
                 const tanda = await page.evaluate(h3 => h3.textContent.trim(), h3);
-                const indiceInicio = objetos; // Guardar el índice de inicio
-
-                results.push({ title: tanda, items: [], categoria, circuito: logoutContent, objetos }); // Pasar el contador de objetos
+                results.push({ title: tanda, items: [], categoria, circuito: logoutContent }); // Agregar la categoría y el nombre del logout aquí
 
                 // Obtener todos los elementos li.datas dentro del hermano siguiente del h3
-                const liDatas = await h3.evaluateHandle(sibling => {
-                    let siblingElement = sibling.nextElementSibling;
+                const liDatas = await page.evaluateHandle(h3 => {
+                    let siblingElement = h3.nextElementSibling;
                     const datas = [];
-                    let indice = 0; // Contador de índice
                     while (siblingElement && siblingElement.tagName === 'LI' && siblingElement.classList.contains('datas')) {
-                        // Resto del código...
+                        // Verificar si el elemento tiene un <i>
+                        const icono = siblingElement.querySelector('i');
+                        let estado = '';
+                        if (icono) {
+                            const img = icono.querySelector('img');
+                            if (img) {
+                                const src = img.getAttribute('src');
+                                if (src.includes('ppcev_state_4.png')) {
+                                    estado = 'finalizado';
+                                } else if (src.includes('ppcev_state_2.png')) {
+                                    estado = 'vivo';
+                                } else {
+                                    estado = 'próximo';
+                                }
+                            } else {
+                                estado = 'próximo';
+                            }
+                        }
+
+                        datas.push({ tanda: siblingElement.textContent.trim(), estado, ip: "ip2" });
+                        siblingElement = siblingElement.nextElementSibling;
                     }
                     return datas;
+                }, h3);
+
+                const liDatasJson = await liDatas.jsonValue();
+                
+                // Asignar el índice global a cada elemento
+                liDatasJson.forEach(data => {
+                    data.indice = globalIndice;
+                    globalIndice++; // Incrementar el contador de índice global
                 });
 
-                results[results.length - 1].items = await liDatas.jsonValue();
-
-                // Actualizar el contador de objetos
-                objetos = indiceInicio + results[results.length - 1].items.length;
+                results[results.length - 1].items = liDatasJson;
             }
 
             return results;
@@ -110,11 +132,11 @@ scrapeData2menu().then(resultados => {
         resultados.forEach(resultado => {
             console.log('Circuito:', resultado.circuito); // Mostrar el nombre del logout
             console.log('Title:', resultado.title);
-            console.log('Objetos:', resultado.objetos); // Mostrar el número de objetos
             resultado.items.forEach(item => {
                 console.log('Item:', item.tanda);
                 console.log('Estado:', item.estado);
                 console.log('Categoria:', resultado.categoria); // Mostrar la categoría
+                console.log('Índice:', item.indice); // Mostrar el índice
             });
         });
     }

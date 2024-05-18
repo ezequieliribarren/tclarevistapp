@@ -26,12 +26,12 @@ async function scrapeData4menu() {
 
             // Esperar a que el segundo botón del menú esté disponible o hasta que pasen 500 ms
             await Promise.race([
-                page.waitForSelector('.menuTabFijo li:nth-child(1) a', { timeout: 500 }),
+                page.waitForSelector('.menuTabFijo li:nth-child(2) a', { timeout: 500 }),
                 page.waitForTimeout(500)
             ]);
 
             // Verificar si existe el segundo botón del menú
-            const secondMenuItem = await page.$('.menuTabFijo li:nth-child(1) a');
+            const secondMenuItem = await page.$('.menuTabFijo li:nth-child(2) a');
 
             // Si no existe, retornar un array vacío
             if (!secondMenuItem) {
@@ -62,6 +62,7 @@ async function scrapeData4menu() {
             await page.waitForSelector('.menuTabFijo', { timeout: 1000 });
 
             const results = [];
+            let globalIndice = 0; // Contador de índice global
 
             // Obtener todos los elementos h3 dentro de div_activities
             const h3Elements = await page.$$('#div_activities h3');
@@ -72,10 +73,9 @@ async function scrapeData4menu() {
                 results.push({ title: tanda, items: [], categoria, circuito: logoutContent }); // Agregar la categoría y el nombre del logout aquí
 
                 // Obtener todos los elementos li.datas dentro del hermano siguiente del h3
-                const liDatas = await h3.evaluateHandle(sibling => {
-                    let siblingElement = sibling.nextElementSibling;
+                const liDatas = await page.evaluateHandle(h3 => {
+                    let siblingElement = h3.nextElementSibling;
                     const datas = [];
-                    let indice = 0; // Contador de índice
                     while (siblingElement && siblingElement.tagName === 'LI' && siblingElement.classList.contains('datas')) {
                         // Verificar si el elemento tiene un <i>
                         const icono = siblingElement.querySelector('i');
@@ -95,15 +95,22 @@ async function scrapeData4menu() {
                                 estado = 'próximo';
                             }
                         }
-                        
-                        datas.push({ tanda: siblingElement.textContent.trim(), estado,  ip: "ip4", indice }); // Agregar el índice aquí
+
+                        datas.push({ tanda: siblingElement.textContent.trim(), estado, ip: "ip1" });
                         siblingElement = siblingElement.nextElementSibling;
-                        indice++; // Incrementar el contador de índice
                     }
                     return datas;
+                }, h3);
+
+                const liDatasJson = await liDatas.jsonValue();
+                
+                // Asignar el índice global a cada elemento
+                liDatasJson.forEach(data => {
+                    data.indice = globalIndice;
+                    globalIndice++; // Incrementar el contador de índice global
                 });
 
-                results[results.length - 1].items = await liDatas.jsonValue();
+                results[results.length - 1].items = liDatasJson;
             }
 
             return results;
@@ -119,7 +126,6 @@ async function scrapeData4menu() {
     }
 }
 
-
 // Se ejecuta al iniciar el script
 scrapeData4menu().then(resultados => {
     if (resultados) {
@@ -130,6 +136,7 @@ scrapeData4menu().then(resultados => {
                 console.log('Item:', item.tanda);
                 console.log('Estado:', item.estado);
                 console.log('Categoria:', resultado.categoria); // Mostrar la categoría
+                console.log('Índice:', item.indice); // Mostrar el índice
             });
         });
     }
