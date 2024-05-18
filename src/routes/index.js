@@ -75,6 +75,7 @@ router.get('/delete/:id', (req, res) => {
     res.redirect('/new-entry');
 });
 
+
 function eliminarNoticiaDeArchivo(id, filePaths) {
     filePaths.forEach(filePath => {
         if (fs.existsSync(filePath)) {

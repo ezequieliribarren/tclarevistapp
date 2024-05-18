@@ -18,6 +18,12 @@ async function scrapeData2menu() {
             // Ir a la URL obtenida desde Google Sheets
             await page.goto(url);
 
+            // Esperar a que el elemento <p> con la clase "logout" esté disponible
+            const logoutContent = await page.evaluate(() => {
+                const logoutElement = document.querySelector('.logout');
+                return logoutElement ? logoutElement.textContent.trim() : null;
+            });
+
             // Esperar a que el segundo botón del menú esté disponible o hasta que pasen 500 ms
             await Promise.race([
                 page.waitForSelector('.menuTabFijo li:nth-child(2) a', { timeout: 500 }),
@@ -56,6 +62,7 @@ async function scrapeData2menu() {
             await page.waitForSelector('.menuTabFijo', { timeout: 1000 });
 
             const results = [];
+            let objetos = 0; // Contador de objetos
 
             // Obtener todos los elementos h3 dentro de div_activities
             const h3Elements = await page.$$('#div_activities h3');
@@ -63,39 +70,25 @@ async function scrapeData2menu() {
             // Iterar sobre los elementos h3
             for (const h3 of h3Elements) {
                 const tanda = await page.evaluate(h3 => h3.textContent.trim(), h3);
-                results.push({ title: tanda, items: [], categoria }); // Agregar la categoría aquí
+                const indiceInicio = objetos; // Guardar el índice de inicio
+
+                results.push({ title: tanda, items: [], categoria, circuito: logoutContent, objetos }); // Pasar el contador de objetos
 
                 // Obtener todos los elementos li.datas dentro del hermano siguiente del h3
                 const liDatas = await h3.evaluateHandle(sibling => {
                     let siblingElement = sibling.nextElementSibling;
                     const datas = [];
+                    let indice = 0; // Contador de índice
                     while (siblingElement && siblingElement.tagName === 'LI' && siblingElement.classList.contains('datas')) {
-                        // Verificar si el elemento tiene un <i>
-                        const icono = siblingElement.querySelector('i');
-                        let estado = '';
-                        if (icono) {
-                            const img = icono.querySelector('img');
-                            if (img) {
-                                const src = img.getAttribute('src');
-                                if (src.includes('ppcev_state_4.png')) {
-                                    estado = 'finalizado';
-                                } else if (src.includes('ppcev_state_2.png')) {
-                                    estado = 'vivo';
-                                } else {
-                                    estado = 'próximo';
-                                }
-                            } else {
-                                estado = 'próximo';
-                            }
-                        }
-                        
-                        datas.push({ tanda: siblingElement.textContent.trim(), estado,  ip: "ip2" }); 
-                        siblingElement = siblingElement.nextElementSibling;
+                        // Resto del código...
                     }
                     return datas;
                 });
 
                 results[results.length - 1].items = await liDatas.jsonValue();
+
+                // Actualizar el contador de objetos
+                objetos = indiceInicio + results[results.length - 1].items.length;
             }
 
             return results;
@@ -115,7 +108,9 @@ async function scrapeData2menu() {
 scrapeData2menu().then(resultados => {
     if (resultados) {
         resultados.forEach(resultado => {
+            console.log('Circuito:', resultado.circuito); // Mostrar el nombre del logout
             console.log('Title:', resultado.title);
+            console.log('Objetos:', resultado.objetos); // Mostrar el número de objetos
             resultado.items.forEach(item => {
                 console.log('Item:', item.tanda);
                 console.log('Estado:', item.estado);

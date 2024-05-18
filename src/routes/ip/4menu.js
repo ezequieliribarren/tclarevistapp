@@ -18,42 +18,48 @@ async function scrapeData4menu() {
             // Ir a la URL obtenida desde Google Sheets
             await page.goto(url);
 
-            // Esperar a que el cuarto botón del menú esté disponible o hasta que pasen 500 ms
+            // Esperar a que el elemento <p> con la clase "logout" esté disponible
+            const logoutContent = await page.evaluate(() => {
+                const logoutElement = document.querySelector('.logout');
+                return logoutElement ? logoutElement.textContent.trim() : null;
+            });
+
+            // Esperar a que el segundo botón del menú esté disponible o hasta que pasen 500 ms
             await Promise.race([
-                page.waitForSelector('.menuTabFijo li:nth-child(4) a', { timeout: 500 }),
+                page.waitForSelector('.menuTabFijo li:nth-child(1) a', { timeout: 500 }),
                 page.waitForTimeout(500)
             ]);
 
-            // Verificar si existe el cuarto botón del menú
-            const fourthMenuItem = await page.$('.menuTabFijo li:nth-child(4) a');
+            // Verificar si existe el segundo botón del menú
+            const secondMenuItem = await page.$('.menuTabFijo li:nth-child(1) a');
 
             // Si no existe, retornar un array vacío
-            if (!fourthMenuItem) {
+            if (!secondMenuItem) {
                 return [];
             }
 
             // Obtener el texto del botón y asignarlo a la variable categoria
-            const categoria = await page.evaluate(element => element.textContent.trim(), fourthMenuItem);
+            const categoria = await page.evaluate(element => element.textContent.trim(), secondMenuItem);
 
             // Esperar 1000 ms para verificar si es clickeable
             await page.waitForTimeout(1000);
 
             // Verificar si el botón es clickeable
-            const isClickable = await page.evaluate(element => !element.disabled, fourthMenuItem);
+            const isClickable = await page.evaluate(element => !element.disabled, secondMenuItem);
 
             // Si no es clickeable, retornar un array vacío
             if (!isClickable) {
                 return [];
             }
 
-            // Hacer clic en el cuarto botón del menú
-            await fourthMenuItem.click();
+            // Hacer clic en el segundo botón del menú
+            await secondMenuItem.click();
 
             // Esperar un breve momento para que la página se cargue completamente
             await page.waitForTimeout(2000); // Puedes ajustar este valor según sea necesario
 
             // Esperar a que el elemento menuTabFijo esté disponible
-            await page.waitForSelector('.menuTabFijo', { timeout: 35000 });
+            await page.waitForSelector('.menuTabFijo', { timeout: 1000 });
 
             const results = [];
 
@@ -63,12 +69,13 @@ async function scrapeData4menu() {
             // Iterar sobre los elementos h3
             for (const h3 of h3Elements) {
                 const tanda = await page.evaluate(h3 => h3.textContent.trim(), h3);
-                results.push({ title: tanda, items: [], categoria }); // Agregar la categoría aquí
+                results.push({ title: tanda, items: [], categoria, circuito: logoutContent }); // Agregar la categoría y el nombre del logout aquí
 
                 // Obtener todos los elementos li.datas dentro del hermano siguiente del h3
                 const liDatas = await h3.evaluateHandle(sibling => {
                     let siblingElement = sibling.nextElementSibling;
                     const datas = [];
+                    let indice = 0; // Contador de índice
                     while (siblingElement && siblingElement.tagName === 'LI' && siblingElement.classList.contains('datas')) {
                         // Verificar si el elemento tiene un <i>
                         const icono = siblingElement.querySelector('i');
@@ -89,8 +96,9 @@ async function scrapeData4menu() {
                             }
                         }
                         
-                        datas.push({ tanda: siblingElement.textContent.trim(), estado,  ip:"ip4" }); // Agregar el texto y el estado
+                        datas.push({ tanda: siblingElement.textContent.trim(), estado,  ip: "ip4", indice }); // Agregar el índice aquí
                         siblingElement = siblingElement.nextElementSibling;
+                        indice++; // Incrementar el contador de índice
                     }
                     return datas;
                 });
@@ -111,10 +119,12 @@ async function scrapeData4menu() {
     }
 }
 
+
 // Se ejecuta al iniciar el script
 scrapeData4menu().then(resultados => {
     if (resultados) {
         resultados.forEach(resultado => {
+            console.log('Circuito:', resultado.circuito); // Mostrar el nombre del logout
             console.log('Title:', resultado.title);
             resultado.items.forEach(item => {
                 console.log('Item:', item.tanda);

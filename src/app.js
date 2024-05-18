@@ -103,124 +103,116 @@ const fe = require('./routes/apiFe.js');
 app.use('/formula-e', fe);
 
 
+// IP 1
+const scrapeData = require('./routes/ip/1.js');
+app.get('/ip1/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice, 10);
 
-
-// API IP 1 
-const data1 = require('./routes/ip/1.js');
-const datamenu1 = require('./routes/ip/1menu.js');
-
-app.get('/ip1/', async (req, res) => {
     try {
-        // Obtener los datos de la primera API
-        const resultados1 = await data1();
-        
-        // Obtener los datos de la segunda API
-        const resultados1menu = await datamenu1();
+        const resultados = await scrapeData();
 
-        // Combinar los resultados
-        const combinedResults = {
-            ip1: resultados1 && resultados1.map(resultado => ({
+        if (resultados && indice >= 0 && indice < resultados.length) {
+            const resultado = resultados[indice];
+
+            res.json({
+                Indice: resultado.Indice,
                 Tanda: resultado.Tanda,
                 Estado: resultado.Estado,
                 DatosTabla: resultado.DatosTabla
-            })),
-            ip1menu: resultados1menu
-        };
-        
-        res.json(combinedResults);
+            });
+        } else {
+            res.status(404).json([]);
+        }
     } catch (error) {
         console.error('Error al obtener los resultados:', error);
-        res.status(500).json({ error: 'Error al obtener los resultados' });
+        res.status(500).json([]);
     }
 });
 
+// IP 2
+const scrapeData2 = require('./routes/ip/2.js');
+app.get('/ip2/:indice', async (req, res) => {
+    const { indice } = req.params;
 
-// API IP 2
-const data2 = require('./routes/ip/2.js');
-const datamenu2 = require('./routes/ip/2menu.js');
-
-app.get('/ip2/', async (req, res) => {
     try {
-        // Obtener los datos de la primera API
-        const resultados2 = await data2();
-        
-        // Obtener los datos de la segunda API
-        const resultados2menu = await datamenu2();
+        // Obtener los datos
+        const resultados = await scrapeData2();
 
-        // Combinar los resultados
-        const combinedResults = {
-            ip2: resultados2.map(resultado => ({
+        // Verificar que el índice solicitado esté dentro de los límites del array
+        if (resultados && resultados.length > indice) {
+            const resultado = resultados[indice];
+
+            // Enviar la respuesta con los datos del índice solicitado
+            res.json({
                 Tanda: resultado.Tanda,
                 Estado: resultado.Estado,
                 DatosTabla: resultado.DatosTabla
-            })),
-            ip1menu: resultados2menu
-        };
-
-        res.json(combinedResults);
+            });
+        } else {
+            res.status(404).json([]);
+        }
     } catch (error) {
         console.error('Error al obtener los resultados:', error);
-        res.status(500).json({ error: 'Error al obtener los resultados' });
+        res.status(500).json([]);
     }
 });
 
-// API IP 3
-const data3 = require('./routes/ip/3.js');
-const datamenu3 = require('./routes/ip/3menu.js');
+// IP 3
+const scrapeData3 = require('./routes/ip/3.js');
+app.get('/ip3/:indice', async (req, res) => {
+    const { indice } = req.params;
 
-app.get('/ip3/', async (req, res) => {
     try {
-        // Obtener los datos de la primera API
-        const resultados3 = await data3();
-        
-        // Obtener los datos de la segunda API
-        const resultados3menu = await datamenu3();
+        // Obtener los datos
+        const resultados = await scrapeData3();
 
-        // Combinar los resultados
-        const combinedResults = {
-            ip3: resultados3.map(resultado => ({
+        // Verificar que el índice solicitado esté dentro de los límites del array
+        if (resultados && resultados.length > indice) {
+            const resultado = resultados[indice];
+
+            // Enviar la respuesta con los datos del índice solicitado
+            res.json({
                 Tanda: resultado.Tanda,
                 Estado: resultado.Estado,
                 DatosTabla: resultado.DatosTabla
-            })),
-            ip1menu: resultados3menu
-        };
-
-        res.json(combinedResults);
+            });
+        } else {
+            res.status(404).json([]);
+        }
     } catch (error) {
         console.error('Error al obtener los resultados:', error);
-        res.status(500).json({ error: 'Error al obtener los resultados' });
+        res.status(500).json([]);
     }
 });
 
-// API IP 4
-const data4 = require('./routes/ip/4.js');
-const datamenu4 = require('./routes/ip/4menu.js');
+// IP 4
+const scrapeData4 = require('./routes/ip/4.js');
+app.get('/ip4/:indice', async (req, res) => {
+    const { indice } = req.params;
 
-app.get('/ip4/', async (req, res) => {
     try {
-        // Obtener los datos de la primera API
-        const resultados4 = await data4();
-        
-        // Obtener los datos de la segunda API
-        const resultados4menu = await datamenu4();
+        // Obtener los datos
+        const resultados = await scrapeData4();
 
-        // Combinar los resultados
-        const combinedResults = {
-            ip4: resultados4.map(resultado => ({
+        // Verificar que el índice solicitado esté dentro de los límites del array
+        if (resultados && resultados.length > indice) {
+            const resultado = resultados[indice];
+
+            // Enviar la respuesta con los datos del índice solicitado
+            res.json({
                 Tanda: resultado.Tanda,
                 Estado: resultado.Estado,
                 DatosTabla: resultado.DatosTabla
-            })),
-            ip1menu: resultados4menu
-        };
-
-        res.json(combinedResults);
+            });
+        } else {
+            res.status(404).json([]);
+        }
     } catch (error) {
         console.error('Error al obtener los resultados:', error);
-        res.status(500).json({ error: 'Error al obtener los resultados' });
+        res.status(500).json([]);
     }
 });
+
 
 
 // MENU 1
@@ -257,7 +249,7 @@ app.get('/ip2menu/', async (req, res) => {
 });
 
 
-// API IP 3 MENU
+// MENU 3
 const scrapeData3menu = require('./routes/ip/3menu.js');
 app.get('/ip3menu/', async (req, res) => {
     try {
@@ -274,7 +266,7 @@ app.get('/ip3menu/', async (req, res) => {
 });
 
 
-// API IP 4 MENU
+// MENU 4
 const scrapeData4menu = require('./routes/ip/4menu.js');
 app.get('/ip4menu/', async (req, res) => {
     try {
@@ -289,6 +281,8 @@ app.get('/ip4menu/', async (req, res) => {
         res.status(500).json({ error: 'Error al obtener los resultados' });
     }
 });
+
+
 
 
 

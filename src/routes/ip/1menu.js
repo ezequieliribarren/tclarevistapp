@@ -75,6 +75,7 @@ async function scrapeData1menu() {
                 const liDatas = await h3.evaluateHandle(sibling => {
                     let siblingElement = sibling.nextElementSibling;
                     const datas = [];
+                    let indice = 0; // Contador de índice
                     while (siblingElement && siblingElement.tagName === 'LI' && siblingElement.classList.contains('datas')) {
                         // Verificar si el elemento tiene un <i>
                         const icono = siblingElement.querySelector('i');
@@ -95,8 +96,9 @@ async function scrapeData1menu() {
                             }
                         }
                         
-                        datas.push({ tanda: siblingElement.textContent.trim(), estado,  ip: "ip1" }); 
+                        datas.push({ tanda: siblingElement.textContent.trim(), estado,  ip: "ip1", indice }); // Agregar el índice aquí
                         siblingElement = siblingElement.nextElementSibling;
+                        indice++; // Incrementar el contador de índice
                     }
                     return datas;
                 });
@@ -116,6 +118,7 @@ async function scrapeData1menu() {
         await browser.close();
     }
 }
+
 
 // Se ejecuta al iniciar el script
 scrapeData1menu().then(resultados => {
