@@ -22,7 +22,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname,"public ")))
 
 
-
 // API GENERAL
 const apiRoutes = require('./routes/api.js');
 app.use('/api', apiRoutes);
@@ -101,6 +100,15 @@ app.use('/rally-mundial', rallym);
 // API FORMULA-E
 const fe = require('./routes/apiFe.js');
 app.use('/formula-e', fe);
+
+// API TN
+const tn = require('./routes/apiTn.js');
+app.use('/tn', tn);
+
+// API TN3
+const tn3 = require('./routes/apiTn3.js');
+app.use('/tn3', tn3);
+
 
 
 // IP 1
@@ -283,7 +291,6 @@ app.get('/ip4menu/', async (req, res) => {
 });
 
 
-
 const obtenerClasificacionF1 = require('./routes/f1/live.js');
 
 app.get('/f1/live', async (req, res) => {
@@ -294,7 +301,8 @@ app.get('/f1/live', async (req, res) => {
         console.error('Error al obtener la clasificación de F1:', error);
         res.status(500).json({ error: 'Error al obtener la clasificación de F1' });
     }
-});
+}); 
+
 
 
 

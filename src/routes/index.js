@@ -7,6 +7,7 @@ const fsPromises = require('fs').promises;
 const moment = require('moment-timezone');
 const multer = require('multer');
 const path = require('path');
+const puppeteer = require('puppeteer');
 
 
 // RUTA NOTICIAS GENERALES
@@ -468,6 +469,58 @@ router.post('/publicidad', upload.single('image'), (req, res) => {
     res.redirect('/publicidad');
 });
 
+router.get('/procesar', (req, res) => {
+    res.render('procesar');
+});
+const tableStorage = multer.diskStorage({
+    destination: (req, file, cb) => {
+        cb(null, 'public/tandas');
+    },
+    filename: (req, file, cb) => {
+        const filePath = path.join('public/tandas', file.originalname);
+        fs.access(filePath, fs.constants.F_OK, (err) => {
+            if (err) {
+                // El archivo no existe, puedes usar este nombre de archivo
+                cb(null, file.originalname);
+            } else {
+                // El archivo ya existe, devuelve un mensaje de error
+                cb(new Error('El nombre del archivo ya existe en la carpeta pública'));
+            }
+        });
+    }
+});
+
+const tableUpload = multer({ storage: tableStorage });
+
+router.post('/procesar', tableUpload.single('tableHTML'), async (req, res) => {
+    const { url, fileName } = req.body;
+
+    try {
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
+
+        // Esperar a que la página esté completamente cargada
+        await page.goto(url, { waitUntil: 'load' });
+        
+        // Extraer el HTML de la tabla después de que la página esté completamente cargada
+        const tableHTML = await page.$eval('.table-carreras', table => table.outerHTML);
+
+        // Guardar el HTML de la tabla utilizando multer
+        fs.writeFile(`public/tandas/${fileName}.html`, tableHTML, err => {
+            if (err) {
+                console.error(err);
+                res.status(500).send('Error saving file');
+            } else {
+                res.send('Tanda processed successfully!');
+            }
+        });
+
+        await browser.close();
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).send('Error processing URL');
+    }
+});
 
 // const { vivo } = require('./rally/vivo');
 
@@ -479,5 +532,16 @@ router.post('/publicidad', upload.single('image'), (req, res) => {
 //   .catch(error => {
 //     console.error('Ocurrió un error:', error);
 //   });
+// 
+// const { en1 } = require('./tn/en1');
+
+// en1()
+//   .then(resultados => {
+//     console.log('Resultados obtenidos:', JSON.stringify(resultados, null, 2));
+//   })
+//   .catch(error => {
+//     console.error('Error ejecutando el scraping:', error);
+//   });
 
 module.exports = router;
+ 

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Procesamiento</title>
+</head>
+<body>
+    <h2>Procesar URL y guardar tabla</h2>
+    <form action="/procesar" method="POST">
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url" required>
+        <br>
+        <label for="fileName">Nombre de archivo:</label>
+        <input type="text" id="fileName" name="fileName" required>
+        <br>
+        <button type="submit">Procesar y Guardar</button>
+    </form>
+</body>
+</html>

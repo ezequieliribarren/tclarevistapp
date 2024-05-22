@@ -107,8 +107,15 @@
             </div>
             <input type="submit" value="Guardar Noticia" class="btn btn-secondary">
          </form>
-         <div id="image-preview"></div>
-         </form>
+         <form action="/procesar" method="POST">
+            <label for="url">URL:</label>
+            <input type="text" id="url" name="url" required>
+            <br>
+            <label for="fileName">Nombre de archivo:</label>
+            <input type="text" id="fileName" name="fileName" required>
+            <br>
+            <button type="submit">Procesar y Guardar</button>
+        </form>
          <div>
             <h2 style="color: white; margin: 1rem 0;">General</h2>
             <ul
