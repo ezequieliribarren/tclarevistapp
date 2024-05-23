@@ -11,6 +11,7 @@ const { serie1 } = require('./tn3/serie1.js');
 const { serie2 } = require('./tn3/serie2.js');
 const { serie3 } = require('./tn3/serie3.js');
 const { final } = require('./tn3/final.js');
+const { menu } = require('./tn3/menu.js');
 
 
 // 1° ENTRENAMIENTO
@@ -173,38 +174,54 @@ router.get('/final/:indice', async (req, res) => {
   }
 });
 
-// HORARIOS
-router.get('/horarios/:indice', async (req, res) => {
+// // HORARIOS
+// router.get('/horarios/:indice', async (req, res) => {
+//     const indice = parseInt(req.params.indice);
+//     try {
+//         const datos = await horarios();
+//         if (indice < datos.length) {
+//             res.send(datos[indice]);
+//         } else {
+//             res.status(404).json({ error: 'No se encontró el índice especificado' });
+//         }
+//     } catch (error) {
+//         console.error(`Error al obtener los resultados del array ${indice}:`, error);
+//         res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+//     }
+//   });
+
+// // PILOTOS
+
+// router.get('/pilotos/:indice', async (req, res) => {
+//     const indice = parseInt(req.params.indice);
+//     try {
+//         const datos = await pilotos();
+//         if (indice < datos.length) {
+//             res.send(datos[indice]);
+//         } else {
+//             res.status(404).json({ error: 'No se encontró el índice especificado' });
+//         }
+//     } catch (error) {
+//         console.error(`Error al obtener los resultados del array ${indice}:`, error);
+//         res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+//     }
+//   });
+
+// MENU
+  router.get('/menu/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {
-        const datos = await horarios();
-        if (indice < datos.length) {
-            res.send(datos[indice]);
-        } else {
-            res.status(404).json({ error: 'No se encontró el índice especificado' });
-        }
+      const datos = await menu();
+      if (indice < datos.length) {
+        res.json(datos[indice]);
+      } else {
+        res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
     } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
     }
   });
-
-// PILOTOS
-
-router.get('/pilotos/:indice', async (req, res) => {
-    const indice = parseInt(req.params.indice);
-    try {
-        const datos = await pilotos();
-        if (indice < datos.length) {
-            res.send(datos[indice]);
-        } else {
-            res.status(404).json({ error: 'No se encontró el índice especificado' });
-        }
-    } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
-    }
-  });
-
+  
   
   module.exports = router;

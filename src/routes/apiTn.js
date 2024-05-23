@@ -206,7 +206,8 @@ router.get('/pilotos/:indice', async (req, res) => {
         res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
     }
   });
-
+  
+// MENU
   router.get('/menu/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {

@@ -42,7 +42,7 @@ async function obtenerResultados(url) {
     $('table.lista_resultados').each((index, table) => {
       // Revisa si la tabla contiene el título '1° ENTRENAMIENTO'
       const titulo = $(table).find('td.TabResTitulo').text().trim();
-      if (titulo.includes('FINAL')) {
+      if (titulo.includes('FINAL C3')) {
         $(table).find('tr.TabResData').each((i, row) => {
           const columns = $(row).find('td');
           const pos = $(columns[0]).text().trim();

@@ -4,7 +4,7 @@ const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 
 async function en1() {
   try {
-    const sheetId = "249354540"; // ID de la hoja que deseas obtener
+    const sheetId = "162407611"; // ID de la hoja que deseas obtener
     const datos = await obtenerDatosDesdeGoogleSheets([sheetId]);
 
     const urlsEntrenamiento = datos[0].data
@@ -42,7 +42,7 @@ async function obtenerResultados(url) {
     $('table.lista_resultados').each((index, table) => {
       // Revisa si la tabla contiene el título '1° ENTRENAMIENTO'
       const titulo = $(table).find('td.TabResTitulo').text().trim();
-      if (titulo.includes('1° ENTRENAMIENTO')) {
+      if (titulo.includes('1° ENTRENAMIENTO C3')) {
         $(table).find('tr.TabResData').each((i, row) => {
           const columns = $(row).find('td');
           const pos = $(columns[0]).text().trim();
