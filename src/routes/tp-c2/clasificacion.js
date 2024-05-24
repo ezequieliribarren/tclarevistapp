@@ -5,7 +5,7 @@ const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 async function clasificacion() {
   try {
     // Obtener los datos desde Google Sheets
-    const sheetId = "1432416990"; // ID de la hoja que deseas obtener
+    const sheetId = "289153055"; // ID de la hoja que deseas obtener
     const datos = await obtenerDatosDesdeGoogleSheets([sheetId]); // Pasar el sheetId como un arreglo
 
     // Filtrar y obtener solo las URL que no son null

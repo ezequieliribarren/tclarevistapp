@@ -76,6 +76,19 @@ app.use('/rally-argentino', rally);
 const tp = require('./routes/apiTp.js');
 app.use('/tp', tp);
 
+// API TP1
+const tp1 = require('./routes/apiTpC1.js');
+app.use('/tp1', tp1);
+
+// API TP2
+const tp2 = require('./routes/apiTpC2.js');
+app.use('/tp2', tp2);
+
+// API TC2000
+const tc2000 = require('./routes/apiTc2000.js');
+app.use('/tc2000', tc2000);
+
+
 // API F1
 const f1 = require('./routes/apiF1.js');
 app.use('/f1', f1);

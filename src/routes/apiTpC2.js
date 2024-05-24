@@ -1,18 +1,18 @@
 const express = require('express');
 const router = express.Router();
 const fsPromises = require('fs').promises;
-const { en1 } = require('./tp-c3/entrenamiento1.js')
-const { en2 } = require('./tp-c3/entrenamiento2.js')
-const { en3 } = require('./tp-c3/entrenamiento3.js')
-const { en4 } = require('./tp-c3/entrenamiento4.js')
-const { en5 } = require('./tp-c3/entrenamiento5.js')
-const { en6 } = require('./tp-c3/entrenamiento6.js')
-const { clasificacion } = require('./tp-c3/clasificacion.js')
-const { serie1 } = require('./tp-c3/serie1.js')
-const { serie2 } = require('./tp-c3/serie2.js')
-const { final } = require('./tp-c3/final.js');
-const { menu } = require('./tp-c3/menu.js');
-const { serie3 } = require('./tp-c3/serie3.js');
+const { en1 } = require('./tp-c2/entrenamiento1.js')
+const { en2 } = require('./tp-c2/entrenamiento2.js')
+const { en3 } = require('./tp-c2/entrenamiento3.js')
+const { en4 } = require('./tp-c2/entrenamiento4.js')
+const { en5 } = require('./tp-c2/entrenamiento5.js')
+const { en6 } = require('./tp-c2/entrenamiento6.js')
+const { clasificacion } = require('./tp-c2/clasificacion.js')
+const { serie1 } = require('./tp-c2/serie1.js')
+const { serie2 } = require('./tp-c2/serie2.js')
+const { final } = require('./tp-c2/final.js');
+const { menu } = require('./tp-c2/menu.js');
+const { serie3 } = require('./tp-c2/serie3.js');
 
 
 // 1° ENTRENAMIENTO
