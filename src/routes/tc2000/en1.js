@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer');
+const cheerio = require('cheerio');
 const request = require('request-promise');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
 
@@ -41,45 +41,40 @@ async function obtenerResultados(url) {
       return [];
     }
 
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    await page.goto(url, { waitUntil: 'domcontentloaded' });
+    // Hacer una solicitud HTTP a la URL
+    const html = await request(url);
 
-    // Hacer clic en el elemento que contiene el texto "1° Entrenamiento"
-    await page.evaluate(() => {
-      const elements = document.querySelectorAll('.ui-accordion-header');
-      for (const element of elements) {
-        if (element.textContent.includes('1° Entrenamiento')) {
-          element.click();
-          break;
-        }
+    // Cargar el HTML en cheerio
+    const $ = cheerio.load(html);
+
+    // Buscar el elemento que contiene el texto "1° Entrenamiento"
+    let table;
+    $('.ui-accordion-header').each((i, element) => {
+      if ($(element).text().includes('1° Entrenamiento')) {
+        // Encontrar la tabla siguiente a este elemento
+        table = $(element).next('.ui-accordion-content').find('.tabla_tiempos');
+        return false; // Romper el bucle
       }
     });
 
-    // Esperar a que la tabla de tiempos esté presente en el DOM
-    await page.waitForSelector('.tabla_tiempos');
+    // Si no se encuentra la tabla, devolver un arreglo vacío
+    if (!table) {
+      return [];
+    }
 
     // Extraer datos de la tabla
-    const resultados = await page.evaluate(() => {
-      const rows = document.querySelectorAll('.tabla_tiempos tbody tr');
-      const data = [];
+    const resultados = [];
+    table.find('tbody tr').each((i, row) => {
+      const columns = $(row).find('td');
+      const pos = $(columns[0]).text().trim();
+      const piloto = $(columns[1]).text().trim();
+      const marca = $(columns[2]).text().trim();
+      const vueltas = $(columns[3]).text().trim();
+      const tiempo = $(columns[4]).text().trim();
+      const diferencia = $(columns[5]).text().trim();
 
-      rows.forEach(row => {
-        const columns = row.querySelectorAll('td');
-        const pos = columns[0].textContent.trim();
-        const piloto = columns[1].textContent.trim();
-        const marca = columns[2].textContent.trim();
-        const vueltas = columns[3].textContent.trim();
-        const tiempo = columns[4].textContent.trim();
-        const diferencia = columns[5].textContent.trim();
-
-        data.push({ pos, piloto, marca, vueltas, tiempo, diferencia });
-      });
-
-      return data;
+      resultados.push({ pos, piloto, marca, vueltas, tiempo, diferencia });
     });
-
-    await browser.close();
 
     // Filtrar los resultados vacíos si existen
     const resultadosFiltrados = resultados.filter(resultado => {
@@ -92,6 +87,7 @@ async function obtenerResultados(url) {
     throw error;
   }
 }
-  module.exports = {
-    en1
-  };
+
+module.exports = {
+  en1
+};

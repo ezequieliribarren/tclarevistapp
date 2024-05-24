@@ -3,7 +3,7 @@ const request = require('request-promise');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 const unorm = require('unorm');
 
-async function pilotos() {
+async function en3() {
   try {
     // Obtener los datos desde Google Sheets
     const sheetId = "1456952227"; // ID de la hoja que deseas obtener
@@ -11,8 +11,8 @@ async function pilotos() {
 
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
-      .filter(fila => fila.c[7] !== null) // Filtrar las filas con valor null
-      .map(fila => fila.c[7].v);
+      .filter(fila => fila.c[10] !== null) // Filtrar las filas con valor null
+      .map(fila => fila.c[10].v);
 
     console.log(urlsEntrenamiento);
 
@@ -85,5 +85,5 @@ async function obtenerResultados(url) {
   }
 }
 module.exports = {
-  pilotos,
+  en3,
 };

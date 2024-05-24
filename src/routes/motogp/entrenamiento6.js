@@ -1,6 +1,7 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
+const unorm = require('unorm');
 
 async function en6() {
   try {
@@ -38,55 +39,51 @@ async function en6() {
 
 async function obtenerResultados(url) {
   try {
-    if (!url) {
-      console.error('URL no definida');
-      return []; // Devolver un array vacío si la URL no está definida
+    if (url === "" || url === "-") {
+      return [];
     }
 
-    const html = await request(url);
-    const $ = cheerio.load(html);
+    const body = await request({
+      uri: url,
+      encoding: 'latin1', // Especifica la codificación de caracteres
+    });
+
+    const $ = cheerio.load(body);
 
     const resultados = [];
 
     // Modificar el selector para apuntar a la tabla de resultados correcta
-    const tableRows = $('.ms-result-table tbody tr');
-    
+    const tableRows = $('.ue-table-ranking__tbody tr');
+
+    // Función para quitar acentos y caracteres especiales solo de los pilotos
+    function quitarAcentosPilotos(texto) {
+      return unorm.nfd(texto).replace(/[\u0300-\u036f]/g, "");
+    }
+
     // Iterar sobre cada fila de la tabla
     tableRows.each((index, element) => {
       const $row = $(element);
-      const pos = $row.find('.ms-table_field--pos .ms-table_row-value').text().trim();
-      const piloto = $row.find('.ms-table_field--result_driver_id .name-short').text().trim();
-      const equipo = $row.find('.ms-table_field--result_driver_id .team').text().trim();
-      const numero = $row.find('.ms-table_field--number .ms-table_row-value').text().trim();
-      const marca = $row.find('.ms-table_field--car_make .ms-table_row-value').text().trim();
-      const vueltas = $row.find('.ms-table_field--laps .ms-table_row-value').text().trim();
-      const tiempoDiferencia = $row.find('.ms-table_field--time').text().trim();
-      const puntos = $row.find('.ms-table_field--points .ms-table_row-value').text().trim();
-
-      // Extraer el tiempo y la diferencia del tiempoDiferencia
-      const [diferencia, tiempo] = tiempoDiferencia.split(/\s+/);
+      const pos = $row.find('.ue-table-ranking__position').text().trim();
+      const nacionalidad = $row.find('.ue-table-ranking__race-driver-flag').attr('alt');
+      const piloto = quitarAcentosPilotos($row.find('.ue-table-ranking__race-driver-name').text().trim());
+      const marca = $row.find('.ue-table-ranking__race-driver-team').text().trim();
+      const tiempo = $row.find('.ue-table-ranking__race-driver-time').text().trim();
 
       resultados.push({
-          pos,
-          piloto,
-          equipo,
-          numero,
-          marca,
-          vueltas,
-          tiempo,
-          puntos,
-          diferencia
+        pos,
+        nacionalidad,
+        piloto,
+        marca,
+        tiempo,
       });
     });
-    
+
     return resultados;
   } catch (error) {
     console.error('Error fetching data:', error);
     throw error;
   }
 }
-
 module.exports = {
   en6,
-
 };

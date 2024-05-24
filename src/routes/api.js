@@ -13,6 +13,8 @@ const { extraerDatosFE } = require('./campeonatoFE.js');
 const { extraerDatosWRC } = require('./campeonatoWRC.js');
 const { extraerDatosNascar } = require('./campeonatoNascar.js');
 const { extraerDatosTP, obtenerUrlsTP } = require('./campeonatoTP.js');
+const { obtenerUrlsTP2 } = require('./campeonatoTP2.JS');
+const { obtenerUrlsTP1 } = require('./campeonatoTP1.js');
 
 // API TODAS LAS NOTICIAS
 router.get('/noticias', async (req, res) => {
@@ -65,30 +67,77 @@ router.get('/campeonato/rally-argentino', async (req, res) => {
   }
 });
 
-// API TP C
+// API TP C3
 router.get('/campeonato/tp', async (req, res) => {
   try {
       // Obtener URLs de TP
       const urlsTP = await obtenerUrlsTP();
 
-      // Objeto para almacenar los datos de todas las clases
-      const datosTP = {};
+      // Array para almacenar los datos de todas las URLs
+      const datosTP = [];
 
       // Iterar sobre las URLs y extraer los datos
-      for (let i = 0; i < urlsTP.length; i++) {
-          const url = urlsTP[i];
-          let clase;
-
-          // Asignar clase basada en el índice
-          if (i === 0) clase = 3;
-          else if (i === 1) clase = 2;
-          else if (i === 2) clase = 1;
-
+      for (const url of urlsTP) {
           // Extraer datos de la URL actual
           const datos = await extraerDatosTP(url);
 
-          // Agregar datos al objeto utilizando la clase como clave
-          datosTP[`clase${clase}`] = datos;
+          // Agregar los datos al array
+          datosTP.push(...datos);
+      }
+
+      // Devolver los datos como respuesta
+      res.json(datosTP);
+  } catch (error) {
+      console.error('Error al obtener datos de TP:', error);
+      res.status(500).json({ error: 'Error interno del servidor' });
+  }
+});
+
+
+
+// API TP C2
+router.get('/campeonato/tp2', async (req, res) => {
+  try {
+      // Obtener URLs de TP
+      const urlsTP = await obtenerUrlsTP2();
+
+      // Array para almacenar los datos de todas las URLs
+      const datosTP = [];
+
+      // Iterar sobre las URLs y extraer los datos
+      for (const url of urlsTP) {
+          // Extraer datos de la URL actual
+          const datos = await extraerDatosTP(url);
+
+          // Agregar los datos al array
+          datosTP.push(...datos);
+      }
+
+      // Devolver los datos como respuesta
+      res.json(datosTP);
+  } catch (error) {
+      console.error('Error al obtener datos de TP:', error);
+      res.status(500).json({ error: 'Error interno del servidor' });
+  }
+});
+
+
+// API TP C1
+router.get('/campeonato/tp1', async (req, res) => {
+  try {
+      // Obtener URLs de TP
+      const urlsTP = await obtenerUrlsTP1();
+
+      // Array para almacenar los datos de todas las URLs
+      const datosTP = [];
+
+      // Iterar sobre las URLs y extraer los datos
+      for (const url of urlsTP) {
+          // Extraer datos de la URL actual
+          const datos = await extraerDatosTP(url);
+
+          // Agregar los datos al array
+          datosTP.push(...datos);
       }
 
       // Devolver los datos como respuesta
@@ -115,6 +164,7 @@ router.get('/campeonato/f1', async (req, res) => {
       res.status(500).json({ error: 'Error al obtener los datos de la Fórmula 1' });
   }
 });
+
 
 // API MOTO-GP
 router.get('/campeonato/moto-gp', async (req, res) => {

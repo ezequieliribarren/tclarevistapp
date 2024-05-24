@@ -10,6 +10,7 @@ const { serie2 } = require('./motogp/serie2.js')
 const { serie3 } = require('./motogp/serie3.js')
 const { final } = require('./motogp/final.js')
 const { pilotos } = require('./motogp/pilotos.js');
+const { menu } = require('./motogp/menu.js');
 
 
 // 1° ENTRENAMIENTO
@@ -157,4 +158,18 @@ router.get('/pilotos/:indice', async (req, res) => {
         res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
     }
   });
+
+// MENU
+// router.get('/menu', async (req, res) => {
+//     try {
+//       const datos = await menu();
+//       res.json(datos);
+//     } catch (error) {
+//       console.error('Error al obtener y mostrar el menú:', error);
+//       res.status(500).json({ error: 'Error al obtener y mostrar el menú' });
+//     }
+// });
+
+
+
   module.exports = router;

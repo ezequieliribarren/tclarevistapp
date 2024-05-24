@@ -19,6 +19,17 @@ async function obtenerDatosF1(url) {
             return { vuelta, situacion, weather };
         });
 
+        // Obtener datos de la cabecera
+        const headerData = await page.evaluate(() => {
+            const header = document.querySelector('.content-header');
+            const carrera = header.querySelector('.content-header--title').textContent.trim();
+            const lugar = header.querySelector('.content-header--subtitle span').textContent.trim();
+            const fechaInicio = header.querySelector('#startDate').getAttribute('datetime');
+            const fechaFin = header.querySelector('#endDate').getAttribute('datetime');
+
+            return { carrera, lugar, fechaInicio, fechaFin };
+        });
+
         const clasificacion = await page.evaluate(() => {
             const rows = Array.from(document.querySelectorAll('.f1.clasification tbody tr'));
 
@@ -41,8 +52,8 @@ async function obtenerDatosF1(url) {
 
         await browser.close();
         
-        // Devolver un objeto que contiene los datos del estado y la clasificación
-        return { statusData, clasificacion };
+        // Devolver un objeto que contiene los datos del estado, la clasificación y los datos de la cabecera
+        return { statusData, clasificacion, headerData };
     } catch (error) {
         console.error('Error al obtener los datos de F1:', error);
         throw error;

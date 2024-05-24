@@ -2,7 +2,7 @@ const cheerio = require('cheerio');
 const request = require('request-promise');
 const { obtenerDatosDesdeGoogleSheets } = require('./googleSheets');
 
-async function obtenerUrlsTP() {
+async function obtenerUrlsTP1() {
     try {
         // ID de la hoja de Google Sheets que contiene las URLs de TP
         const sheetId = "1579842406";
@@ -12,7 +12,7 @@ async function obtenerUrlsTP() {
 
         // Obtener las URLs de TP desde las posiciones 12, 13 y 14
         const urlsTP = [
-            datos[0]?.data[1]?.c[12]?.v,
+            datos[0]?.data[1]?.c[14]?.v
         ];
 
         return urlsTP;
@@ -22,7 +22,7 @@ async function obtenerUrlsTP() {
     }
 }
 
-async function extraerDatosTP(url) {
+async function extraerDatosTP1(url) {
     try {
         // Realizar una solicitud HTTP GET a la URL de TP
         const html = await request(url);
@@ -57,4 +57,4 @@ async function extraerDatosTP(url) {
     }
 }
 
-module.exports = { obtenerUrlsTP, extraerDatosTP };
+module.exports = { obtenerUrlsTP1, extraerDatosTP1 };
