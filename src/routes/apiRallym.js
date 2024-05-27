@@ -26,12 +26,8 @@ const { p23 } = require('./rallym/ss23.js');
 const { p24 } = require('./rallym/ss24.js');
 const { p25 } = require('./rallym/ss25.js');
 const { p26 } = require('./rallym/ss26.js');
-const { p27 } = require('./rallym/ss27.js');
-const { p28 } = require('./rallym/ss28.js');
-const { p29 } = require('./rallym/ss29.js');
-const { p30 } = require('./rallym/ss30.js');
 const { shake } = require('./rallym/shake.js');
-const { final } = require('./rallym/final.js');
+
 const { pilotos } = require('./rallym/pilotos.js');
 
 
@@ -774,144 +770,6 @@ router.get('/p26/:indice', async (req, res) => {
         res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
     }
 });
-// P27
-router.get('/p27/:indice', async (req, res) => {
-    const indice = parseInt(req.params.indice);
-
-    try {
-        const datos = await p27();
-
-        // Verificar si el índice es válido
-        if (datos && datos.length > 0) {
-            const [resultadosCol10, resultadosCol11] = datos;
-            
-            // Verificar si el índice está dentro del rango de resultados
-            if (resultadosCol10.length > indice && resultadosCol11.length > indice) {
-                const filaCol10 = resultadosCol10[indice];
-                const filaCol11 = resultadosCol11[indice];
-                res.json({ col10: filaCol10, col11: filaCol11 });
-            } else {
-                res.status(404).json({ error: 'No se encontró el índice especificado' });
-            }
-        } else {
-            res.status(404).json({ error: 'No se encontraron datos para mostrar' });
-        }
-    } catch (error) {
-        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
-    }
-});
-// P28
-router.get('/p28/:indice', async (req, res) => {
-    const indice = parseInt(req.params.indice);
-
-    try {
-        const datos = await p28();
-
-        // Verificar si el índice es válido
-        if (datos && datos.length > 0) {
-            const [resultadosCol10, resultadosCol11] = datos;
-            
-            // Verificar si el índice está dentro del rango de resultados
-            if (resultadosCol10.length > indice && resultadosCol11.length > indice) {
-                const filaCol10 = resultadosCol10[indice];
-                const filaCol11 = resultadosCol11[indice];
-                res.json({ col10: filaCol10, col11: filaCol11 });
-            } else {
-                res.status(404).json({ error: 'No se encontró el índice especificado' });
-            }
-        } else {
-            res.status(404).json({ error: 'No se encontraron datos para mostrar' });
-        }
-    } catch (error) {
-        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
-    }
-});
-// P29
-router.get('/p29/:indice', async (req, res) => {
-    const indice = parseInt(req.params.indice);
-
-    try {
-        const datos = await p29();
-
-        // Verificar si el índice es válido
-        if (datos && datos.length > 0) {
-            const [resultadosCol10, resultadosCol11] = datos;
-            
-            // Verificar si el índice está dentro del rango de resultados
-            if (resultadosCol10.length > indice && resultadosCol11.length > indice) {
-                const filaCol10 = resultadosCol10[indice];
-                const filaCol11 = resultadosCol11[indice];
-                res.json({ col10: filaCol10, col11: filaCol11 });
-            } else {
-                res.status(404).json({ error: 'No se encontró el índice especificado' });
-            }
-        } else {
-            res.status(404).json({ error: 'No se encontraron datos para mostrar' });
-        }
-    } catch (error) {
-        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
-    }
-});
-// P30
-router.get('/p30/:indice', async (req, res) => {
-    const indice = parseInt(req.params.indice);
-
-    try {
-        const datos = await p30();
-
-        // Verificar si el índice es válido
-        if (datos && datos.length > 0) {
-            const [resultadosCol10, resultadosCol11] = datos;
-            
-            // Verificar si el índice está dentro del rango de resultados
-            if (resultadosCol10.length > indice && resultadosCol11.length > indice) {
-                const filaCol10 = resultadosCol10[indice];
-                const filaCol11 = resultadosCol11[indice];
-                res.json({ col10: filaCol10, col11: filaCol11 });
-            } else {
-                res.status(404).json({ error: 'No se encontró el índice especificado' });
-            }
-        } else {
-            res.status(404).json({ error: 'No se encontraron datos para mostrar' });
-        }
-    } catch (error) {
-        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
-    }
-});
-
-
-router.get('/final/:indice', async (req, res) => {
-    const indice = parseInt(req.params.indice);
-
-    try {
-        const datos = await final();
-
-        // Verificar si el índice es válido
-        if (datos && datos.length > 0) {
-            const [resultadosCol10, resultadosCol11] = datos;
-            
-            // Verificar si el índice está dentro del rango de resultados
-            if (resultadosCol10.length > indice && resultadosCol11.length > indice) {
-                const filaCol10 = resultadosCol10[indice];
-                const filaCol11 = resultadosCol11[indice];
-                res.json({ col10: filaCol10, col11: filaCol11 });
-            } else {
-                res.status(404).json({ error: 'No se encontró el índice especificado' });
-            }
-        } else {
-            res.status(404).json({ error: 'No se encontraron datos para mostrar' });
-        }
-    } catch (error) {
-        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
-    }
-});
-
-
 
 
 

@@ -34,12 +34,42 @@ async function p24() {
 }
 
 
+// Función para limpiar el tiempo
+function cleanTiempo(tiempo) {
+  // Utilizar una expresión regular para extraer el tiempo en el formato mm'ss.ffff
+  const regex = /(\d{1,2}'\d{1,2}\.\d{1,2})/;
+  const match = tiempo.match(regex);
 
+  if (match) {
+    // Si se encuentra el patrón, devolver el tiempo en el formato deseado
+    return match[1];
+  } else {
+    // Si no se encuentra el patrón, devolver el tiempo sin cambios
+    return tiempo;
+  }
+}
+
+
+// Función para limpiar la diferencia
+function cleanDif(dif) {
+  // Utilizar expresión regular para eliminar espacios en blanco y caracteres no deseados
+  return dif.replace(/\s+/g, '').replace(/\\n+/g, '').replace(/['']+/g, '').trim();
+}
+
+// Función para obtener los resultados desde la URL proporcionada
 async function obtenerResultados(url) {
   try {
+    // Si la URL está vacía o contiene solo un guion "-", devolver un array vacío
+    if (url === "" || url === "-") {
+      return [];
+    }
+    
     const $ = await request({
       uri: url,
-      transform: body => cheerio.load(body)
+      transform: body => cheerio.load(body),
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+      }
     });
 
     const tablaPosiciones = [];
@@ -55,10 +85,10 @@ async function obtenerResultados(url) {
       const marca = $(columns[4]).find('.ms-table_row-value').text().trim();
 
       // Limpiar tiempo y diferencias
-      const tiempo = cleanTiempo2($(columns[5]).find('.ms-table_row-value').text().trim());
-      const tiempo2 = cleanTiempo2($(columns[6]).find('.ms-table_row-value').text().trim());
-      const dif = cleanDif2($(columns[5]).find('.ms-table_row-value').text().trim());
-      const dif2 = cleanDif2($(columns[6]).find('.ms-table_row-value').text().trim());
+      const tiempo = cleanTiempo($(columns[5]).find('.ms-table_row-value').text().trim());
+      const tiempo2 = cleanTiempo($(columns[6]).find('.ms-table_row-value').text().trim());
+      const dif = cleanDif($(columns[5]).find('.ms-table_row-value').text().trim());
+      const dif2 = cleanDif($(columns[6]).find('.ms-table_row-value').text().trim());
 
       // Almacenar los datos en el arreglo de posiciones
       tablaPosiciones.push({ posicion, piloto, numero, marca, tiempo, tiempo2, dif, dif2 });
@@ -70,24 +100,6 @@ async function obtenerResultados(url) {
     throw error;
   }
 }
-
-
-
-// Función para limpiar el tiempo2
-function cleanTiempo2(tiempo2String) {
-  const tiempoRegex = /(\d+'\d+(\.\d+)?)\s*$/;
-  const match = tiempo2String.match(tiempoRegex);
-  return match ? match[1].trim() : '';
-}
-
-// Función para limpiar la dif2
-function cleanDif2(dif2String) {
-  const difRegex = /([-+]?\d+'?\d*\.\d+)/;
-  const match = dif2String.match(difRegex);
-  return match ? match[0] : '';
-}
-
-
 
 
 module.exports = {

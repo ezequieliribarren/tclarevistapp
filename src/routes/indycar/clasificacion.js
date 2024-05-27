@@ -74,7 +74,7 @@ function limpiarTiempo(tiempo) {
         const $row = $(element);
         const pos = $row.find('.ms-table_field--pos .ms-table_row-value').text().trim();
         const piloto = $row.find('.ms-table_field--result_driver_id .name-short').text().trim();
-        const equipo = $row.find('.ms-table_field--result_driver_id .team').text().trim();
+        const marca = $row.find('.ms-table_field--result_driver_id .team').text().trim();
         const numero = $row.find('.ms-table_field--number .ms-table_row-value').text().trim();
         const vueltas = $row.find('.ms-table_field--laps .ms-table_row-value').text().trim();
         const tiempo = limpiarTiempo($row.find('.ms-table_field--time .ms-table_row-value').text());
@@ -84,7 +84,7 @@ function limpiarTiempo(tiempo) {
         resultados.push({
           pos,
           piloto,
-          equipo,
+          marca,
           numero,
           vueltas,
           tiempo,

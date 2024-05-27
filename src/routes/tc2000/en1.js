@@ -1,8 +1,9 @@
-const cheerio = require('cheerio');
-const request = require('request-promise');
-const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
+const puppeteer = require('puppeteer');
+const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 
 async function en1() {
+  process.setMaxListeners(15); // Cambia este número según sea necesario
+
   try {
     // Obtener los datos desde Google Sheets
     const sheetId = "901761059"; // ID de la hoja que deseas obtener
@@ -35,45 +36,36 @@ async function en1() {
 }
 
 async function obtenerResultados(url) {
+  let browser;
   try {
     if (url === "") {
       // Si la URL está vacía, devolver un valor predeterminado (por ejemplo, un arreglo vacío)
       return [];
     }
 
-    // Hacer una solicitud HTTP a la URL
-    const html = await request(url);
+    // Iniciar el navegador y la página
+    browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    await page.goto(url, { waitUntil: 'networkidle2' });
 
-    // Cargar el HTML en cheerio
-    const $ = cheerio.load(html);
-
-    // Buscar el elemento que contiene el texto "1° Entrenamiento"
-    let table;
-    $('.ui-accordion-header').each((i, element) => {
-      if ($(element).text().includes('1° Entrenamiento')) {
-        // Encontrar la tabla siguiente a este elemento
-        table = $(element).next('.ui-accordion-content').find('.tabla_tiempos');
-        return false; // Romper el bucle
-      }
-    });
-
-    // Si no se encuentra la tabla, devolver un arreglo vacío
-    if (!table) {
-      return [];
-    }
+    // Hacer clic en el primer elemento h5
+    await page.click('#ui-accordion-accordion-header-0');
+    await page.waitForSelector('#ui-accordion-accordion-panel-0');
 
     // Extraer datos de la tabla
-    const resultados = [];
-    table.find('tbody tr').each((i, row) => {
-      const columns = $(row).find('td');
-      const pos = $(columns[0]).text().trim();
-      const piloto = $(columns[1]).text().trim();
-      const marca = $(columns[2]).text().trim();
-      const vueltas = $(columns[3]).text().trim();
-      const tiempo = $(columns[4]).text().trim();
-      const diferencia = $(columns[5]).text().trim();
-
-      resultados.push({ pos, piloto, marca, vueltas, tiempo, diferencia });
+    const resultados = await page.evaluate(() => {
+      const rows = document.querySelectorAll('#ui-accordion-accordion-panel-0 .tabla_tiempos tbody tr');
+      return Array.from(rows).map(row => {
+        const columns = row.querySelectorAll('td');
+        return {
+          pos: columns[0].textContent.trim(),
+          piloto: columns[1].textContent.trim(),
+          marca: columns[2].textContent.trim(),
+          vueltas: columns[3].textContent.trim(),
+          tiempo: columns[4].textContent.trim(),
+          diferencia: columns[5].textContent.trim()
+        };
+      });
     });
 
     // Filtrar los resultados vacíos si existen
@@ -85,8 +77,13 @@ async function obtenerResultados(url) {
   } catch (error) {
     console.error('Error fetching data:', error);
     throw error;
+  } finally {
+    if (browser) {
+      await browser.close();
+    }
   }
 }
+
 
 module.exports = {
   en1
