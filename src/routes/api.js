@@ -13,7 +13,7 @@ const { extraerDatosFE } = require('./campeonatoFE.js');
 const { extraerDatosWRC } = require('./campeonatoWRC.js');
 const { extraerDatosNascar } = require('./campeonatoNascar.js');
 const { extraerDatosTP, obtenerUrlsTP } = require('./campeonatoTP.js');
-const { obtenerUrlsTP2 } = require('./campeonatoTP2.JS');
+const { obtenerUrlsTP2 } = require('./campeonatoTP2.js');
 const { obtenerUrlsTP1 } = require('./campeonatoTP1.js');
 
 // API TODAS LAS NOTICIAS
