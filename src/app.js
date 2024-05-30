@@ -7,11 +7,11 @@ const morgan = require('morgan');
 
 // Settings
 app.set('port', port);
-// app.listen(port)
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 const cors = require('cors');
 app.use(cors());
+
 
 // Middlewares
 app.use(morgan('dev'));
