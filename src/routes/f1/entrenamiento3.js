@@ -64,8 +64,8 @@ async function obtenerResultados(url) {
       
       // Convertir iniciales en mayúsculas a minúsculas
       nombre = nombre.charAt(0) + nombre.slice(1);
-      apellido = apellido.replace(/\s+/g, ' '); // Eliminar espacios adicionales
-      apellido = apellido.split(' ').map(word => word === word.toUpperCase() && word.length > 1 ? word.slice(0, -3) : word).join(' '); // Eliminar las tres últimas siglas en mayúsculas
+      piloto = piloto.replace(/\s+/g, ' '); // Eliminar espacios adicionales
+      piloto = piloto.split(' ').map(word => word === word.toUpperCase() && word.length > 1 ? word.slice(0, -3) : word).join(' '); // Eliminar las tres últimas siglas en mayúsculas
 
       // Limpiar el tiempo
       const tiempoLimpiado = tiempo.replace(/^\d+:/, ''); // Eliminar minutos si es mayor a 1 hora
@@ -73,7 +73,7 @@ async function obtenerResultados(url) {
       // Limpiar la diferencia
       const diferenciaLimpiada = diferencia.replace(/^\+/, ''); // Eliminar el signo '+' si está presente
 
-      resultados.push({ pos, nro, nombre, apellido, marca, tiempo: tiempoLimpiado, diferencia: diferenciaLimpiada, vueltas });
+      resultados.push({ pos, nro, nombre, apellido, piloto,  marca, tiempo: tiempoLimpiado, diferencia: diferenciaLimpiada, vueltas });
     });
 
     return resultados;
