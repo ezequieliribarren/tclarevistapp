@@ -39,7 +39,6 @@ app.use('/api-vincular', apiVincular);
 const apiPublicidades = require('./routes/api-publicidad.js');
 app.use('/publicidades', apiPublicidades);
 
-
 // APIS RESULTADOS ACTC
 const apiTcpk = require('./routes/apiTcpk.js');
 app.use('/tcpk', apiTcpk);
@@ -67,7 +66,6 @@ app.use('/tr', apiTopRace);
 const apiTopRaceSeries = require('./routes/apiTopRaceSeries.js');
 app.use('/tr-series', apiTopRaceSeries);
 
-
 // API RALLY ARGENTINO
 const rally = require('./routes/apiRally.js');
 app.use('/rally-argentino', rally);
@@ -88,11 +86,9 @@ app.use('/tp2', tp2);
 const tc2000 = require('./routes/apiTc2000.js');
 app.use('/tc2000', tc2000);
 
-
 // API F1
 const f1 = require('./routes/apiF1.js');
 app.use('/f1', f1);
-
 
 // API MOTO-GP
 const motogp = require('./routes/apiMotogp.js');

@@ -7,7 +7,7 @@ async function obtenerurlNascar() {
         const sheetId = "1579842406"; // ID de la hoja que deseas obtener
         const datos = await obtenerDatosDesdeGoogleSheets([sheetId]);
 
-        // Obtener la URL de MotoGP directamente
+        // Obtener la URL de Nascar directamente
         const urlNascar = datos[0]?.data[1]?.c[11]?.v;
 
         return urlNascar;
@@ -19,11 +19,15 @@ async function obtenerurlNascar() {
 
 async function extraerDatosNascar() {
     try {
-        // Obtener la URL de MotoGP
+        // Obtener la URL de Nascar
         const urlNascar = await obtenerurlNascar();
 
-        // Realizar una solicitud HTTP GET a la URL de MotoGP
-        const html = await request(urlNascar);
+        // Realizar una solicitud HTTP GET a la URL de Nascar con el encabezado de agente de usuario
+        const html = await request(urlNascar, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+        });
 
         // Load the HTML content using Cheerio
         const $ = cheerio.load(html);
@@ -48,7 +52,7 @@ async function extraerDatosNascar() {
 
         return data;
     } catch (error) {
-        console.error('Error al extraer datos de MotoGP:', error);
+        console.error('Error al extraer datos de Nascar:', error);
         throw error;
     }
 }

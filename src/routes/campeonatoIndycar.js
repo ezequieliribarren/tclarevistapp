@@ -7,7 +7,7 @@ async function obtenerurlIndycar() {
         const sheetId = "1579842406"; // ID de la hoja que deseas obtener
         const datos = await obtenerDatosDesdeGoogleSheets([sheetId]);
 
-        // Obtener la URL de MotoGP directamente
+        // Obtener la URL de Indycar directamente
         const urlIndycar = datos[0]?.data[1]?.c[8]?.v;
 
         return urlIndycar;
@@ -19,11 +19,15 @@ async function obtenerurlIndycar() {
 
 async function extraerDatosIndycar() {
     try {
-        // Obtener la URL de MotoGP
+        // Obtener la URL de Indycar
         const urlIndycar = await obtenerurlIndycar();
 
-        // Realizar una solicitud HTTP GET a la URL de MotoGP
-        const html = await request(urlIndycar);
+        // Realizar una solicitud HTTP GET a la URL de Indycar con el encabezado de agente de usuario
+        const html = await request(urlIndycar, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+        });
 
         // Load the HTML content using Cheerio
         const $ = cheerio.load(html);
@@ -48,7 +52,7 @@ async function extraerDatosIndycar() {
 
         return data;
     } catch (error) {
-        console.error('Error al extraer datos de MotoGP:', error);
+        console.error('Error al extraer datos de Indycar:', error);
         throw error;
     }
 }

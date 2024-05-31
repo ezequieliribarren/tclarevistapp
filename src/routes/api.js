@@ -93,8 +93,6 @@ router.get('/campeonato/tp', async (req, res) => {
   }
 });
 
-
-
 // API TP C2
 router.get('/campeonato/tp2', async (req, res) => {
   try {
@@ -120,7 +118,6 @@ router.get('/campeonato/tp2', async (req, res) => {
       res.status(500).json({ error: 'Error interno del servidor' });
   }
 });
-
 
 // API TP C1
 router.get('/campeonato/tp1', async (req, res) => {
@@ -148,8 +145,6 @@ router.get('/campeonato/tp1', async (req, res) => {
   }
 });
 
-
-
 // API F1
 router.get('/campeonato/f1', async (req, res) => {
   try {
@@ -164,7 +159,6 @@ router.get('/campeonato/f1', async (req, res) => {
       res.status(500).json({ error: 'Error al obtener los datos de la Fórmula 1' });
   }
 });
-
 
 // API MOTO-GP
 router.get('/campeonato/moto-gp', async (req, res) => {

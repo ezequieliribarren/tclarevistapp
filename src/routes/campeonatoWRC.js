@@ -22,8 +22,12 @@ async function extraerDatosWRC() {
         // Obtener la URL de MotoGP
         const urlWRC = await obtenerurlWRC();
 
-        // Realizar una solicitud HTTP GET a la URL de MotoGP
-        const html = await request(urlWRC);
+        // Realizar una solicitud HTTP GET a la URL de MotoGP con User-Agent
+        const html = await request(urlWRC, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+        });
 
         // Load the HTML content using Cheerio
         const $ = cheerio.load(html);

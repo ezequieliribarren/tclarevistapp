@@ -7,7 +7,7 @@ async function obtenerurlFE() {
         const sheetId = "1579842406"; // ID de la hoja que deseas obtener
         const datos = await obtenerDatosDesdeGoogleSheets([sheetId]);
 
-        // Obtener la URL de MotoGP directamente
+        // Obtener la URL de FE directamente
         const urlFE = datos[0]?.data[1]?.c[9]?.v;
 
         return urlFE;
@@ -19,11 +19,15 @@ async function obtenerurlFE() {
 
 async function extraerDatosFE() {
     try {
-        // Obtener la URL de MotoGP
+        // Obtener la URL de FE
         const urlFE = await obtenerurlFE();
 
-        // Realizar una solicitud HTTP GET a la URL de MotoGP
-        const html = await request(urlFE);
+        // Realizar una solicitud HTTP GET a la URL de FE con el encabezado de agente de usuario
+        const html = await request(urlFE, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+        });
 
         // Load the HTML content using Cheerio
         const $ = cheerio.load(html);
@@ -48,7 +52,7 @@ async function extraerDatosFE() {
 
         return data;
     } catch (error) {
-        console.error('Error al extraer datos de MotoGP:', error);
+        console.error('Error al extraer datos de FE:', error);
         throw error;
     }
 }
