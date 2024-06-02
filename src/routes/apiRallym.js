@@ -744,7 +744,7 @@ router.get('/p25/:indice', async (req, res) => {
     }
 });
 // P26
-router.get('/p26/:indice', async (req, res) => {
+router.get('/final/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
 
     try {

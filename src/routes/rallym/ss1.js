@@ -34,6 +34,8 @@ async function p1() {
 }
 
 
+
+
 // Función para limpiar el tiempo
 function cleanTiempo(tiempo) {
   // Utilizar una expresión regular para extraer el tiempo en el formato mm'ss.ffff

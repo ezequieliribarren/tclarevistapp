@@ -340,7 +340,7 @@ router.get('/p15/:indice', async (req, res) => {
 });
 
 // P16
-router.get('/p16/:indice', async (req, res) => {
+router.get('/final/:indice', async (req, res) => {
   const indice = parseInt(req.params.indice);
 
   try {
