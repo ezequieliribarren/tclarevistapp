@@ -55,12 +55,14 @@ async function obtenerResultados(url) {
       const tiempo = $(columns[5]).text().trim();
       const diferencia = $(columns[6]).text().trim();
       const vueltas = $(columns[7]).text().trim();
+      const nacionalidad = piloto
 
       // Limpiar el nombre del piloto
       piloto = piloto.replace(/\s+/g, ' '); // Eliminar espacios adicionales
       const nombreApellido = piloto.split(' ');
       let nombre = nombreApellido[0];
       let apellido = nombreApellido.slice(1).join(' ');
+      
       
       // Convertir iniciales en mayúsculas a minúsculas
       nombre = nombre.charAt(0) + nombre.slice(1);
@@ -73,7 +75,7 @@ async function obtenerResultados(url) {
       // Limpiar la diferencia
       const diferenciaLimpiada = diferencia.replace(/^\+/, ''); // Eliminar el signo '+' si está presente
 
-      resultados.push({ pos, nro, nombre, apellido, piloto, marca, tiempo: tiempoLimpiado, diferencia: diferenciaLimpiada, vueltas });
+      resultados.push({ pos, nro, nombre, apellido, piloto, marca, tiempo: tiempoLimpiado, diferencia: diferenciaLimpiada, vueltas, nacionalidad });
     });
 
     return resultados;

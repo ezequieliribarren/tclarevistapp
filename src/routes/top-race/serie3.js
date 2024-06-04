@@ -10,8 +10,8 @@ async function serie3() {
 
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
-      .filter(fila => fila.c[16] !== null) // Filtrar las filas con valor null
-      .map(fila => fila.c[16].v);
+      .filter(fila => fila.c[17] !== null) // Filtrar las filas con valor null
+      .map(fila => fila.c[17].v);
 
     // Array para almacenar todas las promesas de las solicitudes
     const promesasSolicitudes = [];

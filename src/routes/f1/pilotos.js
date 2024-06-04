@@ -52,17 +52,10 @@ async function obtenerResultados(url) {
             const numero = $(columns[2]).text().trim();
             let piloto = $(columns[3]).find('.first-name').text().trim() + ' ' + $(columns[3]).find('.last-name').text().trim();
             const marca = $(columns[4]).text().trim();
-            const tiempo = $(columns[5]).text().trim();
-            const diferencia = $(columns[6]).text().trim();
-            const vueltas = $(columns[7]).text().trim();
+            const nacionalidad = piloto
 
-            // Limpiar el tiempo
-            const tiempoLimpiado = tiempo.replace(/^\d+:/, ''); // Eliminar minutos si es mayor a 1 hora
 
-            // Limpiar la diferencia
-            const diferenciaLimpiada = diferencia.replace(/^\+/, ''); // Eliminar el signo '+' si está presente
-
-            resultados.push({ pos, numero, piloto, marca, tiempo: tiempoLimpiado, diferencia: diferenciaLimpiada, vueltas });
+            resultados.push({ pos, numero, piloto, marca, nacionalidad });
         });
 
         return resultados;

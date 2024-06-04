@@ -12,6 +12,7 @@ const { serie2 } = require('./tn/serie2.js');
 const { serie3 } = require('./tn/serie3.js');
 const { final } = require('./tn/final.js');
 const { menu } = require('./tn/menu.js');
+const { pilotos } = require('./tn/pilotos.js');
 
 
 // 1° ENTRENAMIENTO
