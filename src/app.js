@@ -1,16 +1,19 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 5000
 const path = require('path');
 const morgan = require('morgan');
+import { FRONTEND_URL, port } from './config.js';
+const port = process.env.port || port
 
-
-// Settings
 app.set('port', port);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 const cors = require('cors');
-app.use(cors());
+app.use(cors(
+    {
+        origin: FRONTEND_URL,
+    }
+));
 
 
 // Middlewares
