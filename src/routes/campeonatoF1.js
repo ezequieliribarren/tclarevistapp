@@ -41,9 +41,14 @@ async function extraerDatosF1() {
         // Extraer datos de la tabla
         $('tbody tr').each((index, element) => {
             const posicion = $(element).find('td:nth-child(2)').text().trim();
-            const pilotoDirty = $(element).find('td:nth-child(3) a').text().trim();
-            // Limpiar el nombre del piloto
-            const piloto = pilotoDirty.replace(/\s+/g, ' ').trim();
+            let pilotoDirty = $(element).find('td:nth-child(3) a').text().trim();
+            
+            // Limpiar el nombre del piloto y eliminar los últimos 3 caracteres
+            let piloto = pilotoDirty.replace(/\s+/g, ' ').trim();
+            if (piloto.length > 3) {
+                piloto = piloto.slice(0, -3);
+            }
+
             const nacionalidad = $(element).find('td:nth-child(4)').text().trim();
             const marca = $(element).find('td:nth-child(5) a').text().trim();
             const puntos = $(element).find('td:nth-child(6)').text().trim();

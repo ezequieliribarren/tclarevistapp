@@ -13,7 +13,7 @@ async function p16() {
       .filter(fila => fila.c[40] !== null) // Filtrar las filas con valor null
       .map(fila => fila.c[40].v);
 
-      const urlsRally2 = datos[0].data
+    const urlsRally2 = datos[0].data
       .filter(fila => fila.c[41] !== null) // Filtrar las filas con valor null
       .map(fila => fila.c[41].v);
 
@@ -33,7 +33,6 @@ async function p16() {
   }
 }
 
-
 // Función para limpiar el tiempo
 function cleanTiempo(tiempo) {
   // Utilizar una expresión regular para extraer el tiempo en el formato mm'ss.ffff
@@ -49,11 +48,16 @@ function cleanTiempo(tiempo) {
   }
 }
 
-
 // Función para limpiar la diferencia
 function cleanDif(dif) {
   // Utilizar expresión regular para eliminar espacios en blanco y caracteres no deseados
   return dif.replace(/\s+/g, '').replace(/\\n+/g, '').replace(/['']+/g, '').trim();
+}
+
+// Función para insertar espacio entre nombres del piloto
+function formatPilotoName(name) {
+  // Utilizar expresión regular para insertar espacio antes de cada mayúscula
+  return name.replace(/([a-z])([A-Z])/g, '$1 $2');
 }
 
 // Función para obtener los resultados desde la URL proporcionada
@@ -63,7 +67,7 @@ async function obtenerResultados(url) {
     if (url === "" || url === "-") {
       return [];
     }
-    
+
     const $ = await request({
       uri: url,
       transform: body => cheerio.load(body),
@@ -80,9 +84,10 @@ async function obtenerResultados(url) {
 
       // Obtener los valores de las celdas
       const posicion = $(columns[0]).find('.ms-table_row-value').text().trim();
-      const piloto = $(columns[1]).find('.name-short').text().trim();
+      let piloto = $(columns[1]).find('.name-short').text().trim();
       const numero = $(columns[2]).find('.ms-table_row-value').text().trim();
       const marca = $(columns[4]).find('.ms-table_row-value').text().trim();
+      const nacionalidad = piloto;
 
       // Limpiar tiempo y diferencias
       const tiempo = cleanTiempo($(columns[5]).find('.ms-table_row-value').text().trim());
@@ -90,8 +95,11 @@ async function obtenerResultados(url) {
       const dif = cleanDif($(columns[5]).find('.ms-table_row-value').text().trim());
       const dif2 = cleanDif($(columns[6]).find('.ms-table_row-value').text().trim());
 
+      // Formatear el nombre del piloto
+      piloto = formatPilotoName(piloto);
+
       // Almacenar los datos en el arreglo de posiciones
-      tablaPosiciones.push({ posicion, piloto, numero, marca, tiempo, tiempo2, dif, dif2 });
+      tablaPosiciones.push({ posicion, piloto, numero, marca, tiempo, tiempo2, dif, dif2, nacionalidad });
     });
 
     return tablaPosiciones;
@@ -100,7 +108,6 @@ async function obtenerResultados(url) {
     throw error;
   }
 }
-
 
 module.exports = {
   p16

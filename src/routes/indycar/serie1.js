@@ -51,6 +51,8 @@ async function obtenerResultados(url) {
       const tiempo = limpiarTiempo($row.find('.ms-table_field--time .ms-table_row-value').text());
       const diferencia = limpiarDiferencia($row.find('.ms-table_field--interval .ms-table_row-value').text());
       const puntos = $row.find('.ms-table_field--avg_speed .ms-table_row-value').text().trim();
+      const nacionalidad = piloto
+
 
       resultados.push({
         pos,
@@ -60,7 +62,8 @@ async function obtenerResultados(url) {
         vueltas,
         tiempo,
         diferencia,
-        puntos
+        puntos,
+        nacionalidad
       });
     });
 

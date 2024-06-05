@@ -1,0 +1,20 @@
+[
+    {
+        "id": "ab7b0e24-00e0-4296-8bfa-1bf5bad05afa",
+        "categoria": [
+            "Turismo Nacional C3"
+        ],
+        "title": "TN C3",
+        "priority": "general",
+        "date": "2024-06-05T08:25:22-03:00",
+        "param": "tn3",
+        "image": "",
+        "secondImage": "",
+        "video": "",
+        "miniatura": "",
+        "idVideo": "",
+        "cuerpo": "",
+        "imageCuerpo": [],
+        "audio": ""
+    }
+]

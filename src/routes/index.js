@@ -17,6 +17,7 @@ const noticiasFilePath = 'src/noticias.json';
 const filePaths = [
     'src/noticias/turismo-carretera.json',
     'src/noticias/turismo-nacional.json',
+    'src/noticias/turismo-nacional-c3.json',
     'src/noticias/top-race.json',
     'src/noticias/tc-2000.json',
     'src/noticias/tc-2000-series.json',
