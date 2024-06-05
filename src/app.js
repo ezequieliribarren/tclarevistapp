@@ -2,18 +2,20 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const morgan = require('morgan');
-import { FRONTEND_URL, port } from './config.js';
-const port = process.env.port || port
+const { FRONTEND_URL, PORT } = require('./config.js'); // Importa las variables usando destructuración
 
-app.set('port', port);
+// Configuración de la aplicación
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+
 const cors = require('cors');
-app.use(cors(
-    {
-        origin: FRONTEND_URL,
-    }
-));
+app.use(cors({
+    origin: FRONTEND_URL,
+}));
+
+app.listen(PORT, () => {
+    console.log(`Server on port ${PORT}`);
+});
 
 
 // Middlewares
