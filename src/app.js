@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const morgan = require('morgan');
 const { FRONTEND_URL, PORT } = require('./config.js'); // Importa las variables usando destructuración
-
+console.log(FRONTEND_URL)
 // Configuración de la aplicación
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -14,7 +14,8 @@ app.use(cors({
 }));
 
 app.listen(PORT, () => {
-    console.log(`Server on port ${PORT}`);
+   console.log(FRONTEND_URL)
+    console.log(PORT)
 });
 
 
