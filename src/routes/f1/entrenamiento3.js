@@ -1,6 +1,8 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
-const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
+const fs = require('fs').promises;
+const path = require('path');
+const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 
 async function en3() {
   try {
@@ -13,17 +15,19 @@ async function en3() {
       .filter(fila => fila.c[10] !== null) // Filtrar las filas con valor null
       .map(fila => fila.c[10].v);
 
-    const promesasSolicitudes = [];
+    const resultadosPorUrl = [];
 
-    // Enviar solicitudes en paralelo
+    // Obtener los resultados de cada URL
     for (const url of urlsEntrenamiento) {
-      promesasSolicitudes.push(obtenerResultados(url));
+      const resultado = await obtenerResultados(url);
+      resultadosPorUrl.push({ url, resultado }); // Añadir un objeto por cada URL
     }
 
-    // Esperar a que todas las solicitudes se completen
-    const resultadosPorUrl = await Promise.all(promesasSolicitudes);
-
     console.log('Resultados por URL:', resultadosPorUrl);
+
+    // Guardar los resultados en un archivo JSON en el mismo nivel que el archivo de scraping
+    const jsonFileName = path.join(__dirname, 'en3.json');
+    await fs.writeFile(jsonFileName, JSON.stringify(resultadosPorUrl, null, 2), 'utf-8');
 
     // Devolver los resultados obtenidos
     return resultadosPorUrl;
@@ -55,18 +59,18 @@ async function obtenerResultados(url) {
       const tiempo = $(columns[5]).text().trim();
       const diferencia = $(columns[6]).text().trim();
       const vueltas = $(columns[7]).text().trim();
-      const nacionalidad = piloto
 
       // Limpiar el nombre del piloto
       piloto = piloto.replace(/\s+/g, ' '); // Eliminar espacios adicionales
       const nombreApellido = piloto.split(' ');
       let nombre = nombreApellido[0];
       let apellido = nombreApellido.slice(1).join(' ');
+      const nacionalidad = piloto;
       
       // Convertir iniciales en mayúsculas a minúsculas
       nombre = nombre.charAt(0) + nombre.slice(1);
       piloto = piloto.replace(/\s+/g, ' '); // Eliminar espacios adicionales
-      piloto = piloto.split(' ').map(word => word === word.toUpperCase() && word.length > 1 ? word.slice(0, -3) : word).join(' '); // Eliminar las tres últimas siglas en mayúsculas
+      piloto = piloto.split(' ').map(word => word === word.toUpperCase() && word.length > 1 ? word.slice(0, -4) : word).join(' '); // Eliminar las tres últimas siglas en mayúsculas
 
       // Limpiar el tiempo
       const tiempoLimpiado = tiempo.replace(/^\d+:/, ''); // Eliminar minutos si es mayor a 1 hora
@@ -74,7 +78,7 @@ async function obtenerResultados(url) {
       // Limpiar la diferencia
       const diferenciaLimpiada = diferencia.replace(/^\+/, ''); // Eliminar el signo '+' si está presente
 
-      resultados.push({ pos, nro, nombre, apellido, piloto,  marca, tiempo: tiempoLimpiado, diferencia: diferenciaLimpiada, vueltas, nacionalidad });
+      resultados.push({ pos, nro, nombre, apellido, piloto, marca, tiempo: tiempoLimpiado, diferencia: diferenciaLimpiada, vueltas, nacionalidad });
     });
 
     return resultados;
@@ -83,7 +87,6 @@ async function obtenerResultados(url) {
     throw error;
   }
 }
-
 
 module.exports = {
   en3

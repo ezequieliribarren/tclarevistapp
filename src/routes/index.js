@@ -150,8 +150,6 @@ const audioStorage = multer.diskStorage({
     }
 });
 
-
-
 // IMAGENES
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
@@ -171,19 +169,41 @@ const storage = multer.diskStorage({
     }
 });
 
+// HTML
+const htmlStorage = multer.diskStorage({
+    destination: (req, file, cb) => {
+        cb(null, 'src/public/html');
+    },
+    filename: (req, file, cb) => {
+        const htmlPath = 'src/public/html/' + file.originalname;
+        fs.access(htmlPath, fs.constants.F_OK, (err) => {
+            if (err) {
+                // El archivo no existe, puedes usar este nombre de archivo
+                cb(null, file.originalname);
+            } else {
+                // El archivo ya existe, devuelve un mensaje de error
+                cb(new Error('El nombre del archivo HTML ya existe en la carpeta pública'));
+            }
+        });
+    }
+});
+
 const upload = multer({ storage: storage });
 const uploadAudio = multer({ storage: audioStorage });
+const uploadHTML = multer({ storage: htmlStorage });
+
 
 router.post('/new-entry', upload.fields([
     { name: 'image', maxCount: 1 },
     { name: 'secondImage', maxCount: 1 },
     { name: 'imageCuerpo', maxCount: 10 },
-    { name: 'audio', maxCount: 1 }
+    { name: 'audio', maxCount: 1 },
+    { name: 'htmlFile', maxCount: 1 } // Agregamos la carga de archivos HTML
 ]), (req, res) => {
-    const { title, cuerpo, categoria, video, idVideo, param } = req.body;
+    const { title, cuerpo, categoria, video, idVideo, param, priority } = req.body; // Capturar prioridad
     
-    // Obtener la ubicación del archivo de audio
     const audioFile = req.files['audio'] ? `audio/${req.files['audio'][0].filename}` : '';
+    const htmlFile = req.files['htmlFile'] ? `html/${req.files['htmlFile'][0].filename}` : ''; // Obtener el nombre del archivo HTML si se proporciona
 
     if (!title || !categoria) {
         res.status(400).send('Faltan campos');
@@ -191,8 +211,6 @@ router.post('/new-entry', upload.fields([
     }
 
     const now = moment();
-
-    // Agrega la zona horaria de Argentina a la fecha
     const formattedDate = now.tz('America/Argentina/Buenos_Aires').format();
 
     let image = "";
@@ -215,7 +233,7 @@ router.post('/new-entry', upload.fields([
         id: uuidv4(),
         categoria: Array.isArray(categoria) ? categoria : [categoria],
         title,
-        priority: "general",
+        priority: priority ? priority.toLowerCase() : "general",
         date: formattedDate,
         param,
         image,
@@ -225,33 +243,25 @@ router.post('/new-entry', upload.fields([
         idVideo,
         cuerpo,
         imageCuerpo,
-        audio: audioFile 
+        audio: audioFile,
+        html: htmlFile // Agregamos el nombre del archivo HTML a la nueva noticia
     };
     
-    // Verifica la prioridad seleccionada
-    if (nuevaNoticia.priority && ["primaria", "secundaria", "terciaria"].includes(nuevaNoticia.priority.toLowerCase())) {
-        // Si tiene prioridad, agrega la noticia al array correspondiente
-        noticias.prioridad[priority.toLowerCase()] = noticias.prioridad[priority.toLowerCase()] || [];
-        noticias.prioridad[priority.toLowerCase()].unshift(nuevaNoticia);
+    if (nuevaNoticia.priority && ["primaria", "secundaria", "terciaria"].includes(nuevaNoticia.priority)) {
+        noticias.prioridad[nuevaNoticia.priority] = noticias.prioridad[nuevaNoticia.priority] || [];
+        noticias.prioridad[nuevaNoticia.priority].unshift(nuevaNoticia);
 
-        // Mueve la noticia anterior al array general
-        moverNoticia(noticias.prioridad[priority.toLowerCase()]);
+        moverNoticia(noticias.prioridad[nuevaNoticia.priority]);
     } else {
-        // Si no tiene prioridad, agrega la noticia al array general
         noticias.general = noticias.general || [];
         noticias.general.push(nuevaNoticia);
     }
 
-    // Restringir la noticia a categorías únicas (eliminar duplicados)
     const categoriasUnicas = Array.from(new Set(nuevaNoticia.categoria));
-
-    // Guarda las noticias actualizadas en el archivo JSON
     guardarNoticiasEnArchivo();
 
-    // Verifica las categorías seleccionadas
     categoriasUnicas.forEach(cat => {
         if (cat.toLowerCase() !== 'general') {
-            // Si es otra categoría, sigue el procedimiento actual
             guardarNoticiaEnCategoria(nuevaNoticia, cat);
         }
     });
@@ -259,31 +269,51 @@ router.post('/new-entry', upload.fields([
     res.redirect('/new-entry');
 });
 
+
 router.post('/move-to-priority/:id', (req, res) => {
     const { priority } = req.body;
     const noticiaId = req.params.id;
 
-    // Verifica si la prioridad es válida
     if (!["primaria", "secundaria", "terciaria"].includes(priority.toLowerCase())) {
         res.status(400).send('Prioridad no válida');
         return;
     }
 
-    // Mueve la noticia a la categoría correspondiente
     if (priority.toLowerCase() === 'primaria') {
         moverNoticiaAPrimaria(noticias, noticiaId);
-    } else {
-        moverNoticiaAPrioridad(noticias, noticiaId, priority.toLowerCase());
+    } else if (priority.toLowerCase() === 'secundaria') {
+        moverNoticiaAPrioridad(noticias, noticiaId, 'secundaria');
+    } else if (priority.toLowerCase() === 'terciaria') {
+        moverNoticiaAPrioridad(noticias, noticiaId, 'terciaria');
     }
 
     res.redirect('/new-entry');
 });
 
+function moverNoticiaAPrioridad(noticias, noticiaId, prioridad) {
+    const noticia = eliminarNoticiaEnArrayYCategoria(noticias.general, noticiaId, 'General', true);
+
+    if (noticia) {
+        noticia.prioridad = prioridad;
+        noticias.prioridad[prioridad].unshift(noticia);
+
+        if (noticias.prioridad[prioridad].length > 1) {
+            const noticiaAnterior = noticias.prioridad[prioridad].splice(1, 1)[0];
+            noticiaAnterior.prioridad = 'general';
+            noticias.general.push(noticiaAnterior); // Añadir al final de la lista general
+        }
+
+        guardarNoticiasEnArchivo();
+    }
+}
+
+
+
 function guardarNoticiasEnArchivo() {
-    // Guarda las noticias actualizadas en el archivo JSON
-    const jsonNoticiasActualizado = JSON.stringify(noticias);
+    const jsonNoticiasActualizado = JSON.stringify(noticias, null, 2);
     fs.writeFileSync(noticiasFilePath, jsonNoticiasActualizado, 'utf-8');
 }
+
 
 function guardarNoticiaEnCategoria(nuevaNoticia, categoria) {
     // Obtén el nombre del archivo JSON según la categoría seleccionada
@@ -311,39 +341,33 @@ function guardarNoticiaEnCategoria(nuevaNoticia, categoria) {
 function moverNoticiaAPrimaria(noticias, noticiaId) {
     const noticia = eliminarNoticiaEnArrayYCategoria(noticias.general, noticiaId, 'General', true);
 
-    // Mover la noticia a primaria
     if (noticia) {
         noticia.prioridad = 'primaria';
         noticias.prioridad.primaria.unshift(noticia);
 
-        // Verificar si hay una noticia anterior en primaria
         if (noticias.prioridad.primaria.length > 1) {
-            // Mover la noticia anterior de primaria a secundaria
             const noticiaAnteriorPrimaria = noticias.prioridad.primaria.splice(1, 1)[0];
             noticiaAnteriorPrimaria.prioridad = 'secundaria';
             noticias.prioridad.secundaria.unshift(noticiaAnteriorPrimaria);
 
-            // Verificar si hay una noticia anterior en secundaria
             if (noticias.prioridad.secundaria.length > 1) {
-                // Mover la noticia anterior de secundaria a terciaria
                 const noticiaAnteriorSecundaria = noticias.prioridad.secundaria.splice(1, 1)[0];
                 noticiaAnteriorSecundaria.prioridad = 'terciaria';
                 noticias.prioridad.terciaria.unshift(noticiaAnteriorSecundaria);
 
-                // Verificar si hay una noticia anterior en terciaria
                 if (noticias.prioridad.terciaria.length > 1) {
-                    // Mover la noticia anterior de terciaria a general
                     const noticiaAnteriorTerciaria = noticias.prioridad.terciaria.splice(1, 1)[0];
                     noticiaAnteriorTerciaria.prioridad = 'general';
-                    noticias.general.unshift(noticiaAnteriorTerciaria);
+                    noticias.general.push(noticiaAnteriorTerciaria); // Añadir al final de la lista general
                 }
             }
         }
 
-        // Guardar las noticias actualizadas en el archivo JSON
         guardarNoticiasEnArchivo();
     }
 }
+
+
 
 function eliminarNoticiaDeArchivoPorCategoria(id, filePath) {
     if (fs.existsSync(filePath)) {
@@ -366,22 +390,24 @@ function eliminarNoticiaDeArchivoPorCategoria(id, filePath) {
 function eliminarNoticiaEnArrayYCategoria(array, id, categoria, esGeneral) {
     const indice = array.findIndex(noticia => noticia.id === id);
     if (indice !== -1) {
-        // Elimina la noticia del array en memoria
         const noticiaEliminada = array.splice(indice, 1)[0];
 
-        // Eliminar también del archivo JSON de la categoría si no es general
         if (!esGeneral) {
             const categoriaFilePath = `src/noticias/${categoria.toLowerCase().replace(/\s+/g, '-')}.json`;
             eliminarNoticiaDeArchivoPorCategoria(id, categoriaFilePath);
         }
 
-        return noticiaEliminada; // Devuelve la noticia eliminada para su posterior manipulación si es necesario
+        return noticiaEliminada;
     }
-    return null; // Retorna null si no se encuentra la noticia en el array en memoria
+    return null;
 }
 
-// VINCULAR
 
+
+
+
+
+// VINCULAR
 router.get('/vincular', (req, res) => {
     res.render('vincular'); // Renderiza la plantilla vincular.ejs o el archivo HTML correspondiente
 });

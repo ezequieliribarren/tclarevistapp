@@ -1,6 +1,8 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
-const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
+const fs = require('fs').promises;
+const path = require('path');
+const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 
 async function en1() {
   try {
@@ -13,17 +15,19 @@ async function en1() {
       .filter(fila => fila.c[8] !== null) // Filtrar las filas con valor null
       .map(fila => fila.c[8].v);
 
-    const promesasSolicitudes = [];
+    const resultadosPorUrl = [];
 
-    // Enviar solicitudes en paralelo
+    // Obtener los resultados de cada URL
     for (const url of urlsEntrenamiento) {
-      promesasSolicitudes.push(obtenerResultados(url));
+      const resultado = await obtenerResultados(url);
+      resultadosPorUrl.push({ url, resultado }); // Añadir un objeto por cada URL
     }
 
-    // Esperar a que todas las solicitudes se completen
-    const resultadosPorUrl = await Promise.all(promesasSolicitudes);
-
     console.log('Resultados por URL:', resultadosPorUrl);
+
+    // Guardar los resultados en un archivo JSON en el mismo nivel que el archivo de scraping
+    const jsonFileName = path.join(__dirname, 'en1.json');
+    await fs.writeFile(jsonFileName, JSON.stringify(resultadosPorUrl, null, 2), 'utf-8');
 
     // Devolver los resultados obtenidos
     return resultadosPorUrl;
@@ -61,7 +65,7 @@ async function obtenerResultados(url) {
       const nombreApellido = piloto.split(' ');
       let nombre = nombreApellido[0];
       let apellido = nombreApellido.slice(1).join(' ');
-      const nacionalidad = piloto
+      const nacionalidad = piloto;
       
       // Convertir iniciales en mayúsculas a minúsculas
       nombre = nombre.charAt(0) + nombre.slice(1);
@@ -83,7 +87,6 @@ async function obtenerResultados(url) {
     throw error;
   }
 }
-  
 
 module.exports = {
   en1

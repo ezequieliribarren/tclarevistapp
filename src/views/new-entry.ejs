@@ -95,6 +95,15 @@
                <label for="file">Audio</label>
                <input class='form-control' type="file" id="audio" name="audio" accept="audio/*" multiple>
             </div>
+            <div class="form-group">
+               <label for="url">URL del endpoint:</label>
+               <input type="text" id="url" name="url" required>
+           </div>
+           <button type="submit">Generar HTML</button>
+            <div class="form-group" style="margin-top: 0.5rem;">
+               <label for="title">Resumen de tanda</label>
+               <input class="form-control" type="file" name="htmlFile" autofocus required>
+            </div>
             <div class="form-group" style="margin-top: 1rem;">
                <button type="button" onclick="agregarCitaTextual()">Cita Textual</button>
                <button type="button" onclick="destacar()">Destacar</button>
@@ -108,7 +117,7 @@
             </div>
             <input type="submit" value="Guardar Noticia" class="btn btn-secondary">
          </form>
-         <form action="/procesar" method="POST">
+         <!-- <form action="/procesar" method="POST">
             <label for="url">URL:</label>
             <input type="text" id="url" name="url" required>
             <br>
@@ -116,7 +125,7 @@
             <input type="text" id="fileName" name="fileName" required>
             <br>
             <button type="submit">Procesar y Guardar</button>
-        </form>
+         </form> -->
          <div>
             <h2 style="color: white; margin: 1rem 0;">General</h2>
             <ul
@@ -132,9 +141,17 @@
                         </h5>
                         <form method="POST" action="/move-to-priority/<%= noticias.general[i].id %>">
                            <input type="hidden" name="priority" value="primaria">
-                           <button style="margin: 0 0.5rem;" type="submit" class="btn btn-success">Primaria</button><a
-                              href="/delete/<%= noticias.general[i].id %>" class="btn btn-danger">Eliminar</a>
-                        </form>
+                           <button type="submit" class="btn btn-success">Primaria</button>
+                       </form>
+                       <form method="POST" action="/move-to-priority/<%= noticias.general[i].id %>">
+                           <input type="hidden" name="priority" value="secundaria">
+                           <button type="submit" class="btn btn-success">Secundaria</button>
+                       </form>
+                       <form method="POST" action="/move-to-priority/<%= noticias.general[i].id %>">
+                           <input type="hidden" name="priority" value="terciaria">
+                           <button type="submit" class="btn btn-success">Terciaria</button>
+                       </form>
+                       <a href="/delete/<%= noticias.general[i].id %>" class="btn btn-danger">Eliminar</a>
                      </li>
                      <% } %>
                         <% } else { %>
@@ -316,15 +333,15 @@
          }
       }
    </script>
-<script>
-function tanda() {
-  var editor = document.getElementById("editor");
-  var iframeSrc = "URL_DEL_IFRAME"; // Reemplaza "URL_DEL_IFRAME" con la URL del iframe que deseas agregar
-  var iframe = "<iframe class='custom-iframe' src='" + iframeSrc + "' width='100%' scrolling='yes' frameborder='0' allowfullscreen='allowfullscreen' style='height: calc(100% - 70rem - 50rem); margin-top: 70rem; margin-bottom: 50rem;'></iframe>";
-  editor.value += "\n" + iframe;
-}
+   <script>
+      function tanda() {
+         var editor = document.getElementById("editor");
+         var iframeSrc = "URL_DEL_IFRAME"; // Reemplaza "URL_DEL_IFRAME" con la URL del iframe que deseas agregar
+         var iframe = "<iframe class='custom-iframe' src='" + iframeSrc + "' width='100%' scrolling='yes' frameborder='0' allowfullscreen='allowfullscreen' style='height: calc(100% - 70rem - 50rem); margin-top: 70rem; margin-bottom: 50rem;'></iframe>";
+         editor.value += "\n" + iframe;
+      }
 
-</script>
+   </script>
 </body>
 
 </html>
