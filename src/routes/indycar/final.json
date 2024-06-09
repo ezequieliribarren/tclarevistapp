@@ -1,0 +1,471 @@
+[
+  {
+    "url": "https://lat.motorsport.com/indycar/results/2024/st-petersburg-646412/?st=RACE",
+    "resultado": [
+      {
+        "pos": "",
+        "nro": "2",
+        "nombre": "J.",
+        "apellido": "Newgarden",
+        "piloto": "J. Newgarden",
+        "marca": "Team Penske",
+        "tiempo": "1:5129.5954",
+        "diferencia": "",
+        "vueltas": "100",
+        "nacionalidad": "J. Newgarden"
+      },
+      {
+        "pos": "1",
+        "nro": "5",
+        "nombre": "P.",
+        "apellido": "O'Ward",
+        "piloto": "P. O'Ward",
+        "marca": "Arrow McLaren",
+        "tiempo": "+7.91211:5137.5075",
+        "diferencia": "7.9121",
+        "vueltas": "100",
+        "nacionalidad": "P. O'Ward"
+      },
+      {
+        "pos": "",
+        "nro": "3",
+        "nombre": "S.",
+        "apellido": "McLaughlin",
+        "piloto": "S. McLaughlin",
+        "marca": "Team Penske",
+        "tiempo": "+8.45771:5138.0531",
+        "diferencia": "0.5456",
+        "vueltas": "100",
+        "nacionalidad": "S. McLaughlin"
+      },
+      {
+        "pos": "2",
+        "nro": "12",
+        "nombre": "W.",
+        "apellido": "Power",
+        "piloto": "W. Power",
+        "marca": "Team Penske",
+        "tiempo": "+9.05591:5138.6513",
+        "diferencia": "0.5982",
+        "vueltas": "100",
+        "nacionalidad": "W. Power"
+      },
+      {
+        "pos": "3",
+        "nro": "26",
+        "nombre": "C.",
+        "apellido": "Herta",
+        "piloto": "C. Herta",
+        "marca": "Andretti Global with Curb-Agajanian",
+        "tiempo": "+10.25781:5139.8532",
+        "diferencia": "1.2019",
+        "vueltas": "100",
+        "nacionalidad": "C. Herta"
+      },
+      {
+        "pos": "4",
+        "nro": "10",
+        "nombre": "A.",
+        "apellido": "Palou",
+        "piloto": "A. Palou",
+        "marca": "Chip Ganassi Racing",
+        "tiempo": "+11.80361:5141.3990",
+        "diferencia": "1.5458",
+        "vueltas": "100",
+        "nacionalidad": "A. Palou"
+      },
+      {
+        "pos": "5",
+        "nro": "60",
+        "nombre": "F.",
+        "apellido": "Rosenqvist",
+        "piloto": "F. Rosenqvist",
+        "marca": "Michael Shank Racing",
+        "tiempo": "+14.40441:5143.9998",
+        "diferencia": "2.6008",
+        "vueltas": "100",
+        "nacionalidad": "F. Rosenqvist"
+      },
+      {
+        "pos": "6",
+        "nro": "7",
+        "nombre": "A.",
+        "apellido": "Rossi",
+        "piloto": "A. Rossi",
+        "marca": "Arrow McLaren",
+        "tiempo": "+15.78531:5145.3807",
+        "diferencia": "1.3809",
+        "vueltas": "100",
+        "nacionalidad": "A. Rossi"
+      },
+      {
+        "pos": "7",
+        "nro": "9",
+        "nombre": "S.",
+        "apellido": "Dixon",
+        "piloto": "S. Dixon",
+        "marca": "Chip Ganassi Racing",
+        "tiempo": "+16.29641:5145.8918",
+        "diferencia": "0.5111",
+        "vueltas": "100",
+        "nacionalidad": "S. Dixon"
+      },
+      {
+        "pos": "8",
+        "nro": "21",
+        "nombre": "R.",
+        "apellido": "van",
+        "piloto": "R. van Kalmthout",
+        "marca": "Ed Carpenter Racing",
+        "tiempo": "+18.83461:5148.4300",
+        "diferencia": "2.5382",
+        "vueltas": "100",
+        "nacionalidad": "R. van Kalmthout"
+      },
+      {
+        "pos": "9",
+        "nro": "14",
+        "nombre": "S.",
+        "apellido": "Ferrucci",
+        "piloto": "S. Ferrucci",
+        "marca": "A.J. Foyt Enterprises",
+        "tiempo": "+23.04371:5152.6391",
+        "diferencia": "4.2091",
+        "vueltas": "100",
+        "nacionalidad": "S. Ferrucci"
+      },
+      {
+        "pos": "10",
+        "nro": "27",
+        "nombre": "K.",
+        "apellido": "Kirkwood",
+        "piloto": "K. Kirkwood",
+        "marca": "Andretti Global",
+        "tiempo": "+24.58761:5154.1830",
+        "diferencia": "1.5439",
+        "vueltas": "100",
+        "nacionalidad": "K. Kirkwood"
+      },
+      {
+        "pos": "11",
+        "nro": "6",
+        "nombre": "C.",
+        "apellido": "Ilott",
+        "piloto": "C. Ilott",
+        "marca": "Arrow McLaren",
+        "tiempo": "+28.71131:5158.3067",
+        "diferencia": "4.1237",
+        "vueltas": "100",
+        "nacionalidad": "C. Ilott"
+      },
+      {
+        "pos": "12",
+        "nro": "4",
+        "nombre": "K.",
+        "apellido": "Simpson",
+        "piloto": "K. Simpson",
+        "marca": "Chip Ganassi Racing",
+        "tiempo": "+29.56621:5159.1616",
+        "diferencia": "0.8549",
+        "vueltas": "100",
+        "nacionalidad": "K. Simpson"
+      },
+      {
+        "pos": "13",
+        "nro": "30",
+        "nombre": "P.",
+        "apellido": "Fittipaldi",
+        "piloto": "P. Fittipaldi",
+        "marca": "Rahal Letterman Lanigan Racing",
+        "tiempo": "+32.81751:5202.4129",
+        "diferencia": "3.2513",
+        "vueltas": "100",
+        "nacionalidad": "P. Fittipaldi"
+      },
+      {
+        "pos": "14",
+        "nro": "15",
+        "nombre": "G.",
+        "apellido": "Rahal",
+        "piloto": "G. Rahal",
+        "marca": "Rahal Letterman Lanigan Racing",
+        "tiempo": "+34.69551:5204.2909",
+        "diferencia": "1.8780",
+        "vueltas": "100",
+        "nacionalidad": "G. Rahal"
+      },
+      {
+        "pos": "15",
+        "nro": "66",
+        "nombre": "T.",
+        "apellido": "Blomqvist",
+        "piloto": "T. Blomqvist",
+        "marca": "Michael Shank Racing",
+        "tiempo": "+40.47261:5210.0680",
+        "diferencia": "5.7771",
+        "vueltas": "100",
+        "nacionalidad": "T. Blomqvist"
+      },
+      {
+        "pos": "16",
+        "nro": "78",
+        "nombre": "A.",
+        "apellido": "Canapino",
+        "piloto": "A. Canapino",
+        "marca": "Juncos Hollinger Racing",
+        "tiempo": "+42.12471:5211.7201",
+        "diferencia": "1.6521",
+        "vueltas": "100",
+        "nacionalidad": "A. Canapino"
+      },
+      {
+        "pos": "17",
+        "nro": "18",
+        "nombre": "J.",
+        "apellido": "Harvey",
+        "piloto": "J. Harvey",
+        "marca": "Dale Coyne Racing",
+        "tiempo": "+49.34531:5218.9407",
+        "diferencia": "7.2206",
+        "vueltas": "100",
+        "nacionalidad": "J. Harvey"
+      },
+      {
+        "pos": "18",
+        "nro": "45",
+        "nombre": "C.",
+        "apellido": "Lundgaard",
+        "piloto": "C. Lundgaard",
+        "marca": "Rahal Letterman Lanigan Racing",
+        "tiempo": "+58.73471:5228.3301",
+        "diferencia": "9.3894",
+        "vueltas": "100",
+        "nacionalidad": "C. Lundgaard"
+      },
+      {
+        "pos": "19",
+        "nro": "20",
+        "nombre": "C.",
+        "apellido": "Rasmussen",
+        "piloto": "C. Rasmussen",
+        "marca": "Ed Carpenter Racing",
+        "tiempo": "+1Lap1:5221.5301",
+        "diferencia": "1Lap",
+        "vueltas": "99",
+        "nacionalidad": "C. Rasmussen"
+      },
+      {
+        "pos": "20",
+        "nro": "51",
+        "nombre": "C.",
+        "apellido": "Braun",
+        "piloto": "C. Braun",
+        "marca": "Dale Coyne Racing",
+        "tiempo": "+1Lap1:5227.0026",
+        "diferencia": "5.4725",
+        "vueltas": "99",
+        "nacionalidad": "C. Braun"
+      },
+      {
+        "pos": "21",
+        "nro": "8",
+        "nombre": "L.",
+        "apellido": "Lundqvist",
+        "piloto": "L. Lundqvist",
+        "marca": "Chip Ganassi Racing",
+        "tiempo": "+3Laps1:5227.7687",
+        "diferencia": "2Laps",
+        "vueltas": "97",
+        "nacionalidad": "L. Lundqvist"
+      },
+      {
+        "pos": "22",
+        "nro": "77",
+        "nombre": "R.",
+        "apellido": "Grosjean",
+        "piloto": "R. Grosjean",
+        "marca": "Juncos Hollinger Racing",
+        "tiempo": "+18Laps1:3329.4950",
+        "diferencia": "15Laps",
+        "vueltas": "82",
+        "nacionalidad": "R. Grosjean"
+      },
+      {
+        "pos": "23",
+        "nro": "28",
+        "nombre": "M.",
+        "apellido": "Ericsson",
+        "piloto": "M. Ericsson",
+        "marca": "Andretti Global",
+        "tiempo": "+48Laps5935.2774",
+        "diferencia": "30Laps",
+        "vueltas": "52",
+        "nacionalidad": "M. Ericsson"
+      },
+      {
+        "pos": "24",
+        "nro": "41",
+        "nombre": "R.",
+        "apellido": "Robb",
+        "piloto": "R. Robb",
+        "marca": "A.J. Foyt Enterprises",
+        "tiempo": "+67Laps3717.3009",
+        "diferencia": "19Laps",
+        "vueltas": "33",
+        "nacionalidad": "R. Robb"
+      },
+      {
+        "pos": "25",
+        "nro": "11",
+        "nombre": "M.",
+        "apellido": "Armstrong",
+        "piloto": "M. Armstrong",
+        "marca": "Chip Ganassi Racing",
+        "tiempo": "+75Laps2607.8934",
+        "diferencia": "8Laps",
+        "vueltas": "25",
+        "nacionalidad": "M. Armstrong"
+      },
+      {
+        "pos": "",
+        "nro": "",
+        "nombre": "",
+        "apellido": "",
+        "piloto": "",
+        "marca": "",
+        "tiempo": "",
+        "diferencia": "",
+        "vueltas": "",
+        "nacionalidad": ""
+      },
+      {
+        "pos": "",
+        "nro": "",
+        "nombre": "J.",
+        "apellido": "Newgarden",
+        "piloto": "J. Newgarden",
+        "marca": "",
+        "tiempo": "",
+        "diferencia": "",
+        "vueltas": "",
+        "nacionalidad": "J. Newgarden"
+      },
+      {
+        "pos": "",
+        "nro": "",
+        "nombre": "C.",
+        "apellido": "Lundgaard",
+        "piloto": "C. Lundgaard",
+        "marca": "",
+        "tiempo": "",
+        "diferencia": "",
+        "vueltas": "",
+        "nacionalidad": "C. Lundgaard"
+      },
+      {
+        "pos": "",
+        "nro": "",
+        "nombre": "J.",
+        "apellido": "Newgarden",
+        "piloto": "J. Newgarden",
+        "marca": "",
+        "tiempo": "",
+        "diferencia": "",
+        "vueltas": "",
+        "nacionalidad": "J. Newgarden"
+      },
+      {
+        "pos": "",
+        "nro": "",
+        "nombre": "C.",
+        "apellido": "Herta",
+        "piloto": "C. Herta",
+        "marca": "",
+        "tiempo": "",
+        "diferencia": "",
+        "vueltas": "",
+        "nacionalidad": "C. Herta"
+      },
+      {
+        "pos": "",
+        "nro": "",
+        "nombre": "J.",
+        "apellido": "Newgarden",
+        "piloto": "J. Newgarden",
+        "marca": "",
+        "tiempo": "",
+        "diferencia": "",
+        "vueltas": "",
+        "nacionalidad": "J. Newgarden"
+      }
+    ]
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  }
+]

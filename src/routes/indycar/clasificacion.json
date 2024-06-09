@@ -1,0 +1,243 @@
+[
+  {
+    "url": "https://lat.motorsport.com/indycar/results/2024/st-petersburg-646412/?st=Q1+G2",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "26",
+        "nombre": "C.",
+        "apellido": "Herta",
+        "piloto": "C. Herta",
+        "marca": "Andretti Global with Curb-Agajanian",
+        "tiempo": "59.5596",
+        "diferencia": "",
+        "vueltas": "8",
+        "nacionalidad": "C. Herta"
+      },
+      {
+        "pos": "2",
+        "nro": "77",
+        "nombre": "R.",
+        "apellido": "Grosjean",
+        "piloto": "R. Grosjean",
+        "marca": "Juncos Hollinger Racing",
+        "tiempo": "+0.011359.5709",
+        "diferencia": "0.0113",
+        "vueltas": "8",
+        "nacionalidad": "R. Grosjean"
+      },
+      {
+        "pos": "3",
+        "nro": "60",
+        "nombre": "F.",
+        "apellido": "Rosenqvist",
+        "piloto": "F. Rosenqvist",
+        "marca": "Michael Shank Racing",
+        "tiempo": "+0.062459.6220",
+        "diferencia": "0.0511",
+        "vueltas": "8",
+        "nacionalidad": "F. Rosenqvist"
+      },
+      {
+        "pos": "4",
+        "nro": "12",
+        "nombre": "W.",
+        "apellido": "Power",
+        "piloto": "W. Power",
+        "marca": "Team Penske",
+        "tiempo": "+0.129259.6888",
+        "diferencia": "0.0668",
+        "vueltas": "8",
+        "nacionalidad": "W. Power"
+      },
+      {
+        "pos": "5",
+        "nro": "9",
+        "nombre": "S.",
+        "apellido": "Dixon",
+        "piloto": "S. Dixon",
+        "marca": "Chip Ganassi Racing",
+        "tiempo": "+0.160459.7200",
+        "diferencia": "0.0312",
+        "vueltas": "9",
+        "nacionalidad": "S. Dixon"
+      },
+      {
+        "pos": "6",
+        "nro": "45",
+        "nombre": "C.",
+        "apellido": "Lundgaard",
+        "piloto": "C. Lundgaard",
+        "marca": "Rahal Letterman Lanigan Racing",
+        "tiempo": "+0.234459.7940",
+        "diferencia": "0.0740",
+        "vueltas": "8",
+        "nacionalidad": "C. Lundgaard"
+      },
+      {
+        "pos": "7",
+        "nro": "14",
+        "nombre": "S.",
+        "apellido": "Ferrucci",
+        "piloto": "S. Ferrucci",
+        "marca": "A.J. Foyt Enterprises",
+        "tiempo": "+0.258659.8182",
+        "diferencia": "0.0242",
+        "vueltas": "8",
+        "nacionalidad": "S. Ferrucci"
+      },
+      {
+        "pos": "8",
+        "nro": "6",
+        "nombre": "C.",
+        "apellido": "Ilott",
+        "piloto": "C. Ilott",
+        "marca": "Arrow McLaren",
+        "tiempo": "+0.331559.8911",
+        "diferencia": "0.0729",
+        "vueltas": "8",
+        "nacionalidad": "C. Ilott"
+      },
+      {
+        "pos": "9",
+        "nro": "27",
+        "nombre": "K.",
+        "apellido": "Kirkwood",
+        "piloto": "K. Kirkwood",
+        "marca": "Andretti Global",
+        "tiempo": "+0.350659.9102",
+        "diferencia": "0.0191",
+        "vueltas": "8",
+        "nacionalidad": "K. Kirkwood"
+      },
+      {
+        "pos": "10",
+        "nro": "78",
+        "nombre": "A.",
+        "apellido": "Canapino",
+        "piloto": "A. Canapino",
+        "marca": "Juncos Hollinger Racing",
+        "tiempo": "+0.371259.9308",
+        "diferencia": "0.0206",
+        "vueltas": "8",
+        "nacionalidad": "A. Canapino"
+      },
+      {
+        "pos": "11",
+        "nro": "15",
+        "nombre": "G.",
+        "apellido": "Rahal",
+        "piloto": "G. Rahal",
+        "marca": "Rahal Letterman Lanigan Racing",
+        "tiempo": "+0.5357100.0953",
+        "diferencia": "0.1645",
+        "vueltas": "8",
+        "nacionalidad": "G. Rahal"
+      },
+      {
+        "pos": "12",
+        "nro": "41",
+        "nombre": "R.",
+        "apellido": "Robb",
+        "piloto": "R. Robb",
+        "marca": "A.J. Foyt Enterprises",
+        "tiempo": "+0.8529100.4125",
+        "diferencia": "0.3172",
+        "vueltas": "8",
+        "nacionalidad": "R. Robb"
+      },
+      {
+        "pos": "13",
+        "nro": "30",
+        "nombre": "P.",
+        "apellido": "Fittipaldi",
+        "piloto": "P. Fittipaldi",
+        "marca": "Rahal Letterman Lanigan Racing",
+        "tiempo": "+0.9740100.5336",
+        "diferencia": "0.1211",
+        "vueltas": "8",
+        "nacionalidad": "P. Fittipaldi"
+      },
+      {
+        "pos": "14",
+        "nro": "18",
+        "nombre": "J.",
+        "apellido": "Harvey",
+        "piloto": "J. Harvey",
+        "marca": "Dale Coyne Racing",
+        "tiempo": "+1.0116100.5712",
+        "diferencia": "0.0376",
+        "vueltas": "9",
+        "nacionalidad": "J. Harvey"
+      }
+    ]
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  }
+]
