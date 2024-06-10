@@ -1,0 +1,2625 @@
+[
+  {
+    "url": "https://www.rallyargentino.com/tiempos2010/2024/carrera01/ARGGR_PE01.HTM",
+    "resultado": [
+      {
+        "posicion": "POS.",
+        "numero": "PILOTO / NAVEGANTE",
+        "piloto": "TIEMPO",
+        "tiempo": "DIF. 1º",
+        "dif": "PROM.",
+        "dif2": ""
+      },
+      {
+        "posicion": "POS.",
+        "numero": "PILOTO / NAVEGANTE",
+        "piloto": "VEHICULO",
+        "tiempo": "TIEMPO",
+        "dif": "PENALIZ.",
+        "dif2": "CLA."
+      },
+      {
+        "posicion": "1",
+        "numero": "4",
+        "piloto": "PASTEN, Gaston RAMOS, Matias",
+        "tiempo": "4.44,4",
+        "dif": "",
+        "dif2": ""
+      },
+      {
+        "posicion": "1",
+        "numero": "4",
+        "piloto": "PASTEN, Gaston RAMOS, Matias",
+        "tiempo": "Skoda",
+        "dif": "4.44,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "2",
+        "numero": "6",
+        "piloto": "DIAZ, Nicolas ALLENDE, Luis",
+        "tiempo": "4.45,9",
+        "dif": ". 1,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "2",
+        "numero": "6",
+        "piloto": "DIAZ, Nicolas ALLENDE, Luis",
+        "tiempo": "Skoda",
+        "dif": "4.45,9",
+        "dif2": ". 1,5. 1,5"
+      },
+      {
+        "posicion": "3",
+        "numero": "9",
+        "piloto": "ZEBALLOS, Rodrigo GONZALEZ, Sebastian",
+        "tiempo": "4.50,5",
+        "dif": ". 6,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "3",
+        "numero": "9",
+        "piloto": "ZEBALLOS, Rodrigo GONZALEZ, Sebastian",
+        "tiempo": "Citroen",
+        "dif": "4.50,5",
+        "dif2": ". 6,1. 4,6"
+      },
+      {
+        "posicion": "4",
+        "numero": "8",
+        "piloto": "BONNIN, Leandro BAUCERO, Martin",
+        "tiempo": "4.50,7",
+        "dif": ". 6,3",
+        "dif2": ""
+      },
+      {
+        "posicion": "4",
+        "numero": "8",
+        "piloto": "BONNIN, Leandro BAUCERO, Martin",
+        "tiempo": "Citroen",
+        "dif": "4.50,7",
+        "dif2": ". 6,3. ,2"
+      },
+      {
+        "posicion": "5",
+        "numero": "10",
+        "piloto": "VILLAGRA, Federico KLUS, Virginia",
+        "tiempo": "4.54,6",
+        "dif": ".10,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "5",
+        "numero": "10",
+        "piloto": "VILLAGRA, Federico KLUS, Virginia",
+        "tiempo": "Citroen",
+        "dif": "4.54,6",
+        "dif2": ".10,2. 3,9"
+      },
+      {
+        "posicion": "6",
+        "numero": "15",
+        "piloto": "DISALVO, Rodrigo GARCIA, Ruben",
+        "tiempo": "4.54,9",
+        "dif": ".10,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "6",
+        "numero": "15",
+        "piloto": "DISALVO, Rodrigo GARCIA, Ruben",
+        "tiempo": "Skoda",
+        "dif": "4.54,9",
+        "dif2": ".10,5. ,3"
+      },
+      {
+        "posicion": "7",
+        "numero": "25",
+        "piloto": "ZALDIVAR, Miguel (H) CAGNOTTI, Diego",
+        "tiempo": "4.55,3",
+        "dif": ".10,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "7",
+        "numero": "25",
+        "piloto": "ZALDIVAR, Miguel (H) CAGNOTTI, Diego",
+        "tiempo": "VW",
+        "dif": "4.55,3",
+        "dif2": ".10,9. ,4"
+      },
+      {
+        "posicion": "8",
+        "numero": "27",
+        "piloto": "MARIEYHARA, Andres OBRADOR, Mauricio",
+        "tiempo": "4.56,3",
+        "dif": ".11,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "8",
+        "numero": "27",
+        "piloto": "MARIEYHARA, Andres OBRADOR, Mauricio",
+        "tiempo": "Skoda",
+        "dif": "4.56,3",
+        "dif2": ".11,9. 1,0"
+      },
+      {
+        "posicion": "9",
+        "numero": "18",
+        "piloto": "ROBUSTELLI, Claudio PISSACO, Mariano",
+        "tiempo": "4.57,4",
+        "dif": ".13,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "9",
+        "numero": "18",
+        "piloto": "ROBUSTELLI, Claudio PISSACO, Mariano",
+        "tiempo": "Skoda",
+        "dif": "4.57,4",
+        "dif2": ".13,0. 1,1"
+      },
+      {
+        "posicion": "10",
+        "numero": "11",
+        "piloto": "MICELI, Diego DAPARTE, Sergio",
+        "tiempo": "5.00,1",
+        "dif": ".15,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "10",
+        "numero": "11",
+        "piloto": "MICELI, Diego DAPARTE, Sergio",
+        "tiempo": "Citroen",
+        "dif": "5.00,1",
+        "dif2": ".15,7. 2,7"
+      },
+      {
+        "posicion": "11",
+        "numero": "17",
+        "piloto": "CADAMURO, Federico CARRERA, Juan",
+        "tiempo": "5.04,4",
+        "dif": ".20,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "11",
+        "numero": "17",
+        "piloto": "CADAMURO, Federico CARRERA, Juan",
+        "tiempo": "Skoda",
+        "dif": "5.04,4",
+        "dif2": ".20,0. 4,3"
+      },
+      {
+        "posicion": "12",
+        "numero": "7",
+        "piloto": "MENENDEZ, Alejandro DIAZ, Gonzalo",
+        "tiempo": "5.04,5",
+        "dif": ".20,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "12",
+        "numero": "7",
+        "piloto": "MENENDEZ, Alejandro DIAZ, Gonzalo",
+        "tiempo": "Skoda",
+        "dif": "5.04,5",
+        "dif2": ".20,1. ,1"
+      },
+      {
+        "posicion": "13",
+        "numero": "22",
+        "piloto": "ARCELUZ, Luis QUERALT, Ezequiel",
+        "tiempo": "5.06,1",
+        "dif": ".21,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "13",
+        "numero": "22",
+        "piloto": "ARCELUZ, Luis QUERALT, Ezequiel",
+        "tiempo": "Citroen",
+        "dif": "5.06,1",
+        "dif2": ".21,7. 1,6"
+      },
+      {
+        "posicion": "14",
+        "numero": "26",
+        "piloto": "GALDUROZ, Juan OLMOS, Pablo",
+        "tiempo": "5.06,4",
+        "dif": ".22,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "14",
+        "numero": "26",
+        "piloto": "GALDUROZ, Juan OLMOS, Pablo",
+        "tiempo": "Skoda",
+        "dif": "5.06,4",
+        "dif2": ".22,0. ,3"
+      },
+      {
+        "posicion": "15",
+        "numero": "23",
+        "piloto": "BESTARD, Augusto DIAZ, Jose",
+        "tiempo": "5.07,1",
+        "dif": ".22,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "15",
+        "numero": "23",
+        "piloto": "BESTARD, Augusto DIAZ, Jose",
+        "tiempo": "Skoda",
+        "dif": "5.07,1",
+        "dif2": ".22,7. ,7"
+      },
+      {
+        "posicion": "16",
+        "numero": "28",
+        "piloto": "DOMINGUEZ, Esteban GARCIA, Nicolas",
+        "tiempo": "5.17,9",
+        "dif": ".33,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "16",
+        "numero": "28",
+        "piloto": "DOMINGUEZ, Esteban GARCIA, Nicolas",
+        "tiempo": "Citroen",
+        "dif": "5.17,9",
+        "dif2": ".33,5.10,8"
+      },
+      {
+        "posicion": "17",
+        "numero": "56",
+        "piloto": "TORRAS, Manuel MAGGI, Jean",
+        "tiempo": "5.51,8",
+        "dif": "1.07,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "17",
+        "numero": "56",
+        "piloto": "TORRAS, Manuel MAGGI, Jean",
+        "tiempo": "Renault",
+        "dif": "5.51,8",
+        "dif2": "1.07,4.33,9"
+      },
+      {
+        "posicion": "18",
+        "numero": "20",
+        "piloto": "PREVEDELLO, Antonio LONDERO, Leonardo",
+        "tiempo": "5.58,4",
+        "dif": "1.14,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "18",
+        "numero": "20",
+        "piloto": "PREVEDELLO, Antonio LONDERO, Leonardo",
+        "tiempo": "Skoda",
+        "dif": "5.58,4",
+        "dif2": "1.14,0. 6,6"
+      },
+      {
+        "posicion": "19",
+        "numero": "49",
+        "piloto": "BALLAY, Victorio DELIA, Andres",
+        "tiempo": "6.05,8",
+        "dif": "1.21,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "19",
+        "numero": "49",
+        "piloto": "BALLAY, Victorio DELIA, Andres",
+        "tiempo": "Citroen",
+        "dif": "6.05,8",
+        "dif2": "1.21,4. 7,4"
+      },
+      {
+        "posicion": "20",
+        "numero": "52",
+        "piloto": "DE LA VEGA, Nicolas DE LA VEGA, Juan",
+        "tiempo": "6.06,3",
+        "dif": "1.21,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "20",
+        "numero": "52",
+        "piloto": "DE LA VEGA, Nicolas DE LA VEGA, Juan",
+        "tiempo": "Citroen",
+        "dif": "6.06,3",
+        "dif2": "1.21,9. ,5"
+      },
+      {
+        "posicion": "21",
+        "numero": "44",
+        "piloto": "FOLLEDO, Cesar FOLLEDO, Valentin",
+        "tiempo": "6.08,2",
+        "dif": "1.23,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "21",
+        "numero": "44",
+        "piloto": "FOLLEDO, Cesar FOLLEDO, Valentin",
+        "tiempo": "VW",
+        "dif": "6.08,2",
+        "dif2": "1.23,8. 1,9"
+      },
+      {
+        "posicion": "22",
+        "numero": "57",
+        "piloto": "LLINAS, Mario SOLIMANO, Oscar",
+        "tiempo": "6.10,1",
+        "dif": "1.25,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "22",
+        "numero": "57",
+        "piloto": "LLINAS, Mario SOLIMANO, Oscar",
+        "tiempo": "VW",
+        "dif": "6.10,1",
+        "dif2": "1.25,7. 1,9"
+      },
+      {
+        "posicion": "23",
+        "numero": "46",
+        "piloto": "PATAT, Miguel SABBATINI, Sofia",
+        "tiempo": "6.10,7",
+        "dif": "1.26,3",
+        "dif2": ""
+      },
+      {
+        "posicion": "23",
+        "numero": "46",
+        "piloto": "PATAT, Miguel SABBATINI, Sofia",
+        "tiempo": "Renault",
+        "dif": "6.10,7",
+        "dif2": "1.26,3. ,6"
+      },
+      {
+        "posicion": "24",
+        "numero": "41",
+        "piloto": "KIM, Hernan BAZAN, Marcos",
+        "tiempo": "6.18,9",
+        "dif": "1.34,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "24",
+        "numero": "41",
+        "piloto": "KIM, Hernan BAZAN, Marcos",
+        "tiempo": "VW",
+        "dif": "6.18,9",
+        "dif2": "1.34,5. 8,2"
+      },
+      {
+        "posicion": "25",
+        "numero": "54",
+        "piloto": "ROBBIANI, Ariel DECIBE, Jorge",
+        "tiempo": "6.22,9",
+        "dif": "1.38,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "25",
+        "numero": "54",
+        "piloto": "ROBBIANI, Ariel DECIBE, Jorge",
+        "tiempo": "Citroen",
+        "dif": "6.22,9",
+        "dif2": "1.38,5. 4,0"
+      },
+      {
+        "posicion": "26",
+        "numero": "42",
+        "piloto": "CUTRO, Nadia BOMBACI, Luciano",
+        "tiempo": "6.38,4",
+        "dif": "1.54,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "26",
+        "numero": "42",
+        "piloto": "CUTRO, Nadia BOMBACI, Luciano",
+        "tiempo": "Toyota",
+        "dif": "6.38,4",
+        "dif2": "1.54,0.15,5"
+      },
+      {
+        "posicion": "27",
+        "numero": "91",
+        "piloto": "BONNIN, Martin VIOLLAZ, Dana",
+        "tiempo": "6.46,2",
+        "dif": "2.01,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "27",
+        "numero": "91",
+        "piloto": "BONNIN, Martin VIOLLAZ, Dana",
+        "tiempo": "VW",
+        "dif": "6.46,2",
+        "dif2": "2.01,8. 7,8"
+      },
+      {
+        "posicion": "28",
+        "numero": "107",
+        "piloto": "ALESSANDRINI, Pablo EL AIN, Fabian",
+        "tiempo": "6.47,2",
+        "dif": "2.02,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "28",
+        "numero": "107",
+        "piloto": "ALESSANDRINI, Pablo EL AIN, Fabian",
+        "tiempo": "Ford",
+        "dif": "6.47,2",
+        "dif2": "2.02,8. 1,0"
+      },
+      {
+        "posicion": "29",
+        "numero": "48",
+        "piloto": "BELLO, Carlos BREGLIA, Gustavo",
+        "tiempo": "6.47,6",
+        "dif": "2.03,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "29",
+        "numero": "48",
+        "piloto": "BELLO, Carlos BREGLIA, Gustavo",
+        "tiempo": "VW",
+        "dif": "6.47,6",
+        "dif2": "2.03,2. ,4"
+      },
+      {
+        "posicion": "30",
+        "numero": "111",
+        "piloto": "AMBROSIO, Guillermo AMAYA, Franco",
+        "tiempo": "6.48,2",
+        "dif": "2.03,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "30",
+        "numero": "87",
+        "piloto": "BERNASCONI, Juan UEZ, Ignacio",
+        "tiempo": "Ford",
+        "dif": "6.49,3",
+        "dif2": "2.04,9. 1,7"
+      },
+      {
+        "posicion": "31",
+        "numero": "87",
+        "piloto": "BERNASCONI, Juan UEZ, Ignacio",
+        "tiempo": "6.49,3",
+        "dif": "2.04,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "31",
+        "numero": "106",
+        "piloto": "FRANCO, Jose FRANCO, Gabriel",
+        "tiempo": "Ford",
+        "dif": "6.52,8",
+        "dif2": "2.08,4. 3,5"
+      },
+      {
+        "posicion": "32",
+        "numero": "106",
+        "piloto": "FRANCO, Jose FRANCO, Gabriel",
+        "tiempo": "6.52,8",
+        "dif": "2.08,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "32",
+        "numero": "69",
+        "piloto": "MACHADO, Lucas ARANGUREN, Matias",
+        "tiempo": "Peugeot",
+        "dif": "6.58,2",
+        "dif2": "2.13,8. 5,4"
+      },
+      {
+        "posicion": "33",
+        "numero": "69",
+        "piloto": "MACHADO, Lucas ARANGUREN, Matias",
+        "tiempo": "6.58,2",
+        "dif": "2.13,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "33",
+        "numero": "88",
+        "piloto": "DAPARTE, Fernando MARTIN, Lucas",
+        "tiempo": "VW",
+        "dif": "7.00,0",
+        "dif2": "2.15,6. 1,8"
+      },
+      {
+        "posicion": "34",
+        "numero": "88",
+        "piloto": "DAPARTE, Fernando MARTIN, Lucas",
+        "tiempo": "7.00,0",
+        "dif": "2.15,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "34",
+        "numero": "108",
+        "piloto": "PEDRIDO, Gaston CORREA, Matias",
+        "tiempo": "Ford",
+        "dif": "7.09,4",
+        "dif2": "2.25,0. 9,4"
+      },
+      {
+        "posicion": "35",
+        "numero": "108",
+        "piloto": "PEDRIDO, Gaston CORREA, Matias",
+        "tiempo": "7.09,4",
+        "dif": "2.25,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "35",
+        "numero": "64",
+        "piloto": "IBARRA, Damian KARAMATICH, Maxi.",
+        "tiempo": "Peugeot",
+        "dif": "7.15,2",
+        "dif2": "2.30,8. 5,8"
+      },
+      {
+        "posicion": "36",
+        "numero": "64",
+        "piloto": "IBARRA, Damian KARAMATICH, Maxi.",
+        "tiempo": "7.15,2",
+        "dif": "2.30,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "36",
+        "numero": "89",
+        "piloto": "GONZALEZ, Nicolas BORDIGNON, Geronimo",
+        "tiempo": "VW",
+        "dif": "7.16,1",
+        "dif2": "2.31,7. ,9"
+      },
+      {
+        "posicion": "37",
+        "numero": "89",
+        "piloto": "GONZALEZ, Nicolas BORDIGNON, Geronimo",
+        "tiempo": "7.16,1",
+        "dif": "2.31,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "37",
+        "numero": "63",
+        "piloto": "SARALEGUY, Juan FERREIRA, Braian",
+        "tiempo": "Peugeot",
+        "dif": "7.27,1",
+        "dif2": "2.42,7.11,0"
+      },
+      {
+        "posicion": "38",
+        "numero": "63",
+        "piloto": "SARALEGUY, Juan FERREIRA, Braian",
+        "tiempo": "7.27,1",
+        "dif": "2.42,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "38",
+        "numero": "112",
+        "piloto": "ABARCA, Gabriel FUMARI, Francisco",
+        "tiempo": "Ford",
+        "dif": "7.44,0",
+        "dif2": "2.59,6.16,9"
+      },
+      {
+        "posicion": "39",
+        "numero": "90",
+        "piloto": "PRETO, Mariano DEL RIEGO, Juan",
+        "tiempo": "7.36,1",
+        "dif": "2.51,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "39",
+        "numero": "111",
+        "piloto": "AMBROSIO, Guillermo AMAYA, Franco",
+        "tiempo": "Ford",
+        "dif": "6.48,2",
+        "dif2": "3.03,8. 4,2"
+      },
+      {
+        "posicion": "40",
+        "numero": "112",
+        "piloto": "ABARCA, Gabriel FUMARI, Francisco",
+        "tiempo": "7.44,0",
+        "dif": "2.59,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "40",
+        "numero": "115",
+        "piloto": "BIANCO, Nicanor SALVADOR, Hernan",
+        "tiempo": "Peugeot",
+        "dif": "7.50,0",
+        "dif2": "3.05,6. 1,8"
+      },
+      {
+        "posicion": "41",
+        "numero": "115",
+        "piloto": "BIANCO, Nicanor SALVADOR, Hernan",
+        "tiempo": "7.50,0",
+        "dif": "3.05,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "41",
+        "numero": "58",
+        "piloto": "SAMPAYO, Mario ANDREATTA, Vicente",
+        "tiempo": "VW",
+        "dif": "7.57,1",
+        "dif2": "3.12,7. 7,1"
+      },
+      {
+        "posicion": "42",
+        "numero": "58",
+        "piloto": "SAMPAYO, Mario ANDREATTA, Vicente",
+        "tiempo": "7.57,1",
+        "dif": "3.12,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "42",
+        "numero": "109",
+        "piloto": "GONZALEZ, Jorge AGUERO, Martin",
+        "tiempo": "Ford",
+        "dif": "7.59,1",
+        "dif2": "3.14,7. 2,0"
+      },
+      {
+        "posicion": "43",
+        "numero": "109",
+        "piloto": "GONZALEZ, Jorge AGUERO, Martin",
+        "tiempo": "7.59,1",
+        "dif": "3.14,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "43",
+        "numero": "73",
+        "piloto": "MARTINOGLIO, Ricardo MUCIACHIO, Claudio",
+        "tiempo": "Peugeot",
+        "dif": "8.07,7",
+        "dif2": "3.23,3. 8,6"
+      },
+      {
+        "posicion": "44",
+        "numero": "73",
+        "piloto": "MARTINOGLIO, Ricardo MUCIACHIO, Claudio",
+        "tiempo": "8.07,7",
+        "dif": "3.23,3",
+        "dif2": ""
+      },
+      {
+        "posicion": "44",
+        "numero": "114",
+        "piloto": "RASSO, Mario GARRO, Ramon",
+        "tiempo": "Peugeot",
+        "dif": "8.16,4",
+        "dif2": "3.32,0. 8,7"
+      },
+      {
+        "posicion": "45",
+        "numero": "114",
+        "piloto": "RASSO, Mario GARRO, Ramon",
+        "tiempo": "8.16,4",
+        "dif": "3.32,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "45",
+        "numero": "70",
+        "piloto": "CATALDO, Carlos FERNANDEZ, Emanuel",
+        "tiempo": "Peugeot",
+        "dif": "8.31,2",
+        "dif2": "3.46,8.14,8"
+      },
+      {
+        "posicion": "46",
+        "numero": "70",
+        "piloto": "CATALDO, Carlos FERNANDEZ, Emanuel",
+        "tiempo": "8.31,2",
+        "dif": "3.46,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "46",
+        "numero": "90",
+        "piloto": "PRETO, Mariano DEL RIEGO, Juan",
+        "tiempo": "VW",
+        "dif": "7.36,1",
+        "dif2": "3.51,7. 4,9"
+      },
+      {
+        "posicion": "47",
+        "numero": "71",
+        "piloto": "PELAEZ, Pablo CAPURRO, Nicolas",
+        "tiempo": "8.51,3",
+        "dif": "4.06,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "47",
+        "numero": "71",
+        "piloto": "PELAEZ, Pablo CAPURRO, Nicolas",
+        "tiempo": "Peugeot",
+        "dif": "8.51,3",
+        "dif2": "4.06,9.15,2"
+      },
+      {
+        "posicion": "48",
+        "numero": "24",
+        "piloto": "ZALDIVAR, Fabrizio DER OHANESISAN, M.",
+        "tiempo": "11.56,5",
+        "dif": "7.12,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "48",
+        "numero": "24",
+        "piloto": "ZALDIVAR, Fabrizio DER OHANESISAN, M.",
+        "tiempo": "Hyundai",
+        "dif": "11.56,5",
+        "dif2": "7.12,13.05,2"
+      },
+      {
+        "posicion": "49",
+        "numero": "92",
+        "piloto": "DEVOTO, Federico SANGUINETTI, Adriano",
+        "tiempo": "12.12,2",
+        "dif": "7.27,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "49",
+        "numero": "92",
+        "piloto": "DEVOTO, Federico SANGUINETTI, Adriano",
+        "tiempo": "Toyota",
+        "dif": "12.12,2",
+        "dif2": "7.27,8.15,7"
+      },
+      {
+        "posicion": "50",
+        "numero": "53",
+        "piloto": "IRIBARREN, Jose BRUSCO, Jose",
+        "tiempo": "24.35,1",
+        "dif": "19.50,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "50",
+        "numero": "53",
+        "piloto": "IRIBARREN, Jose BRUSCO, Jose",
+        "tiempo": "VW",
+        "dif": "24.35,1",
+        "dif2": "19.50,712.22,9"
+      }
+    ]
+  },
+  {
+    "url": "https://www.rallyargentino.com/tiempos2010/2024/carrera02/ARGGR_PE01.HTM",
+    "resultado": [
+      {
+        "posicion": "POS.",
+        "numero": "PILOTO / NAVEGANTE",
+        "piloto": "TIEMPO",
+        "tiempo": "DIF. 1º",
+        "dif": "PROM.",
+        "dif2": ""
+      },
+      {
+        "posicion": "POS.",
+        "numero": "PILOTO / NAVEGANTE",
+        "piloto": "VEHICULO",
+        "tiempo": "TIEMPO",
+        "dif": "PENALIZ.",
+        "dif2": "CLA."
+      },
+      {
+        "posicion": "1",
+        "numero": "6",
+        "piloto": "DIAZ, Nicolas ALLENDE, Luis",
+        "tiempo": "4.43,2",
+        "dif": "",
+        "dif2": ""
+      },
+      {
+        "posicion": "1",
+        "numero": "6",
+        "piloto": "DIAZ, Nicolas ALLENDE, Luis",
+        "tiempo": "Skoda",
+        "dif": "4.43,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "2",
+        "numero": "1",
+        "piloto": "ZALDIVAR, Fabrizio DER OHANESISAN, M.",
+        "tiempo": "4.44,5",
+        "dif": ". 1,3",
+        "dif2": ""
+      },
+      {
+        "posicion": "2",
+        "numero": "1",
+        "piloto": "ZALDIVAR, Fabrizio DER OHANESISAN, M.",
+        "tiempo": "Hyundai",
+        "dif": "4.44,5",
+        "dif2": ". 1,3. 1,3"
+      },
+      {
+        "posicion": "3",
+        "numero": "10",
+        "piloto": "VILLAGRA, Federico KLUS, Virginia",
+        "tiempo": "4.45,9",
+        "dif": ". 2,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "3",
+        "numero": "10",
+        "piloto": "VILLAGRA, Federico KLUS, Virginia",
+        "tiempo": "Citroen",
+        "dif": "4.45,9",
+        "dif2": ". 2,7. 1,4"
+      },
+      {
+        "posicion": "4",
+        "numero": "4",
+        "piloto": "PASTEN, Gaston RAMOS, Matias",
+        "tiempo": "4.46,0",
+        "dif": ". 2,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "4",
+        "numero": "4",
+        "piloto": "PASTEN, Gaston RAMOS, Matias",
+        "tiempo": "Skoda",
+        "dif": "4.46,0",
+        "dif2": ". 2,8. ,1"
+      },
+      {
+        "posicion": "5",
+        "numero": "27",
+        "piloto": "MARIEYHARA, Andres OBRADOR, Mauricio",
+        "tiempo": "4.46,9",
+        "dif": ". 3,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "5",
+        "numero": "27",
+        "piloto": "MARIEYHARA, Andres OBRADOR, Mauricio",
+        "tiempo": "Skoda",
+        "dif": "4.46,9",
+        "dif2": ". 3,7. ,9"
+      },
+      {
+        "posicion": "6",
+        "numero": "25",
+        "piloto": "ZALDIVAR, Miguel (H) CAGNOTTI, Diego",
+        "tiempo": "4.50,1",
+        "dif": ". 6,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "6",
+        "numero": "25",
+        "piloto": "ZALDIVAR, Miguel (H) CAGNOTTI, Diego",
+        "tiempo": "VW",
+        "dif": "4.50,1",
+        "dif2": ". 6,9. 3,2"
+      },
+      {
+        "posicion": "7",
+        "numero": "22",
+        "piloto": "ARCELUZ, Luis QUERALT, Ezequiel",
+        "tiempo": "4.51,1",
+        "dif": ". 7,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "7",
+        "numero": "22",
+        "piloto": "ARCELUZ, Luis QUERALT, Ezequiel",
+        "tiempo": "Citroen",
+        "dif": "4.51,1",
+        "dif2": ". 7,9. 1,0"
+      },
+      {
+        "posicion": "8",
+        "numero": "72",
+        "piloto": "ALONSO, Juan MONASTEROLO, Juan",
+        "tiempo": "4.53,5",
+        "dif": ".10,3",
+        "dif2": ""
+      },
+      {
+        "posicion": "8",
+        "numero": "72",
+        "piloto": "ALONSO, Juan MONASTEROLO, Juan",
+        "tiempo": "Skoda",
+        "dif": "4.53,5",
+        "dif2": ".10,3. 2,4"
+      },
+      {
+        "posicion": "9",
+        "numero": "35",
+        "piloto": "BALDO, Santiago GARCIA, Zacarias",
+        "tiempo": "4.55,4",
+        "dif": ".12,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "9",
+        "numero": "35",
+        "piloto": "BALDO, Santiago GARCIA, Zacarias",
+        "tiempo": "Hyundai",
+        "dif": "4.55,4",
+        "dif2": ".12,2. 1,9"
+      },
+      {
+        "posicion": "10",
+        "numero": "7",
+        "piloto": "MENENDEZ, Alejandro DIAZ, Gonzalo",
+        "tiempo": "4.56,4",
+        "dif": ".13,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "10",
+        "numero": "7",
+        "piloto": "MENENDEZ, Alejandro DIAZ, Gonzalo",
+        "tiempo": "Skoda",
+        "dif": "4.56,4",
+        "dif2": ".13,2. 1,0"
+      },
+      {
+        "posicion": "11",
+        "numero": "9",
+        "piloto": "ZEBALLOS, Rodrigo GONZALEZ, Sebastian",
+        "tiempo": "4.56,7",
+        "dif": ".13,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "11",
+        "numero": "9",
+        "piloto": "ZEBALLOS, Rodrigo GONZALEZ, Sebastian",
+        "tiempo": "Citroen",
+        "dif": "4.56,7",
+        "dif2": ".13,5. ,3"
+      },
+      {
+        "posicion": "12",
+        "numero": "17",
+        "piloto": "CADAMURO, Federico CARRERA, Juan",
+        "tiempo": "5.01,7",
+        "dif": ".18,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "12",
+        "numero": "17",
+        "piloto": "CADAMURO, Federico CARRERA, Juan",
+        "tiempo": "Skoda",
+        "dif": "5.01,7",
+        "dif2": ".18,5. 5,0"
+      },
+      {
+        "posicion": "13",
+        "numero": "15",
+        "piloto": "DISALVO, Rodrigo GARCIA, Ruben",
+        "tiempo": "5.02,1",
+        "dif": ".18,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "13",
+        "numero": "15",
+        "piloto": "DISALVO, Rodrigo GARCIA, Ruben",
+        "tiempo": "Skoda",
+        "dif": "5.02,1",
+        "dif2": ".18,9. ,4"
+      },
+      {
+        "posicion": "14",
+        "numero": "34",
+        "piloto": "ROSSELOT, Emilio BRIZIO, Marcelo",
+        "tiempo": "5.02,2",
+        "dif": ".19,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "14",
+        "numero": "34",
+        "piloto": "ROSSELOT, Emilio BRIZIO, Marcelo",
+        "tiempo": "Citroen",
+        "dif": "5.02,2",
+        "dif2": ".19,0. ,1"
+      },
+      {
+        "posicion": "15",
+        "numero": "18",
+        "piloto": "ROBUSTELLI, Claudio PISSACO, Mariano",
+        "tiempo": "5.03,2",
+        "dif": ".20,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "15",
+        "numero": "18",
+        "piloto": "ROBUSTELLI, Claudio PISSACO, Mariano",
+        "tiempo": "Skoda",
+        "dif": "5.03,2",
+        "dif2": ".20,0. 1,0"
+      },
+      {
+        "posicion": "16",
+        "numero": "8",
+        "piloto": "BONNIN, Leandro BAUCERO, Martin",
+        "tiempo": "5.05,7",
+        "dif": ".22,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "16",
+        "numero": "8",
+        "piloto": "BONNIN, Leandro BAUCERO, Martin",
+        "tiempo": "Citroen",
+        "dif": "5.05,7",
+        "dif2": ".22,5. 2,5"
+      },
+      {
+        "posicion": "16=",
+        "numero": "52",
+        "piloto": "DE LA VEGA, Nicolas DE LA VEGA, Juan",
+        "tiempo": "5.05,7",
+        "dif": ".22,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "16=",
+        "numero": "52",
+        "piloto": "DE LA VEGA, Nicolas DE LA VEGA, Juan",
+        "tiempo": "Citroen",
+        "dif": "5.05,7",
+        "dif2": ".22,5"
+      },
+      {
+        "posicion": "18",
+        "numero": "11",
+        "piloto": "MICELI, Diego DAPARTE, Sergio",
+        "tiempo": "5.09,8",
+        "dif": ".26,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "18",
+        "numero": "11",
+        "piloto": "MICELI, Diego DAPARTE, Sergio",
+        "tiempo": "Citroen",
+        "dif": "5.09,8",
+        "dif2": ".26,6. 4,1"
+      },
+      {
+        "posicion": "19",
+        "numero": "46",
+        "piloto": "PATAT, Miguel SABBATINI, Sofia",
+        "tiempo": "5.10,8",
+        "dif": ".27,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "19",
+        "numero": "46",
+        "piloto": "PATAT, Miguel SABBATINI, Sofia",
+        "tiempo": "Renault",
+        "dif": "5.10,8",
+        "dif2": ".27,6. 1,0"
+      },
+      {
+        "posicion": "20",
+        "numero": "23",
+        "piloto": "GARCIA, Jorge Raul DIAZ, Jose",
+        "tiempo": "5.11,7",
+        "dif": ".28,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "20",
+        "numero": "23",
+        "piloto": "GARCIA, Jorge Raul DIAZ, Jose",
+        "tiempo": "Skoda",
+        "dif": "5.11,7",
+        "dif2": ".28,5. ,9"
+      },
+      {
+        "posicion": "21",
+        "numero": "33",
+        "piloto": "BALDO, Mario RUIZ, Alex",
+        "tiempo": "5.12,7",
+        "dif": ".29,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "21",
+        "numero": "33",
+        "piloto": "BALDO, Mario RUIZ, Alex",
+        "tiempo": "Hyundai",
+        "dif": "5.12,7",
+        "dif2": ".29,5. 1,0"
+      },
+      {
+        "posicion": "22",
+        "numero": "56",
+        "piloto": "TORRAS, Manuel MAGGI, Jean",
+        "tiempo": "5.13,8",
+        "dif": ".30,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "22",
+        "numero": "56",
+        "piloto": "TORRAS, Manuel MAGGI, Jean",
+        "tiempo": "Renault",
+        "dif": "5.13,8",
+        "dif2": ".30,6. 1,1"
+      },
+      {
+        "posicion": "23",
+        "numero": "53",
+        "piloto": "IRIBARREN, Jose BRUSCO, Jose",
+        "tiempo": "5.16,0",
+        "dif": ".32,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "23",
+        "numero": "53",
+        "piloto": "IRIBARREN, Jose BRUSCO, Jose",
+        "tiempo": "VW",
+        "dif": "5.16,0",
+        "dif2": ".32,8. 2,2"
+      },
+      {
+        "posicion": "24",
+        "numero": "42",
+        "piloto": "CUTRO, Nadia BOMBACI, Luciano",
+        "tiempo": "5.16,4",
+        "dif": ".33,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "24",
+        "numero": "42",
+        "piloto": "CUTRO, Nadia BOMBACI, Luciano",
+        "tiempo": "Toyota",
+        "dif": "5.16,4",
+        "dif2": ".33,2. ,4"
+      },
+      {
+        "posicion": "25",
+        "numero": "41",
+        "piloto": "KIM, Hernan BAZAN, Marcos",
+        "tiempo": "5.16,7",
+        "dif": ".33,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "25",
+        "numero": "41",
+        "piloto": "KIM, Hernan BAZAN, Marcos",
+        "tiempo": "VW",
+        "dif": "5.16,7",
+        "dif2": ".33,5. ,3"
+      },
+      {
+        "posicion": "26",
+        "numero": "43",
+        "piloto": "MONTORO, Ruben PRIETO, Manuel",
+        "tiempo": "5.18,3",
+        "dif": ".35,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "26",
+        "numero": "43",
+        "piloto": "MONTORO, Ruben PRIETO, Manuel",
+        "tiempo": "VW",
+        "dif": "5.18,3",
+        "dif2": ".35,1. 1,6"
+      },
+      {
+        "posicion": "27",
+        "numero": "44",
+        "piloto": "FOLLEDO, Cesar FOLLEDO, Valentin",
+        "tiempo": "5.21,7",
+        "dif": ".38,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "27",
+        "numero": "44",
+        "piloto": "FOLLEDO, Cesar FOLLEDO, Valentin",
+        "tiempo": "VW",
+        "dif": "5.21,7",
+        "dif2": ".38,5. 3,4"
+      },
+      {
+        "posicion": "28",
+        "numero": "71",
+        "piloto": "PELAEZ, Pablo CAPURRO, Nicolas",
+        "tiempo": "5.23,3",
+        "dif": ".40,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "28",
+        "numero": "71",
+        "piloto": "PELAEZ, Pablo CAPURRO, Nicolas",
+        "tiempo": "Peugeot",
+        "dif": "5.23,3",
+        "dif2": ".40,1. 1,6"
+      },
+      {
+        "posicion": "29",
+        "numero": "76",
+        "piloto": "BARBA, Nahuel CABRERA, Santiago",
+        "tiempo": "5.27,6",
+        "dif": ".44,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "29",
+        "numero": "76",
+        "piloto": "BARBA, Nahuel CABRERA, Santiago",
+        "tiempo": "Peugeot",
+        "dif": "5.27,6",
+        "dif2": ".44,4. 4,3"
+      },
+      {
+        "posicion": "30",
+        "numero": "74",
+        "piloto": "MAISONNAVE, Federico SLOOG, Nicolas",
+        "tiempo": "5.30,4",
+        "dif": ".47,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "30",
+        "numero": "74",
+        "piloto": "MAISONNAVE, Federico SLOOG, Nicolas",
+        "tiempo": "Peugeot",
+        "dif": "5.30,4",
+        "dif2": ".47,2. 2,8"
+      },
+      {
+        "posicion": "31",
+        "numero": "93",
+        "piloto": "GRION, Diego PRATTO, Joaquin",
+        "tiempo": "5.33,3",
+        "dif": ".50,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "31",
+        "numero": "93",
+        "piloto": "GRION, Diego PRATTO, Joaquin",
+        "tiempo": "VW",
+        "dif": "5.33,3",
+        "dif2": ".50,1. 2,9"
+      },
+      {
+        "posicion": "32",
+        "numero": "49",
+        "piloto": "BALLAY, Victorio DELIA, Andres",
+        "tiempo": "5.33,7",
+        "dif": ".50,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "32",
+        "numero": "49",
+        "piloto": "BALLAY, Victorio DELIA, Andres",
+        "tiempo": "Citroen",
+        "dif": "5.33,7",
+        "dif2": ".50,5. ,4"
+      },
+      {
+        "posicion": "33",
+        "numero": "48",
+        "piloto": "BELLO, Carlos BREGLIA, Gustavo",
+        "tiempo": "5.34,1",
+        "dif": ".50,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "33",
+        "numero": "48",
+        "piloto": "BELLO, Carlos BREGLIA, Gustavo",
+        "tiempo": "VW",
+        "dif": "5.34,1",
+        "dif2": ".50,9. ,4"
+      },
+      {
+        "posicion": "34",
+        "numero": "88",
+        "piloto": "DAPARTE, Fernando MARTIN, Lucas",
+        "tiempo": "5.34,8",
+        "dif": ".51,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "34",
+        "numero": "88",
+        "piloto": "DAPARTE, Fernando MARTIN, Lucas",
+        "tiempo": "VW",
+        "dif": "5.34,8",
+        "dif2": ".51,6. ,7"
+      },
+      {
+        "posicion": "35",
+        "numero": "28",
+        "piloto": "DOMINGUEZ, Esteban GARCIA, Nicolas",
+        "tiempo": "5.36,9",
+        "dif": ".53,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "35",
+        "numero": "28",
+        "piloto": "DOMINGUEZ, Esteban GARCIA, Nicolas",
+        "tiempo": "Citroen",
+        "dif": "5.36,9",
+        "dif2": ".53,7. 2,1"
+      },
+      {
+        "posicion": "36",
+        "numero": "78",
+        "piloto": "BARATELLA, Alejandro BARATELLA, Italo",
+        "tiempo": "5.40,4",
+        "dif": ".57,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "36",
+        "numero": "78",
+        "piloto": "BARATELLA, Alejandro BARATELLA, Italo",
+        "tiempo": "Peugeot",
+        "dif": "5.40,4",
+        "dif2": ".57,2. 3,5"
+      },
+      {
+        "posicion": "37",
+        "numero": "69",
+        "piloto": "MACHADO, Lucas ARANGUREN, Matias",
+        "tiempo": "5.41,0",
+        "dif": ".57,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "37",
+        "numero": "69",
+        "piloto": "MACHADO, Lucas ARANGUREN, Matias",
+        "tiempo": "Peugeot",
+        "dif": "5.41,0",
+        "dif2": ".57,8. ,6"
+      },
+      {
+        "posicion": "38",
+        "numero": "94",
+        "piloto": "PICHETTI, Giamfranco SCICOLONE, Gerardo",
+        "tiempo": "5.42,1",
+        "dif": ".58,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "38",
+        "numero": "94",
+        "piloto": "PICHETTI, Giamfranco SCICOLONE, Gerardo",
+        "tiempo": "Toyota",
+        "dif": "5.42,1",
+        "dif2": ".58,9. 1,1"
+      },
+      {
+        "posicion": "39",
+        "numero": "87",
+        "piloto": "BERNASCONI, Juan UEZ, Ignacio",
+        "tiempo": "5.42,7",
+        "dif": ".59,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "39",
+        "numero": "87",
+        "piloto": "BERNASCONI, Juan UEZ, Ignacio",
+        "tiempo": "Ford",
+        "dif": "5.42,7",
+        "dif2": ".59,5. ,6"
+      },
+      {
+        "posicion": "40",
+        "numero": "64",
+        "piloto": "IBARRA, Damian KARAMATICH, Maxi.",
+        "tiempo": "5.43,3",
+        "dif": "1.00,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "40",
+        "numero": "64",
+        "piloto": "IBARRA, Damian KARAMATICH, Maxi.",
+        "tiempo": "Peugeot",
+        "dif": "5.43,3",
+        "dif2": "1.00,1. ,6"
+      },
+      {
+        "posicion": "41",
+        "numero": "89",
+        "piloto": "GONZALEZ, Nicolas BORDIGNON, Geronimo",
+        "tiempo": "5.46,2",
+        "dif": "1.03,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "41",
+        "numero": "89",
+        "piloto": "GONZALEZ, Nicolas BORDIGNON, Geronimo",
+        "tiempo": "VW",
+        "dif": "5.46,2",
+        "dif2": "1.03,0. 2,9"
+      },
+      {
+        "posicion": "42",
+        "numero": "82",
+        "piloto": "DAPARTE, Ricardo ROZADOS, Emanuel",
+        "tiempo": "5.50,5",
+        "dif": "1.07,3",
+        "dif2": ""
+      },
+      {
+        "posicion": "42",
+        "numero": "82",
+        "piloto": "DAPARTE, Ricardo ROZADOS, Emanuel",
+        "tiempo": "Ford",
+        "dif": "5.50,5",
+        "dif2": "1.07,3. 4,3"
+      },
+      {
+        "posicion": "43",
+        "numero": "108",
+        "piloto": "PEDRIDO, Gaston CORREA, Matias",
+        "tiempo": "5.55,1",
+        "dif": "1.11,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "43",
+        "numero": "108",
+        "piloto": "PEDRIDO, Gaston CORREA, Matias",
+        "tiempo": "Ford",
+        "dif": "5.55,1",
+        "dif2": "1.11,9. 4,6"
+      },
+      {
+        "posicion": "44",
+        "numero": "83",
+        "piloto": "GALFRASCOLI, German BARRERA. Francisco",
+        "tiempo": "5.57,1",
+        "dif": "1.13,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "44",
+        "numero": "83",
+        "piloto": "GALFRASCOLI, German BARRERA. Francisco",
+        "tiempo": "VW",
+        "dif": "5.57,1",
+        "dif2": "1.13,9. 2,0"
+      },
+      {
+        "posicion": "45",
+        "numero": "70",
+        "piloto": "CATALDO, Carlos FERNANDEZ, Emanuel",
+        "tiempo": "6.00,4",
+        "dif": "1.17,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "45",
+        "numero": "70",
+        "piloto": "CATALDO, Carlos FERNANDEZ, Emanuel",
+        "tiempo": "Peugeot",
+        "dif": "6.00,4",
+        "dif2": "1.17,2. 3,3"
+      },
+      {
+        "posicion": "46",
+        "numero": "91",
+        "piloto": "BONNIN, Martin VIOLLAZ, Dana",
+        "tiempo": "6.00,8",
+        "dif": "1.17,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "46",
+        "numero": "91",
+        "piloto": "BONNIN, Martin VIOLLAZ, Dana",
+        "tiempo": "VW",
+        "dif": "6.00,8",
+        "dif2": "1.17,6. ,4"
+      },
+      {
+        "posicion": "47",
+        "numero": "107",
+        "piloto": "ALESSANDRINI, Pablo EL AIN, Fabian",
+        "tiempo": "6.05,7",
+        "dif": "1.22,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "47",
+        "numero": "107",
+        "piloto": "ALESSANDRINI, Pablo EL AIN, Fabian",
+        "tiempo": "Ford",
+        "dif": "6.05,7",
+        "dif2": "1.22,5. 4,9"
+      },
+      {
+        "posicion": "48",
+        "numero": "20",
+        "piloto": "PREVEDELLO, Antonio LONDERO, Leonardo",
+        "tiempo": "6.08,2",
+        "dif": "1.25,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "48",
+        "numero": "20",
+        "piloto": "PREVEDELLO, Antonio LONDERO, Leonardo",
+        "tiempo": "Skoda",
+        "dif": "6.08,2",
+        "dif2": "1.25,0. 2,5"
+      },
+      {
+        "posicion": "49",
+        "numero": "117",
+        "piloto": "BASEL, Sebastian CRAVERO, Sebastian",
+        "tiempo": "6.09,2",
+        "dif": "1.26,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "49",
+        "numero": "117",
+        "piloto": "BASEL, Sebastian CRAVERO, Sebastian",
+        "tiempo": "Peugeot",
+        "dif": "6.09,2",
+        "dif2": "1.26,0. 1,0"
+      },
+      {
+        "posicion": "50",
+        "numero": "118",
+        "piloto": "MIZZAU, Fernando CARDANO, Matias",
+        "tiempo": "6.13,6",
+        "dif": "1.30,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "50",
+        "numero": "118",
+        "piloto": "MIZZAU, Fernando CARDANO, Matias",
+        "tiempo": "Ford",
+        "dif": "6.13,6",
+        "dif2": "1.30,4. 4,4"
+      },
+      {
+        "posicion": "51",
+        "numero": "114",
+        "piloto": "RASSO, Mario GARRO, Ramon",
+        "tiempo": "6.16,4",
+        "dif": "1.33,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "51",
+        "numero": "114",
+        "piloto": "RASSO, Mario GARRO, Ramon",
+        "tiempo": "Peugeot",
+        "dif": "6.16,4",
+        "dif2": "1.33,2. 2,8"
+      },
+      {
+        "posicion": "52",
+        "numero": "123",
+        "piloto": "ONTIVERO, Gerardo GOMEZ, Ignacio",
+        "tiempo": "6.18,4",
+        "dif": "1.35,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "52",
+        "numero": "123",
+        "piloto": "ONTIVERO, Gerardo GOMEZ, Ignacio",
+        "tiempo": "Peugeot",
+        "dif": "6.18,4",
+        "dif2": "1.35,2. 2,0"
+      },
+      {
+        "posicion": "53",
+        "numero": "116",
+        "piloto": "BONOMO, Ariel VISINTINI, Gabriel",
+        "tiempo": "6.19,0",
+        "dif": "1.35,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "53",
+        "numero": "116",
+        "piloto": "BONOMO, Ariel VISINTINI, Gabriel",
+        "tiempo": "VW",
+        "dif": "6.19,0",
+        "dif2": "1.35,8. ,6"
+      },
+      {
+        "posicion": "54",
+        "numero": "106",
+        "piloto": "FRANCO, Jose FRANCO, Gabriel",
+        "tiempo": "6.19,4",
+        "dif": "1.36,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "54",
+        "numero": "106",
+        "piloto": "FRANCO, Jose FRANCO, Gabriel",
+        "tiempo": "Ford",
+        "dif": "6.19,4",
+        "dif2": "1.36,2. ,4"
+      },
+      {
+        "posicion": "55",
+        "numero": "95",
+        "piloto": "GONZALEZ, Jorge AGUERO, Martin",
+        "tiempo": "6.22,5",
+        "dif": "1.39,3",
+        "dif2": ""
+      },
+      {
+        "posicion": "55",
+        "numero": "95",
+        "piloto": "GONZALEZ, Jorge AGUERO, Martin",
+        "tiempo": "VW",
+        "dif": "6.22,5",
+        "dif2": "1.39,3. 3,1"
+      },
+      {
+        "posicion": "56",
+        "numero": "112",
+        "piloto": "ABARCA, Gabriel FURNARI, Francisco",
+        "tiempo": "6.33,3",
+        "dif": "1.50,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "56",
+        "numero": "112",
+        "piloto": "ABARCA, Gabriel FURNARI, Francisco",
+        "tiempo": "Ford",
+        "dif": "6.33,3",
+        "dif2": "1.50,1.10,8"
+      },
+      {
+        "posicion": "57",
+        "numero": "119",
+        "piloto": "GUARDIA, Walter RODI, Luis",
+        "tiempo": "6.43,5",
+        "dif": "2.00,3",
+        "dif2": ""
+      },
+      {
+        "posicion": "57",
+        "numero": "119",
+        "piloto": "GUARDIA, Walter RODI, Luis",
+        "tiempo": "Chevrolet",
+        "dif": "6.43,5",
+        "dif2": "2.00,3.10,2"
+      },
+      {
+        "posicion": "58",
+        "numero": "120",
+        "piloto": "BOTTAZINI, Guillermo CORONEL, Bernardo",
+        "tiempo": "6.52,0",
+        "dif": "2.08,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "58",
+        "numero": "120",
+        "piloto": "BOTTAZINI, Guillermo CORONEL, Bernardo",
+        "tiempo": "Ford",
+        "dif": "6.52,0",
+        "dif2": "2.08,8. 8,5"
+      },
+      {
+        "posicion": "59",
+        "numero": "124",
+        "piloto": "LIBERA, Maximiliano ALAEJOS, Matias",
+        "tiempo": "6.59,7",
+        "dif": "2.16,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "59",
+        "numero": "124",
+        "piloto": "LIBERA, Maximiliano ALAEJOS, Matias",
+        "tiempo": "Nissan",
+        "dif": "6.59,7",
+        "dif2": "2.16,5. 7,7"
+      },
+      {
+        "posicion": "60",
+        "numero": "26",
+        "piloto": "GALDUROZ, Juan RECALT, MIguel",
+        "tiempo": "14.42,2",
+        "dif": "9.59,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "60",
+        "numero": "26",
+        "piloto": "GALDUROZ, Juan RECALT, MIguel",
+        "tiempo": "Skoda",
+        "dif": "14.42,2",
+        "dif2": "9.59,07.42,5"
+      },
+      {
+        "posicion": "61",
+        "numero": "111",
+        "piloto": "AMBROSIO, Guillermo AMAYA, Franco",
+        "tiempo": "15.23,3",
+        "dif": "10.40,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "61",
+        "numero": "111",
+        "piloto": "AMBROSIO, Guillermo AMAYA, Franco",
+        "tiempo": "Ford",
+        "dif": "15.23,3",
+        "dif2": "10.40,1.41,1"
+      }
+    ]
+  },
+  {
+    "url": "https://www.rallyargentino.com/tiempos2010/2024/carrera03/ARGGR_PE01.HTM",
+    "resultado": [
+      {
+        "posicion": "POS.",
+        "numero": "PILOTO / NAVEGANTE",
+        "piloto": "TIEMPO",
+        "tiempo": "DIF. 1º",
+        "dif": "PROM.",
+        "dif2": ""
+      },
+      {
+        "posicion": "POS.",
+        "numero": "PILOTO / NAVEGANTE",
+        "piloto": "VEHICULO",
+        "tiempo": "TIEMPO",
+        "dif": "PENALIZ.",
+        "dif2": "CLA."
+      },
+      {
+        "posicion": "1",
+        "numero": "6",
+        "piloto": "DIAZ, Nicolas ALLENDE, Luis",
+        "tiempo": "4.38,8",
+        "dif": "",
+        "dif2": ""
+      },
+      {
+        "posicion": "1",
+        "numero": "6",
+        "piloto": "DIAZ, Nicolas ALLENDE, Luis",
+        "tiempo": "Skoda",
+        "dif": "4.38,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "2",
+        "numero": "10",
+        "piloto": "VILLAGRA, Federico KLUS, Virginia",
+        "tiempo": "4.40,2",
+        "dif": ". 1,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "2",
+        "numero": "10",
+        "piloto": "VILLAGRA, Federico KLUS, Virginia",
+        "tiempo": "Citroen",
+        "dif": "4.40,2",
+        "dif2": ". 1,4. 1,4"
+      },
+      {
+        "posicion": "3",
+        "numero": "4",
+        "piloto": "PASTEN, Gaston RAMOS, Matias",
+        "tiempo": "4.40,5",
+        "dif": ". 1,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "3",
+        "numero": "4",
+        "piloto": "PASTEN, Gaston RAMOS, Matias",
+        "tiempo": "Skoda",
+        "dif": "4.40,5",
+        "dif2": ". 1,7. ,3"
+      },
+      {
+        "posicion": "4",
+        "numero": "22",
+        "piloto": "ARCELUZ, Luis QUERALT, Ezequiel",
+        "tiempo": "4.40,8",
+        "dif": ". 2,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "4",
+        "numero": "22",
+        "piloto": "ARCELUZ, Luis QUERALT, Ezequiel",
+        "tiempo": "Citroen",
+        "dif": "4.40,8",
+        "dif2": ". 2,0. ,3"
+      },
+      {
+        "posicion": "5",
+        "numero": "17",
+        "piloto": "CADAMURO, Federico CARRERA, Juan",
+        "tiempo": "4.44,2",
+        "dif": ". 5,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "5",
+        "numero": "17",
+        "piloto": "CADAMURO, Federico CARRERA, Juan",
+        "tiempo": "Skoda",
+        "dif": "4.44,2",
+        "dif2": ". 5,4. 3,4"
+      },
+      {
+        "posicion": "6",
+        "numero": "9",
+        "piloto": "ZEBALLOS, Rodrigo GONZALEZ, Sebastian",
+        "tiempo": "4.46,2",
+        "dif": ". 7,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "6",
+        "numero": "9",
+        "piloto": "ZEBALLOS, Rodrigo GONZALEZ, Sebastian",
+        "tiempo": "Citroen",
+        "dif": "4.46,2",
+        "dif2": ". 7,4. 2,0"
+      },
+      {
+        "posicion": "7",
+        "numero": "72",
+        "piloto": "ALONSO, Juan MONASTEROLO, Juan",
+        "tiempo": "4.46,4",
+        "dif": ". 7,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "7",
+        "numero": "72",
+        "piloto": "ALONSO, Juan MONASTEROLO, Juan",
+        "tiempo": "Skoda",
+        "dif": "4.46,4",
+        "dif2": ". 7,6. ,2"
+      },
+      {
+        "posicion": "8",
+        "numero": "15",
+        "piloto": "DISALVO, Rodrigo GARCIA, Ruben",
+        "tiempo": "4.46,9",
+        "dif": ". 8,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "8",
+        "numero": "15",
+        "piloto": "DISALVO, Rodrigo GARCIA, Ruben",
+        "tiempo": "Skoda",
+        "dif": "4.46,9",
+        "dif2": ". 8,1. ,5"
+      },
+      {
+        "posicion": "8=",
+        "numero": "60",
+        "piloto": "MENZI, Claudio MAGGI, Jean",
+        "tiempo": "4.46,9",
+        "dif": ". 8,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "8=",
+        "numero": "60",
+        "piloto": "MENZI, Claudio MAGGI, Jean",
+        "tiempo": "Renault",
+        "dif": "4.46,9",
+        "dif2": ". 8,1"
+      },
+      {
+        "posicion": "10",
+        "numero": "18",
+        "piloto": "ROBUSTELLI, Claudio PISSACO, Mariano",
+        "tiempo": "4.48,0",
+        "dif": ". 9,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "10",
+        "numero": "18",
+        "piloto": "ROBUSTELLI, Claudio PISSACO, Mariano",
+        "tiempo": "Skoda",
+        "dif": "4.48,0",
+        "dif2": ". 9,2. 1,1"
+      },
+      {
+        "posicion": "11",
+        "numero": "7",
+        "piloto": "MENENDEZ, Alejandro DIAZ, Gonzalo",
+        "tiempo": "4.49,7",
+        "dif": ".10,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "11",
+        "numero": "7",
+        "piloto": "MENENDEZ, Alejandro DIAZ, Gonzalo",
+        "tiempo": "Skoda",
+        "dif": "4.49,7",
+        "dif2": ".10,9. 1,7"
+      },
+      {
+        "posicion": "12",
+        "numero": "11",
+        "piloto": "MICELI, Diego DAPARTE, Sergio",
+        "tiempo": "4.49,9",
+        "dif": ".11,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "12",
+        "numero": "11",
+        "piloto": "MICELI, Diego DAPARTE, Sergio",
+        "tiempo": "Citroen",
+        "dif": "4.49,9",
+        "dif2": ".11,1. ,2"
+      },
+      {
+        "posicion": "13",
+        "numero": "26",
+        "piloto": "GALDUROZ, Juan OLMOS, Pablo",
+        "tiempo": "4.50,6",
+        "dif": ".11,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "13",
+        "numero": "26",
+        "piloto": "GALDUROZ, Juan OLMOS, Pablo",
+        "tiempo": "Skoda",
+        "dif": "4.50,6",
+        "dif2": ".11,8. ,7"
+      },
+      {
+        "posicion": "14",
+        "numero": "52",
+        "piloto": "DE LA VEGA, Nicolas DE LA VEGA, Juan",
+        "tiempo": "4.51,0",
+        "dif": ".12,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "14",
+        "numero": "52",
+        "piloto": "DE LA VEGA, Nicolas DE LA VEGA, Juan",
+        "tiempo": "Citroen",
+        "dif": "4.51,0",
+        "dif2": ".12,2. ,4"
+      },
+      {
+        "posicion": "15",
+        "numero": "46",
+        "piloto": "PATAT, Miguel SABBATINI, Sofia",
+        "tiempo": "4.51,3",
+        "dif": ".12,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "15",
+        "numero": "46",
+        "piloto": "PATAT, Miguel SABBATINI, Sofia",
+        "tiempo": "Renault",
+        "dif": "4.51,3",
+        "dif2": ".12,5. ,3"
+      },
+      {
+        "posicion": "16",
+        "numero": "41",
+        "piloto": "KIM, Hernan BAZAN, Marcos",
+        "tiempo": "4.55,8",
+        "dif": ".17,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "16",
+        "numero": "41",
+        "piloto": "KIM, Hernan BAZAN, Marcos",
+        "tiempo": "VW",
+        "dif": "4.55,8",
+        "dif2": ".17,0. 4,5"
+      },
+      {
+        "posicion": "17",
+        "numero": "37",
+        "piloto": "MARTINEZ, Diego DIAZ, Jose",
+        "tiempo": "4.57,1",
+        "dif": ".18,3",
+        "dif2": ""
+      },
+      {
+        "posicion": "17",
+        "numero": "37",
+        "piloto": "MARTINEZ, Diego DIAZ, Jose",
+        "tiempo": "Skoda",
+        "dif": "4.57,1",
+        "dif2": ".18,3. 1,3"
+      },
+      {
+        "posicion": "18",
+        "numero": "44",
+        "piloto": "FOLLEDO, Cesar MENEM, Yamil",
+        "tiempo": "4.57,4",
+        "dif": ".18,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "18",
+        "numero": "44",
+        "piloto": "FOLLEDO, Cesar MENEM, Yamil",
+        "tiempo": "VW",
+        "dif": "4.57,4",
+        "dif2": ".18,6. ,3"
+      },
+      {
+        "posicion": "19",
+        "numero": "43",
+        "piloto": "MONTORO, Ruben PRIETO, Manuel",
+        "tiempo": "4.59,1",
+        "dif": ".20,3",
+        "dif2": ""
+      },
+      {
+        "posicion": "19",
+        "numero": "43",
+        "piloto": "MONTORO, Ruben PRIETO, Manuel",
+        "tiempo": "VW",
+        "dif": "4.59,1",
+        "dif2": ".20,3. 1,7"
+      },
+      {
+        "posicion": "20",
+        "numero": "42",
+        "piloto": "CUTRO, Nadia BOMBACI, Luciano",
+        "tiempo": "5.01,6",
+        "dif": ".22,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "20",
+        "numero": "42",
+        "piloto": "CUTRO, Nadia BOMBACI, Luciano",
+        "tiempo": "Toyota",
+        "dif": "5.01,6",
+        "dif2": ".22,8. 2,5"
+      },
+      {
+        "posicion": "21",
+        "numero": "28",
+        "piloto": "DOMINGUEZ, Esteban MUSSANO, Fernando",
+        "tiempo": "5.02,7",
+        "dif": ".23,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "21",
+        "numero": "28",
+        "piloto": "DOMINGUEZ, Esteban MUSSANO, Fernando",
+        "tiempo": "Citroen",
+        "dif": "5.02,7",
+        "dif2": ".23,9. 1,1"
+      },
+      {
+        "posicion": "22",
+        "numero": "48",
+        "piloto": "BELLO, Carlos BREGLIA, Gustavo",
+        "tiempo": "5.04,4",
+        "dif": ".25,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "22",
+        "numero": "48",
+        "piloto": "BELLO, Carlos BREGLIA, Gustavo",
+        "tiempo": "VW",
+        "dif": "5.04,4",
+        "dif2": ".25,6. 1,7"
+      },
+      {
+        "posicion": "23",
+        "numero": "53",
+        "piloto": "IRIBARREN, Jose BRUSCO, Jose",
+        "tiempo": "5.09,9",
+        "dif": ".31,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "23",
+        "numero": "53",
+        "piloto": "IRIBARREN, Jose BRUSCO, Jose",
+        "tiempo": "VW",
+        "dif": "5.09,9",
+        "dif2": ".31,1. 5,5"
+      },
+      {
+        "posicion": "24",
+        "numero": "71",
+        "piloto": "PELAEZ, Pablo CAPURRO, Nicolas",
+        "tiempo": "5.15,4",
+        "dif": ".36,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "24",
+        "numero": "71",
+        "piloto": "PELAEZ, Pablo CAPURRO, Nicolas",
+        "tiempo": "Peugeot",
+        "dif": "5.15,4",
+        "dif2": ".36,6. 5,5"
+      },
+      {
+        "posicion": "25",
+        "numero": "87",
+        "piloto": "BERNASCONI, Juan UEZ, Ignacio",
+        "tiempo": "5.15,9",
+        "dif": ".37,1",
+        "dif2": ""
+      },
+      {
+        "posicion": "25",
+        "numero": "87",
+        "piloto": "BERNASCONI, Juan UEZ, Ignacio",
+        "tiempo": "Ford",
+        "dif": "5.15,9",
+        "dif2": ".37,1. ,5"
+      },
+      {
+        "posicion": "26",
+        "numero": "89",
+        "piloto": "GONZALEZ, Nicolas BORDIGNON, Geronimo",
+        "tiempo": "5.16,5",
+        "dif": ".37,7",
+        "dif2": ""
+      },
+      {
+        "posicion": "26",
+        "numero": "89",
+        "piloto": "GONZALEZ, Nicolas BORDIGNON, Geronimo",
+        "tiempo": "VW",
+        "dif": "5.16,5",
+        "dif2": ".37,7. ,6"
+      },
+      {
+        "posicion": "27",
+        "numero": "78",
+        "piloto": "BARATELLA, Alejandro BARATELLA, Italo",
+        "tiempo": "5.18,3",
+        "dif": ".39,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "27",
+        "numero": "78",
+        "piloto": "BARATELLA, Alejandro BARATELLA, Italo",
+        "tiempo": "Peugeot",
+        "dif": "5.18,3",
+        "dif2": ".39,5. 1,8"
+      },
+      {
+        "posicion": "28",
+        "numero": "125",
+        "piloto": "SABBATINI, Santiago SALGADO NASH, Juan",
+        "tiempo": "5.21,6",
+        "dif": ".42,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "28",
+        "numero": "125",
+        "piloto": "SABBATINI, Santiago SALGADO NASH, Juan",
+        "tiempo": "Ford",
+        "dif": "5.21,6",
+        "dif2": ".42,8. 3,3"
+      },
+      {
+        "posicion": "29",
+        "numero": "49",
+        "piloto": "BALLAY, Victorio DELIA, Andres",
+        "tiempo": "5.23,8",
+        "dif": ".45,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "29",
+        "numero": "49",
+        "piloto": "BALLAY, Victorio DELIA, Andres",
+        "tiempo": "Citroen",
+        "dif": "5.23,8",
+        "dif2": ".45,0. 2,2"
+      },
+      {
+        "posicion": "30",
+        "numero": "111",
+        "piloto": "AMBROSIO, Guillermo AMAYA, Franco",
+        "tiempo": "5.24,0",
+        "dif": ".45,2",
+        "dif2": ""
+      },
+      {
+        "posicion": "30",
+        "numero": "111",
+        "piloto": "AMBROSIO, Guillermo AMAYA, Franco",
+        "tiempo": "Ford",
+        "dif": "5.24,0",
+        "dif2": ".45,2. ,2"
+      },
+      {
+        "posicion": "31",
+        "numero": "82",
+        "piloto": "DAPARTE, Ricardo ROZADOS, Emanuel",
+        "tiempo": "5.26,2",
+        "dif": ".47,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "31",
+        "numero": "82",
+        "piloto": "DAPARTE, Ricardo ROZADOS, Emanuel",
+        "tiempo": "VW",
+        "dif": "5.26,2",
+        "dif2": ".47,4. 2,2"
+      },
+      {
+        "posicion": "32",
+        "numero": "108",
+        "piloto": "PEDRIDO, Gaston CORREA, Matias",
+        "tiempo": "5.27,3",
+        "dif": ".48,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "32",
+        "numero": "108",
+        "piloto": "PEDRIDO, Gaston CORREA, Matias",
+        "tiempo": "Ford",
+        "dif": "5.27,3",
+        "dif2": ".48,5. 1,1"
+      },
+      {
+        "posicion": "33",
+        "numero": "96",
+        "piloto": "PELA, Fernando INFANTE, Alberto",
+        "tiempo": "5.27,8",
+        "dif": ".49,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "33",
+        "numero": "96",
+        "piloto": "PELA, Fernando INFANTE, Alberto",
+        "tiempo": "VW",
+        "dif": "5.27,8",
+        "dif2": ".49,0. ,5"
+      },
+      {
+        "posicion": "34",
+        "numero": "70",
+        "piloto": "CATALDO, Carlos CATALDO, Melisa",
+        "tiempo": "5.28,2",
+        "dif": ".49,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "34",
+        "numero": "70",
+        "piloto": "CATALDO, Carlos CATALDO, Melisa",
+        "tiempo": "Peugeot",
+        "dif": "5.28,2",
+        "dif2": ".49,4. ,4"
+      },
+      {
+        "posicion": "35",
+        "numero": "92",
+        "piloto": "DEVOTO, Federico SANGUINETTI, Adriano",
+        "tiempo": "5.28,3",
+        "dif": ".49,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "35",
+        "numero": "92",
+        "piloto": "DEVOTO, Federico SANGUINETTI, Adriano",
+        "tiempo": "VW",
+        "dif": "5.28,3",
+        "dif2": ".49,5. ,1"
+      },
+      {
+        "posicion": "36",
+        "numero": "20",
+        "piloto": "PREVEDELLO, Antonio LONDERO, Leonardo",
+        "tiempo": "5.32,7",
+        "dif": ".53,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "36",
+        "numero": "20",
+        "piloto": "PREVEDELLO, Antonio LONDERO, Leonardo",
+        "tiempo": "Skoda",
+        "dif": "5.32,7",
+        "dif2": ".53,9. 4,4"
+      },
+      {
+        "posicion": "37",
+        "numero": "114",
+        "piloto": "RASSO, Mario GARRO, Ramon",
+        "tiempo": "5.36,2",
+        "dif": ".57,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "37",
+        "numero": "114",
+        "piloto": "RASSO, Mario GARRO, Ramon",
+        "tiempo": "Peugeot",
+        "dif": "5.36,2",
+        "dif2": ".57,4. 3,5"
+      },
+      {
+        "posicion": "38",
+        "numero": "94",
+        "piloto": "PICHETTI, Giamfranco SCICOLONE, Gerardo",
+        "tiempo": "5.36,7",
+        "dif": ".57,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "38",
+        "numero": "94",
+        "piloto": "PICHETTI, Giamfranco SCICOLONE, Gerardo",
+        "tiempo": "Toyota",
+        "dif": "5.36,7",
+        "dif2": ".57,9. ,5"
+      },
+      {
+        "posicion": "39",
+        "numero": "112",
+        "piloto": "ABARCA, Gabriel FURNARI, Francisco",
+        "tiempo": "5.38,4",
+        "dif": ".59,6",
+        "dif2": ""
+      },
+      {
+        "posicion": "39",
+        "numero": "112",
+        "piloto": "ABARCA, Gabriel FURNARI, Francisco",
+        "tiempo": "Ford",
+        "dif": "5.38,4",
+        "dif2": ".59,6. 1,7"
+      },
+      {
+        "posicion": "40",
+        "numero": "107",
+        "piloto": "ALESSANDRINI, Pablo EL AIN, Fabian",
+        "tiempo": "5.40,7",
+        "dif": "1.01,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "40",
+        "numero": "107",
+        "piloto": "ALESSANDRINI, Pablo EL AIN, Fabian",
+        "tiempo": "Ford",
+        "dif": "5.40,7",
+        "dif2": "1.01,9. 2,3"
+      },
+      {
+        "posicion": "41",
+        "numero": "126",
+        "piloto": "FOLLEDO, Valentin DE LA VEGA, Pedro",
+        "tiempo": "5.40,8",
+        "dif": "1.02,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "41",
+        "numero": "126",
+        "piloto": "FOLLEDO, Valentin DE LA VEGA, Pedro",
+        "tiempo": "Ford",
+        "dif": "5.40,8",
+        "dif2": "1.02,0. ,1"
+      },
+      {
+        "posicion": "42",
+        "numero": "95",
+        "piloto": "GONZALEZ, Jorge AGUERO, Martin",
+        "tiempo": "5.45,7",
+        "dif": "1.06,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "42",
+        "numero": "95",
+        "piloto": "GONZALEZ, Jorge AGUERO, Martin",
+        "tiempo": "VW",
+        "dif": "5.45,7",
+        "dif2": "1.06,9. 4,9"
+      },
+      {
+        "posicion": "42=",
+        "numero": "110",
+        "piloto": "CASTRO, Julian CHAVEZ, Diego",
+        "tiempo": "5.45,7",
+        "dif": "1.06,9",
+        "dif2": ""
+      },
+      {
+        "posicion": "42=",
+        "numero": "110",
+        "piloto": "CASTRO, Julian CHAVEZ, Diego",
+        "tiempo": "Ford",
+        "dif": "5.45,7",
+        "dif2": "1.06,9"
+      },
+      {
+        "posicion": "44",
+        "numero": "106",
+        "piloto": "FRANCO, Jose FRANCO, Gabriel",
+        "tiempo": "5.49,2",
+        "dif": "1.10,4",
+        "dif2": ""
+      },
+      {
+        "posicion": "44",
+        "numero": "106",
+        "piloto": "FRANCO, Jose FRANCO, Gabriel",
+        "tiempo": "Ford",
+        "dif": "5.49,2",
+        "dif2": "1.10,4. 3,5"
+      },
+      {
+        "posicion": "45",
+        "numero": "123",
+        "piloto": "ONTIVERO, Gerardo GOMEZ, Ignacio",
+        "tiempo": "5.52,8",
+        "dif": "1.14,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "45",
+        "numero": "123",
+        "piloto": "ONTIVERO, Gerardo GOMEZ, Ignacio",
+        "tiempo": "Peugeot",
+        "dif": "5.52,8",
+        "dif2": "1.14,0. 3,6"
+      },
+      {
+        "posicion": "46",
+        "numero": "128",
+        "piloto": "BUSTOS, Emilio LUCERO, Martin",
+        "tiempo": "6.00,8",
+        "dif": "1.22,0",
+        "dif2": ""
+      },
+      {
+        "posicion": "46",
+        "numero": "128",
+        "piloto": "BUSTOS, Emilio LUCERO, Martin",
+        "tiempo": "Ford",
+        "dif": "6.00,8",
+        "dif2": "1.22,0. 8,0"
+      },
+      {
+        "posicion": "47",
+        "numero": "69",
+        "piloto": "MACHADO, Lucas ARANGUREN, Matias",
+        "tiempo": "6.39,6",
+        "dif": "2.00,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "47",
+        "numero": "69",
+        "piloto": "MACHADO, Lucas ARANGUREN, Matias",
+        "tiempo": "Peugeot",
+        "dif": "6.39,6",
+        "dif2": "2.00,8.38,8"
+      },
+      {
+        "posicion": "48",
+        "numero": "88",
+        "piloto": "DAPARTE, Fernando MARTIN, Lucas",
+        "tiempo": "8.40,3",
+        "dif": "4.01,5",
+        "dif2": ""
+      },
+      {
+        "posicion": "48",
+        "numero": "88",
+        "piloto": "DAPARTE, Fernando MARTIN, Lucas",
+        "tiempo": "Ford",
+        "dif": "8.40,3",
+        "dif2": "4.01,52.00,7"
+      },
+      {
+        "posicion": "49",
+        "numero": "127",
+        "piloto": "AIBAR, Tomas LUNA, Horacio",
+        "tiempo": "15.21,6",
+        "dif": "10.42,8",
+        "dif2": ""
+      },
+      {
+        "posicion": "49",
+        "numero": "127",
+        "piloto": "AIBAR, Tomas LUNA, Horacio",
+        "tiempo": "Ford",
+        "dif": "15.21,6",
+        "dif2": "10.42,86.41,3"
+      }
+    ]
+  }
+]

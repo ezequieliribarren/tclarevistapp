@@ -1,5 +1,7 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
+const fs = require('fs').promises;
+const path = require('path');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 const unorm = require('unorm');
 
@@ -15,20 +17,32 @@ async function p1() {
       .map(fila => fila.c[9].v);
 
     // Array para almacenar todas las promesas de las solicitudes
-    const promesasSolicitudes = [];
-
-    // Enviar solicitudes en paralelo
-    for (const url of urlsRally) {
-      promesasSolicitudes.push(obtenerResultados(url));
-    }
+    const promesasSolicitudes = urlsRally.map(url => obtenerResultados(url).catch(error => {
+      console.error(`Error al obtener los resultados del URL ${url}: ${error.message}`);
+      return null;
+    }));
 
     // Esperar a que todas las solicitudes se completen
     const resultadosPorUrl = await Promise.all(promesasSolicitudes);
 
-    console.log('Resultados por URL:', resultadosPorUrl);
+    // Filtrar resultados null
+    const resultadosValidos = resultadosPorUrl.filter(resultado => resultado !== null);
+
+    const resultadosConUrl = urlsRally.map((url, index) => ({
+      url,
+      resultado: resultadosValidos[index]
+    }));
+
+    console.log('Resultados por URL:', resultadosConUrl);
+
+    // Guardar los resultados en un archivo JSON
+    const jsonFileName = path.join(__dirname, 'p1.json');
+    await fs.writeFile(jsonFileName, JSON.stringify(resultadosConUrl, null, 2), 'utf-8');
+
+    console.log('Datos guardados en:', jsonFileName);
 
     // Devolver los resultados obtenidos
-    return resultadosPorUrl;
+    return resultadosConUrl;
   } catch (error) {
     console.error('Error al obtener y mostrar datos:', error);
     throw error;

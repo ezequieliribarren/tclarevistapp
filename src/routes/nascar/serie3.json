@@ -1,0 +1,606 @@
+[
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "https://es.motorsport.com/nascar-cup/results/2024/bristol-646340/?st=QF",
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "R. Blaney",
+        "marca": "Team Penske",
+        "numero": "12",
+        "vueltas": "2",
+        "tiempo": "15.356",
+        "diferencia": "",
+        "puntos": "124.954",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "2",
+        "piloto": "J. Berry",
+        "marca": "Stewart-Haas Racing",
+        "numero": "4",
+        "vueltas": "1",
+        "tiempo": "15.376",
+        "diferencia": "0.020",
+        "puntos": "124.792",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "3",
+        "piloto": "D. Hamlin",
+        "marca": "Joe Gibbs Racing",
+        "numero": "11",
+        "vueltas": "2",
+        "tiempo": "15.452",
+        "diferencia": "0.076",
+        "puntos": "124.178",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "4",
+        "piloto": "J. Logano",
+        "marca": "Team Penske",
+        "numero": "22",
+        "vueltas": "2",
+        "tiempo": "15.506",
+        "diferencia": "0.054",
+        "puntos": "123.746",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "5",
+        "piloto": "C. Elliott",
+        "marca": "Hendrick Motorsports",
+        "numero": "9",
+        "vueltas": "2",
+        "tiempo": "15.615",
+        "diferencia": "0.109",
+        "puntos": "122.882",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "6",
+        "piloto": "C. Briscoe",
+        "marca": "Stewart-Haas Racing",
+        "numero": "14",
+        "vueltas": "2",
+        "tiempo": "15.618",
+        "diferencia": "0.003",
+        "puntos": "122.858",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "7",
+        "piloto": "M. McDowell",
+        "marca": "Front Row Motorsports",
+        "numero": "34",
+        "vueltas": "1",
+        "tiempo": "15.714",
+        "diferencia": "0.096",
+        "puntos": "122.108",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "8",
+        "piloto": "W. Byron",
+        "marca": "Hendrick Motorsports",
+        "numero": "24",
+        "vueltas": "2",
+        "tiempo": "15.771",
+        "diferencia": "0.057",
+        "puntos": "121.666",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "9",
+        "piloto": "B. Wallace",
+        "marca": "23XI Racing",
+        "numero": "23",
+        "vueltas": "2",
+        "tiempo": "15.778",
+        "diferencia": "0.007",
+        "puntos": "121.612",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "10",
+        "piloto": "K. Larson",
+        "marca": "Hendrick Motorsports",
+        "numero": "5",
+        "vueltas": "1",
+        "tiempo": "16.743",
+        "diferencia": "0.965",
+        "puntos": "114.603",
+        "nacionalidad": "nascar"
+      }
+    ]
+  },
+  {
+    "url": "https://es.motorsport.com/nascar-cup/results/2024/las-vegas-646346/?st=QF",
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "J. Logano",
+        "marca": "Team Penske",
+        "numero": "22",
+        "vueltas": "1",
+        "tiempo": "29.291",
+        "diferencia": "",
+        "puntos": "184.357",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "2",
+        "piloto": "K. Larson",
+        "marca": "Hendrick Motorsports",
+        "numero": "5",
+        "vueltas": "1",
+        "tiempo": "29.312",
+        "diferencia": "0.021",
+        "puntos": "184.225",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "3",
+        "piloto": "A. Cindric",
+        "marca": "Team Penske",
+        "numero": "2",
+        "vueltas": "1",
+        "tiempo": "29.333",
+        "diferencia": "0.021",
+        "puntos": "184.093",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "4",
+        "piloto": "W. Byron",
+        "marca": "Hendrick Motorsports",
+        "numero": "24",
+        "vueltas": "1",
+        "tiempo": "29.362",
+        "diferencia": "0.029",
+        "puntos": "183.911",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "5",
+        "piloto": "B. Wallace",
+        "marca": "23XI Racing",
+        "numero": "23",
+        "vueltas": "1",
+        "tiempo": "29.404",
+        "diferencia": "0.042",
+        "puntos": "183.648",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "6",
+        "piloto": "C. Briscoe",
+        "marca": "Stewart-Haas Racing",
+        "numero": "14",
+        "vueltas": "1",
+        "tiempo": "29.430",
+        "diferencia": "0.026",
+        "puntos": "183.486",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "7",
+        "piloto": "M. Truex Jr.",
+        "marca": "Joe Gibbs Racing",
+        "numero": "19",
+        "vueltas": "1",
+        "tiempo": "29.481",
+        "diferencia": "0.051",
+        "puntos": "183.169",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "8",
+        "piloto": "T. Gibbs",
+        "marca": "Joe Gibbs Racing",
+        "numero": "54",
+        "vueltas": "1",
+        "tiempo": "29.484",
+        "diferencia": "0.003",
+        "puntos": "183.150",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "9",
+        "piloto": "C. Buescher",
+        "marca": "RFK Racing",
+        "numero": "17",
+        "vueltas": "1",
+        "tiempo": "29.520",
+        "diferencia": "0.036",
+        "puntos": "182.927",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "10",
+        "piloto": "C. Bell",
+        "marca": "Joe Gibbs Racing",
+        "numero": "20",
+        "vueltas": "1",
+        "tiempo": "29.580",
+        "diferencia": "0.060",
+        "puntos": "182.556",
+        "nacionalidad": "nascar"
+      }
+    ]
+  },
+  {
+    "url": "https://es.motorsport.com/nascar-cup/results/2024/phoenix-646343/?st=QF",
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "D. Hamlin",
+        "marca": "Joe Gibbs Racing",
+        "numero": "11",
+        "vueltas": "1",
+        "tiempo": "27.138",
+        "diferencia": "",
+        "puntos": "132.655",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "2",
+        "piloto": "T. Gibbs",
+        "marca": "Joe Gibbs Racing",
+        "numero": "54",
+        "vueltas": "1",
+        "tiempo": "27.226",
+        "diferencia": "0.088",
+        "puntos": "132.227",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "3",
+        "piloto": "C. Elliott",
+        "marca": "Hendrick Motorsports",
+        "numero": "9",
+        "vueltas": "1",
+        "tiempo": "27.243",
+        "diferencia": "0.017",
+        "puntos": "132.144",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "4",
+        "piloto": "E. Jones",
+        "marca": "Legacy Motor Club",
+        "numero": "43",
+        "vueltas": "1",
+        "tiempo": "27.249",
+        "diferencia": "0.006",
+        "puntos": "132.115",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "5",
+        "piloto": "W. Byron",
+        "marca": "Hendrick Motorsports",
+        "numero": "24",
+        "vueltas": "1",
+        "tiempo": "27.269",
+        "diferencia": "0.020",
+        "puntos": "132.018",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "6",
+        "piloto": "T. Reddick",
+        "marca": "23XI Racing",
+        "numero": "45",
+        "vueltas": "1",
+        "tiempo": "27.270",
+        "diferencia": "0.001",
+        "puntos": "132.013",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "7",
+        "piloto": "N. Gragson",
+        "marca": "Stewart-Haas Racing",
+        "numero": "10",
+        "vueltas": "1",
+        "tiempo": "27.332",
+        "diferencia": "0.062",
+        "puntos": "131.714",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "8",
+        "piloto": "C. Briscoe",
+        "marca": "Stewart-Haas Racing",
+        "numero": "14",
+        "vueltas": "1",
+        "tiempo": "27.363",
+        "diferencia": "0.031",
+        "puntos": "131.565",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "9",
+        "piloto": "M. McDowell",
+        "marca": "Front Row Motorsports",
+        "numero": "34",
+        "vueltas": "1",
+        "tiempo": "27.440",
+        "diferencia": "0.077",
+        "puntos": "131.195",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "10",
+        "piloto": "C. Hocevar",
+        "marca": "Spire Motorsports",
+        "numero": "77",
+        "vueltas": "1",
+        "tiempo": "27.497",
+        "diferencia": "0.057",
+        "puntos": "130.923",
+        "nacionalidad": "nascar"
+      }
+    ]
+  },
+  {
+    "url": "https://es.motorsport.com/nascar-cup/results/2024/bristol-646340/?st=QF",
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "R. Blaney",
+        "marca": "Team Penske",
+        "numero": "12",
+        "vueltas": "2",
+        "tiempo": "15.356",
+        "diferencia": "",
+        "puntos": "124.954",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "2",
+        "piloto": "J. Berry",
+        "marca": "Stewart-Haas Racing",
+        "numero": "4",
+        "vueltas": "1",
+        "tiempo": "15.376",
+        "diferencia": "0.020",
+        "puntos": "124.792",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "3",
+        "piloto": "D. Hamlin",
+        "marca": "Joe Gibbs Racing",
+        "numero": "11",
+        "vueltas": "2",
+        "tiempo": "15.452",
+        "diferencia": "0.076",
+        "puntos": "124.178",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "4",
+        "piloto": "J. Logano",
+        "marca": "Team Penske",
+        "numero": "22",
+        "vueltas": "2",
+        "tiempo": "15.506",
+        "diferencia": "0.054",
+        "puntos": "123.746",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "5",
+        "piloto": "C. Elliott",
+        "marca": "Hendrick Motorsports",
+        "numero": "9",
+        "vueltas": "2",
+        "tiempo": "15.615",
+        "diferencia": "0.109",
+        "puntos": "122.882",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "6",
+        "piloto": "C. Briscoe",
+        "marca": "Stewart-Haas Racing",
+        "numero": "14",
+        "vueltas": "2",
+        "tiempo": "15.618",
+        "diferencia": "0.003",
+        "puntos": "122.858",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "7",
+        "piloto": "M. McDowell",
+        "marca": "Front Row Motorsports",
+        "numero": "34",
+        "vueltas": "1",
+        "tiempo": "15.714",
+        "diferencia": "0.096",
+        "puntos": "122.108",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "8",
+        "piloto": "W. Byron",
+        "marca": "Hendrick Motorsports",
+        "numero": "24",
+        "vueltas": "2",
+        "tiempo": "15.771",
+        "diferencia": "0.057",
+        "puntos": "121.666",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "9",
+        "piloto": "B. Wallace",
+        "marca": "23XI Racing",
+        "numero": "23",
+        "vueltas": "2",
+        "tiempo": "15.778",
+        "diferencia": "0.007",
+        "puntos": "121.612",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "10",
+        "piloto": "K. Larson",
+        "marca": "Hendrick Motorsports",
+        "numero": "5",
+        "vueltas": "1",
+        "tiempo": "16.743",
+        "diferencia": "0.965",
+        "puntos": "114.603",
+        "nacionalidad": "nascar"
+      }
+    ]
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  }
+]

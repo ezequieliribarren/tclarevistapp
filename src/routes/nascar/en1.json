@@ -1,0 +1,2158 @@
+[
+  {
+    "url": "https://lat.motorsport.com/nascar-cup/results/2024/busch-light-clash-at-the-coliseum/?st=FiP",
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "D. Hamlin",
+        "marca": "Joe Gibbs Racing",
+        "numero": "11",
+        "vueltas": "59",
+        "tiempo": "13.270",
+        "diferencia": "",
+        "puntos": "67.822",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "2",
+        "piloto": "C. Bell",
+        "marca": "Joe Gibbs Racing",
+        "numero": "20",
+        "vueltas": "52",
+        "tiempo": "13.290",
+        "diferencia": "0.020",
+        "puntos": "67.720",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "3",
+        "piloto": "T. Gibbs",
+        "marca": "Joe Gibbs Racing",
+        "numero": "54",
+        "vueltas": "63",
+        "tiempo": "13.298",
+        "diferencia": "0.008",
+        "puntos": "67.679",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "4",
+        "piloto": "W. Byron",
+        "marca": "Hendrick Motorsports",
+        "numero": "24",
+        "vueltas": "72",
+        "tiempo": "13.354",
+        "diferencia": "0.056",
+        "puntos": "67.396",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "5",
+        "piloto": "J. Logano",
+        "marca": "Team Penske",
+        "numero": "22",
+        "vueltas": "72",
+        "tiempo": "13.356",
+        "diferencia": "0.002",
+        "puntos": "67.385",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "6",
+        "piloto": "M. Truex Jr.",
+        "marca": "Joe Gibbs Racing",
+        "numero": "19",
+        "vueltas": "71",
+        "tiempo": "13.356",
+        "diferencia": "0.000",
+        "puntos": "67.385",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "7",
+        "piloto": "K. Larson",
+        "marca": "Hendrick Motorsports",
+        "numero": "5",
+        "vueltas": "62",
+        "tiempo": "13.368",
+        "diferencia": "0.012",
+        "puntos": "67.325",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "8",
+        "piloto": "C. Briscoe",
+        "marca": "Stewart-Haas Racing",
+        "numero": "14",
+        "vueltas": "72",
+        "tiempo": "13.372",
+        "diferencia": "0.004",
+        "puntos": "67.305",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "9",
+        "piloto": "T. Reddick",
+        "marca": "23XI Racing",
+        "numero": "45",
+        "vueltas": "71",
+        "tiempo": "13.386",
+        "diferencia": "0.014",
+        "puntos": "67.234",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "10",
+        "piloto": "K. Busch",
+        "marca": "Richard Childress Racing",
+        "numero": "8",
+        "vueltas": "72",
+        "tiempo": "13.415",
+        "diferencia": "0.029",
+        "puntos": "67.089",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "11",
+        "piloto": "R. Chastain",
+        "marca": "TrackHouse Racing",
+        "numero": "1",
+        "vueltas": "66",
+        "tiempo": "13.416",
+        "diferencia": "0.001",
+        "puntos": "67.084",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "12",
+        "piloto": "C. Elliott",
+        "marca": "Hendrick Motorsports",
+        "numero": "9",
+        "vueltas": "74",
+        "tiempo": "13.418",
+        "diferencia": "0.002",
+        "puntos": "67.074",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "13",
+        "piloto": "J. Nemechek",
+        "marca": "Legacy Motor Club",
+        "numero": "42",
+        "vueltas": "70",
+        "tiempo": "13.421",
+        "diferencia": "0.003",
+        "puntos": "67.059",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "14",
+        "piloto": "R. Blaney",
+        "marca": "Team Penske",
+        "numero": "12",
+        "vueltas": "53",
+        "tiempo": "13.428",
+        "diferencia": "0.007",
+        "puntos": "67.024",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "15",
+        "piloto": "D. Suarez",
+        "marca": "TrackHouse Racing",
+        "numero": "99",
+        "vueltas": "68",
+        "tiempo": "13.444",
+        "diferencia": "0.016",
+        "puntos": "66.944",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "16",
+        "piloto": "N. Gragson",
+        "marca": "Stewart-Haas Racing",
+        "numero": "10",
+        "vueltas": "72",
+        "tiempo": "13.448",
+        "diferencia": "0.004",
+        "puntos": "66.924",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "17",
+        "piloto": "E. Jones",
+        "marca": "Legacy Motor Club",
+        "numero": "43",
+        "vueltas": "71",
+        "tiempo": "13.450",
+        "diferencia": "0.002",
+        "puntos": "66.914",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "18",
+        "piloto": "Z. Smith",
+        "marca": "Spire Motorsports",
+        "numero": "71",
+        "vueltas": "70",
+        "tiempo": "13.450",
+        "diferencia": "0.000",
+        "puntos": "66.914",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "19",
+        "piloto": "C. Hocevar",
+        "marca": "Spire Motorsports",
+        "numero": "77",
+        "vueltas": "65",
+        "tiempo": "13.452",
+        "diferencia": "0.002",
+        "puntos": "66.905",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "20",
+        "piloto": "T. Gilliland",
+        "marca": "Front Row Motorsports",
+        "numero": "38",
+        "vueltas": "69",
+        "tiempo": "13.463",
+        "diferencia": "0.011",
+        "puntos": "66.850",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "21",
+        "piloto": "A. Dillon",
+        "marca": "Richard Childress Racing",
+        "numero": "3",
+        "vueltas": "69",
+        "tiempo": "13.475",
+        "diferencia": "0.012",
+        "puntos": "66.790",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "22",
+        "piloto": "B. Wallace",
+        "marca": "23XI Racing",
+        "numero": "23",
+        "vueltas": "71",
+        "tiempo": "13.477",
+        "diferencia": "0.002",
+        "puntos": "66.780",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "23",
+        "piloto": "M. McDowell",
+        "marca": "Front Row Motorsports",
+        "numero": "34",
+        "vueltas": "70",
+        "tiempo": "13.481",
+        "diferencia": "0.004",
+        "puntos": "66.761",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "24",
+        "piloto": "J. Berry",
+        "marca": "Stewart-Haas Racing",
+        "numero": "4",
+        "vueltas": "72",
+        "tiempo": "13.484",
+        "diferencia": "0.003",
+        "puntos": "66.746",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "25",
+        "piloto": "R. Stenhouse Jr.",
+        "marca": "JTG Daugherty Racing",
+        "numero": "47",
+        "vueltas": "70",
+        "tiempo": "13.492",
+        "diferencia": "0.008",
+        "puntos": "66.706",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "26",
+        "piloto": "C. Lajoie",
+        "marca": "Spire Motorsports",
+        "numero": "7",
+        "vueltas": "70",
+        "tiempo": "13.504",
+        "diferencia": "0.012",
+        "puntos": "66.647",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "27",
+        "piloto": "A. Bowman",
+        "marca": "Hendrick Motorsports",
+        "numero": "48",
+        "vueltas": "62",
+        "tiempo": "13.523",
+        "diferencia": "0.019",
+        "puntos": "66.553",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "28",
+        "piloto": "H. Burton",
+        "marca": "Wood Brothers Racing",
+        "numero": "21",
+        "vueltas": "45",
+        "tiempo": "13.530",
+        "diferencia": "0.007",
+        "puntos": "66.519",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "29",
+        "piloto": "C. Buescher",
+        "marca": "RFK Racing",
+        "numero": "17",
+        "vueltas": "72",
+        "tiempo": "13.534",
+        "diferencia": "0.004",
+        "puntos": "66.499",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "30",
+        "piloto": "R. Preece",
+        "marca": "Stewart-Haas Racing",
+        "numero": "41",
+        "vueltas": "65",
+        "tiempo": "13.537",
+        "diferencia": "0.003",
+        "puntos": "66.484",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "31",
+        "piloto": "J. Haley",
+        "marca": "Rick Ware Racing",
+        "numero": "51",
+        "vueltas": "69",
+        "tiempo": "13.555",
+        "diferencia": "0.018",
+        "puntos": "66.396",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "32",
+        "piloto": "J. Williams",
+        "marca": "Kaulig Racing",
+        "numero": "16",
+        "vueltas": "70",
+        "tiempo": "13.562",
+        "diferencia": "0.007",
+        "puntos": "66.362",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "33",
+        "piloto": "B. Keselowski",
+        "marca": "RFK Racing",
+        "numero": "6",
+        "vueltas": "69",
+        "tiempo": "13.614",
+        "diferencia": "0.052",
+        "puntos": "66.108",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "34",
+        "piloto": "D. Hemric",
+        "marca": "Kaulig Racing",
+        "numero": "31",
+        "vueltas": "70",
+        "tiempo": "13.685",
+        "diferencia": "0.071",
+        "puntos": "65.765",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "35",
+        "piloto": "A. Cindric",
+        "marca": "Team Penske",
+        "numero": "2",
+        "vueltas": "69",
+        "tiempo": "13.701",
+        "diferencia": "0.016",
+        "puntos": "65.689",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "36",
+        "piloto": "K. Grala",
+        "marca": "Rick Ware Racing",
+        "numero": "15",
+        "vueltas": "68",
+        "tiempo": "13.803",
+        "diferencia": "0.102",
+        "puntos": "65.203",
+        "nacionalidad": "nascar"
+      }
+    ]
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "https://es.motorsport.com/nascar-cup/results/2024/bristol-646340/?st=FiP",
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "R. Blaney",
+        "marca": "Team Penske",
+        "numero": "12",
+        "vueltas": "36",
+        "tiempo": "15.028",
+        "diferencia": "",
+        "puntos": "127.682",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "2",
+        "piloto": "K. Busch",
+        "marca": "Richard Childress Racing",
+        "numero": "8",
+        "vueltas": "37",
+        "tiempo": "15.110",
+        "diferencia": "0.082",
+        "puntos": "126.989",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "3",
+        "piloto": "B. Wallace",
+        "marca": "23XI Racing",
+        "numero": "23",
+        "vueltas": "56",
+        "tiempo": "15.118",
+        "diferencia": "0.008",
+        "puntos": "126.922",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "4",
+        "piloto": "R. Chastain",
+        "marca": "TrackHouse Racing",
+        "numero": "1",
+        "vueltas": "51",
+        "tiempo": "15.120",
+        "diferencia": "0.002",
+        "puntos": "126.905",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "5",
+        "piloto": "J. Logano",
+        "marca": "Team Penske",
+        "numero": "22",
+        "vueltas": "40",
+        "tiempo": "15.125",
+        "diferencia": "0.005",
+        "puntos": "126.863",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "6",
+        "piloto": "W. Byron",
+        "marca": "Hendrick Motorsports",
+        "numero": "24",
+        "vueltas": "36",
+        "tiempo": "15.161",
+        "diferencia": "0.036",
+        "puntos": "126.562",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "7",
+        "piloto": "M. McDowell",
+        "marca": "Front Row Motorsports",
+        "numero": "34",
+        "vueltas": "29",
+        "tiempo": "15.206",
+        "diferencia": "0.045",
+        "puntos": "126.187",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "8",
+        "piloto": "C. Bell",
+        "marca": "Joe Gibbs Racing",
+        "numero": "20",
+        "vueltas": "48",
+        "tiempo": "15.235",
+        "diferencia": "0.029",
+        "puntos": "125.947",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "9",
+        "piloto": "A. Allmendinger",
+        "marca": "Kaulig Racing",
+        "numero": "16",
+        "vueltas": "38",
+        "tiempo": "15.264",
+        "diferencia": "0.029",
+        "puntos": "125.708",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "10",
+        "piloto": "J. Nemechek",
+        "marca": "Legacy Motor Club",
+        "numero": "42",
+        "vueltas": "42",
+        "tiempo": "15.307",
+        "diferencia": "0.043",
+        "puntos": "125.354",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "11",
+        "piloto": "D. Suarez",
+        "marca": "TrackHouse Racing",
+        "numero": "99",
+        "vueltas": "16",
+        "tiempo": "15.318",
+        "diferencia": "0.011",
+        "puntos": "125.264",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "12",
+        "piloto": "C. Buescher",
+        "marca": "RFK Racing",
+        "numero": "17",
+        "vueltas": "41",
+        "tiempo": "15.323",
+        "diferencia": "0.005",
+        "puntos": "125.224",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "13",
+        "piloto": "H. Burton",
+        "marca": "Wood Brothers Racing",
+        "numero": "21",
+        "vueltas": "31",
+        "tiempo": "15.324",
+        "diferencia": "0.001",
+        "puntos": "125.215",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "14",
+        "piloto": "J. Haley",
+        "marca": "Rick Ware Racing",
+        "numero": "51",
+        "vueltas": "32",
+        "tiempo": "15.333",
+        "diferencia": "0.009",
+        "puntos": "125.142",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "15",
+        "piloto": "N. Gragson",
+        "marca": "Stewart-Haas Racing",
+        "numero": "10",
+        "vueltas": "45",
+        "tiempo": "15.380",
+        "diferencia": "0.047",
+        "puntos": "124.759",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "16",
+        "piloto": "C. Elliott",
+        "marca": "Hendrick Motorsports",
+        "numero": "9",
+        "vueltas": "29",
+        "tiempo": "15.385",
+        "diferencia": "0.005",
+        "puntos": "124.719",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "17",
+        "piloto": "K. Larson",
+        "marca": "Hendrick Motorsports",
+        "numero": "5",
+        "vueltas": "34",
+        "tiempo": "15.393",
+        "diferencia": "0.008",
+        "puntos": "124.654",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "18",
+        "piloto": "T. Gilliland",
+        "marca": "Front Row Motorsports",
+        "numero": "38",
+        "vueltas": "31",
+        "tiempo": "15.413",
+        "diferencia": "0.020",
+        "puntos": "124.492",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "19",
+        "piloto": "C. Lajoie",
+        "marca": "Spire Motorsports",
+        "numero": "7",
+        "vueltas": "32",
+        "tiempo": "15.415",
+        "diferencia": "0.002",
+        "puntos": "124.476",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "20",
+        "piloto": "Z. Smith",
+        "marca": "Spire Motorsports",
+        "numero": "71",
+        "vueltas": "37",
+        "tiempo": "15.419",
+        "diferencia": "0.004",
+        "puntos": "124.444",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "21",
+        "piloto": "B. Keselowski",
+        "marca": "RFK Racing",
+        "numero": "6",
+        "vueltas": "31",
+        "tiempo": "15.488",
+        "diferencia": "0.069",
+        "puntos": "123.889",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "22",
+        "piloto": "R. Stenhouse Jr.",
+        "marca": "JTG Daugherty Racing",
+        "numero": "47",
+        "vueltas": "34",
+        "tiempo": "15.531",
+        "diferencia": "0.043",
+        "puntos": "123.546",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "23",
+        "piloto": "C. Briscoe",
+        "marca": "Stewart-Haas Racing",
+        "numero": "14",
+        "vueltas": "34",
+        "tiempo": "15.534",
+        "diferencia": "0.003",
+        "puntos": "123.523",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "24",
+        "piloto": "D. Hemric",
+        "marca": "Kaulig Racing",
+        "numero": "31",
+        "vueltas": "37",
+        "tiempo": "15.544",
+        "diferencia": "0.010",
+        "puntos": "123.443",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "25",
+        "piloto": "R. Preece",
+        "marca": "Stewart-Haas Racing",
+        "numero": "41",
+        "vueltas": "30",
+        "tiempo": "15.601",
+        "diferencia": "0.057",
+        "puntos": "122.992",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "26",
+        "piloto": "J. Berry",
+        "marca": "Stewart-Haas Racing",
+        "numero": "4",
+        "vueltas": "36",
+        "tiempo": "15.620",
+        "diferencia": "0.019",
+        "puntos": "122.843",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "27",
+        "piloto": "A. Cindric",
+        "marca": "Team Penske",
+        "numero": "2",
+        "vueltas": "25",
+        "tiempo": "15.627",
+        "diferencia": "0.007",
+        "puntos": "122.787",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "28",
+        "piloto": "A. Bowman",
+        "marca": "Hendrick Motorsports",
+        "numero": "48",
+        "vueltas": "28",
+        "tiempo": "15.632",
+        "diferencia": "0.005",
+        "puntos": "122.748",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "29",
+        "piloto": "M. Truex Jr.",
+        "marca": "Joe Gibbs Racing",
+        "numero": "19",
+        "vueltas": "34",
+        "tiempo": "15.641",
+        "diferencia": "0.009",
+        "puntos": "122.678",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "30",
+        "piloto": "D. Hamlin",
+        "marca": "Joe Gibbs Racing",
+        "numero": "11",
+        "vueltas": "31",
+        "tiempo": "15.657",
+        "diferencia": "0.016",
+        "puntos": "122.552",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "31",
+        "piloto": "C. Hocevar",
+        "marca": "Spire Motorsports",
+        "numero": "77",
+        "vueltas": "24",
+        "tiempo": "15.756",
+        "diferencia": "0.099",
+        "puntos": "121.782",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "32",
+        "piloto": "T. Reddick",
+        "marca": "23XI Racing",
+        "numero": "45",
+        "vueltas": "34",
+        "tiempo": "15.774",
+        "diferencia": "0.018",
+        "puntos": "121.643",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "33",
+        "piloto": "E. Jones",
+        "marca": "Legacy Motor Club",
+        "numero": "43",
+        "vueltas": "23",
+        "tiempo": "15.814",
+        "diferencia": "0.040",
+        "puntos": "121.336",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "34",
+        "piloto": "T. Gibbs",
+        "marca": "Joe Gibbs Racing",
+        "numero": "54",
+        "vueltas": "14",
+        "tiempo": "15.887",
+        "diferencia": "0.073",
+        "puntos": "120.778",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "35",
+        "piloto": "A. Dillon",
+        "marca": "Richard Childress Racing",
+        "numero": "3",
+        "vueltas": "40",
+        "tiempo": "15.936",
+        "diferencia": "0.049",
+        "puntos": "120.407",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "36",
+        "piloto": "K. Grala",
+        "marca": "Rick Ware Racing",
+        "numero": "15",
+        "vueltas": "33",
+        "tiempo": "16.267",
+        "diferencia": "0.331",
+        "puntos": "117.957",
+        "nacionalidad": "nascar"
+      }
+    ]
+  },
+  {
+    "url": "https://es.motorsport.com/nascar-cup/results/2024/las-vegas-646346/?st=FiP",
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "R. Chastain",
+        "marca": "TrackHouse Racing",
+        "numero": "1",
+        "vueltas": "22",
+        "tiempo": "29.305",
+        "diferencia": "",
+        "puntos": "184.269",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "2",
+        "piloto": "N. Gragson",
+        "marca": "Stewart-Haas Racing",
+        "numero": "10",
+        "vueltas": "21",
+        "tiempo": "29.402",
+        "diferencia": "0.097",
+        "puntos": "183.661",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "3",
+        "piloto": "T. Gibbs",
+        "marca": "Joe Gibbs Racing",
+        "numero": "54",
+        "vueltas": "26",
+        "tiempo": "29.531",
+        "diferencia": "0.129",
+        "puntos": "182.859",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "4",
+        "piloto": "T. Reddick",
+        "marca": "23XI Racing",
+        "numero": "45",
+        "vueltas": "22",
+        "tiempo": "29.533",
+        "diferencia": "0.002",
+        "puntos": "182.846",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "5",
+        "piloto": "D. Hamlin",
+        "marca": "Joe Gibbs Racing",
+        "numero": "11",
+        "vueltas": "28",
+        "tiempo": "29.553",
+        "diferencia": "0.020",
+        "puntos": "182.723",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "6",
+        "piloto": "B. Wallace",
+        "marca": "23XI Racing",
+        "numero": "23",
+        "vueltas": "21",
+        "tiempo": "29.561",
+        "diferencia": "0.008",
+        "puntos": "182.673",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "7",
+        "piloto": "C. Briscoe",
+        "marca": "Stewart-Haas Racing",
+        "numero": "14",
+        "vueltas": "16",
+        "tiempo": "29.599",
+        "diferencia": "0.038",
+        "puntos": "182.439",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "8",
+        "piloto": "W. Byron",
+        "marca": "Hendrick Motorsports",
+        "numero": "24",
+        "vueltas": "29",
+        "tiempo": "29.614",
+        "diferencia": "0.015",
+        "puntos": "182.346",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "9",
+        "piloto": "K. Larson",
+        "marca": "Hendrick Motorsports",
+        "numero": "5",
+        "vueltas": "25",
+        "tiempo": "29.617",
+        "diferencia": "0.003",
+        "puntos": "182.328",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "10",
+        "piloto": "C. Buescher",
+        "marca": "RFK Racing",
+        "numero": "17",
+        "vueltas": "17",
+        "tiempo": "29.655",
+        "diferencia": "0.038",
+        "puntos": "182.094",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "11",
+        "piloto": "M. McDowell",
+        "marca": "Front Row Motorsports",
+        "numero": "34",
+        "vueltas": "20",
+        "tiempo": "29.656",
+        "diferencia": "0.001",
+        "puntos": "182.088",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "12",
+        "piloto": "A. Bowman",
+        "marca": "Hendrick Motorsports",
+        "numero": "48",
+        "vueltas": "22",
+        "tiempo": "29.663",
+        "diferencia": "0.007",
+        "puntos": "182.045",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "13",
+        "piloto": "C. Hocevar",
+        "marca": "Spire Motorsports",
+        "numero": "77",
+        "vueltas": "20",
+        "tiempo": "29.699",
+        "diferencia": "0.036",
+        "puntos": "181.824",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "14",
+        "piloto": "C. Elliott",
+        "marca": "Hendrick Motorsports",
+        "numero": "9",
+        "vueltas": "22",
+        "tiempo": "29.707",
+        "diferencia": "0.008",
+        "puntos": "181.775",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "15",
+        "piloto": "C. Lajoie",
+        "marca": "Spire Motorsports",
+        "numero": "7",
+        "vueltas": "16",
+        "tiempo": "29.738",
+        "diferencia": "0.031",
+        "puntos": "181.586",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "16",
+        "piloto": "R. Stenhouse Jr.",
+        "marca": "JTG Daugherty Racing",
+        "numero": "47",
+        "vueltas": "25",
+        "tiempo": "29.751",
+        "diferencia": "0.013",
+        "puntos": "181.507",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "17",
+        "piloto": "K. Busch",
+        "marca": "Richard Childress Racing",
+        "numero": "8",
+        "vueltas": "25",
+        "tiempo": "29.765",
+        "diferencia": "0.014",
+        "puntos": "181.421",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "18",
+        "piloto": "J. Logano",
+        "marca": "Team Penske",
+        "numero": "22",
+        "vueltas": "23",
+        "tiempo": "29.785",
+        "diferencia": "0.020",
+        "puntos": "181.299",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "19",
+        "piloto": "C. Bell",
+        "marca": "Joe Gibbs Racing",
+        "numero": "20",
+        "vueltas": "24",
+        "tiempo": "29.798",
+        "diferencia": "0.013",
+        "puntos": "181.220",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "20",
+        "piloto": "D. Hemric",
+        "marca": "Kaulig Racing",
+        "numero": "31",
+        "vueltas": "17",
+        "tiempo": "29.800",
+        "diferencia": "0.002",
+        "puntos": "181.208",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "21",
+        "piloto": "R. Blaney",
+        "marca": "Team Penske",
+        "numero": "12",
+        "vueltas": "24",
+        "tiempo": "29.811",
+        "diferencia": "0.011",
+        "puntos": "181.141",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "22",
+        "piloto": "Z. Smith",
+        "marca": "Spire Motorsports",
+        "numero": "71",
+        "vueltas": "25",
+        "tiempo": "29.827",
+        "diferencia": "0.016",
+        "puntos": "181.044",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "23",
+        "piloto": "D. Suarez",
+        "marca": "TrackHouse Racing",
+        "numero": "99",
+        "vueltas": "24",
+        "tiempo": "29.849",
+        "diferencia": "0.022",
+        "puntos": "180.911",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "24",
+        "piloto": "R. Preece",
+        "marca": "Stewart-Haas Racing",
+        "numero": "41",
+        "vueltas": "3",
+        "tiempo": "29.907",
+        "diferencia": "0.058",
+        "puntos": "180.560",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "25",
+        "piloto": "A. Cindric",
+        "marca": "Team Penske",
+        "numero": "2",
+        "vueltas": "24",
+        "tiempo": "29.914",
+        "diferencia": "0.007",
+        "puntos": "180.517",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "26",
+        "piloto": "J. Berry",
+        "marca": "Stewart-Haas Racing",
+        "numero": "4",
+        "vueltas": "23",
+        "tiempo": "29.925",
+        "diferencia": "0.011",
+        "puntos": "180.451",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "27",
+        "piloto": "M. Truex Jr.",
+        "marca": "Joe Gibbs Racing",
+        "numero": "19",
+        "vueltas": "27",
+        "tiempo": "29.939",
+        "diferencia": "0.014",
+        "puntos": "180.367",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "28",
+        "piloto": "B. Keselowski",
+        "marca": "RFK Racing",
+        "numero": "6",
+        "vueltas": "16",
+        "tiempo": "29.958",
+        "diferencia": "0.019",
+        "puntos": "180.252",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "29",
+        "piloto": "A. Dillon",
+        "marca": "Richard Childress Racing",
+        "numero": "3",
+        "vueltas": "20",
+        "tiempo": "30.030",
+        "diferencia": "0.072",
+        "puntos": "179.820",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "30",
+        "piloto": "J. Haley",
+        "marca": "Rick Ware Racing",
+        "numero": "51",
+        "vueltas": "11",
+        "tiempo": "30.120",
+        "diferencia": "0.090",
+        "puntos": "179.283",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "31",
+        "piloto": "J. Nemechek",
+        "marca": "Legacy Motor Club",
+        "numero": "42",
+        "vueltas": "25",
+        "tiempo": "30.197",
+        "diferencia": "0.077",
+        "puntos": "178.826",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "32",
+        "piloto": "K. Grala",
+        "marca": "Rick Ware Racing",
+        "numero": "15",
+        "vueltas": "16",
+        "tiempo": "30.310",
+        "diferencia": "0.113",
+        "puntos": "178.159",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "33",
+        "piloto": "E. Jones",
+        "marca": "Legacy Motor Club",
+        "numero": "43",
+        "vueltas": "15",
+        "tiempo": "30.420",
+        "diferencia": "0.110",
+        "puntos": "177.515",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "34",
+        "piloto": "D. Kraus",
+        "marca": "Kaulig Racing",
+        "numero": "16",
+        "vueltas": "23",
+        "tiempo": "30.458",
+        "diferencia": "0.038",
+        "puntos": "177.293",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "35",
+        "piloto": "T. Gilliland",
+        "marca": "Front Row Motorsports",
+        "numero": "38",
+        "vueltas": "12",
+        "tiempo": "30.587",
+        "diferencia": "0.129",
+        "puntos": "176.546",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "36",
+        "piloto": "H. Burton",
+        "marca": "Wood Brothers Racing",
+        "numero": "21",
+        "vueltas": "17",
+        "tiempo": "30.706",
+        "diferencia": "0.119",
+        "puntos": "175.861",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "37",
+        "piloto": "J. Yeley",
+        "marca": "NY Racing Team",
+        "numero": "44",
+        "vueltas": "2",
+        "tiempo": "32.729",
+        "diferencia": "2.023",
+        "puntos": "164.991",
+        "nacionalidad": "nascar"
+      }
+    ]
+  },
+  {
+    "url": "https://es.motorsport.com/nascar-cup/results/2024/phoenix-646343/?st=FiP",
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "J. Logano",
+        "marca": "Team Penske",
+        "numero": "22",
+        "vueltas": "55",
+        "tiempo": "27.446",
+        "diferencia": "",
+        "puntos": "131.167",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "2",
+        "piloto": "D. Hamlin",
+        "marca": "Joe Gibbs Racing",
+        "numero": "11",
+        "vueltas": "54",
+        "tiempo": "27.464",
+        "diferencia": "0.018",
+        "puntos": "131.081",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "3",
+        "piloto": "T. Reddick",
+        "marca": "23XI Racing",
+        "numero": "45",
+        "vueltas": "53",
+        "tiempo": "27.467",
+        "diferencia": "0.003",
+        "puntos": "131.066",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "4",
+        "piloto": "J. Nemechek",
+        "marca": "Legacy Motor Club",
+        "numero": "42",
+        "vueltas": "48",
+        "tiempo": "27.484",
+        "diferencia": "0.017",
+        "puntos": "130.985",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "5",
+        "piloto": "A. Cindric",
+        "marca": "Team Penske",
+        "numero": "2",
+        "vueltas": "48",
+        "tiempo": "27.486",
+        "diferencia": "0.002",
+        "puntos": "130.976",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "6",
+        "piloto": "E. Jones",
+        "marca": "Legacy Motor Club",
+        "numero": "43",
+        "vueltas": "42",
+        "tiempo": "27.528",
+        "diferencia": "0.042",
+        "puntos": "130.776",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "7",
+        "piloto": "C. Elliott",
+        "marca": "Hendrick Motorsports",
+        "numero": "9",
+        "vueltas": "48",
+        "tiempo": "27.534",
+        "diferencia": "0.006",
+        "puntos": "130.747",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "8",
+        "piloto": "C. Bell",
+        "marca": "Joe Gibbs Racing",
+        "numero": "20",
+        "vueltas": "63",
+        "tiempo": "27.622",
+        "diferencia": "0.088",
+        "puntos": "130.331",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "9",
+        "piloto": "B. Wallace",
+        "marca": "23XI Racing",
+        "numero": "23",
+        "vueltas": "64",
+        "tiempo": "27.645",
+        "diferencia": "0.023",
+        "puntos": "130.222",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "10",
+        "piloto": "C. Hocevar",
+        "marca": "Spire Motorsports",
+        "numero": "77",
+        "vueltas": "48",
+        "tiempo": "27.650",
+        "diferencia": "0.005",
+        "puntos": "130.199",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "11",
+        "piloto": "A. Bowman",
+        "marca": "Hendrick Motorsports",
+        "numero": "48",
+        "vueltas": "49",
+        "tiempo": "27.667",
+        "diferencia": "0.017",
+        "puntos": "130.119",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "12",
+        "piloto": "M. Truex Jr.",
+        "marca": "Joe Gibbs Racing",
+        "numero": "19",
+        "vueltas": "54",
+        "tiempo": "27.668",
+        "diferencia": "0.001",
+        "puntos": "130.114",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "13",
+        "piloto": "R. Stenhouse Jr.",
+        "marca": "JTG Daugherty Racing",
+        "numero": "47",
+        "vueltas": "54",
+        "tiempo": "27.696",
+        "diferencia": "0.028",
+        "puntos": "129.983",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "14",
+        "piloto": "M. McDowell",
+        "marca": "Front Row Motorsports",
+        "numero": "34",
+        "vueltas": "46",
+        "tiempo": "27.704",
+        "diferencia": "0.008",
+        "puntos": "129.945",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "15",
+        "piloto": "D. Suarez",
+        "marca": "TrackHouse Racing",
+        "numero": "99",
+        "vueltas": "58",
+        "tiempo": "27.711",
+        "diferencia": "0.007",
+        "puntos": "129.912",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "16",
+        "piloto": "R. Chastain",
+        "marca": "TrackHouse Racing",
+        "numero": "1",
+        "vueltas": "44",
+        "tiempo": "27.715",
+        "diferencia": "0.004",
+        "puntos": "129.894",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "17",
+        "piloto": "T. Gibbs",
+        "marca": "Joe Gibbs Racing",
+        "numero": "54",
+        "vueltas": "36",
+        "tiempo": "27.718",
+        "diferencia": "0.003",
+        "puntos": "129.880",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "18",
+        "piloto": "C. Lajoie",
+        "marca": "Spire Motorsports",
+        "numero": "7",
+        "vueltas": "47",
+        "tiempo": "27.730",
+        "diferencia": "0.012",
+        "puntos": "129.823",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "19",
+        "piloto": "C. Buescher",
+        "marca": "RFK Racing",
+        "numero": "17",
+        "vueltas": "42",
+        "tiempo": "27.737",
+        "diferencia": "0.007",
+        "puntos": "129.791",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "20",
+        "piloto": "K. Larson",
+        "marca": "Hendrick Motorsports",
+        "numero": "5",
+        "vueltas": "58",
+        "tiempo": "27.772",
+        "diferencia": "0.035",
+        "puntos": "129.627",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "21",
+        "piloto": "R. Blaney",
+        "marca": "Team Penske",
+        "numero": "12",
+        "vueltas": "54",
+        "tiempo": "27.773",
+        "diferencia": "0.001",
+        "puntos": "129.622",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "22",
+        "piloto": "B. Keselowski",
+        "marca": "RFK Racing",
+        "numero": "6",
+        "vueltas": "59",
+        "tiempo": "27.791",
+        "diferencia": "0.018",
+        "puntos": "129.538",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "23",
+        "piloto": "H. Burton",
+        "marca": "Wood Brothers Racing",
+        "numero": "21",
+        "vueltas": "60",
+        "tiempo": "27.793",
+        "diferencia": "0.002",
+        "puntos": "129.529",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "24",
+        "piloto": "W. Byron",
+        "marca": "Hendrick Motorsports",
+        "numero": "24",
+        "vueltas": "42",
+        "tiempo": "27.807",
+        "diferencia": "0.014",
+        "puntos": "129.464",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "25",
+        "piloto": "C. Briscoe",
+        "marca": "Stewart-Haas Racing",
+        "numero": "14",
+        "vueltas": "59",
+        "tiempo": "27.811",
+        "diferencia": "0.004",
+        "puntos": "129.445",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "26",
+        "piloto": "N. Gragson",
+        "marca": "Stewart-Haas Racing",
+        "numero": "10",
+        "vueltas": "45",
+        "tiempo": "27.860",
+        "diferencia": "0.049",
+        "puntos": "129.218",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "27",
+        "piloto": "D. Hemric",
+        "marca": "Kaulig Racing",
+        "numero": "31",
+        "vueltas": "46",
+        "tiempo": "27.866",
+        "diferencia": "0.006",
+        "puntos": "129.190",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "28",
+        "piloto": "R. Preece",
+        "marca": "Stewart-Haas Racing",
+        "numero": "41",
+        "vueltas": "55",
+        "tiempo": "27.894",
+        "diferencia": "0.028",
+        "puntos": "129.060",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "29",
+        "piloto": "J. Berry",
+        "marca": "Stewart-Haas Racing",
+        "numero": "4",
+        "vueltas": "43",
+        "tiempo": "27.901",
+        "diferencia": "0.007",
+        "puntos": "129.028",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "30",
+        "piloto": "T. Gilliland",
+        "marca": "Front Row Motorsports",
+        "numero": "38",
+        "vueltas": "51",
+        "tiempo": "27.923",
+        "diferencia": "0.022",
+        "puntos": "128.926",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "31",
+        "piloto": "K. Busch",
+        "marca": "Richard Childress Racing",
+        "numero": "8",
+        "vueltas": "39",
+        "tiempo": "27.951",
+        "diferencia": "0.028",
+        "puntos": "128.797",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "32",
+        "piloto": "J. Haley",
+        "marca": "Rick Ware Racing",
+        "numero": "51",
+        "vueltas": "28",
+        "tiempo": "27.975",
+        "diferencia": "0.024",
+        "puntos": "128.686",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "33",
+        "piloto": "K. Grala",
+        "marca": "Rick Ware Racing",
+        "numero": "15",
+        "vueltas": "41",
+        "tiempo": "28.015",
+        "diferencia": "0.040",
+        "puntos": "128.503",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "34",
+        "piloto": "A. Dillon",
+        "marca": "Richard Childress Racing",
+        "numero": "3",
+        "vueltas": "41",
+        "tiempo": "28.060",
+        "diferencia": "0.045",
+        "puntos": "128.297",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "35",
+        "piloto": "Z. Smith",
+        "marca": "Spire Motorsports",
+        "numero": "71",
+        "vueltas": "33",
+        "tiempo": "28.062",
+        "diferencia": "0.002",
+        "puntos": "128.287",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "36",
+        "piloto": "D. Kraus",
+        "marca": "Kaulig Racing",
+        "numero": "16",
+        "vueltas": "51",
+        "tiempo": "28.137",
+        "diferencia": "0.075",
+        "puntos": "127.945",
+        "nacionalidad": "nascar"
+      }
+    ]
+  },
+  {
+    "url": "https://es.motorsport.com/nascar-cup/results/2024/bristol-646340/?st=FiP",
+    "resultado": [
+      {
+        "pos": "1",
+        "piloto": "R. Blaney",
+        "marca": "Team Penske",
+        "numero": "12",
+        "vueltas": "36",
+        "tiempo": "15.028",
+        "diferencia": "",
+        "puntos": "127.682",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "2",
+        "piloto": "K. Busch",
+        "marca": "Richard Childress Racing",
+        "numero": "8",
+        "vueltas": "37",
+        "tiempo": "15.110",
+        "diferencia": "0.082",
+        "puntos": "126.989",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "3",
+        "piloto": "B. Wallace",
+        "marca": "23XI Racing",
+        "numero": "23",
+        "vueltas": "56",
+        "tiempo": "15.118",
+        "diferencia": "0.008",
+        "puntos": "126.922",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "4",
+        "piloto": "R. Chastain",
+        "marca": "TrackHouse Racing",
+        "numero": "1",
+        "vueltas": "51",
+        "tiempo": "15.120",
+        "diferencia": "0.002",
+        "puntos": "126.905",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "5",
+        "piloto": "J. Logano",
+        "marca": "Team Penske",
+        "numero": "22",
+        "vueltas": "40",
+        "tiempo": "15.125",
+        "diferencia": "0.005",
+        "puntos": "126.863",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "6",
+        "piloto": "W. Byron",
+        "marca": "Hendrick Motorsports",
+        "numero": "24",
+        "vueltas": "36",
+        "tiempo": "15.161",
+        "diferencia": "0.036",
+        "puntos": "126.562",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "7",
+        "piloto": "M. McDowell",
+        "marca": "Front Row Motorsports",
+        "numero": "34",
+        "vueltas": "29",
+        "tiempo": "15.206",
+        "diferencia": "0.045",
+        "puntos": "126.187",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "8",
+        "piloto": "C. Bell",
+        "marca": "Joe Gibbs Racing",
+        "numero": "20",
+        "vueltas": "48",
+        "tiempo": "15.235",
+        "diferencia": "0.029",
+        "puntos": "125.947",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "9",
+        "piloto": "A. Allmendinger",
+        "marca": "Kaulig Racing",
+        "numero": "16",
+        "vueltas": "38",
+        "tiempo": "15.264",
+        "diferencia": "0.029",
+        "puntos": "125.708",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "10",
+        "piloto": "J. Nemechek",
+        "marca": "Legacy Motor Club",
+        "numero": "42",
+        "vueltas": "42",
+        "tiempo": "15.307",
+        "diferencia": "0.043",
+        "puntos": "125.354",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "11",
+        "piloto": "D. Suarez",
+        "marca": "TrackHouse Racing",
+        "numero": "99",
+        "vueltas": "16",
+        "tiempo": "15.318",
+        "diferencia": "0.011",
+        "puntos": "125.264",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "12",
+        "piloto": "C. Buescher",
+        "marca": "RFK Racing",
+        "numero": "17",
+        "vueltas": "41",
+        "tiempo": "15.323",
+        "diferencia": "0.005",
+        "puntos": "125.224",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "13",
+        "piloto": "H. Burton",
+        "marca": "Wood Brothers Racing",
+        "numero": "21",
+        "vueltas": "31",
+        "tiempo": "15.324",
+        "diferencia": "0.001",
+        "puntos": "125.215",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "14",
+        "piloto": "J. Haley",
+        "marca": "Rick Ware Racing",
+        "numero": "51",
+        "vueltas": "32",
+        "tiempo": "15.333",
+        "diferencia": "0.009",
+        "puntos": "125.142",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "15",
+        "piloto": "N. Gragson",
+        "marca": "Stewart-Haas Racing",
+        "numero": "10",
+        "vueltas": "45",
+        "tiempo": "15.380",
+        "diferencia": "0.047",
+        "puntos": "124.759",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "16",
+        "piloto": "C. Elliott",
+        "marca": "Hendrick Motorsports",
+        "numero": "9",
+        "vueltas": "29",
+        "tiempo": "15.385",
+        "diferencia": "0.005",
+        "puntos": "124.719",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "17",
+        "piloto": "K. Larson",
+        "marca": "Hendrick Motorsports",
+        "numero": "5",
+        "vueltas": "34",
+        "tiempo": "15.393",
+        "diferencia": "0.008",
+        "puntos": "124.654",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "18",
+        "piloto": "T. Gilliland",
+        "marca": "Front Row Motorsports",
+        "numero": "38",
+        "vueltas": "31",
+        "tiempo": "15.413",
+        "diferencia": "0.020",
+        "puntos": "124.492",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "19",
+        "piloto": "C. Lajoie",
+        "marca": "Spire Motorsports",
+        "numero": "7",
+        "vueltas": "32",
+        "tiempo": "15.415",
+        "diferencia": "0.002",
+        "puntos": "124.476",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "20",
+        "piloto": "Z. Smith",
+        "marca": "Spire Motorsports",
+        "numero": "71",
+        "vueltas": "37",
+        "tiempo": "15.419",
+        "diferencia": "0.004",
+        "puntos": "124.444",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "21",
+        "piloto": "B. Keselowski",
+        "marca": "RFK Racing",
+        "numero": "6",
+        "vueltas": "31",
+        "tiempo": "15.488",
+        "diferencia": "0.069",
+        "puntos": "123.889",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "22",
+        "piloto": "R. Stenhouse Jr.",
+        "marca": "JTG Daugherty Racing",
+        "numero": "47",
+        "vueltas": "34",
+        "tiempo": "15.531",
+        "diferencia": "0.043",
+        "puntos": "123.546",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "23",
+        "piloto": "C. Briscoe",
+        "marca": "Stewart-Haas Racing",
+        "numero": "14",
+        "vueltas": "34",
+        "tiempo": "15.534",
+        "diferencia": "0.003",
+        "puntos": "123.523",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "24",
+        "piloto": "D. Hemric",
+        "marca": "Kaulig Racing",
+        "numero": "31",
+        "vueltas": "37",
+        "tiempo": "15.544",
+        "diferencia": "0.010",
+        "puntos": "123.443",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "25",
+        "piloto": "R. Preece",
+        "marca": "Stewart-Haas Racing",
+        "numero": "41",
+        "vueltas": "30",
+        "tiempo": "15.601",
+        "diferencia": "0.057",
+        "puntos": "122.992",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "26",
+        "piloto": "J. Berry",
+        "marca": "Stewart-Haas Racing",
+        "numero": "4",
+        "vueltas": "36",
+        "tiempo": "15.620",
+        "diferencia": "0.019",
+        "puntos": "122.843",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "27",
+        "piloto": "A. Cindric",
+        "marca": "Team Penske",
+        "numero": "2",
+        "vueltas": "25",
+        "tiempo": "15.627",
+        "diferencia": "0.007",
+        "puntos": "122.787",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "28",
+        "piloto": "A. Bowman",
+        "marca": "Hendrick Motorsports",
+        "numero": "48",
+        "vueltas": "28",
+        "tiempo": "15.632",
+        "diferencia": "0.005",
+        "puntos": "122.748",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "29",
+        "piloto": "M. Truex Jr.",
+        "marca": "Joe Gibbs Racing",
+        "numero": "19",
+        "vueltas": "34",
+        "tiempo": "15.641",
+        "diferencia": "0.009",
+        "puntos": "122.678",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "30",
+        "piloto": "D. Hamlin",
+        "marca": "Joe Gibbs Racing",
+        "numero": "11",
+        "vueltas": "31",
+        "tiempo": "15.657",
+        "diferencia": "0.016",
+        "puntos": "122.552",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "31",
+        "piloto": "C. Hocevar",
+        "marca": "Spire Motorsports",
+        "numero": "77",
+        "vueltas": "24",
+        "tiempo": "15.756",
+        "diferencia": "0.099",
+        "puntos": "121.782",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "32",
+        "piloto": "T. Reddick",
+        "marca": "23XI Racing",
+        "numero": "45",
+        "vueltas": "34",
+        "tiempo": "15.774",
+        "diferencia": "0.018",
+        "puntos": "121.643",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "33",
+        "piloto": "E. Jones",
+        "marca": "Legacy Motor Club",
+        "numero": "43",
+        "vueltas": "23",
+        "tiempo": "15.814",
+        "diferencia": "0.040",
+        "puntos": "121.336",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "34",
+        "piloto": "T. Gibbs",
+        "marca": "Joe Gibbs Racing",
+        "numero": "54",
+        "vueltas": "14",
+        "tiempo": "15.887",
+        "diferencia": "0.073",
+        "puntos": "120.778",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "35",
+        "piloto": "A. Dillon",
+        "marca": "Richard Childress Racing",
+        "numero": "3",
+        "vueltas": "40",
+        "tiempo": "15.936",
+        "diferencia": "0.049",
+        "puntos": "120.407",
+        "nacionalidad": "nascar"
+      },
+      {
+        "pos": "36",
+        "piloto": "K. Grala",
+        "marca": "Rick Ware Racing",
+        "numero": "15",
+        "vueltas": "33",
+        "tiempo": "16.267",
+        "diferencia": "0.331",
+        "puntos": "117.957",
+        "nacionalidad": "nascar"
+      }
+    ]
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  }
+]

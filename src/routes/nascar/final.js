@@ -1,34 +1,30 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
+const fs = require('fs').promises;
+const path = require('path');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 
 function limpiarTiempo(tiempo) {
-  // Utilizar una expresión regular para extraer el último valor numérico después de los espacios en blanco
   const regex = /\s+(\d+\.\d+)/;
   const match = tiempo.match(regex);
 
   if (match && match.length > 1) {
-    // Si se encuentra el patrón, devolver el último valor numérico
     return match[1];
   } else {
-    // Si no se encuentra el patrón, devolver el tiempo sin cambios
     return tiempo.trim();
   }
 }
 
+function limpiarDiferencia(diferencia) {
+  return diferencia.replace(/\s+/g, '').replace(/\\n+/g, '').replace(/['']+/g, '').trim();
+}
 
-  function limpiarDiferencia(diferencia) {
-    // Utilizar expresión regular para eliminar espacios en blanco y caracteres no deseados
-    return diferencia.replace(/\s+/g, '').replace(/\\n+/g, '').replace(/['']+/g, '').trim();
-  }
-
-// Función para obtener los resultados desde la URL proporcionada
 async function obtenerResultados(url) {
   try {
-    // Si la URL está vacía o contiene solo un guion "-", devolver un array vacío
     if (url === "" || url === "-") {
       return [];
     }
+
     const html = await request(url, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -37,7 +33,6 @@ async function obtenerResultados(url) {
     const $ = cheerio.load(html);
 
     const resultados = [];
-
     const tableRows = $('tr.ms-table_row');
 
     tableRows.each((index, element) => {
@@ -50,7 +45,7 @@ async function obtenerResultados(url) {
       const tiempo = limpiarTiempo($row.find('.ms-table_field--time .ms-table_row-value').text());
       const diferencia = limpiarDiferencia($row.find('.ms-table_field--interval .ms-table_row-value').text());
       const puntos = $row.find('.ms-table_field--avg_speed .ms-table_row-value').text().trim();
-      const nacionalidad = "nascar"
+      const nacionalidad = "nascar";
 
       resultados.push({
         pos,
@@ -65,44 +60,46 @@ async function obtenerResultados(url) {
       });
     });
 
-    resultados.splice(0, 2); // Elimina los dos primeros elementos del array resultados
+    resultados.splice(0, 2);
     return resultados;
   } catch (error) {
     console.error(`Error fetching data from URL ${url}: ${error.message}`);
-    return null; // Devolver null en caso de error
+    return null;
   }
 }
 
-// Función principal final
 async function final() {
   try {
-    // Obtener los datos desde Google Sheets
-    const sheetId = "287281711"; // ID de la hoja que deseas obtener
-    const datos = await obtenerDatosDesdeGoogleSheets([sheetId]); // Pasar el sheetId como un arreglo
+    const sheetId = "287281711";
+    const datos = await obtenerDatosDesdeGoogleSheets([sheetId]);
 
-    // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
-      .filter(fila => fila.c[18] !== null) // Filtrar las filas con valor null
+      .filter(fila => fila.c[18] !== null)
       .map(fila => fila.c[18].v);
 
     console.log('URLs de entrenamiento:', urlsEntrenamiento);
 
-    // Array para almacenar todas las promesas de las solicitudes
     const promesasSolicitudes = urlsEntrenamiento.map(url => obtenerResultados(url).catch(error => {
       console.error(`Error al obtener los resultados del URL ${url}: ${error.message}`);
       return null;
     }));
 
-    // Esperar a que todas las solicitudes se completen
     const resultadosPorUrl = await Promise.all(promesasSolicitudes);
-
-    // Filtrar resultados null
     const resultadosValidos = resultadosPorUrl.filter(resultado => resultado !== null);
 
-    console.log('Resultados por URL:', resultadosValidos);
+    const resultadosConUrl = urlsEntrenamiento.map((url, index) => ({
+      url,
+      resultado: resultadosValidos[index]
+    }));
 
-    // Devolver los resultados obtenidos
-    return resultadosValidos;
+    console.log('Resultados por URL:', resultadosConUrl);
+
+    const jsonFileName = path.join(__dirname, 'final.json');
+    await fs.writeFile(jsonFileName, JSON.stringify(resultadosConUrl, null, 2), 'utf-8');
+
+    console.log('Datos guardados en:', jsonFileName);
+
+    return resultadosConUrl;
   } catch (error) {
     console.error('Error al obtener y mostrar datos:', error);
     throw error;
