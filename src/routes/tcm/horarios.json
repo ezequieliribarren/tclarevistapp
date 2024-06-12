@@ -1,0 +1,3200 @@
+[
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1526",
+    "resultado": [
+      {
+        "horario": "10:30 a 11:00",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "11:05 a 11:35",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "11:40 a 12:10",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "12:15 a 12:45",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "12:50 a 13:20",
+        "tanda": "1º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO A (30 minutos)"
+      },
+      {
+        "horario": "13:25 a 13:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO B (30 minutos)"
+      },
+      {
+        "horario": "15:00 a 15:30",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "15:35 a 16:05",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "16:10 a 16:40",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "16:45 a 17:15",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "17:20 a 17:50",
+        "tanda": "2º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO A (30 minutos)"
+      },
+      {
+        "horario": "17:55 a 18:25",
+        "tanda": "2º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO B (30 minutos)"
+      },
+      {
+        "horario": "10:15 a 10:30",
+        "tanda": "3º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO A (15 minutos)"
+      },
+      {
+        "horario": "10:35 a 10:50",
+        "tanda": "3º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO B (15 minutos)"
+      },
+      {
+        "horario": "11:00 a 11:20",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "11:25 a 11:45",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "12:00 a 12:20",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "12:25 a 12:45",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "13:05 a 13:20",
+        "tanda": "4º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO A (15 minutos)"
+      },
+      {
+        "horario": "13:25 a 13:40",
+        "tanda": "4º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO B (15 minutos)"
+      },
+      {
+        "horario": "15:10 a 15:18",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:23 a 15:31",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:36 a 15:44",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:55 a 16:03",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "16:08 a 16:16",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "16:21 a 16:29",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "16:34 a 16:42",
+        "tanda": "Clasificación General",
+        "categoria": "Bora",
+        "grupo": "GRUPO A (8 minutos)"
+      },
+      {
+        "horario": "16:47 a 16:55",
+        "tanda": "Clasificación General",
+        "categoria": "Bora",
+        "grupo": "GRUPO B (8 minutos)"
+      },
+      {
+        "horario": "10:10 a 10:20",
+        "tanda": "1º Serie",
+        "categoria": "TCPM",
+        "grupo": "1ERA SERIE TC PISTA MOURAS 5 VUELTAS."
+      },
+      {
+        "horario": "10:35 a 10:45",
+        "tanda": "2º Serie",
+        "categoria": "TCPM",
+        "grupo": "2DA SERIE TC PISTA MOURAS 5 VUELTAS."
+      },
+      {
+        "horario": "11:05 a 11:15",
+        "tanda": "1º Serie",
+        "categoria": "TCM",
+        "grupo": "1ERA SERIE TC MOURAS.5 VUELTAS."
+      },
+      {
+        "horario": "11:30 a 11:45",
+        "tanda": "2º Serie",
+        "categoria": "TCM",
+        "grupo": "2DA SERIE TC  MOURAS 5 VUELTAS."
+      },
+      {
+        "horario": "12:00 a 12:20",
+        "tanda": "Final A",
+        "categoria": "Bora",
+        "grupo": "FINAL COPA BORA 12 VUELTAS O 20 MINUTOS."
+      },
+      {
+        "horario": "12:45 a 13:10",
+        "tanda": "Final",
+        "categoria": "TCPM",
+        "grupo": "FINAL TC PISTA  MOURAS 14 VUELTAS O 25 MINUTOS"
+      },
+      {
+        "horario": "13:35 a 14:05",
+        "tanda": "Final",
+        "categoria": "TCM",
+        "grupo": "FINAL TC MOURAS 16 VUELTAS O 30 MINUTOS."
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1527",
+    "resultado": [
+      {
+        "horario": "09:35 a 09:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "10:07 a 10:26",
+        "tanda": "1º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo B (19 minutos)"
+      },
+      {
+        "horario": "10:25 a 10:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "11:00 a 11:30",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "11:35 a 12:05",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "12:10 a 12:40",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "12:45 a 13:00",
+        "tanda": "1º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO B (15 minutos)"
+      },
+      {
+        "horario": "13:05 a 13:20",
+        "tanda": "1º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO A (15 minutos)"
+      },
+      {
+        "horario": "13:23 a 13:38",
+        "tanda": "2º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo A (15 minutos)"
+      },
+      {
+        "horario": "13:41 a 13:56",
+        "tanda": "2º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo B (15 minutos)"
+      },
+      {
+        "horario": "13:41 a 13:56",
+        "tanda": "2º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo B (15 minutos)"
+      },
+      {
+        "horario": "14:00 a 14:30",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "14:35 a 15:05",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "15:10 a 15:40",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "15:45 a 16:15",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "16:45 a 17:00",
+        "tanda": "2º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "2º Entrenamiento"
+      },
+      {
+        "horario": "17:25 a 17:33",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo A Clasifica (8 minutos)"
+      },
+      {
+        "horario": "17:38 a 17:46",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo B Clasifica (8 minutos)"
+      },
+      {
+        "horario": "17:51 a 17:59",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo C Clasifica (8 minutos)"
+      },
+      {
+        "horario": "18:00 a 18:10",
+        "tanda": "Clasificación General",
+        "categoria": "Bora",
+        "grupo": "GRUPO A (10 minutos)"
+      },
+      {
+        "horario": "18:00 a 18:10",
+        "tanda": "Clasificación General",
+        "categoria": "Bora",
+        "grupo": "Clasificación"
+      },
+      {
+        "horario": "08:10 a 08:20",
+        "tanda": "1ERA SERIE",
+        "categoria": "FM",
+        "grupo": "1ERA SERIE FORMULA 3 METROPOLITANA 5 VUELTAS"
+      },
+      {
+        "horario": "08:35 a 08:45",
+        "tanda": "2DA SERIE",
+        "categoria": "FM",
+        "grupo": "2DA SERIE FORMULA 3 METROPOLITANA 5 VUELTAS"
+      },
+      {
+        "horario": "09:00 a 09:10",
+        "tanda": "3ERA SERIE",
+        "categoria": "FM",
+        "grupo": "3ERA SERIE FORMULA 3 METROPOLITANA 5 VUELTAS"
+      },
+      {
+        "horario": "09:15 a 09:30",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO A (15 minutos)"
+      },
+      {
+        "horario": "09:35 a 09:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B (15 minutos)"
+      },
+      {
+        "horario": "09:55 a 10:15",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "10:20 a 10:40",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "10:45 a 11:05",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPK",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "11:10 a 11:30",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPK",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "11:35 a 11:55",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "12:00 a 12:20",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "12:23 a 12:43",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO A (20minutos)"
+      },
+      {
+        "horario": "12:46 a 13:06",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B (20 minutos)"
+      },
+      {
+        "horario": "13:11 a 13:19",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "13:22 a 13:30",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "13:33 a 13:41",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:05 a 15:25",
+        "tanda": "Final A",
+        "categoria": "FM",
+        "grupo": "1ERA FINAL FORMULA 3 METROPOLITANA 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "15:30 a 15:38",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "1er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "15:43 a 15:51",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "2do Cuarto (8 minutos)"
+      },
+      {
+        "horario": "15:56 a 16:04",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "3er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:09 a 16:17",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "4to Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:22 a 16:30",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "16:35 a 16:43",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "16:48 a 16:56",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "17:00 a 17:08",
+        "tanda": "Clasificación",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO A (CLASIFICACION) (8 minutos)"
+      },
+      {
+        "horario": "17:12 a 17:20",
+        "tanda": "Clasificación",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B (CLASIFICACION) (8 minutos)"
+      },
+      {
+        "horario": "17:35 a 17:45",
+        "tanda": "1º Serie",
+        "categoria": "TCPM",
+        "grupo": "1ERA SERIE TC PISTA MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "17:55 a 18:05",
+        "tanda": "2º Serie",
+        "categoria": "TCPM",
+        "grupo": "2DA SERIE TC PISTA MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "08:40 a 08:50",
+        "tanda": "1º Serie",
+        "categoria": "TCM",
+        "grupo": "1ERA SERIE TC MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "09:05 a 09:15",
+        "tanda": "2º Serie",
+        "categoria": "TCM",
+        "grupo": "2DA SERIE TC  MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "09:30 a 09:40",
+        "tanda": "1º Serie",
+        "categoria": "TCPK",
+        "grupo": "1ERA SERIE TC PICK UP 5 VUELTAS"
+      },
+      {
+        "horario": "09:55 a 10:05",
+        "tanda": "2º Serie",
+        "categoria": "TCPK",
+        "grupo": "2DA SERIE TC PICK UP 5 VUELTAS"
+      },
+      {
+        "horario": "10:30 a 10:50",
+        "tanda": "Final A",
+        "categoria": "Bora",
+        "grupo": "FINAL COPA BORA 10 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "11:05 a 11:25",
+        "tanda": "Final B",
+        "categoria": "FM",
+        "grupo": "2DA FINAL FORMULA 3 METROPOLITANA 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "11:40 a 12:05",
+        "tanda": "Final",
+        "categoria": "TCPM",
+        "grupo": "FINAL TC PISTA MOURAS 14 VUELTAS 0 25 MINUTOS"
+      },
+      {
+        "horario": "12:20 a 12:40",
+        "tanda": "Final",
+        "categoria": "TCPPK",
+        "grupo": "FINAL TC PISTA PICK UP  10 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "12:55 a 13:25",
+        "tanda": "Final",
+        "categoria": "TCM",
+        "grupo": "FINAL TC MOURAS 16 VUELTAS O 30  MINUTOS"
+      },
+      {
+        "horario": "13:40 a 14:10",
+        "tanda": "Final",
+        "categoria": "TCPK",
+        "grupo": "FINAL TC PICK UP 16 VUELTAS O 30 MINUTOS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1528",
+    "resultado": [
+      {
+        "horario": "08:00 a 08:15",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TPC1",
+        "grupo": "Grupo B (15 minutos)"
+      },
+      {
+        "horario": "08:20 a 08:35",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TPC1",
+        "grupo": "Grupo A (15 minutos)"
+      },
+      {
+        "horario": "08:40 a 09:00",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TPC2",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "09:05 a 09:25",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TPC2",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "09:30 a 09:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TPC3",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "09:55 a 10:15",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TPC3",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "10:20 a 10:40",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "10:45 a 11:05",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "11:10 a 11:30",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "11:35 a 11:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "12:00 a 12:15",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TPC1",
+        "grupo": "Grupo B (15 minutos)"
+      },
+      {
+        "horario": "12:20 a 12:35",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TPC1",
+        "grupo": "Grupo A (15 minutos)"
+      },
+      {
+        "horario": "12:40 a 13:00",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TPC2",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "13:05 a 13:25",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TPC2",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "13:30 a 13:50",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TPC3",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "13:55 a 14:15",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TPC3",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "14:20 a 14:40",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "14:45 a 15:05",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "15:10 a 15:30",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "15:35 a 15:55",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "16:00 a 16:10",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC1",
+        "grupo": "Grupo B Clasificación (10 minutos)"
+      },
+      {
+        "horario": "16:15 a 16:25",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC1",
+        "grupo": "Grupo C Clasificación (10 minutos)"
+      },
+      {
+        "horario": "16:30 a 16:40",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC1",
+        "grupo": "Grupo A Clasificación (10 minutos)"
+      },
+      {
+        "horario": "16:45 a 16:55",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC2",
+        "grupo": "Grupo B Clasificación (10 minutos)"
+      },
+      {
+        "horario": "17:00 a 17:10",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC2",
+        "grupo": "Grupo C Clasificación (10 minutos)"
+      },
+      {
+        "horario": "17:15 a 17:25",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC2",
+        "grupo": "Grupo A Clasificación (10 minutos)"
+      },
+      {
+        "horario": "17:30 a 17:40",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC3",
+        "grupo": "Grupo B Clasificación (10 minutos)"
+      },
+      {
+        "horario": "17:45 a 17:55",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC3",
+        "grupo": "Grupo C Clasificación (10 minutos)"
+      },
+      {
+        "horario": "18:00 a 18:10",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC3",
+        "grupo": "Grupo A Clasificación (10 minutos)"
+      },
+      {
+        "horario": "18:15 a 18:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "F4NG",
+        "grupo": "Entrenamiento unico"
+      },
+      {
+        "horario": "08:00 a 08:25",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (25 minutos)"
+      },
+      {
+        "horario": "08:30 a 08:55",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (25 minutos)"
+      },
+      {
+        "horario": "09:00 a 09:25",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (25 minutos)"
+      },
+      {
+        "horario": "09:30 a 09:55",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (25 minutos)"
+      },
+      {
+        "horario": "10:00 a 10:10",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC1",
+        "grupo": "Grupo B Clasificación (10 minutos)"
+      },
+      {
+        "horario": "10:15 a 10:25",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC1",
+        "grupo": "Grupo C Clasificación (10 minutos)"
+      },
+      {
+        "horario": "10:30 a 10:40",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC1",
+        "grupo": "Grupo A Clasificación (10 minutos)"
+      },
+      {
+        "horario": "11:05 a 11:15",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC3",
+        "grupo": "Grupo B Clasificación (10 minutos)"
+      },
+      {
+        "horario": "11:20 a 11:30",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC3",
+        "grupo": "Grupo C Clasificación (10 minutos)"
+      },
+      {
+        "horario": "11:35 a 11:45",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC3",
+        "grupo": "Grupo A Clasificación (10 minutos)"
+      },
+      {
+        "horario": "11:55 a 12:03",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "12:08 a 12:16",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "12:21 a 12:29",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "12:34 a 12:42",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "12:47 a 12:55",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "13:00 a 13:08",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "13:13 a 13:23",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC2",
+        "grupo": "Grupo B Clasificación (10 minutos)"
+      },
+      {
+        "horario": "13:26 a 13:36",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC2",
+        "grupo": "Grupo C Clasificación (10 minutos)"
+      },
+      {
+        "horario": "13:39 a 13:49",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC2",
+        "grupo": "Grupo A Clasificación (10 minutos)"
+      },
+      {
+        "horario": "14:04 a 14:15",
+        "tanda": "1º Serie",
+        "categoria": "TPC1",
+        "grupo": "1° Serie Clase 1"
+      },
+      {
+        "horario": "14:29 a 14:40",
+        "tanda": "2º Serie",
+        "categoria": "TPC1",
+        "grupo": "2° Serie Clase 1"
+      },
+      {
+        "horario": "14:54 a 15:05",
+        "tanda": "3º Serie",
+        "categoria": "TPC1",
+        "grupo": "3° Serie Clase 1"
+      },
+      {
+        "horario": "15:18 a 15:29",
+        "tanda": "1º Serie",
+        "categoria": "TPC3",
+        "grupo": "1° Serie Clase 3"
+      },
+      {
+        "horario": "15:43 a 15:54",
+        "tanda": "2º Serie",
+        "categoria": "TPC3",
+        "grupo": "2° Serie Clase 3"
+      },
+      {
+        "horario": "16:02 a 16:10",
+        "tanda": "1º Serie",
+        "categoria": "TCPM",
+        "grupo": "1ERA SERIE TC PISTA MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "16:08 a 16:19",
+        "tanda": "3º Serie",
+        "categoria": "TPC3",
+        "grupo": "3° Serie Clase 3"
+      },
+      {
+        "horario": "16:20 a 16:30",
+        "tanda": "2º Serie",
+        "categoria": "TCPM",
+        "grupo": "2DA SERIE TC PISTA MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "17:23 a 17:34",
+        "tanda": "1º Serie",
+        "categoria": "TPC2",
+        "grupo": "1° Serie Clase 2"
+      },
+      {
+        "horario": "17:48 a 17:59",
+        "tanda": "2º Serie",
+        "categoria": "TPC2",
+        "grupo": "2° Serie Clase 2"
+      },
+      {
+        "horario": "18:13 a 18:24",
+        "tanda": "3º Serie",
+        "categoria": "TPC2",
+        "grupo": "3° Serie Clase 2"
+      },
+      {
+        "horario": "09:25 a 09:35",
+        "tanda": "1º Serie",
+        "categoria": "TCM",
+        "grupo": "1ERA SERIE TC MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "09:50 a 10:00",
+        "tanda": "2º Serie",
+        "categoria": "TCM",
+        "grupo": "2DA SERIE TC  MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "10:45 a 11:05",
+        "tanda": "Final",
+        "categoria": "TCPM",
+        "grupo": "FINAL TC PISTA MOURAS 14 VUELTAS 0 20 MINUTOS"
+      },
+      {
+        "horario": "10:45 a 10:55",
+        "tanda": "Clasificación General",
+        "categoria": "F4NG",
+        "grupo": "Clasificacion - Grupo unico"
+      },
+      {
+        "horario": "11:20 a 11:40",
+        "tanda": "Final",
+        "categoria": "TPC1",
+        "grupo": "Final Clase 1 12vueltas  20 minutos"
+      },
+      {
+        "horario": "11:55 a 12:25",
+        "tanda": "Final",
+        "categoria": "TPC2",
+        "grupo": "Final Clase 2 14 Vueltas  o 30 Minutos"
+      },
+      {
+        "horario": "12:40 a 13:10",
+        "tanda": "Final",
+        "categoria": "TPC3",
+        "grupo": "Final Clase 3 14 Vueltas o 30 Minutos"
+      },
+      {
+        "horario": "13:25 a 13:50",
+        "tanda": "Final",
+        "categoria": "TCM",
+        "grupo": "FINAL TC MOURAS 16 VUELTAS O  25 MINUTOS"
+      },
+      {
+        "horario": "18:38 a 18:53",
+        "tanda": "Final A",
+        "categoria": "F4NG",
+        "grupo": "FINAL 1"
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1529",
+    "resultado": [
+      {
+        "horario": "08:00 a 08:25",
+        "tanda": "1º Entrenamiento",
+        "categoria": "T4000",
+        "grupo": "1º Entrenamiento Turismo 4000 Argentino"
+      },
+      {
+        "horario": "08:30 a 08:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCRio",
+        "grupo": "1º Entrenamiento Tc Rioplatense"
+      },
+      {
+        "horario": "09:00 a 09:15",
+        "tanda": "1º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "1er Entrenameinto Copa Bora 15 Minutos"
+      },
+      {
+        "horario": "09:20 a 09:40",
+        "tanda": "1º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "09:45 a 10:05",
+        "tanda": "1º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "10:10 a 10:40",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "10:45 a 11:15",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "11:20 a 11:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "11:55 a 12:25",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "12:30 a 12:55",
+        "tanda": "2º Entrenamiento",
+        "categoria": "T4000",
+        "grupo": "2 º Entrenamiento Turismo 4000 Argentino"
+      },
+      {
+        "horario": "13:00 a 13:15",
+        "tanda": "2º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "2do Entrenamiento Copa Bora 15 Minutos"
+      },
+      {
+        "horario": "13:20 a 13:40",
+        "tanda": "2º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "13:45 a 14:05",
+        "tanda": "2º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "14:10 a 14:40",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "14:45 a 15:15",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "15:20 a 15:50",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "15:55 a 16:25",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "16:30 a 16:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "1er Entrenamiento Tc Pista Pick Up Debutantes"
+      },
+      {
+        "horario": "16:55 a 17:03",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo B Clasifica (8 minutos)"
+      },
+      {
+        "horario": "17:08 a 17:16",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo C Clasifica (8 minutos)"
+      },
+      {
+        "horario": "17:21 a 17:29",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo A Clasifica (8 minutos)"
+      },
+      {
+        "horario": "17:35 a 18:00",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCRio",
+        "grupo": "2DO Entrenamiento Tc Rioplatense"
+      },
+      {
+        "horario": "18:05 a 18:30",
+        "tanda": "3º Entrenamiento",
+        "categoria": "T4000",
+        "grupo": "3er Entrenamiento Turismo 4000 Argentino"
+      },
+      {
+        "horario": "07:55 a 08:03",
+        "tanda": "Clasificación General",
+        "categoria": "TCRio",
+        "grupo": "Clasificacion Tc Rioplatense"
+      },
+      {
+        "horario": "08:06 a 08:14",
+        "tanda": "Clasificación General",
+        "categoria": "T4000",
+        "grupo": "Grupo A (8 minutos)"
+      },
+      {
+        "horario": "08:17 a 08:25",
+        "tanda": "Clasificación General",
+        "categoria": "T4000",
+        "grupo": "Grupo B (8 minutos)"
+      },
+      {
+        "horario": "08:30 a 08:45",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B (15 minutos)"
+      },
+      {
+        "horario": "08:48 a 09:03",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO A (15 minutos)"
+      },
+      {
+        "horario": "09:16 a 09:26",
+        "tanda": "1ERA SERIE",
+        "categoria": "FM",
+        "grupo": "1era Serie Formula 3 Metropolitana"
+      },
+      {
+        "horario": "09:39 a 09:49",
+        "tanda": "2DA SERIE",
+        "categoria": "FM",
+        "grupo": "2da Serie Formula 3 Metropolitana"
+      },
+      {
+        "horario": "10:02 a 10:12",
+        "tanda": "3ERA SERIE",
+        "categoria": "FM",
+        "grupo": "3era Serie Fromula 3 Metropolitana"
+      },
+      {
+        "horario": "10:15 a 10:35",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "10:40 a 11:00",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "11:05 a 11:25",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPK",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "11:30 a 11:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPK",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "11:55 a 12:15",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "12:20 a 12:40",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "12:44 a 12:59",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B (15 minutos)"
+      },
+      {
+        "horario": "13:03 a 13:18",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO A (15 minutos)"
+      },
+      {
+        "horario": "13:22 a 13:30",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "13:34 a 13:42",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "13:46 a 13:54",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "14:07 a 14:27",
+        "tanda": "Final",
+        "categoria": "TCRio",
+        "grupo": "Final Sabado Tc Rioplatense 12 vueltas o 20 Minutos"
+      },
+      {
+        "horario": "14:31 a 14:39",
+        "tanda": "Clasificación General",
+        "categoria": "Bora",
+        "grupo": "GRUPO A CLASIFICACION (8 minutos)"
+      },
+      {
+        "horario": "14:42 a 14:50",
+        "tanda": "Clasificación General",
+        "categoria": "Bora",
+        "grupo": "GRUPO B CLASIFICACION (8 minutos)"
+      },
+      {
+        "horario": "15:05 a 15:25",
+        "tanda": "Final A",
+        "categoria": "FM",
+        "grupo": "Final Sabado Formula 3 Metropolitana 12 Vueltas o 20 Minutos."
+      },
+      {
+        "horario": "15:29 a 15:37",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:42 a 15:50",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:55 a 16:03",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "16:06 a 16:14",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "2do Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:17 a 16:25",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "3er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:28 a 16:36",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "4to Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:39 a 16:47",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "1er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:50 a 16:58",
+        "tanda": "Clasificación",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B CLASIFICACION (8 minutos)"
+      },
+      {
+        "horario": "17:01 a 17:09",
+        "tanda": "Clasificación",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO A CLASIFICACION (8 minutos)"
+      },
+      {
+        "horario": "17:22 a 17:32",
+        "tanda": "1º Serie",
+        "categoria": "TCPM",
+        "grupo": "1era Serie Tc Pista Mouras  5 Vueltas"
+      },
+      {
+        "horario": "17:45 a 17:55",
+        "tanda": "2º Serie",
+        "categoria": "TCPM",
+        "grupo": "2da Serie Tc Pista Mouras 5 Vueltas"
+      },
+      {
+        "horario": "18:10 a 18:20",
+        "tanda": "1º Serie",
+        "categoria": "T4000",
+        "grupo": "1era Serie Turismo 4000 Argentino."
+      },
+      {
+        "horario": "18:35 a 18:45",
+        "tanda": "2º Serie",
+        "categoria": "T4000",
+        "grupo": "2º Serie Turismo 4000 Argentino"
+      },
+      {
+        "horario": "08:05 a 08:15",
+        "tanda": "1º Serie",
+        "categoria": "TCM",
+        "grupo": "1era Seri Tc Mouras 5 Vueltas"
+      },
+      {
+        "horario": "08:28 a 08:38",
+        "tanda": "2º Serie",
+        "categoria": "TCM",
+        "grupo": "2da Serie Tc Mouras 5 vueltas"
+      },
+      {
+        "horario": "08:50 a 09:00",
+        "tanda": "1º Serie",
+        "categoria": "TCPK",
+        "grupo": "1era Serie Tc Pick Up  5 Vueltas"
+      },
+      {
+        "horario": "09:12 a 09:22",
+        "tanda": "2º Serie",
+        "categoria": "TCPK",
+        "grupo": "2da Serie Tc Pick Up  5 vUELTAS"
+      },
+      {
+        "horario": "09:35 a 09:55",
+        "tanda": "Final A",
+        "categoria": "T4000",
+        "grupo": "Final Turismo 4000 Argentino 10 Vueltas 20 Minutos."
+      },
+      {
+        "horario": "10:05 a 10:25",
+        "tanda": "Final A",
+        "categoria": "Bora",
+        "grupo": "Final Copa Bora 10 Vueltas o 20 Minutos"
+      },
+      {
+        "horario": "10:40 a 11:00",
+        "tanda": "Final B",
+        "categoria": "FM",
+        "grupo": "Final Domingo Formula 3 Metopolitana 12 vueltas o 20 minutos"
+      },
+      {
+        "horario": "11:15 a 11:40",
+        "tanda": "Final",
+        "categoria": "TCPM",
+        "grupo": "Final Tc Pista Mouras 14 Vueltas O 25 Minutos"
+      },
+      {
+        "horario": "11:55 a 12:15",
+        "tanda": "Final",
+        "categoria": "TCPPK",
+        "grupo": "Final Tc Pista Pick UP 10 Vueltas o 20 Minutos"
+      },
+      {
+        "horario": "12:30 a 13:00",
+        "tanda": "Final",
+        "categoria": "TCM",
+        "grupo": "FiNAL Tc Mouras 16 Vueltaas o 30 Minutos"
+      },
+      {
+        "horario": "13:20 a 13:50",
+        "tanda": "Final",
+        "categoria": "TCPK",
+        "grupo": "Final Tc Pick Up 16 Vueltas  O 30 Minutos"
+      },
+      {
+        "horario": "14:10 a 14:30",
+        "tanda": "Final B",
+        "categoria": "TCRio",
+        "grupo": "Final Domingo Tc Rioplatense 12 vueltas o 20 Minutos"
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1530",
+    "resultado": [
+      {
+        "horario": "09:20 a 09:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "F4",
+        "grupo": "1ER ENTRENAMIENTO F4 35 MINUTOS"
+      },
+      {
+        "horario": "09:30 a 09:45",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TPC1",
+        "grupo": "Grupo A Entrenamiento (15 minutos)"
+      },
+      {
+        "horario": "09:50 a 10:05",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TPC1",
+        "grupo": "Grupo B Entrenamiento (15 minutos)"
+      },
+      {
+        "horario": "10:00 a 10:25",
+        "tanda": "1º Entrenamiento",
+        "categoria": "T4000",
+        "grupo": "1ER ENTRENAMIENTO TURISMO 4000 ARGENTINO 25 MINUTOS"
+      },
+      {
+        "horario": "10:10 a 10:30",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TPC2",
+        "grupo": "Grupo A Entrenamientos (20 minutos)"
+      },
+      {
+        "horario": "10:30 a 11:00",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "10:35 a 10:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TPC2",
+        "grupo": "Grupo B Entrenamientos (20 minutos)"
+      },
+      {
+        "horario": "11:00 a 11:20",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TPC3",
+        "grupo": "Grupo A Entrenamientos (20 minutos)"
+      },
+      {
+        "horario": "11:05 a 11:35",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "11:25 a 11:45",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TPC3",
+        "grupo": "Grupo B Entrenamientos (20 minutos)"
+      },
+      {
+        "horario": "11:40 a 12:10",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "11:50 a 12:05",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TPC1",
+        "grupo": "Grupo A Entrenamiento (15 minutos)"
+      },
+      {
+        "horario": "12:10 a 12:25",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TPC1",
+        "grupo": "Grupo B Entrenamiento (15 minutos)"
+      },
+      {
+        "horario": "12:15 a 12:45",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "12:30 a 12:50",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TPC2",
+        "grupo": "Grupo A Entrenamientos (20 minutos)"
+      },
+      {
+        "horario": "12:50 a 13:05",
+        "tanda": "1º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO B (ENTRENAMIENTO) (15 minutos)"
+      },
+      {
+        "horario": "12:55 a 13:15",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TPC2",
+        "grupo": "Grupo B Entrenamientos (20 minutos)"
+      },
+      {
+        "horario": "13:10 a 13:25",
+        "tanda": "1º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO A (ENTRENAMIENTO) (15 minutos)"
+      },
+      {
+        "horario": "13:20 a 13:40",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TPC3",
+        "grupo": "Grupo A Entrenamientos (20 minutos)"
+      },
+      {
+        "horario": "13:30 a 13:55",
+        "tanda": "2º Entrenamiento",
+        "categoria": "F4",
+        "grupo": "2DO ENTRENAMIENTO F4 25 MINUTOS"
+      },
+      {
+        "horario": "13:45 a 14:05",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TPC3",
+        "grupo": "Grupo B Entrenamientos (20 minutos)"
+      },
+      {
+        "horario": "14:00 a 14:25",
+        "tanda": "2º Entrenamiento",
+        "categoria": "T4000",
+        "grupo": "2DO ENTRENAMIENTO TURISMO 4000 ARGENTINO 25 MINUTOS"
+      },
+      {
+        "horario": "14:30 a 15:00",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "14:30 a 14:40",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC1",
+        "grupo": "Grupo C Clasificación (10 minutos)"
+      },
+      {
+        "horario": "14:45 a 14:55",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC1",
+        "grupo": "Grupo A Clasificación (10 minutos)"
+      },
+      {
+        "horario": "15:00 a 15:10",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC1",
+        "grupo": "Grupo B Claificación (10 minutos)"
+      },
+      {
+        "horario": "15:05 a 15:35",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "15:15 a 15:25",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC2",
+        "grupo": "Grupo C Clasificación (10 minutos)"
+      },
+      {
+        "horario": "15:30 a 15:40",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC2",
+        "grupo": "Grupo A Clasificación (10 minutos)"
+      },
+      {
+        "horario": "15:40 a 16:10",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "15:45 a 15:55",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC2",
+        "grupo": "Grupo B Clasificación (10 minutos)"
+      },
+      {
+        "horario": "16:00 a 16:10",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC3",
+        "grupo": "Grupo C Clasificación (10 minutos)"
+      },
+      {
+        "horario": "16:15 a 16:45",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "16:15 a 16:25",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC3",
+        "grupo": "Grupo A Clasificación (10 minutos)"
+      },
+      {
+        "horario": "16:30 a 16:40",
+        "tanda": "1º Clasificación",
+        "categoria": "TPC3",
+        "grupo": "Grupo B Clasificación (10 minutos)"
+      },
+      {
+        "horario": "16:50 a 17:05",
+        "tanda": "2º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO B (ENTRENAMIENTO) (15 minutos)"
+      },
+      {
+        "horario": "17:10 a 17:25",
+        "tanda": "2º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "GRUPO A (ENTRENAMIENTO) (15 minutos)"
+      },
+      {
+        "horario": "17:30 a 17:55",
+        "tanda": "3º Entrenamiento",
+        "categoria": "F4",
+        "grupo": "3ER ENTRENAMEINTO F4 25 MINUTOS"
+      },
+      {
+        "horario": "18:00 a 18:25",
+        "tanda": "3º Entrenamiento",
+        "categoria": "T4000",
+        "grupo": "3ER ENTRENAMEINTO TURISMO 4000 ARGENTINO"
+      },
+      {
+        "horario": "08:20 a 08:30",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC2",
+        "grupo": "Grupo C Clasificación (10 minutos)"
+      },
+      {
+        "horario": "08:35 a 08:45",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC2",
+        "grupo": "Grupo A Clasificación (10 minutos)"
+      },
+      {
+        "horario": "08:35 a 08:55",
+        "tanda": "4º Entrenamiento",
+        "categoria": "T4000",
+        "grupo": "1ER  ENTRENMAINETO SABADO  TURISMO 4000 ARGENTINO 20 MINUTOS"
+      },
+      {
+        "horario": "08:50 a 09:00",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC2",
+        "grupo": "Grupo B Clasificación (10 minutos)"
+      },
+      {
+        "horario": "09:00 a 09:20",
+        "tanda": "4º Entrenamiento",
+        "categoria": "F4",
+        "grupo": "1ER ENTRENAMIENTO SABADO F4 20 MINUTOS"
+      },
+      {
+        "horario": "09:10 a 09:20",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC1",
+        "grupo": "Grupo C Clasificación (10 minutos)"
+      },
+      {
+        "horario": "09:25 a 09:35",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC1",
+        "grupo": "Grupo A Clasificación (10 minutos)"
+      },
+      {
+        "horario": "09:30 a 09:50",
+        "tanda": "5º Entrenamiento",
+        "categoria": "T4000",
+        "grupo": "2DO ENTRENAMEINTO  SABADO TURISMO 4000 ARGENTINO 20 MINUTOS"
+      },
+      {
+        "horario": "09:40 a 09:50",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC1",
+        "grupo": "Grupo B Claificación (10 minutos)"
+      },
+      {
+        "horario": "10:00 a 10:20",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "10:00 a 10:10",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC3",
+        "grupo": "Grupo C Clasificación (10 minutos)"
+      },
+      {
+        "horario": "10:15 a 10:25",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC3",
+        "grupo": "Grupo A Clasificación (10 minutos)"
+      },
+      {
+        "horario": "10:25 a 10:45",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "10:30 a 10:40",
+        "tanda": "2º Clasificación",
+        "categoria": "TPC3",
+        "grupo": "Grupo B Clasificación (10 minutos)"
+      },
+      {
+        "horario": "11:10 a 11:20",
+        "tanda": "1º Serie",
+        "categoria": "TPC2",
+        "grupo": "1° Serie Clase 2"
+      },
+      {
+        "horario": "11:20 a 11:40",
+        "tanda": "5º Entrenamiento",
+        "categoria": "F4",
+        "grupo": "2DO ENTRENAMIENTO F4 SABADO 20 MINUTOS"
+      },
+      {
+        "horario": "11:35 a 11:45",
+        "tanda": "2º Serie",
+        "categoria": "TPC2",
+        "grupo": "2° Serie Clase 2"
+      },
+      {
+        "horario": "12:00 a 12:10",
+        "tanda": "3º Serie",
+        "categoria": "TPC2",
+        "grupo": "3° Serie Clase 2"
+      },
+      {
+        "horario": "12:15 a 12:35",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "12:40 a 13:00",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "13:05 a 13:13",
+        "tanda": "Clasificación General",
+        "categoria": "T4000",
+        "grupo": "Grupo B (8 minutos)"
+      },
+      {
+        "horario": "13:18 a 13:26",
+        "tanda": "Clasificación General",
+        "categoria": "T4000",
+        "grupo": "Grupo A (8 minutos)"
+      },
+      {
+        "horario": "13:31 a 13:41",
+        "tanda": "Clasificación General",
+        "categoria": "F4",
+        "grupo": "CLASIFICACION F4 10 MINUTOS"
+      },
+      {
+        "horario": "14:00 a 14:08",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "14:13 a 14:21",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "14:26 a 14:34",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "14:30 a 14:40",
+        "tanda": "1º Serie",
+        "categoria": "TPC1",
+        "grupo": "1° Serie Clase 1"
+      },
+      {
+        "horario": "14:37 a 14:47",
+        "tanda": "Clasificación General",
+        "categoria": "Bora",
+        "grupo": "GRUPO A (CLASIFICACION) (10 minutos)"
+      },
+      {
+        "horario": "14:55 a 15:05",
+        "tanda": "2º Serie",
+        "categoria": "TPC1",
+        "grupo": "2ª Serie Clase 1"
+      },
+      {
+        "horario": "15:10 a 15:25",
+        "tanda": "Final A",
+        "categoria": "F4",
+        "grupo": "FINAL F4 SABADO 10 VUELTAS O 15 MINUTOS"
+      },
+      {
+        "horario": "15:20 a 15:30",
+        "tanda": "3º Serie",
+        "categoria": "TPC1",
+        "grupo": "3ª Serie Clase 1"
+      },
+      {
+        "horario": "15:30 a 15:38",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "1ER GRUPO (8 minutos)"
+      },
+      {
+        "horario": "15:43 a 15:51",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "2DO GRUPO (8 minutos)"
+      },
+      {
+        "horario": "15:52 a 16:02",
+        "tanda": "1º Serie",
+        "categoria": "TPC3",
+        "grupo": "1° Serie"
+      },
+      {
+        "horario": "16:06 a 16:12",
+        "tanda": "1º Serie",
+        "categoria": "T4000",
+        "grupo": "1ERA  SERIE TURISMO 4000 ARGENTINO"
+      },
+      {
+        "horario": "16:17 a 16:27",
+        "tanda": "2º Serie",
+        "categoria": "TPC3",
+        "grupo": "2° Serie"
+      },
+      {
+        "horario": "16:31 a 16:51",
+        "tanda": "2º Serie",
+        "categoria": "T4000",
+        "grupo": "2DA SERIE TURISMO 4000 ARGENTINO"
+      },
+      {
+        "horario": "16:37 a 16:50",
+        "tanda": "3º Serie",
+        "categoria": "TPC3",
+        "grupo": "3° Serie"
+      },
+      {
+        "horario": "17:15 a 17:30",
+        "tanda": "1º Serie",
+        "categoria": "TCPM",
+        "grupo": "1ERA SERIE TC PISTA MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "17:40 a 17:55",
+        "tanda": "2º Serie",
+        "categoria": "TCPM",
+        "grupo": "2DA SERIE TC PISTA MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "09:15 a 09:25",
+        "tanda": "1º Serie",
+        "categoria": "TCM",
+        "grupo": "1ERA SERIE TC MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "09:40 a 09:50",
+        "tanda": "2º Serie",
+        "categoria": "TCM",
+        "grupo": "2DA SERIE TC  MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "10:15 a 10:35",
+        "tanda": "Final A",
+        "categoria": "Bora",
+        "grupo": "FINAL COPA BORA 10 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "10:40 a 11:05",
+        "tanda": "Final",
+        "categoria": "TPC1",
+        "grupo": "Final Clase 1 12 vueltas o 25 minutos"
+      },
+      {
+        "horario": "10:50 a 11:05",
+        "tanda": "Final B",
+        "categoria": "F4",
+        "grupo": "FINAL F4 DOMINGO 10 VUELTAS O 15 MINUTOS"
+      },
+      {
+        "horario": "11:15 a 11:50",
+        "tanda": "Final",
+        "categoria": "TPC2",
+        "grupo": "Final Clase 2 15 Vueltas o 35 Minutos"
+      },
+      {
+        "horario": "11:20 a 11:40",
+        "tanda": "Final",
+        "categoria": "T4000",
+        "grupo": "FINAL TURISMO 4000 ARGENTINO 10 VUELTAS 0 20 MINUTOS"
+      },
+      {
+        "horario": "12:00 a 12:35",
+        "tanda": "Final",
+        "categoria": "TPC3",
+        "grupo": "Final 15 Vtas o Max 35 min."
+      },
+      {
+        "horario": "13:00 a 13:20",
+        "tanda": "Final",
+        "categoria": "TCPM",
+        "grupo": "FINAL TC PISTA MOURAS 14 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "13:35 a 14:05",
+        "tanda": "Final",
+        "categoria": "TCM",
+        "grupo": "FINAL TC MOURAS 16 VUELTAS O 30 MINUTOS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1531",
+    "resultado": [
+      {
+        "horario": "08:10 a 08:35",
+        "tanda": "1º Entrenamiento",
+        "categoria": "T4000",
+        "grupo": "1ER ENTRENAMIENTO TURISMO 4000 ARGENTINO 25 MINUTTOS"
+      },
+      {
+        "horario": "08:40 a 08:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "1ER ENTRENAMIENTO COPA BORA 15 MINBUTOS"
+      },
+      {
+        "horario": "09:00 a 09:20",
+        "tanda": "1º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "09:25 a 09:45",
+        "tanda": "1º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "09:50 a 10:20",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "10:25 a 10:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "11:00 a 11:30",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "11:35 a 12:05",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "12:10 a 12:35",
+        "tanda": "2º Entrenamiento",
+        "categoria": "T4000",
+        "grupo": "2DO ENTRENAMIENTO TURISMO 4000 ARGENTINO 25 MINUTOS"
+      },
+      {
+        "horario": "12:40 a 12:55",
+        "tanda": "2º Entrenamiento",
+        "categoria": "Bora",
+        "grupo": "2DO ENTRENAMEINTO COPA BORA 15 MINUTOS"
+      },
+      {
+        "horario": "13:00 a 13:20",
+        "tanda": "2º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "13:25 a 13:45",
+        "tanda": "2º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "13:50 a 14:20",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "14:25 a 14:55",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "15:00 a 15:30",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "15:35 a 16:05",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "16:10 a 16:30",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "ENTRENAMIENTO TC PISTA PICK UP SOLO PILOTO DEBUTANTES 20 MINUTOS"
+      },
+      {
+        "horario": "16:35 a 16:43",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo A Clasifica (8 minutos)"
+      },
+      {
+        "horario": "16:46 a 16:54",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo B Clasifica (8 minutos)"
+      },
+      {
+        "horario": "16:57 a 17:05",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo C Clasifica (8 minutos)"
+      },
+      {
+        "horario": "17:10 a 17:35",
+        "tanda": "3º Entrenamiento",
+        "categoria": "T4000",
+        "grupo": "3ER ENTRENAMIENTO TURISMO 4000 ARGENTINO 25 MINUTOS"
+      },
+      {
+        "horario": "08:00 a 08:10",
+        "tanda": "4º Entrenamiento",
+        "categoria": "T4000",
+        "grupo": "ENTRENAMIENTO  TURISMO 4000 ARGENTINO 10 MINUTOS"
+      },
+      {
+        "horario": "08:22 a 08:32",
+        "tanda": "1ERA SERIE",
+        "categoria": "FM",
+        "grupo": "1ERA SERIE FORMULA 3 METROPOLITANA 5 VUELTAS"
+      },
+      {
+        "horario": "08:44 a 08:54",
+        "tanda": "2DA SERIE",
+        "categoria": "FM",
+        "grupo": "2DA SERIE FORMULA 3 METROPOLITANA 5 VUELTAS"
+      },
+      {
+        "horario": "09:06 a 09:16",
+        "tanda": "3ERA SERIE",
+        "categoria": "FM",
+        "grupo": "3ERA SERIE FORMULA 3 METROPOLITANA 5 VUELTAS"
+      },
+      {
+        "horario": "09:20 a 09:35",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO A (ENTRENAMIENTO) (15 minutos)"
+      },
+      {
+        "horario": "09:38 a 09:53",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B (ENTRENAMIENTO) (15 minutos)"
+      },
+      {
+        "horario": "09:57 a 10:12",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (15 minutos)"
+      },
+      {
+        "horario": "10:15 a 10:30",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (15 minutos)"
+      },
+      {
+        "horario": "10:33 a 10:41",
+        "tanda": "Clasificación General",
+        "categoria": "T4000",
+        "grupo": "Grupo A (8 minutos)"
+      },
+      {
+        "horario": "10:44 a 10:52",
+        "tanda": "Clasificación General",
+        "categoria": "T4000",
+        "grupo": "Grupo B (8 minutos)"
+      },
+      {
+        "horario": "10:55 a 11:03",
+        "tanda": "Clasificación General",
+        "categoria": "Bora",
+        "grupo": "GRUPO B (8 minutos)"
+      },
+      {
+        "horario": "11:06 a 11:14",
+        "tanda": "Clasificación General",
+        "categoria": "Bora",
+        "grupo": "GRUPO A (8 minutos)"
+      },
+      {
+        "horario": "11:18 a 11:38",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPK",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "11:41 a 12:01",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPK",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "12:05 a 12:20",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo B (15 minutos)"
+      },
+      {
+        "horario": "12:25 a 12:40",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "Grupo A (15 minutos)"
+      },
+      {
+        "horario": "12:45 a 13:00",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO A (ENTRENAMIENTO) (15 minutos)"
+      },
+      {
+        "horario": "13:05 a 13:20",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B (ENTRENAMIENTO) (15 minutos)"
+      },
+      {
+        "horario": "13:25 a 13:33",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "13:37 a 13:45",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "13:49 a 13:57",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "14:12 a 14:22",
+        "tanda": "1º Serie",
+        "categoria": "T4000",
+        "grupo": "1ERA SERIE TURISMO 4000 ARGENTINO 5 VUELTAS"
+      },
+      {
+        "horario": "14:37 a 14:47",
+        "tanda": "2º Serie",
+        "categoria": "T4000",
+        "grupo": "2DO SERIE TURISMO 4000 ARGENTINO 5 VUELTAS"
+      },
+      {
+        "horario": "15:05 a 15:25",
+        "tanda": "Final A",
+        "categoria": "FM",
+        "grupo": "FINAL FORMULA  3 METROPOLITANA 12 VUELTAS O 20 MINUTOS SABADO"
+      },
+      {
+        "horario": "15:29 a 15:37",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "2DO GRUPO (8 minutos)"
+      },
+      {
+        "horario": "15:42 a 15:50",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "1ER GRUPO (8 minutos)"
+      },
+      {
+        "horario": "15:53 a 16:01",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "3er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:04 a 16:12",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "4to Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:15 a 16:23",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "1er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:26 a 16:34",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "2do Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:37 a 16:45",
+        "tanda": "Clasificación",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO A (CLASIFICACION) (8 minutos)"
+      },
+      {
+        "horario": "16:48 a 16:56",
+        "tanda": "Clasificación",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B (CLASIFICACION) (8 minutos)"
+      },
+      {
+        "horario": "17:10 a 17:20",
+        "tanda": "1º Serie",
+        "categoria": "TCPM",
+        "grupo": "1ERA SERIE TC PISTA MOURAS 5 VUELTAS."
+      },
+      {
+        "horario": "17:33 a 17:43",
+        "tanda": "2º Serie",
+        "categoria": "TCPM",
+        "grupo": "2DA SERIE TC PISTA MOURAS 5 VUELTAS"
+      },
+      {
+        "horario": "08:25 a 08:35",
+        "tanda": "1º Serie",
+        "categoria": "TCM",
+        "grupo": "1ERA SERIE TC MOURAS 5 VUELTAS."
+      },
+      {
+        "horario": "08:50 a 09:00",
+        "tanda": "2º Serie",
+        "categoria": "TCM",
+        "grupo": "2DA SERIE TC MOURAS 5 VUELTAS."
+      },
+      {
+        "horario": "09:15 a 09:25",
+        "tanda": "1º Serie",
+        "categoria": "TCPK",
+        "grupo": "1ERA SERIE TC PICK UP 5 VUELTAS"
+      },
+      {
+        "horario": "09:40 a 09:55",
+        "tanda": "2º Serie",
+        "categoria": "TCPK",
+        "grupo": "2DA SERIE TC PICK UP 5 VUELTAS"
+      },
+      {
+        "horario": "10:05 a 10:25",
+        "tanda": "Final",
+        "categoria": "T4000",
+        "grupo": "FINAL TURISMO 4000 ARGENTINO 10 VUELTAS 0 20 MINUTOS"
+      },
+      {
+        "horario": "10:40 a 11:00",
+        "tanda": "Final A",
+        "categoria": "Bora",
+        "grupo": "FINAL COPA BORA 10 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "11:15 a 11:35",
+        "tanda": "Final B",
+        "categoria": "FM",
+        "grupo": "FINAL FORMULA 3 METROPOLITANA 10 VUELTAS O 20 MINUTOS DOMINGO"
+      },
+      {
+        "horario": "11:50 a 12:10",
+        "tanda": "Final",
+        "categoria": "TCPM",
+        "grupo": "FINAL TC PISTA  MOURAS 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "12:25 a 12:45",
+        "tanda": "Final",
+        "categoria": "TCPPK",
+        "grupo": "FINAL TC PISTA PICK UP  10 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "13:00 a 13:20",
+        "tanda": "Final",
+        "categoria": "TCM",
+        "grupo": "FINAL TC MOURAS 14 VUELTAS O 25 MINUTOS"
+      },
+      {
+        "horario": "13:45 a 14:15",
+        "tanda": "Final",
+        "categoria": "TCPK",
+        "grupo": "FINAL TC PICK UP 15 VUELTAS O 30 MINUTOS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1532",
+    "resultado": [
+      {
+        "horario": "08:10 a 08:25",
+        "tanda": "1ER ENTRENAMIENTO",
+        "categoria": "sport Metropolit",
+        "grupo": "1ER ENTRENAMEINTO SPORT METROPOLITANO 15 MINUTOS"
+      },
+      {
+        "horario": "08:30 a 08:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "ASM",
+        "grupo": "1ER ENTRENAMEINTO ASM 20 MINUTOS"
+      },
+      {
+        "horario": "08:55 a 09:10",
+        "tanda": "1ER ENTRENAMIENTO",
+        "categoria": "INTER CLASE SUPE",
+        "grupo": "1ER ENTRENAMEINTO TURISMO INTERNACIONAL CLASE SUPER 15 MINUTOS"
+      },
+      {
+        "horario": "09:15 a 09:30",
+        "tanda": "1ER ENTRENAMIENTO",
+        "categoria": "INTER CLASE 2",
+        "grupo": "1ER ENTRENAMIENTO TURISMO INTERNACIONAL CLASE 2"
+      },
+      {
+        "horario": "09:35 a 09:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "10:00 a 10:20",
+        "tanda": "1º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "10:25 a 10:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "11:00 a 11:30",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "11:35 a 12:02",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "1ER ENTRENAMIENTOS TC MOURAS 30 MINUTOS  TITULARES"
+      },
+      {
+        "horario": "12:10 a 12:30",
+        "tanda": "2º Entrenamiento",
+        "categoria": "ASM",
+        "grupo": "2DO ENTRENAMIENTO ASM 20 MINUTOS"
+      },
+      {
+        "horario": "12:35 a 12:50",
+        "tanda": "2DO ENTRENAMIENTO",
+        "categoria": "INTER CLASE SUPE",
+        "grupo": "2DO ENTRENAMIENTO TURISMO INTERNACIONAL CLASE SUPER"
+      },
+      {
+        "horario": "12:55 a 13:10",
+        "tanda": "2DO ENTRENAMIENTO",
+        "categoria": "INTER CLASE 2",
+        "grupo": "2DO ENTRENAMIENTO TURISMO INTERNACIONAL CLASE 2"
+      },
+      {
+        "horario": "13:15 a 13:35",
+        "tanda": "2º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "13:40 a 14:00",
+        "tanda": "2º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "14:05 a 14:35",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "14:38 a 15:08",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "15:11 a 15:41",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "2DO ENTRENAMIENTO TC MOURAS TITULARES   Y  O INVITADOS"
+      },
+      {
+        "horario": "15:44 a 16:04",
+        "tanda": "3º Entrenamiento",
+        "categoria": "ASM",
+        "grupo": "3ER ENTRENAMIENTO ASM 20 MINUTOS"
+      },
+      {
+        "horario": "16:07 a 16:22",
+        "tanda": "3ER ENTRENAMIENTO",
+        "categoria": "INTER CLASE SUPE",
+        "grupo": "3ER ENTRENAMEINTO  TURISMO INTERNACIONAL CLASE SUPER 15 MINUTOS"
+      },
+      {
+        "horario": "16:25 a 16:40",
+        "tanda": "3ER ENTRENAMIENTO",
+        "categoria": "INTER CLASE 2",
+        "grupo": "3ER ENTRENAMIENTO TURISMO INTERNACIONAL CLASE 2"
+      },
+      {
+        "horario": "16:43 a 16:51",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo B Clasifica (8 minutos)"
+      },
+      {
+        "horario": "16:55 a 17:03",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo C Clasifica (8 minutos)"
+      },
+      {
+        "horario": "17:07 a 17:15",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo A Clasifica (8 minutos)"
+      },
+      {
+        "horario": "17:17 a 17:27",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B (10 minutos)"
+      },
+      {
+        "horario": "17:30 a 17:40",
+        "tanda": "2DO ENTRENAMIENTO",
+        "categoria": "sport Metropolit",
+        "grupo": "2DO ENTRENAMIENTO SPORT METROPOLITANO"
+      },
+      {
+        "horario": "08:00 a 08:10",
+        "tanda": "3ER ENTRENAMIENTO",
+        "categoria": "sport Metropolit",
+        "grupo": "ENTRENAMEINTO SPOR METROPOLITANO 10 MINUTOS"
+      },
+      {
+        "horario": "08:24 a 08:34",
+        "tanda": "1ERA SERIE",
+        "categoria": "FM",
+        "grupo": "1ERA SERIE FORMULA 3 METROPOLITANA 5 VUELTAS"
+      },
+      {
+        "horario": "08:46 a 08:56",
+        "tanda": "2DA SERIE",
+        "categoria": "FM",
+        "grupo": "2DA SERIE FORMULA 3 METROPOLITANA 5 VUELTAS"
+      },
+      {
+        "horario": "09:08 a 09:18",
+        "tanda": "3ERA SERIE",
+        "categoria": "FM",
+        "grupo": "3ERA SERIE FORMULA 3 METROPOLITANA 5 VUELTAS"
+      },
+      {
+        "horario": "09:21 a 09:36",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B (15 minutos)"
+      },
+      {
+        "horario": "09:39 a 09:54",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO A (15 minutos)"
+      },
+      {
+        "horario": "09:59 a 10:14",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (15 minutos)"
+      },
+      {
+        "horario": "10:17 a 10:32",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (15 minutos)"
+      },
+      {
+        "horario": "10:36 a 10:44",
+        "tanda": "Clasificación General",
+        "categoria": "ASM",
+        "grupo": "Grupo A (8 minutos)"
+      },
+      {
+        "horario": "10:48 a 10:56",
+        "tanda": "Clasificación General",
+        "categoria": "ASM",
+        "grupo": "Grupo B (8 minutos)"
+      },
+      {
+        "horario": "11:00 a 11:08",
+        "tanda": "CLASIFICACION",
+        "categoria": "INTER CLASE SUPE",
+        "grupo": "CLASIFICACION  TURISMO INTERNACIONAL CLASE SUPER"
+      },
+      {
+        "horario": "11:12 a 11:20",
+        "tanda": "CLASIFICACION",
+        "categoria": "INTER CLASE 2",
+        "grupo": "CLASIFICACION TURIMO INTERNCAIONAL CLASE 2"
+      },
+      {
+        "horario": "11:24 a 11:44",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPK",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "11:47 a 12:07",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPK",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "12:10 a 12:25",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "ENTRENAMEINTOS TC MOURAS TITULARES Y O INVITADOS 15 MINUTOS"
+      },
+      {
+        "horario": "12:28 a 12:36",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "GRUPO 1 (8 minutos)"
+      },
+      {
+        "horario": "12:40 a 12:48",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "GRUPO 2 (8 minutos)"
+      },
+      {
+        "horario": "13:00 a 13:20",
+        "tanda": "Final A",
+        "categoria": "ASM",
+        "grupo": "FINAL SABADO ASM 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "13:30 a 13:40",
+        "tanda": "1ERA SERIE",
+        "categoria": "INTER CLASE SUPE",
+        "grupo": "SERIE  UNICA TURISMO INTERNACIONAL CLASE SUPER 5 VUELTAS"
+      },
+      {
+        "horario": "13:49 a 13:59",
+        "tanda": "SERIE UNICA",
+        "categoria": "INTER CLASE 2",
+        "grupo": "SERIE UNICA TURISMO INTERNACIONAL CLASE 2"
+      },
+      {
+        "horario": "14:12 a 14:32",
+        "tanda": "Final A",
+        "categoria": "FM",
+        "grupo": "FINAL SABADO FORMULA 3 METROPOLITANA 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "14:35 a 14:43",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "1ER GRUPO (8 minutos)"
+      },
+      {
+        "horario": "14:47 a 14:55",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "1ER GRUPO (8 minutos) TITULARES"
+      },
+      {
+        "horario": "15:00 a 15:08",
+        "tanda": "Clasificación",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO 2 (8 minutos)"
+      },
+      {
+        "horario": "15:11 a 15:19",
+        "tanda": "Clasificación",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO 1 (8 minutos)"
+      },
+      {
+        "horario": "15:22 a 15:30",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "1ER TERCIO (8 minutos)"
+      },
+      {
+        "horario": "15:33 a 15:41",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "2DO TERCIO (5 minutos)"
+      },
+      {
+        "horario": "15:44 a 15:52",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "3ER TERCIO (8 minutos)"
+      },
+      {
+        "horario": "16:05 a 16:25",
+        "tanda": "Final",
+        "categoria": "TCPM",
+        "grupo": "FINAL TC PISTA MOURAS FECHA 8 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "16:38 a 16:58",
+        "tanda": "Final",
+        "categoria": "TCM",
+        "grupo": "FINAL TC MOURAS TITULARES 14 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "17:30 a 17:38",
+        "tanda": "CLASIFICACION",
+        "categoria": "sport Metropolit",
+        "grupo": "CLASIFICACION SPORT METROPOLITANO 8 MINUTOS"
+      },
+      {
+        "horario": "08:40 a 09:00",
+        "tanda": "FINAL A",
+        "categoria": "sport Metropolit",
+        "grupo": "FINAL A SPORT METROPOLITANO"
+      },
+      {
+        "horario": "09:15 a 09:25",
+        "tanda": "1º Serie",
+        "categoria": "TCPK",
+        "grupo": "1ERA SERIE TC PICK UP 5 VUELTAS"
+      },
+      {
+        "horario": "09:40 a 09:50",
+        "tanda": "2º Serie",
+        "categoria": "TCPK",
+        "grupo": "2DA SERIE TC PICK UP 5 VUELTAS"
+      },
+      {
+        "horario": "10:05 a 10:25",
+        "tanda": "Final B",
+        "categoria": "ASM",
+        "grupo": "FINAL DOMINGO ASM 10 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "10:40 a 11:00",
+        "tanda": "FINAL",
+        "categoria": "TUR UNTER",
+        "grupo": "FINAL TURISMO INTERNACIONAL CLASE SUPER Y CLASE 2 10 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "11:15 a 11:35",
+        "tanda": "Final B",
+        "categoria": "FM",
+        "grupo": "FINAL DOMINGO FORMULA 3 METROPOLITANA 10 VUELTAS O 20  MINUTOS"
+      },
+      {
+        "horario": "11:50 a 12:10",
+        "tanda": "Final",
+        "categoria": "TCPM",
+        "grupo": "FINAL TC PISTA MOURAS FECHA 9 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "12:25 a 12:45",
+        "tanda": "Final",
+        "categoria": "TCPPK",
+        "grupo": "FINAL TC PISTA PICK UP 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "13:00 a 13:20",
+        "tanda": "Final Invitados",
+        "categoria": "TCM",
+        "grupo": "FINAL PILOTOS INVITADOS"
+      },
+      {
+        "horario": "13:50 a 14:20",
+        "tanda": "Final",
+        "categoria": "TCPK",
+        "grupo": "FINAL TC PICK UP 15 VUELTAS O 30 MINUTOS"
+      },
+      {
+        "horario": "14:40 a 15:00",
+        "tanda": "FINAL B",
+        "categoria": "sport Metropolit",
+        "grupo": "FINAL B SPORT METROPOLITANO"
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1533",
+    "resultado": [
+      {
+        "horario": "08:10 a 08:25",
+        "tanda": "1ER ENTRENAMIENTO",
+        "categoria": "sport Metropolit",
+        "grupo": "1ER ENTRENAMEINTO SPORT METROPOLITANO 15 MINUTOS"
+      },
+      {
+        "horario": "08:30 a 08:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "ASM",
+        "grupo": "1ER ENTRENAMEINTO ASM 20 MINUTOS"
+      },
+      {
+        "horario": "08:55 a 09:10",
+        "tanda": "1ER ENTRENAMIENTO",
+        "categoria": "INTER CLASE SUPE",
+        "grupo": "1ER ENTRENAMEINTO TURISMO INTERNACIONAL CLASE SUPER 15 MINUTOS"
+      },
+      {
+        "horario": "09:15 a 09:30",
+        "tanda": "1ER ENTRENAMIENTO",
+        "categoria": "INTER CLASE 2",
+        "grupo": "1ER ENTRENAMIENTO TURISMO INTERNACIONAL CLASE 2"
+      },
+      {
+        "horario": "09:35 a 09:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "10:00 a 10:20",
+        "tanda": "1º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "10:25 a 10:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "11:00 a 11:30",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "11:35 a 12:02",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "1ER ENTRENAMIENTOS TC MOURAS 30 MINUTOS  TITULARES"
+      },
+      {
+        "horario": "12:10 a 12:30",
+        "tanda": "2º Entrenamiento",
+        "categoria": "ASM",
+        "grupo": "2DO ENTRENAMIENTO ASM 20 MINUTOS"
+      },
+      {
+        "horario": "12:35 a 12:50",
+        "tanda": "2DO ENTRENAMIENTO",
+        "categoria": "INTER CLASE SUPE",
+        "grupo": "2DO ENTRENAMIENTO TURISMO INTERNACIONAL CLASE SUPER"
+      },
+      {
+        "horario": "12:55 a 13:10",
+        "tanda": "2DO ENTRENAMIENTO",
+        "categoria": "INTER CLASE 2",
+        "grupo": "2DO ENTRENAMIENTO TURISMO INTERNACIONAL CLASE 2"
+      },
+      {
+        "horario": "13:15 a 13:35",
+        "tanda": "2º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "13:40 a 14:00",
+        "tanda": "2º Entrenamiento",
+        "categoria": "FM",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "14:05 a 14:35",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "14:38 a 15:08",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "15:11 a 15:41",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "2DO ENTRENAMIENTO TC MOURAS TITULARES   Y  O INVITADOS"
+      },
+      {
+        "horario": "15:44 a 16:04",
+        "tanda": "3º Entrenamiento",
+        "categoria": "ASM",
+        "grupo": "3ER ENTRENAMIENTO ASM 20 MINUTOS"
+      },
+      {
+        "horario": "16:07 a 16:22",
+        "tanda": "3ER ENTRENAMIENTO",
+        "categoria": "INTER CLASE SUPE",
+        "grupo": "3ER ENTRENAMEINTO  TURISMO INTERNACIONAL CLASE SUPER 15 MINUTOS"
+      },
+      {
+        "horario": "16:25 a 16:40",
+        "tanda": "3ER ENTRENAMIENTO",
+        "categoria": "INTER CLASE 2",
+        "grupo": "3ER ENTRENAMIENTO TURISMO INTERNACIONAL CLASE 2"
+      },
+      {
+        "horario": "16:43 a 16:51",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo B Clasifica (8 minutos)"
+      },
+      {
+        "horario": "16:55 a 17:03",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo C Clasifica (8 minutos)"
+      },
+      {
+        "horario": "17:07 a 17:15",
+        "tanda": "Clasificación General",
+        "categoria": "FM",
+        "grupo": "Grupo A Clasifica (8 minutos)"
+      },
+      {
+        "horario": "17:17 a 17:27",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B (10 minutos)"
+      },
+      {
+        "horario": "17:30 a 17:40",
+        "tanda": "2DO ENTRENAMIENTO",
+        "categoria": "sport Metropolit",
+        "grupo": "2DO ENTRENAMIENTO SPORT METROPOLITANO"
+      },
+      {
+        "horario": "08:00 a 08:10",
+        "tanda": "3ER ENTRENAMIENTO",
+        "categoria": "sport Metropolit",
+        "grupo": "ENTRENAMEINTO SPOR METROPOLITANO 10 MINUTOS"
+      },
+      {
+        "horario": "08:24 a 08:34",
+        "tanda": "1ERA SERIE",
+        "categoria": "FM",
+        "grupo": "1ERA SERIE FORMULA 3 METROPOLITANA 5 VUELTAS"
+      },
+      {
+        "horario": "08:46 a 08:56",
+        "tanda": "2DA SERIE",
+        "categoria": "FM",
+        "grupo": "2DA SERIE FORMULA 3 METROPOLITANA 5 VUELTAS"
+      },
+      {
+        "horario": "09:08 a 09:18",
+        "tanda": "3ERA SERIE",
+        "categoria": "FM",
+        "grupo": "3ERA SERIE FORMULA 3 METROPOLITANA 5 VUELTAS"
+      },
+      {
+        "horario": "09:21 a 09:36",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO B (15 minutos)"
+      },
+      {
+        "horario": "09:39 a 09:54",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO A (15 minutos)"
+      },
+      {
+        "horario": "09:59 a 10:14",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo A (15 minutos)"
+      },
+      {
+        "horario": "10:17 a 10:32",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCPM",
+        "grupo": "Grupo B (15 minutos)"
+      },
+      {
+        "horario": "10:36 a 10:44",
+        "tanda": "Clasificación General",
+        "categoria": "ASM",
+        "grupo": "Grupo A (8 minutos)"
+      },
+      {
+        "horario": "10:48 a 10:56",
+        "tanda": "Clasificación General",
+        "categoria": "ASM",
+        "grupo": "Grupo B (8 minutos)"
+      },
+      {
+        "horario": "11:00 a 11:08",
+        "tanda": "CLASIFICACION",
+        "categoria": "INTER CLASE SUPE",
+        "grupo": "CLASIFICACION  TURISMO INTERNACIONAL CLASE SUPER"
+      },
+      {
+        "horario": "11:12 a 11:20",
+        "tanda": "CLASIFICACION",
+        "categoria": "INTER CLASE 2",
+        "grupo": "CLASIFICACION TURIMO INTERNCAIONAL CLASE 2"
+      },
+      {
+        "horario": "11:24 a 11:44",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPK",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "11:47 a 12:07",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCPK",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "12:10 a 12:25",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TCM",
+        "grupo": "ENTRENAMEINTOS TC MOURAS TITULARES Y O INVITADOS 15 MINUTOS"
+      },
+      {
+        "horario": "12:28 a 12:36",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "GRUPO 1 (8 minutos)"
+      },
+      {
+        "horario": "12:40 a 12:48",
+        "tanda": "Clasificación General",
+        "categoria": "TCPM",
+        "grupo": "GRUPO 2 (8 minutos)"
+      },
+      {
+        "horario": "13:00 a 13:20",
+        "tanda": "Final A",
+        "categoria": "ASM",
+        "grupo": "FINAL SABADO ASM 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "13:30 a 13:40",
+        "tanda": "1ERA SERIE",
+        "categoria": "INTER CLASE SUPE",
+        "grupo": "SERIE  UNICA TURISMO INTERNACIONAL CLASE SUPER 5 VUELTAS"
+      },
+      {
+        "horario": "13:49 a 13:59",
+        "tanda": "SERIE UNICA",
+        "categoria": "INTER CLASE 2",
+        "grupo": "SERIE UNICA TURISMO INTERNACIONAL CLASE 2"
+      },
+      {
+        "horario": "14:12 a 14:32",
+        "tanda": "Final A",
+        "categoria": "FM",
+        "grupo": "FINAL SABADO FORMULA 3 METROPOLITANA 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "14:35 a 14:43",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "1ER GRUPO (8 minutos)"
+      },
+      {
+        "horario": "14:47 a 14:55",
+        "tanda": "Clasificación General",
+        "categoria": "TCM",
+        "grupo": "1ER GRUPO (8 minutos) TITULARES"
+      },
+      {
+        "horario": "15:00 a 15:08",
+        "tanda": "Clasificación",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO 2 (8 minutos)"
+      },
+      {
+        "horario": "15:11 a 15:19",
+        "tanda": "Clasificación",
+        "categoria": "TCPPK",
+        "grupo": "GRUPO 1 (8 minutos)"
+      },
+      {
+        "horario": "15:22 a 15:30",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "1ER TERCIO (8 minutos)"
+      },
+      {
+        "horario": "15:33 a 15:41",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "2DO TERCIO (5 minutos)"
+      },
+      {
+        "horario": "15:44 a 15:52",
+        "tanda": "Clasificación",
+        "categoria": "TCPK",
+        "grupo": "3ER TERCIO (8 minutos)"
+      },
+      {
+        "horario": "16:05 a 16:25",
+        "tanda": "Final",
+        "categoria": "TCPM",
+        "grupo": "FINAL TC PISTA MOURAS FECHA 8 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "16:38 a 16:58",
+        "tanda": "Final",
+        "categoria": "TCM",
+        "grupo": "FINAL TC MOURAS TITULARES 14 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "17:30 a 17:38",
+        "tanda": "CLASIFICACION",
+        "categoria": "sport Metropolit",
+        "grupo": "CLASIFICACION SPORT METROPOLITANO 8 MINUTOS"
+      },
+      {
+        "horario": "08:40 a 09:00",
+        "tanda": "FINAL A",
+        "categoria": "sport Metropolit",
+        "grupo": "FINAL A SPORT METROPOLITANO"
+      },
+      {
+        "horario": "09:15 a 09:25",
+        "tanda": "1º Serie",
+        "categoria": "TCPK",
+        "grupo": "1ERA SERIE TC PICK UP 5 VUELTAS"
+      },
+      {
+        "horario": "09:40 a 09:50",
+        "tanda": "2º Serie",
+        "categoria": "TCPK",
+        "grupo": "2DA SERIE TC PICK UP 5 VUELTAS"
+      },
+      {
+        "horario": "10:05 a 10:25",
+        "tanda": "Final B",
+        "categoria": "ASM",
+        "grupo": "FINAL DOMINGO ASM 10 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "10:40 a 11:00",
+        "tanda": "FINAL",
+        "categoria": "TUR UNTER",
+        "grupo": "FINAL TURISMO INTERNACIONAL CLASE SUPER Y CLASE 2 10 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "11:15 a 11:35",
+        "tanda": "Final B",
+        "categoria": "FM",
+        "grupo": "FINAL DOMINGO FORMULA 3 METROPOLITANA 10 VUELTAS O 20  MINUTOS"
+      },
+      {
+        "horario": "11:50 a 12:10",
+        "tanda": "Final",
+        "categoria": "TCPM",
+        "grupo": "FINAL TC PISTA MOURAS FECHA 9 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "12:25 a 12:45",
+        "tanda": "Final",
+        "categoria": "TCPPK",
+        "grupo": "FINAL TC PISTA PICK UP 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "13:00 a 13:20",
+        "tanda": "Final Invitados",
+        "categoria": "TCM",
+        "grupo": "FINAL PILOTOS INVITADOS"
+      },
+      {
+        "horario": "13:50 a 14:20",
+        "tanda": "Final",
+        "categoria": "TCPK",
+        "grupo": "FINAL TC PICK UP 15 VUELTAS O 30 MINUTOS"
+      },
+      {
+        "horario": "14:40 a 15:00",
+        "tanda": "FINAL B",
+        "categoria": "sport Metropolit",
+        "grupo": "FINAL B SPORT METROPOLITANO"
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1534",
+    "resultado": []
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1535",
+    "resultado": []
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1536",
+    "resultado": []
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1537",
+    "resultado": []
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1538",
+    "resultado": []
+  }
+]

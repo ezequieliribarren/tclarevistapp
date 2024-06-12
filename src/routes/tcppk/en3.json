@@ -1,0 +1,576 @@
+[
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1702&intIDTanda=354",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1703&intIDTanda=354",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "86",
+        "nombre": "Faín,",
+        "apellido": "Ignacio",
+        "piloto": "Faín, Ignacio",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "01:31.178",
+        "diferencia": "",
+        "nacionalidad": "Faín, Ignacio"
+      },
+      {
+        "pos": "2°",
+        "nro": "75",
+        "nombre": "Frano,",
+        "apellido": "Matías",
+        "piloto": "Frano, Matías",
+        "marca": "Toyota",
+        "vueltas": "4",
+        "tiempo": "01:31.258",
+        "diferencia": "0.080",
+        "nacionalidad": "Frano, Matías"
+      },
+      {
+        "pos": "3°",
+        "nro": "88",
+        "nombre": "Deambrosi,",
+        "apellido": "Franco",
+        "piloto": "Deambrosi, Franco",
+        "marca": "Toyota",
+        "vueltas": "4",
+        "tiempo": "01:31.538",
+        "diferencia": "0.360",
+        "nacionalidad": "Deambrosi, Franco"
+      },
+      {
+        "pos": "4°",
+        "nro": "12",
+        "nombre": "Sala,",
+        "apellido": "Hernán",
+        "piloto": "Sala, Hernán",
+        "marca": "Ford",
+        "vueltas": "6",
+        "tiempo": "01:31.676",
+        "diferencia": "0.498",
+        "nacionalidad": "Sala, Hernán"
+      },
+      {
+        "pos": "5°",
+        "nro": "4",
+        "nombre": "Castro,",
+        "apellido": "Marcos",
+        "piloto": "Castro, Marcos",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "01:31.746",
+        "diferencia": "0.568",
+        "nacionalidad": "Castro, Marcos"
+      },
+      {
+        "pos": "6°",
+        "nro": "118",
+        "nombre": "Salse,",
+        "apellido": "Sebastián",
+        "piloto": "Salse, Sebastián",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "01:31.934",
+        "diferencia": "0.756",
+        "nacionalidad": "Salse, Sebastián"
+      },
+      {
+        "pos": "7°",
+        "nro": "112",
+        "nombre": "Piovano,",
+        "apellido": "Santiago",
+        "piloto": "Piovano, Santiago",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "01:32.199",
+        "diferencia": "1.021",
+        "nacionalidad": "Piovano, Santiago"
+      },
+      {
+        "pos": "8°",
+        "nro": "137",
+        "nombre": "Scoltore,",
+        "apellido": "Juan",
+        "piloto": "Scoltore, Juan",
+        "marca": "Toyota",
+        "vueltas": "6",
+        "tiempo": "01:32.224",
+        "diferencia": "1.046",
+        "nacionalidad": "Scoltore, Juan"
+      },
+      {
+        "pos": "9°",
+        "nro": "54",
+        "nombre": "Ochoa,",
+        "apellido": "Joaquín",
+        "piloto": "Ochoa, Joaquín",
+        "marca": "Ford",
+        "vueltas": "4",
+        "tiempo": "01:32.371",
+        "diferencia": "1.193",
+        "nacionalidad": "Ochoa, Joaquín"
+      },
+      {
+        "pos": "10°",
+        "nro": "71",
+        "nombre": "Brezzo,",
+        "apellido": "Tomás",
+        "piloto": "Brezzo, Tomás",
+        "marca": "NISSAN",
+        "vueltas": "5",
+        "tiempo": "01:32.626",
+        "diferencia": "1.448",
+        "nacionalidad": "Brezzo, Tomás"
+      },
+      {
+        "pos": "11°",
+        "nro": "145",
+        "nombre": "Arrías,",
+        "apellido": "Iñaki",
+        "piloto": "Arrías, Iñaki",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "01:32.638",
+        "diferencia": "1.460",
+        "nacionalidad": "Arrías, Iñaki"
+      },
+      {
+        "pos": "12°",
+        "nro": "127",
+        "nombre": "Cordone,",
+        "apellido": "Nahuel",
+        "piloto": "Cordone, Nahuel",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "01:32.683",
+        "diferencia": "1.505",
+        "nacionalidad": "Cordone, Nahuel"
+      },
+      {
+        "pos": "13°",
+        "nro": "43",
+        "nombre": "Antón,",
+        "apellido": "Benjamín",
+        "piloto": "Antón, Benjamín",
+        "marca": "Toyota",
+        "vueltas": "6",
+        "tiempo": "01:32.702",
+        "diferencia": "1.524",
+        "nacionalidad": "Antón, Benjamín"
+      },
+      {
+        "pos": "14°",
+        "nro": "26",
+        "nombre": "Demarco,",
+        "apellido": "Luca",
+        "piloto": "Demarco, Luca",
+        "marca": "Volkswagen",
+        "vueltas": "5",
+        "tiempo": "01:32.952",
+        "diferencia": "1.774",
+        "nacionalidad": "Demarco, Luca"
+      },
+      {
+        "pos": "15°",
+        "nro": "33",
+        "nombre": "Alterio,",
+        "apellido": "Gonzalo",
+        "piloto": "Alterio, Gonzalo",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "01:33.153",
+        "diferencia": "1.975",
+        "nacionalidad": "Alterio, Gonzalo"
+      },
+      {
+        "pos": "16°",
+        "nro": "93",
+        "nombre": "Perea,",
+        "apellido": "Juan",
+        "piloto": "Perea, Juan",
+        "marca": "Ford",
+        "vueltas": "6",
+        "tiempo": "01:33.176",
+        "diferencia": "1.998",
+        "nacionalidad": "Perea, Juan"
+      },
+      {
+        "pos": "17°",
+        "nro": "77",
+        "nombre": "Sandin,",
+        "apellido": "Juan",
+        "piloto": "Sandin, Juan Antonio",
+        "marca": "Toyota",
+        "vueltas": "7",
+        "tiempo": "01:33.560",
+        "diferencia": "2.382",
+        "nacionalidad": "Sandin, Juan Antonio"
+      },
+      {
+        "pos": "18°",
+        "nro": "144",
+        "nombre": "Goya,",
+        "apellido": "Néstor",
+        "piloto": "Goya, Néstor Omar",
+        "marca": "Ford",
+        "vueltas": "4",
+        "tiempo": "01:33.920",
+        "diferencia": "2.742",
+        "nacionalidad": "Goya, Néstor Omar"
+      },
+      {
+        "pos": "19°",
+        "nro": "115",
+        "nombre": "Tadei,",
+        "apellido": "Gustavo",
+        "piloto": "Tadei, Gustavo",
+        "marca": "Ford",
+        "vueltas": "6",
+        "tiempo": "01:35.725",
+        "diferencia": "4.547",
+        "nacionalidad": "Tadei, Gustavo"
+      },
+      {
+        "pos": "20°",
+        "nro": "117",
+        "nombre": "Goya,",
+        "apellido": "José",
+        "piloto": "Goya, José Alberto",
+        "marca": "Ford",
+        "vueltas": "2",
+        "tiempo": "01:36.723",
+        "diferencia": "5.545",
+        "nacionalidad": "Goya, José Alberto"
+      },
+      {
+        "pos": "21°",
+        "nro": "22",
+        "nombre": "Montanari,",
+        "apellido": "José",
+        "piloto": "Montanari, José Carlos",
+        "marca": "Fiat",
+        "vueltas": "1",
+        "tiempo": "07:17.497",
+        "diferencia": "5:46.319",
+        "nacionalidad": "Montanari, José Carlos"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1704&intIDTanda=354",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "4",
+        "nombre": "Castro,",
+        "apellido": "Marcos",
+        "piloto": "Castro, Marcos",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "01:29.699",
+        "diferencia": "",
+        "nacionalidad": "Castro, Marcos"
+      },
+      {
+        "pos": "2°",
+        "nro": "118",
+        "nombre": "Salse,",
+        "apellido": "Sebastián",
+        "piloto": "Salse, Sebastián",
+        "marca": "Ford",
+        "vueltas": "4",
+        "tiempo": "01:29.746",
+        "diferencia": "0.047",
+        "nacionalidad": "Salse, Sebastián"
+      },
+      {
+        "pos": "3°",
+        "nro": "66",
+        "nombre": "González,",
+        "apellido": "Lucas",
+        "piloto": "González, Lucas",
+        "marca": "Ford",
+        "vueltas": "7",
+        "tiempo": "01:29.835",
+        "diferencia": "0.136",
+        "nacionalidad": "González, Lucas"
+      },
+      {
+        "pos": "4°",
+        "nro": "88",
+        "nombre": "Deambrosi,",
+        "apellido": "Franco",
+        "piloto": "Deambrosi, Franco",
+        "marca": "Toyota",
+        "vueltas": "4",
+        "tiempo": "01:30.048",
+        "diferencia": "0.349",
+        "nacionalidad": "Deambrosi, Franco"
+      },
+      {
+        "pos": "5°",
+        "nro": "75",
+        "nombre": "Frano,",
+        "apellido": "Matías",
+        "piloto": "Frano, Matías",
+        "marca": "Toyota",
+        "vueltas": "3",
+        "tiempo": "01:30.075",
+        "diferencia": "0.376",
+        "nacionalidad": "Frano, Matías"
+      },
+      {
+        "pos": "6°",
+        "nro": "137",
+        "nombre": "Scoltore,",
+        "apellido": "Juan",
+        "piloto": "Scoltore, Juan",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "01:30.436",
+        "diferencia": "0.737",
+        "nacionalidad": "Scoltore, Juan"
+      },
+      {
+        "pos": "7°",
+        "nro": "127",
+        "nombre": "Cordone,",
+        "apellido": "Nahuel",
+        "piloto": "Cordone, Nahuel",
+        "marca": "Ford",
+        "vueltas": "4",
+        "tiempo": "01:30.541",
+        "diferencia": "0.842",
+        "nacionalidad": "Cordone, Nahuel"
+      },
+      {
+        "pos": "8°",
+        "nro": "71",
+        "nombre": "Brezzo,",
+        "apellido": "Tomás",
+        "piloto": "Brezzo, Tomás",
+        "marca": "NISSAN",
+        "vueltas": "6",
+        "tiempo": "01:30.689",
+        "diferencia": "0.990",
+        "nacionalidad": "Brezzo, Tomás"
+      },
+      {
+        "pos": "9°",
+        "nro": "12",
+        "nombre": "Sala,",
+        "apellido": "Hernán",
+        "piloto": "Sala, Hernán",
+        "marca": "Ford",
+        "vueltas": "6",
+        "tiempo": "01:30.706",
+        "diferencia": "1.007",
+        "nacionalidad": "Sala, Hernán"
+      },
+      {
+        "pos": "10°",
+        "nro": "48",
+        "nombre": "Schenone,",
+        "apellido": "Mauro",
+        "piloto": "Schenone, Mauro",
+        "marca": "Toyota",
+        "vueltas": "6",
+        "tiempo": "01:30.726",
+        "diferencia": "1.027",
+        "nacionalidad": "Schenone, Mauro"
+      },
+      {
+        "pos": "11°",
+        "nro": "43",
+        "nombre": "Antón,",
+        "apellido": "Benjamín",
+        "piloto": "Antón, Benjamín",
+        "marca": "Toyota",
+        "vueltas": "4",
+        "tiempo": "01:30.874",
+        "diferencia": "1.175",
+        "nacionalidad": "Antón, Benjamín"
+      },
+      {
+        "pos": "12°",
+        "nro": "77",
+        "nombre": "Sandin,",
+        "apellido": "Juan",
+        "piloto": "Sandin, Juan Antonio",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "01:31.296",
+        "diferencia": "1.597",
+        "nacionalidad": "Sandin, Juan Antonio"
+      },
+      {
+        "pos": "13°",
+        "nro": "144",
+        "nombre": "Goya,",
+        "apellido": "Néstor",
+        "piloto": "Goya, Néstor Omar",
+        "marca": "Ford",
+        "vueltas": "2",
+        "tiempo": "01:31.356",
+        "diferencia": "1.657",
+        "nacionalidad": "Goya, Néstor Omar"
+      },
+      {
+        "pos": "14°",
+        "nro": "93",
+        "nombre": "Perea,",
+        "apellido": "Juan",
+        "piloto": "Perea, Juan",
+        "marca": "Ford",
+        "vueltas": "4",
+        "tiempo": "01:31.362",
+        "diferencia": "1.663",
+        "nacionalidad": "Perea, Juan"
+      },
+      {
+        "pos": "15°",
+        "nro": "6",
+        "nombre": "Aramburu,",
+        "apellido": "Gonzalo",
+        "piloto": "Aramburu, Gonzalo",
+        "marca": "Toyota",
+        "vueltas": "4",
+        "tiempo": "01:31.495",
+        "diferencia": "1.796",
+        "nacionalidad": "Aramburu, Gonzalo"
+      },
+      {
+        "pos": "16°",
+        "nro": "117",
+        "nombre": "Goya,",
+        "apellido": "José",
+        "piloto": "Goya, José Alberto",
+        "marca": "Ford",
+        "vueltas": "3",
+        "tiempo": "01:31.878",
+        "diferencia": "2.179",
+        "nacionalidad": "Goya, José Alberto"
+      },
+      {
+        "pos": "17°",
+        "nro": "26",
+        "nombre": "Demarco,",
+        "apellido": "Luca",
+        "piloto": "Demarco, Luca",
+        "marca": "VOLKSWAGEN",
+        "vueltas": "4",
+        "tiempo": "01:32.434",
+        "diferencia": "2.735",
+        "nacionalidad": "Demarco, Luca"
+      },
+      {
+        "pos": "18°",
+        "nro": "115",
+        "nombre": "Tadei,",
+        "apellido": "Gustavo",
+        "piloto": "Tadei, Gustavo",
+        "marca": "Ford",
+        "vueltas": "4",
+        "tiempo": "01:32.870",
+        "diferencia": "3.171",
+        "nacionalidad": "Tadei, Gustavo"
+      },
+      {
+        "pos": "19°",
+        "nro": "22",
+        "nombre": "Montanari,",
+        "apellido": "José",
+        "piloto": "Montanari, José Carlos",
+        "marca": "FIAT",
+        "vueltas": "7",
+        "tiempo": "01:35.347",
+        "diferencia": "5.648",
+        "nacionalidad": "Montanari, José Carlos"
+      },
+      {
+        "pos": "20°",
+        "nro": "86",
+        "nombre": "Faín,",
+        "apellido": "Ignacio",
+        "piloto": "Faín, Ignacio",
+        "marca": "Ford",
+        "vueltas": "3",
+        "tiempo": "01:35.352",
+        "diferencia": "5.653",
+        "nacionalidad": "Faín, Ignacio"
+      },
+      {
+        "pos": "21°",
+        "nro": "112",
+        "nombre": "Piovano,",
+        "apellido": "Santiago",
+        "piloto": "Piovano, Santiago",
+        "marca": "Toyota",
+        "vueltas": "3",
+        "tiempo": "01:36.169",
+        "diferencia": "6.470",
+        "nacionalidad": "Piovano, Santiago"
+      },
+      {
+        "pos": "22°",
+        "nro": "145",
+        "nombre": "Arrías,",
+        "apellido": "Iñaki",
+        "piloto": "Arrías, Iñaki",
+        "marca": "Ford",
+        "vueltas": "3",
+        "tiempo": "01:45.208",
+        "diferencia": "15.509",
+        "nacionalidad": "Arrías, Iñaki"
+      },
+      {
+        "pos": "23°",
+        "nro": "33",
+        "nombre": "Alterio,",
+        "apellido": "Gonzalo",
+        "piloto": "Alterio, Gonzalo",
+        "marca": "NISSAN",
+        "vueltas": "0",
+        "tiempo": "00:00.000",
+        "diferencia": "",
+        "nacionalidad": "Alterio, Gonzalo"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1705&intIDTanda=354",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1706&intIDTanda=354",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1707&intIDTanda=354",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1708&intIDTanda=354",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1709&intIDTanda=354",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1710&intIDTanda=354",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1711&intIDTanda=354",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1712&intIDTanda=354",
+    "resultado": []
+  }
+]

@@ -1,0 +1,2116 @@
+[
+  {
+    "url": "https://www.apat.org.ar/resultados/2/2024-02-18",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "22",
+        "piloto": "COLTRINARI, FRANCISCO",
+        "marca": "208",
+        "vueltas": "18",
+        "tiempo": "\"26;42.526\"",
+        "diferencia": ""
+      },
+      {
+        "pos": "2",
+        "nro": "17",
+        "piloto": "PASTORI, JUAN PABLO",
+        "marca": "ETIOS",
+        "vueltas": "18",
+        "tiempo": "\"26;43.462\"",
+        "diferencia": "0.936"
+      },
+      {
+        "pos": "3",
+        "nro": "14",
+        "piloto": "VERONESI, MARCO",
+        "marca": "YARIS",
+        "vueltas": "18",
+        "tiempo": "\"26;43.730\"",
+        "diferencia": "1.204"
+      },
+      {
+        "pos": "4",
+        "nro": "69",
+        "piloto": "CANO, RAMIRO",
+        "marca": "GOL",
+        "vueltas": "18",
+        "tiempo": "\"26;44.301\"",
+        "diferencia": "1.775"
+      },
+      {
+        "pos": "5",
+        "nro": "1",
+        "piloto": "MARTINEZ, THIAGO",
+        "marca": "ETIOS",
+        "vueltas": "18",
+        "tiempo": "\"26;46.239\"",
+        "diferencia": "3.713"
+      },
+      {
+        "pos": "6",
+        "nro": "15",
+        "piloto": "FERNANDEZ, MARCOS",
+        "marca": "MARCH",
+        "vueltas": "18",
+        "tiempo": "\"26;47.447\"",
+        "diferencia": "4.921"
+      },
+      {
+        "pos": "7",
+        "nro": "114",
+        "piloto": "ORTEGA, PABLO",
+        "marca": "GOL",
+        "vueltas": "18",
+        "tiempo": "\"26;48.186\"",
+        "diferencia": "5.660"
+      },
+      {
+        "pos": "8",
+        "nro": "42",
+        "piloto": "ROBLEDO, SANTIAGO",
+        "marca": "YARIS",
+        "vueltas": "18",
+        "tiempo": "\"26;48.484\"",
+        "diferencia": "5.958"
+      },
+      {
+        "pos": "9",
+        "nro": "7",
+        "piloto": "PEREZ , SEBASTI",
+        "marca": "ETIOS",
+        "vueltas": "18",
+        "tiempo": "\"26;48.686\"",
+        "diferencia": "6.160"
+      },
+      {
+        "pos": "10",
+        "nro": "91",
+        "piloto": "BEITIA, INAKI",
+        "marca": "YARIS",
+        "vueltas": "18",
+        "tiempo": "\"26;48.687\"",
+        "diferencia": "6.161"
+      },
+      {
+        "pos": "11",
+        "nro": "85",
+        "piloto": "CAFARO, JOAQUIN",
+        "marca": "ETIOS",
+        "vueltas": "18",
+        "tiempo": "\"26;48.999\"",
+        "diferencia": "6.473"
+      },
+      {
+        "pos": "12",
+        "nro": "75",
+        "piloto": "GRIPPO, PEDRO",
+        "marca": "ETIOS",
+        "vueltas": "18",
+        "tiempo": "\"26;55.002\"",
+        "diferencia": "12.476"
+      },
+      {
+        "pos": "13",
+        "nro": "20",
+        "piloto": "BESTANI, MAXIMILIANO",
+        "marca": "GOL",
+        "vueltas": "18",
+        "tiempo": "\"26;55.928\"",
+        "diferencia": "13.402"
+      },
+      {
+        "pos": "14",
+        "nro": "29",
+        "piloto": "ANTOLIN, GONZALO",
+        "marca": "208",
+        "vueltas": "18",
+        "tiempo": "\"26;56.811\"",
+        "diferencia": "14.285"
+      },
+      {
+        "pos": "15",
+        "nro": "38",
+        "piloto": "VAIRA, CRISTIAN",
+        "marca": "MARCH",
+        "vueltas": "18",
+        "tiempo": "\"27;06.726\"",
+        "diferencia": "24.200"
+      },
+      {
+        "pos": "16",
+        "nro": "111",
+        "piloto": "RICCIOTTI, JOAQUIN",
+        "marca": "GOL",
+        "vueltas": "18",
+        "tiempo": "\"27;06.968\"",
+        "diferencia": "24.442"
+      },
+      {
+        "pos": "17",
+        "nro": "72",
+        "piloto": "TILLITU, GUILLERMO",
+        "marca": "SANDERO",
+        "vueltas": "18",
+        "tiempo": "\"27;07.119\"",
+        "diferencia": "24.593"
+      },
+      {
+        "pos": "18",
+        "nro": "112",
+        "piloto": "SCORDIA, GABRIEL",
+        "marca": "FIESTA",
+        "vueltas": "18",
+        "tiempo": "\"27;10.513\"",
+        "diferencia": "27.987"
+      },
+      {
+        "pos": "19",
+        "nro": "89",
+        "piloto": "ARAMBURU, TOMAS",
+        "marca": "FIESTA",
+        "vueltas": "18",
+        "tiempo": "\"27;15.352\"",
+        "diferencia": "32.826"
+      },
+      {
+        "pos": "20",
+        "nro": "6",
+        "piloto": "PETRACCHINI, LUCAS",
+        "marca": "ETIOS",
+        "vueltas": "18",
+        "tiempo": "\"27;15.905\"",
+        "diferencia": "33.379"
+      },
+      {
+        "pos": "21",
+        "nro": "124",
+        "piloto": "SALA, MARIANO",
+        "marca": "ETIOS",
+        "vueltas": "18",
+        "tiempo": "\"27;16.390\"",
+        "diferencia": "33.864"
+      },
+      {
+        "pos": "22",
+        "nro": "23",
+        "piloto": "GUEVARA, MARCELO",
+        "marca": "ETIOS",
+        "vueltas": "18",
+        "tiempo": "\"27;17.005\"",
+        "diferencia": "34.479"
+      },
+      {
+        "pos": "23",
+        "nro": "147",
+        "piloto": "DIANDA, MARCO",
+        "marca": "FIESTA",
+        "vueltas": "18",
+        "tiempo": "\"27;17.272\"",
+        "diferencia": "34.746"
+      },
+      {
+        "pos": "24",
+        "nro": "46",
+        "piloto": "FERNANDEZ, AARON",
+        "marca": "MARCH",
+        "vueltas": "18",
+        "tiempo": "\"27;20.986\"",
+        "diferencia": "38.460"
+      },
+      {
+        "pos": "25",
+        "nro": "101",
+        "piloto": "BATTINI , ELIAS",
+        "marca": "YARIS",
+        "vueltas": "18",
+        "tiempo": "\"27;24.597\"",
+        "diferencia": "42.071"
+      },
+      {
+        "pos": "26",
+        "nro": "79",
+        "piloto": "CALDERON, ANDRES",
+        "marca": "ETIOS",
+        "vueltas": "18",
+        "tiempo": "\"27;59.008\"",
+        "diferencia": "\"1;16.482\""
+      },
+      {
+        "pos": "27",
+        "nro": "100",
+        "piloto": "CANTELI, LUCAS",
+        "marca": "FIESTA",
+        "vueltas": "18",
+        "tiempo": "\"28;39.922\"",
+        "diferencia": "\"1;57.396\""
+      },
+      {
+        "pos": "28",
+        "nro": "77",
+        "piloto": "URQUIZA, EMILIANO",
+        "marca": "ETIOS",
+        "vueltas": "18",
+        "tiempo": "\"30;38.785\"",
+        "diferencia": "\"3;56.259\""
+      },
+      {
+        "pos": "29",
+        "nro": "8",
+        "piloto": "CRAVERO, ALEJO",
+        "marca": "208",
+        "vueltas": "17",
+        "tiempo": "\"25;15.468\"",
+        "diferencia": "1 VTA"
+      },
+      {
+        "pos": "30",
+        "nro": "123",
+        "piloto": "MARTINEZ, ALEJANDRO",
+        "marca": "FIESTA",
+        "vueltas": "15",
+        "tiempo": "\"22;49.181\"",
+        "diferencia": "3 VTAS"
+      },
+      {
+        "pos": "31",
+        "nro": "132",
+        "piloto": "CASAIS, DIEGO",
+        "marca": "208",
+        "vueltas": "13",
+        "tiempo": "\"20;10.099\"",
+        "diferencia": "5 VTAS"
+      },
+      {
+        "pos": "32",
+        "nro": "95",
+        "piloto": "BALERINI, SANTINO",
+        "marca": "208",
+        "vueltas": "12",
+        "tiempo": "\"17;51.411\"",
+        "diferencia": "6 VTAS"
+      },
+      {
+        "pos": "33",
+        "nro": "26",
+        "piloto": "D AMICO, ANDRES",
+        "marca": "YARIS",
+        "vueltas": "11",
+        "tiempo": "\"17;12.288\"",
+        "diferencia": "7 VTAS"
+      },
+      {
+        "pos": "34",
+        "nro": "65",
+        "piloto": "LEPPHAILLE, JULIAN",
+        "marca": "208",
+        "vueltas": "10",
+        "tiempo": "\"14;54.424\"",
+        "diferencia": "8 VTAS"
+      },
+      {
+        "pos": "35",
+        "nro": "62",
+        "piloto": "CHAS, MATIAS",
+        "marca": "MARCH",
+        "vueltas": "10",
+        "tiempo": "\"15;27.426\"",
+        "diferencia": "8 VTAS"
+      },
+      {
+        "pos": "36",
+        "nro": "150",
+        "piloto": "ELUCHANS, JUAN MARTIN",
+        "marca": "YARIS",
+        "vueltas": "9",
+        "tiempo": "\"13;15.948\"",
+        "diferencia": "9 VTAS"
+      },
+      {
+        "pos": "37",
+        "nro": "97",
+        "piloto": "PACE, BRUNO",
+        "marca": "ETIOS",
+        "vueltas": "8",
+        "tiempo": "\"12;05.172\"",
+        "diferencia": "10 VTAS"
+      },
+      {
+        "pos": "38",
+        "nro": "99",
+        "piloto": "DAMIANI, BAUTISTA",
+        "marca": "YARIS",
+        "vueltas": "8",
+        "tiempo": "\"12;26.780\"",
+        "diferencia": "10 VTAS"
+      },
+      {
+        "pos": "39",
+        "nro": "115",
+        "piloto": "COSTA SANCHEZ, DANIEL",
+        "marca": "ONIX",
+        "vueltas": "7",
+        "tiempo": "\"10;55.123\"",
+        "diferencia": "11 VTAS"
+      },
+      {
+        "pos": "40",
+        "nro": "53",
+        "piloto": "LUQUES, FEDERICO",
+        "marca": "MARCH",
+        "vueltas": "4",
+        "tiempo": "\"06;17.445\"",
+        "diferencia": "14 VTAS"
+      },
+      {
+        "pos": "41",
+        "nro": "44",
+        "piloto": "DAMIANI, JUAN MANUEL",
+        "marca": "YARIS",
+        "vueltas": "3",
+        "tiempo": "\"04;31.807\"",
+        "diferencia": "15 VTAS"
+      },
+      {
+        "pos": "42",
+        "nro": "18",
+        "piloto": "BLASIG, MARTIN",
+        "marca": "208",
+        "vueltas": "1",
+        "tiempo": "\"01;32.932\"",
+        "diferencia": "17 VTAS"
+      },
+      {
+        "pos": "43",
+        "nro": "116",
+        "piloto": "TORRISI, ALEJANDRO",
+        "marca": "MARCH",
+        "vueltas": "1",
+        "tiempo": "\"02;26.736\"",
+        "diferencia": "17 VTAS"
+      },
+      {
+        "pos": "",
+        "nro": "",
+        "piloto": "",
+        "marca": "",
+        "vueltas": "",
+        "tiempo": "",
+        "diferencia": ""
+      }
+    ]
+  },
+  {
+    "url": "https://www.apat.org.ar/resultados/2/2024-03-10",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "8",
+        "piloto": "CRAVERO, ALEJO",
+        "marca": "208",
+        "vueltas": "16",
+        "tiempo": "\"31;23.692\"",
+        "diferencia": ""
+      },
+      {
+        "pos": "2",
+        "nro": "1",
+        "piloto": "MARTINEZ, THIAGO",
+        "marca": "ETIOS",
+        "vueltas": "16",
+        "tiempo": "\"31;24.071\"",
+        "diferencia": "0.379"
+      },
+      {
+        "pos": "3",
+        "nro": "99",
+        "piloto": "DAMIANI, BAUTISTA",
+        "marca": "YARIS",
+        "vueltas": "16",
+        "tiempo": "\"31;27.381\"",
+        "diferencia": "3.689"
+      },
+      {
+        "pos": "4",
+        "nro": "42",
+        "piloto": "ROBLEDO, SANTIAGO",
+        "marca": "YARIS",
+        "vueltas": "16",
+        "tiempo": "\"31;31.263\"",
+        "diferencia": "7.571"
+      },
+      {
+        "pos": "5",
+        "nro": "65",
+        "piloto": "LEPPHAILLE, JULIAN",
+        "marca": "208",
+        "vueltas": "16",
+        "tiempo": "\"31;31.808\"",
+        "diferencia": "8.116"
+      },
+      {
+        "pos": "6",
+        "nro": "147",
+        "piloto": "DIANDA, MARCO",
+        "marca": "FIESTA",
+        "vueltas": "16",
+        "tiempo": "\"31;32.344\"",
+        "diferencia": "8.652"
+      },
+      {
+        "pos": "7",
+        "nro": "15",
+        "piloto": "FERNANDEZ, MARCOS",
+        "marca": "MARCH",
+        "vueltas": "16",
+        "tiempo": "\"31;32.632\"",
+        "diferencia": "8.940"
+      },
+      {
+        "pos": "8",
+        "nro": "116",
+        "piloto": "TORRISI, ALEJANDRO",
+        "marca": "MARCH",
+        "vueltas": "16",
+        "tiempo": "\"31;35.410\"",
+        "diferencia": "11.718"
+      },
+      {
+        "pos": "9",
+        "nro": "14",
+        "piloto": "VERONESI, MARCO",
+        "marca": "YARIS",
+        "vueltas": "16",
+        "tiempo": "\"31;36.078\"",
+        "diferencia": "12.386"
+      },
+      {
+        "pos": "10",
+        "nro": "91",
+        "piloto": "BEITIA, INAKI",
+        "marca": "YARIS",
+        "vueltas": "16",
+        "tiempo": "\"31;36.594\"",
+        "diferencia": "12.902"
+      },
+      {
+        "pos": "11",
+        "nro": "6",
+        "piloto": "PETRACCHINI, LUCAS",
+        "marca": "ETIOS",
+        "vueltas": "16",
+        "tiempo": "\"31;36.595\"",
+        "diferencia": "12.903"
+      },
+      {
+        "pos": "12",
+        "nro": "20",
+        "piloto": "BESTANI, MAXIMILIANO",
+        "marca": "GOL",
+        "vueltas": "16",
+        "tiempo": "\"31;37.466\"",
+        "diferencia": "13.774"
+      },
+      {
+        "pos": "13",
+        "nro": "29",
+        "piloto": "ANTOLIN, GONZALO",
+        "marca": "208",
+        "vueltas": "16",
+        "tiempo": "\"31;38.646\"",
+        "diferencia": "14.954"
+      },
+      {
+        "pos": "14",
+        "nro": "17",
+        "piloto": "PASTORI, JUAN PABLO",
+        "marca": "ETIOS",
+        "vueltas": "16",
+        "tiempo": "\"31;39.157\"",
+        "diferencia": "15.465"
+      },
+      {
+        "pos": "15",
+        "nro": "151",
+        "piloto": "BASTIDAS, EXEQUIEL",
+        "marca": "ETIOS",
+        "vueltas": "16",
+        "tiempo": "\"31;39.873\"",
+        "diferencia": "16.181"
+      },
+      {
+        "pos": "16",
+        "nro": "124",
+        "piloto": "SALA, MARIANO",
+        "marca": "ETIOS",
+        "vueltas": "16",
+        "tiempo": "\"31;40.601\"",
+        "diferencia": "16.909"
+      },
+      {
+        "pos": "17",
+        "nro": "114",
+        "piloto": "ORTEGA, PABLO",
+        "marca": "GOL",
+        "vueltas": "16",
+        "tiempo": "\"31;41.017\"",
+        "diferencia": "17.325"
+      },
+      {
+        "pos": "18",
+        "nro": "95",
+        "piloto": "BALERINI, SANTINO",
+        "marca": "208",
+        "vueltas": "16",
+        "tiempo": "\"31;41.366\"",
+        "diferencia": "17.674"
+      },
+      {
+        "pos": "19",
+        "nro": "38",
+        "piloto": "VAIRA, CRISTIAN",
+        "marca": "MARCH",
+        "vueltas": "16",
+        "tiempo": "\"31;43.978\"",
+        "diferencia": "20.286"
+      },
+      {
+        "pos": "20",
+        "nro": "46",
+        "piloto": "FERNANDEZ, AARON",
+        "marca": "MARCH",
+        "vueltas": "16",
+        "tiempo": "\"31;45.238\"",
+        "diferencia": "21.546"
+      },
+      {
+        "pos": "21",
+        "nro": "111",
+        "piloto": "RICCIOTTI, JOAQUIN",
+        "marca": "GOL",
+        "vueltas": "16",
+        "tiempo": "\"31;45.709\"",
+        "diferencia": "22.017"
+      },
+      {
+        "pos": "22",
+        "nro": "85",
+        "piloto": "CAFARO, JOAQUIN",
+        "marca": "ETIOS",
+        "vueltas": "16",
+        "tiempo": "\"31;45.915\"",
+        "diferencia": "22.223"
+      },
+      {
+        "pos": "23",
+        "nro": "75",
+        "piloto": "GRIPPO, PEDRO",
+        "marca": "ETIOS",
+        "vueltas": "16",
+        "tiempo": "\"31;46.352\"",
+        "diferencia": "22.660"
+      },
+      {
+        "pos": "24",
+        "nro": "97",
+        "piloto": "PACE, BRUNO",
+        "marca": "ETIOS",
+        "vueltas": "16",
+        "tiempo": "\"31;47.878\"",
+        "diferencia": "24.186"
+      },
+      {
+        "pos": "25",
+        "nro": "132",
+        "piloto": "CASAIS, DIEGO",
+        "marca": "208",
+        "vueltas": "16",
+        "tiempo": "\"31;48.633\"",
+        "diferencia": "24.941"
+      },
+      {
+        "pos": "26",
+        "nro": "89",
+        "piloto": "ARAMBURU, TOMAS",
+        "marca": "FIESTA",
+        "vueltas": "16",
+        "tiempo": "\"31;49.029\"",
+        "diferencia": "25.337"
+      },
+      {
+        "pos": "27",
+        "nro": "77",
+        "piloto": "URQUIZA, EMILIANO",
+        "marca": "ETIOS",
+        "vueltas": "16",
+        "tiempo": "\"31;49.350\"",
+        "diferencia": "25.658"
+      },
+      {
+        "pos": "28",
+        "nro": "23",
+        "piloto": "GUEVARA, MARCELO",
+        "marca": "ETIOS",
+        "vueltas": "16",
+        "tiempo": "\"31;49.814\"",
+        "diferencia": "26.122"
+      },
+      {
+        "pos": "29",
+        "nro": "100",
+        "piloto": "CANTELI, LUCAS",
+        "marca": "FIESTA",
+        "vueltas": "16",
+        "tiempo": "\"31;50.274\"",
+        "diferencia": "26.582"
+      },
+      {
+        "pos": "30",
+        "nro": "101",
+        "piloto": "BATTINI , ELIAS",
+        "marca": "YARIS",
+        "vueltas": "16",
+        "tiempo": "\"31;50.961\"",
+        "diferencia": "27.269"
+      },
+      {
+        "pos": "31",
+        "nro": "72",
+        "piloto": "TILLITU, GUILLERMO",
+        "marca": "SANDERO",
+        "vueltas": "16",
+        "tiempo": "\"31;53.450\"",
+        "diferencia": "29.758"
+      },
+      {
+        "pos": "32",
+        "nro": "22",
+        "piloto": "COLTRINARI, FRANCISCO",
+        "marca": "208",
+        "vueltas": "16",
+        "tiempo": "\"31;53.838\"",
+        "diferencia": "30.146"
+      },
+      {
+        "pos": "33",
+        "nro": "98",
+        "piloto": "REINOSO, BRAIAN",
+        "marca": "GOL",
+        "vueltas": "16",
+        "tiempo": "\"31;53.958\"",
+        "diferencia": "30.266"
+      },
+      {
+        "pos": "34",
+        "nro": "103",
+        "piloto": "RODRIGUEZ, IGNACIO",
+        "marca": "GOL",
+        "vueltas": "16",
+        "tiempo": "\"31;57.646\"",
+        "diferencia": "33.954"
+      },
+      {
+        "pos": "35",
+        "nro": "79",
+        "piloto": "CALDERON, ANDRES",
+        "marca": "ETIOS",
+        "vueltas": "16",
+        "tiempo": "\"31;58.954\"",
+        "diferencia": "35.262"
+      },
+      {
+        "pos": "36",
+        "nro": "112",
+        "piloto": "SCORDIA, GABRIEL",
+        "marca": "FIESTA",
+        "vueltas": "16",
+        "tiempo": "\"31;59.415\"",
+        "diferencia": "35.723"
+      },
+      {
+        "pos": "37",
+        "nro": "123",
+        "piloto": "MARTINEZ, ALEJANDRO",
+        "marca": "FIESTA",
+        "vueltas": "16",
+        "tiempo": "\"32;07.089\"",
+        "diferencia": "43.397"
+      },
+      {
+        "pos": "38",
+        "nro": "69",
+        "piloto": "CANO, RAMIRO",
+        "marca": "GOL",
+        "vueltas": "15",
+        "tiempo": "\"29;57.816\"",
+        "diferencia": "1 VTA"
+      },
+      {
+        "pos": "39",
+        "nro": "115",
+        "piloto": "COSTA SANCHEZ, DANIEL",
+        "marca": "ONIX",
+        "vueltas": "14",
+        "tiempo": "\"28;41.302\"",
+        "diferencia": "2 VTAS"
+      },
+      {
+        "pos": "40",
+        "nro": "59",
+        "piloto": "BUSTAMANTE, RENZO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"27;13.993\"",
+        "diferencia": "3 VTAS"
+      },
+      {
+        "pos": "41",
+        "nro": "44",
+        "piloto": "DAMIANI, JUAN MANUEL",
+        "marca": "YARIS",
+        "vueltas": "13",
+        "tiempo": "\"27;31.184\"",
+        "diferencia": "3 VTAS"
+      },
+      {
+        "pos": "42",
+        "nro": "51",
+        "piloto": "KIRSTEIN, DAMIAN",
+        "marca": "PEUGEOT",
+        "vueltas": "9",
+        "tiempo": "\"18;52.619\"",
+        "diferencia": "7 VTAS"
+      },
+      {
+        "pos": "43",
+        "nro": "121",
+        "piloto": "RASPANTI, FEDERICO",
+        "marca": "YARIS",
+        "vueltas": "9",
+        "tiempo": "\"19;44.040\"",
+        "diferencia": "7 VTAS"
+      },
+      {
+        "pos": "44",
+        "nro": "113",
+        "piloto": "EVOLO, HORACIO",
+        "marca": "FORD",
+        "vueltas": "8",
+        "tiempo": "\"17;10.071\"",
+        "diferencia": "8 VTAS"
+      },
+      {
+        "pos": "45",
+        "nro": "62",
+        "piloto": "CHAS, MATIAS",
+        "marca": "208",
+        "vueltas": "6",
+        "tiempo": "\"13;42.281\"",
+        "diferencia": "10 VTAS"
+      },
+      {
+        "pos": "46",
+        "nro": "53",
+        "piloto": "LUQUES, FEDERICO",
+        "marca": "ETIOS",
+        "vueltas": "5",
+        "tiempo": "\"11;57.214\"",
+        "diferencia": "11 VTAS"
+      },
+      {
+        "pos": "47",
+        "nro": "150",
+        "piloto": "ELUCHANS, JUAN MARTIN",
+        "marca": "YARIS",
+        "vueltas": "5",
+        "tiempo": "\"12;35.398\"",
+        "diferencia": "11 VTAS"
+      },
+      {
+        "pos": "48",
+        "nro": "102",
+        "piloto": "AYALA, AGUSTIN",
+        "marca": "MARCH",
+        "vueltas": "3",
+        "tiempo": "\"07;22.460\"",
+        "diferencia": "13 VTAS"
+      },
+      {
+        "pos": "49",
+        "nro": "18",
+        "piloto": "BLASIG, MARTIN",
+        "marca": "208",
+        "vueltas": "2",
+        "tiempo": "\"04;26.473\"",
+        "diferencia": "14 VTAS"
+      },
+      {
+        "pos": "50",
+        "nro": "7",
+        "piloto": "PEREZ , SEBASTIAN",
+        "marca": "ETIOS",
+        "vueltas": "2",
+        "tiempo": "\"10;44.442\"",
+        "diferencia": "14 VTAS"
+      },
+      {
+        "pos": "51",
+        "nro": "93",
+        "piloto": "MURA, MARTIN",
+        "marca": "MARCH",
+        "vueltas": "1",
+        "tiempo": "\"02;00.330\"",
+        "diferencia": "15 VTAS"
+      },
+      {
+        "pos": "52",
+        "nro": "26",
+        "piloto": "D AMICO, ANDRES",
+        "marca": "YARIS",
+        "vueltas": "0",
+        "tiempo": "",
+        "diferencia": "16 VTAS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.apat.org.ar/resultados/2/2024-03-31",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "1",
+        "piloto": "MARTINEZ, THIAGO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"36;28.575\"",
+        "diferencia": ""
+      },
+      {
+        "pos": "2",
+        "nro": "14",
+        "piloto": "VERONESI, MARCO",
+        "marca": "YARIS",
+        "vueltas": "13",
+        "tiempo": "\"36;32.935\"",
+        "diferencia": "4.360"
+      },
+      {
+        "pos": "3",
+        "nro": "20",
+        "piloto": "BESTANI, MAXIMILIANO",
+        "marca": "GOL",
+        "vueltas": "13",
+        "tiempo": "\"36;35.383\"",
+        "diferencia": "6.808"
+      },
+      {
+        "pos": "4",
+        "nro": "124",
+        "piloto": "SALA, MARIANO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"36;36.662\"",
+        "diferencia": "8.087"
+      },
+      {
+        "pos": "5",
+        "nro": "22",
+        "piloto": "COLTRINARI, FRANCISCO",
+        "marca": "208",
+        "vueltas": "13",
+        "tiempo": "\"36;38.112\"",
+        "diferencia": "9.537"
+      },
+      {
+        "pos": "6",
+        "nro": "114",
+        "piloto": "ORTEGA, PABLO",
+        "marca": "GOL",
+        "vueltas": "13",
+        "tiempo": "\"36;39.684\"",
+        "diferencia": "11.109"
+      },
+      {
+        "pos": "7",
+        "nro": "69",
+        "piloto": "CANO, RAMIRO",
+        "marca": "GOL",
+        "vueltas": "13",
+        "tiempo": "\"36;39.886\"",
+        "diferencia": "11.311"
+      },
+      {
+        "pos": "8",
+        "nro": "8",
+        "piloto": "CRAVERO, ALEJO",
+        "marca": "208",
+        "vueltas": "13",
+        "tiempo": "\"36;41.280\"",
+        "diferencia": "12.705"
+      },
+      {
+        "pos": "9",
+        "nro": "99",
+        "piloto": "DAMIANI, BAUTISTA",
+        "marca": "YARIS",
+        "vueltas": "13",
+        "tiempo": "\"36;42.996\"",
+        "diferencia": "14.421"
+      },
+      {
+        "pos": "10",
+        "nro": "29",
+        "piloto": "ANTOLIN, GONZALO",
+        "marca": "208",
+        "vueltas": "13",
+        "tiempo": "\"36;43.784\"",
+        "diferencia": "15.209"
+      },
+      {
+        "pos": "11",
+        "nro": "17",
+        "piloto": "PASTORI, JUAN PABLO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"36;46.615\"",
+        "diferencia": "18.040"
+      },
+      {
+        "pos": "12",
+        "nro": "95",
+        "piloto": "BALERINI, SANTINO",
+        "marca": "208",
+        "vueltas": "13",
+        "tiempo": "\"36;46.616\"",
+        "diferencia": "18.041"
+      },
+      {
+        "pos": "13",
+        "nro": "132",
+        "piloto": "CASAIS, DIEGO",
+        "marca": "208",
+        "vueltas": "13",
+        "tiempo": "\"36;50.197\"",
+        "diferencia": "21.622"
+      },
+      {
+        "pos": "14",
+        "nro": "112",
+        "piloto": "SCORDIA, GABRIEL",
+        "marca": "FIESTA",
+        "vueltas": "13",
+        "tiempo": "\"36;50.410\"",
+        "diferencia": "21.835"
+      },
+      {
+        "pos": "15",
+        "nro": "100",
+        "piloto": "CANTELI, LUCAS",
+        "marca": "FIESTA",
+        "vueltas": "13",
+        "tiempo": "\"36;50.846\"",
+        "diferencia": "22.271"
+      },
+      {
+        "pos": "16",
+        "nro": "42",
+        "piloto": "ROBLEDO, SANTIAGO",
+        "marca": "YARIS",
+        "vueltas": "13",
+        "tiempo": "\"36;51.675\"",
+        "diferencia": "23.100"
+      },
+      {
+        "pos": "17",
+        "nro": "7",
+        "piloto": "PEREZ , SEBASTIAN",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"36;53.657\"",
+        "diferencia": "25.082"
+      },
+      {
+        "pos": "18",
+        "nro": "38",
+        "piloto": "VAIRA, CRISTIAN",
+        "marca": "MARCH",
+        "vueltas": "13",
+        "tiempo": "\"36;54.048\"",
+        "diferencia": "25.473"
+      },
+      {
+        "pos": "19",
+        "nro": "72",
+        "piloto": "TILLITU, GUILLERMO",
+        "marca": "SANDERO",
+        "vueltas": "13",
+        "tiempo": "\"36;54.693\"",
+        "diferencia": "26.118"
+      },
+      {
+        "pos": "20",
+        "nro": "16",
+        "piloto": "ROTONDO, FACUNDO",
+        "marca": "ONIX",
+        "vueltas": "13",
+        "tiempo": "\"36;55.151\"",
+        "diferencia": "26.576"
+      },
+      {
+        "pos": "21",
+        "nro": "85",
+        "piloto": "CAFARO, JOAQUIN",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"36;57.206\"",
+        "diferencia": "28.631"
+      },
+      {
+        "pos": "22",
+        "nro": "98",
+        "piloto": "REINOSO, BRAIAN",
+        "marca": "GOL",
+        "vueltas": "13",
+        "tiempo": "\"36;58.393\"",
+        "diferencia": "29.818"
+      },
+      {
+        "pos": "23",
+        "nro": "51",
+        "piloto": "KIRSTEIN, DAMIAN",
+        "marca": "PEUGEOT",
+        "vueltas": "13",
+        "tiempo": "\"36;59.727\"",
+        "diferencia": "31.152"
+      },
+      {
+        "pos": "24",
+        "nro": "15",
+        "piloto": "FERNANDEZ, MARCOS",
+        "marca": "MARCH",
+        "vueltas": "13",
+        "tiempo": "\"37;02.178\"",
+        "diferencia": "33.603"
+      },
+      {
+        "pos": "25",
+        "nro": "97",
+        "piloto": "PACE, BRUNO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"37;04.699\"",
+        "diferencia": "36.124"
+      },
+      {
+        "pos": "26",
+        "nro": "89",
+        "piloto": "ARAMBURU, TOMAS",
+        "marca": "FIESTA",
+        "vueltas": "13",
+        "tiempo": "\"37;04.899\"",
+        "diferencia": "36.324"
+      },
+      {
+        "pos": "27",
+        "nro": "159",
+        "piloto": "BONOMO , AGUSTIN",
+        "marca": "DS3",
+        "vueltas": "13",
+        "tiempo": "\"37;06.962\"",
+        "diferencia": "38.387"
+      },
+      {
+        "pos": "28",
+        "nro": "88",
+        "piloto": "CASTAGNANI, ADRIAN",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"37;12.660\"",
+        "diferencia": "44.085"
+      },
+      {
+        "pos": "29",
+        "nro": "93",
+        "piloto": "MURA, MARTIN",
+        "marca": "MARCH",
+        "vueltas": "13",
+        "tiempo": "\"37;15.348\"",
+        "diferencia": "46.773"
+      },
+      {
+        "pos": "30",
+        "nro": "77",
+        "piloto": "URQUIZA, EMILIANO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"37;16.235\"",
+        "diferencia": "47.660"
+      },
+      {
+        "pos": "31",
+        "nro": "53",
+        "piloto": "LUQUES, FEDERICO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"37;17.881\"",
+        "diferencia": "49.306"
+      },
+      {
+        "pos": "32",
+        "nro": "46",
+        "piloto": "FERNANDEZ, AARON",
+        "marca": "MARCH",
+        "vueltas": "13",
+        "tiempo": "\"37;20.608\"",
+        "diferencia": "52.033"
+      },
+      {
+        "pos": "33",
+        "nro": "18",
+        "piloto": "BLASIG, MARTIN",
+        "marca": "208",
+        "vueltas": "13",
+        "tiempo": "\"40;37.954\"",
+        "diferencia": "\"4;09.379\""
+      },
+      {
+        "pos": "34",
+        "nro": "59",
+        "piloto": "BUSTAMANTE, RENZO",
+        "marca": "ETIOS",
+        "vueltas": "12",
+        "tiempo": "\"38;23.509\"",
+        "diferencia": "1 VTA"
+      },
+      {
+        "pos": "35",
+        "nro": "91",
+        "piloto": "BEITIA, INAKI",
+        "marca": "YARIS",
+        "vueltas": "11",
+        "tiempo": "\"32;26.208\"",
+        "diferencia": "2 VTAS"
+      },
+      {
+        "pos": "36",
+        "nro": "6",
+        "piloto": "PETRACCHINI, LUCAS",
+        "marca": "ETIOS",
+        "vueltas": "11",
+        "tiempo": "\"32;35.714\"",
+        "diferencia": "2 VTAS"
+      },
+      {
+        "pos": "37",
+        "nro": "129",
+        "piloto": "MELLI, LUIGI",
+        "marca": "ETIOS",
+        "vueltas": "10",
+        "tiempo": "\"30;30.384\"",
+        "diferencia": "3 VTAS"
+      },
+      {
+        "pos": "38",
+        "nro": "123",
+        "piloto": "MARTINEZ, ALEJANDRO",
+        "marca": "FIESTA",
+        "vueltas": "10",
+        "tiempo": "\"30;31.424\"",
+        "diferencia": "3 VTAS"
+      },
+      {
+        "pos": "39",
+        "nro": "102",
+        "piloto": "AYALA, AGUSTIN",
+        "marca": "MARCH",
+        "vueltas": "9",
+        "tiempo": "\"38;05.385\"",
+        "diferencia": "4 VTAS"
+      },
+      {
+        "pos": "40",
+        "nro": "150",
+        "piloto": "ELUCHANS, JUAN MARTIN",
+        "marca": "YARIS",
+        "vueltas": "8",
+        "tiempo": "\"24;47.257\"",
+        "diferencia": "5 VTAS"
+      },
+      {
+        "pos": "41",
+        "nro": "23",
+        "piloto": "GUEVARA, MARCELO",
+        "marca": "ETIOS",
+        "vueltas": "7",
+        "tiempo": "\"22;13.421\"",
+        "diferencia": "6 VTAS"
+      },
+      {
+        "pos": "42",
+        "nro": "44",
+        "piloto": "DAMIANI, JUAN MANUEL",
+        "marca": "YARIS",
+        "vueltas": "4",
+        "tiempo": "\"14;28.524\"",
+        "diferencia": "9 VTAS"
+      },
+      {
+        "pos": "43",
+        "nro": "147",
+        "piloto": "DIANDA, MARCO",
+        "marca": "FIESTA",
+        "vueltas": "3",
+        "tiempo": "\"11;29.886\"",
+        "diferencia": "10 VTAS"
+      },
+      {
+        "pos": "44",
+        "nro": "113",
+        "piloto": "EVOLO, HORACIO",
+        "marca": "FIESTA",
+        "vueltas": "3",
+        "tiempo": "\"12;07.521\"",
+        "diferencia": "10 VTAS"
+      },
+      {
+        "pos": "45",
+        "nro": "101",
+        "piloto": "BATTINI , ELIAS",
+        "marca": "YARIS",
+        "vueltas": "2",
+        "tiempo": "\"08;55.635\"",
+        "diferencia": "11 VTAS"
+      },
+      {
+        "pos": "46",
+        "nro": "111",
+        "piloto": "RICCIOTTI, JOAQUIN",
+        "marca": "GOL",
+        "vueltas": "1",
+        "tiempo": "\"07;14.870\"",
+        "diferencia": "12 VTAS"
+      },
+      {
+        "pos": "47",
+        "nro": "79",
+        "piloto": "CALDERON, ANDRES",
+        "marca": "ETIOS",
+        "vueltas": "0",
+        "tiempo": "\"00;22.911\"",
+        "diferencia": "13 VTAS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.apat.org.ar/resultados/2/2024-04-21",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "114",
+        "piloto": "ORTEGA, PABLO",
+        "marca": "GOL",
+        "vueltas": "17",
+        "tiempo": "\"35;19.545\"",
+        "diferencia": ""
+      },
+      {
+        "pos": "2",
+        "nro": "25",
+        "piloto": "BORGIANI, ALEJO",
+        "marca": "ETIOS",
+        "vueltas": "17",
+        "tiempo": "\"35;21.703\"",
+        "diferencia": "2.158"
+      },
+      {
+        "pos": "3",
+        "nro": "8",
+        "piloto": "CRAVERO, ALEJO",
+        "marca": "208",
+        "vueltas": "17",
+        "tiempo": "\"35;22.534\"",
+        "diferencia": "2.989"
+      },
+      {
+        "pos": "4",
+        "nro": "124",
+        "piloto": "SALA, MARIANO",
+        "marca": "ETIOS",
+        "vueltas": "17",
+        "tiempo": "\"35;23.904\"",
+        "diferencia": "4.359"
+      },
+      {
+        "pos": "5",
+        "nro": "29",
+        "piloto": "ANTOLIN, GONZALO",
+        "marca": "208",
+        "vueltas": "17",
+        "tiempo": "\"35;25.266\"",
+        "diferencia": "5.721"
+      },
+      {
+        "pos": "6",
+        "nro": "65",
+        "piloto": "LEPPHAILLE, JULIAN",
+        "marca": "208",
+        "vueltas": "17",
+        "tiempo": "\"35;25.819\"",
+        "diferencia": "6.274"
+      },
+      {
+        "pos": "7",
+        "nro": "150",
+        "piloto": "ELUCHANS, JUAN MARTIN",
+        "marca": "YARIS",
+        "vueltas": "17",
+        "tiempo": "\"35;26.478\"",
+        "diferencia": "6.933"
+      },
+      {
+        "pos": "8",
+        "nro": "20",
+        "piloto": "BESTANI, MAXIMILIANO",
+        "marca": "GOL",
+        "vueltas": "17",
+        "tiempo": "\"35;26.731\"",
+        "diferencia": "7.186"
+      },
+      {
+        "pos": "9",
+        "nro": "17",
+        "piloto": "PASTORI, JUAN PABLO",
+        "marca": "ETIOS",
+        "vueltas": "17",
+        "tiempo": "\"35;27.042\"",
+        "diferencia": "7.497"
+      },
+      {
+        "pos": "10",
+        "nro": "97",
+        "piloto": "PACE, BRUNO",
+        "marca": "ETIOS",
+        "vueltas": "17",
+        "tiempo": "\"35;29.256\"",
+        "diferencia": "9.711"
+      },
+      {
+        "pos": "11",
+        "nro": "69",
+        "piloto": "CANO, RAMIRO",
+        "marca": "GOL",
+        "vueltas": "17",
+        "tiempo": "\"35;29.486\"",
+        "diferencia": "9.941"
+      },
+      {
+        "pos": "12",
+        "nro": "99",
+        "piloto": "DAMIANI, BAUTISTA",
+        "marca": "YARIS",
+        "vueltas": "17",
+        "tiempo": "\"35;29.605\"",
+        "diferencia": "10.060"
+      },
+      {
+        "pos": "13",
+        "nro": "98",
+        "piloto": "REINOSO, BRAIAN",
+        "marca": "GOL",
+        "vueltas": "17",
+        "tiempo": "\"35;30.299\"",
+        "diferencia": "10.754"
+      },
+      {
+        "pos": "14",
+        "nro": "111",
+        "piloto": "RICCIOTTI, JOAQUIN",
+        "marca": "GOL",
+        "vueltas": "17",
+        "tiempo": "\"35;30.759\"",
+        "diferencia": "11.214"
+      },
+      {
+        "pos": "15",
+        "nro": "101",
+        "piloto": "BATTINI , ELIAS",
+        "marca": "YARIS",
+        "vueltas": "17",
+        "tiempo": "\"35;31.278\"",
+        "diferencia": "11.733"
+      },
+      {
+        "pos": "16",
+        "nro": "147",
+        "piloto": "DIANDA, MARCO",
+        "marca": "FIESTA",
+        "vueltas": "17",
+        "tiempo": "\"35;32.054\"",
+        "diferencia": "12.509"
+      },
+      {
+        "pos": "17",
+        "nro": "132",
+        "piloto": "CASAIS, DIEGO",
+        "marca": "208",
+        "vueltas": "17",
+        "tiempo": "\"35;32.353\"",
+        "diferencia": "12.808"
+      },
+      {
+        "pos": "18",
+        "nro": "14",
+        "piloto": "VERONESI, MARCO",
+        "marca": "YARIS",
+        "vueltas": "17",
+        "tiempo": "\"35;32.939\"",
+        "diferencia": "13.394"
+      },
+      {
+        "pos": "19",
+        "nro": "26",
+        "piloto": "D AMICO, ANDRES",
+        "marca": "YARIS",
+        "vueltas": "17",
+        "tiempo": "\"35;33.600\"",
+        "diferencia": "14.055"
+      },
+      {
+        "pos": "20",
+        "nro": "100",
+        "piloto": "CANTELI, LUCAS",
+        "marca": "FIESTA",
+        "vueltas": "17",
+        "tiempo": "\"35;35.708\"",
+        "diferencia": "16.163"
+      },
+      {
+        "pos": "21",
+        "nro": "86",
+        "piloto": "SIGNORELLI, GONZALO",
+        "marca": "ETIOS",
+        "vueltas": "17",
+        "tiempo": "\"35;37.627\"",
+        "diferencia": "18.082"
+      },
+      {
+        "pos": "22",
+        "nro": "102",
+        "piloto": "AYALA, AGUSTIN",
+        "marca": "MARCH",
+        "vueltas": "17",
+        "tiempo": "\"35;38.272\"",
+        "diferencia": "18.727"
+      },
+      {
+        "pos": "23",
+        "nro": "85",
+        "piloto": "CAFARO, JOAQUIN",
+        "marca": "ETIOS",
+        "vueltas": "17",
+        "tiempo": "\"35;38.385\"",
+        "diferencia": "18.840"
+      },
+      {
+        "pos": "24",
+        "nro": "89",
+        "piloto": "ARAMBURU, TOMAS",
+        "marca": "FIESTA",
+        "vueltas": "17",
+        "tiempo": "\"35;38.999\"",
+        "diferencia": "19.454"
+      },
+      {
+        "pos": "25",
+        "nro": "88",
+        "piloto": "CASTAGNANI, ADRIAN",
+        "marca": "ETIOS",
+        "vueltas": "17",
+        "tiempo": "\"35;40.137\"",
+        "diferencia": "20.592"
+      },
+      {
+        "pos": "26",
+        "nro": "77",
+        "piloto": "URQUIZA, EMILIANO",
+        "marca": "ETIOS",
+        "vueltas": "17",
+        "tiempo": "\"35;40.705\"",
+        "diferencia": "21.160"
+      },
+      {
+        "pos": "27",
+        "nro": "62",
+        "piloto": "CHAS, MATIAS",
+        "marca": "208",
+        "vueltas": "17",
+        "tiempo": "\"35;41.934\"",
+        "diferencia": "22.389"
+      },
+      {
+        "pos": "28",
+        "nro": "53",
+        "piloto": "LUQUES, FEDERICO",
+        "marca": "ETIOS",
+        "vueltas": "17",
+        "tiempo": "\"35;51.360\"",
+        "diferencia": "31.815"
+      },
+      {
+        "pos": "29",
+        "nro": "82",
+        "piloto": "CHIALVO, MARTIN",
+        "marca": "ETIOS",
+        "vueltas": "17",
+        "tiempo": "\"35;54.911\"",
+        "diferencia": "35.366"
+      },
+      {
+        "pos": "30",
+        "nro": "38",
+        "piloto": "VAIRA, CRISTIAN",
+        "marca": "MARCH",
+        "vueltas": "17",
+        "tiempo": "\"36;59.824\"",
+        "diferencia": "\"1;40.279\""
+      },
+      {
+        "pos": "31",
+        "nro": "112",
+        "piloto": "SCORDIA, GABRIEL",
+        "marca": "FIESTA",
+        "vueltas": "16",
+        "tiempo": "\"35;43.256\"",
+        "diferencia": "1 VTA"
+      },
+      {
+        "pos": "32",
+        "nro": "7",
+        "piloto": "PEREZ , SEBASTIAN",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"27;59.367\"",
+        "diferencia": "4 VTAS"
+      },
+      {
+        "pos": "33",
+        "nro": "16",
+        "piloto": "ROTONDO, FACUNDO",
+        "marca": "ONIX",
+        "vueltas": "13",
+        "tiempo": "\"28;30.330\"",
+        "diferencia": "4 VTAS"
+      },
+      {
+        "pos": "34",
+        "nro": "91",
+        "piloto": "BEITIA, INAKI",
+        "marca": "YARIS",
+        "vueltas": "10",
+        "tiempo": "\"18;30.671\"",
+        "diferencia": "7 VTAS"
+      },
+      {
+        "pos": "35",
+        "nro": "1",
+        "piloto": "MARTINEZ, THIAGO",
+        "marca": "ETIOS",
+        "vueltas": "10",
+        "tiempo": "\"18;57.035\"",
+        "diferencia": "7 VTAS"
+      },
+      {
+        "pos": "36",
+        "nro": "79",
+        "piloto": "CALDERON, ANDRES",
+        "marca": "ETIOS",
+        "vueltas": "9",
+        "tiempo": "\"17;14.577\"",
+        "diferencia": "8 VTAS"
+      },
+      {
+        "pos": "37",
+        "nro": "6",
+        "piloto": "PETRACCHINI, LUCAS",
+        "marca": "ETIOS",
+        "vueltas": "9",
+        "tiempo": "\"17;41.502\"",
+        "diferencia": "8 VTAS"
+      },
+      {
+        "pos": "38",
+        "nro": "51",
+        "piloto": "KIRSTEIN, DAMIAN",
+        "marca": "PEUGEOT",
+        "vueltas": "7",
+        "tiempo": "\"13;22.899\"",
+        "diferencia": "10 VTAS"
+      },
+      {
+        "pos": "39",
+        "nro": "42",
+        "piloto": "ROBLEDO, SANTIAGO",
+        "marca": "YARIS",
+        "vueltas": "6",
+        "tiempo": "\"11;07.452\"",
+        "diferencia": "11 VTAS"
+      },
+      {
+        "pos": "40",
+        "nro": "59",
+        "piloto": "BUSTAMANTE, RENZO",
+        "marca": "ETIOS",
+        "vueltas": "5",
+        "tiempo": "\"09;48.276\"",
+        "diferencia": "12 VTAS"
+      },
+      {
+        "pos": "41",
+        "nro": "46",
+        "piloto": "FERNANDEZ, AARON",
+        "marca": "MARCH",
+        "vueltas": "4",
+        "tiempo": "\"07;42.455\"",
+        "diferencia": "13 VTAS"
+      },
+      {
+        "pos": "42",
+        "nro": "22",
+        "piloto": "COLTRINARI, FRANCISCO",
+        "marca": "208",
+        "vueltas": "2",
+        "tiempo": "\"03;50.667\"",
+        "diferencia": "15 VTAS"
+      },
+      {
+        "pos": "43",
+        "nro": "15",
+        "piloto": "FERNANDEZ, MARCOS",
+        "marca": "MARCH",
+        "vueltas": "2",
+        "tiempo": "\"04;13.867\"",
+        "diferencia": "15 VTAS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.apat.org.ar/resultados/2/2024-05-12",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "20",
+        "piloto": "BESTANI MAXIMILIANO",
+        "marca": "GOL",
+        "vueltas": "13",
+        "tiempo": "\"26;44.257\"",
+        "diferencia": ""
+      },
+      {
+        "pos": "2",
+        "nro": "1",
+        "piloto": "MARTINEZ THIAGO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"26;50.851\"",
+        "diferencia": "6.594"
+      },
+      {
+        "pos": "3",
+        "nro": "150",
+        "piloto": "ELUCHANS JUAN MARTIN",
+        "marca": "YARIS",
+        "vueltas": "13",
+        "tiempo": "\"26;52.602\"",
+        "diferencia": "8.345"
+      },
+      {
+        "pos": "4",
+        "nro": "99",
+        "piloto": "DAMIANI BAUTISTA",
+        "marca": "YARIS",
+        "vueltas": "13",
+        "tiempo": "\"26;53.566\"",
+        "diferencia": "9.309"
+      },
+      {
+        "pos": "5",
+        "nro": "65",
+        "piloto": "LEPPHAILLE JULIAN",
+        "marca": "208",
+        "vueltas": "13",
+        "tiempo": "\"26;54.330\"",
+        "diferencia": "10.073"
+      },
+      {
+        "pos": "6",
+        "nro": "25",
+        "piloto": "BORGIANI ALEJO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"26;54.899\"",
+        "diferencia": "10.642"
+      },
+      {
+        "pos": "7",
+        "nro": "15",
+        "piloto": "FERNANDEZ MARCOS",
+        "marca": "MARCH",
+        "vueltas": "13",
+        "tiempo": "\"26;56.834\"",
+        "diferencia": "12.577"
+      },
+      {
+        "pos": "8",
+        "nro": "8",
+        "piloto": "CRAVERO ALEJO",
+        "marca": "208",
+        "vueltas": "13",
+        "tiempo": "\"26;57.047\"",
+        "diferencia": "12.790"
+      },
+      {
+        "pos": "9",
+        "nro": "29",
+        "piloto": "ANTOLIN GONZALO",
+        "marca": "208",
+        "vueltas": "13",
+        "tiempo": "\"26;57.748\"",
+        "diferencia": "13.491"
+      },
+      {
+        "pos": "10",
+        "nro": "42",
+        "piloto": "ROBLEDO SANTIAGO",
+        "marca": "YARIS",
+        "vueltas": "13",
+        "tiempo": "\"26;58.228\"",
+        "diferencia": "13.971"
+      },
+      {
+        "pos": "11",
+        "nro": "85",
+        "piloto": "CAFARO JOAQUIN",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"27;02.236\"",
+        "diferencia": "17.979"
+      },
+      {
+        "pos": "12",
+        "nro": "17",
+        "piloto": "PASTORI JUAN PABLO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"27;03.456\"",
+        "diferencia": "19.199"
+      },
+      {
+        "pos": "13",
+        "nro": "6",
+        "piloto": "PETRACCHINI LUCAS",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"27;09.421\"",
+        "diferencia": "25.164"
+      },
+      {
+        "pos": "14",
+        "nro": "53",
+        "piloto": "LUQUES FEDERICO",
+        "marca": "YARIS",
+        "vueltas": "13",
+        "tiempo": "\"27;12.251\"",
+        "diferencia": "27.994"
+      },
+      {
+        "pos": "15",
+        "nro": "97",
+        "piloto": "PACE BRUNO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"27;12.861\"",
+        "diferencia": "28.604"
+      },
+      {
+        "pos": "16",
+        "nro": "38",
+        "piloto": "VAIRA CRISTIAN",
+        "marca": "MARCH",
+        "vueltas": "13",
+        "tiempo": "\"27;15.874\"",
+        "diferencia": "31.617"
+      },
+      {
+        "pos": "17",
+        "nro": "100",
+        "piloto": "CANTELI LUCAS",
+        "marca": "FIESTA",
+        "vueltas": "13",
+        "tiempo": "\"27;16.126\"",
+        "diferencia": "31.869"
+      },
+      {
+        "pos": "18",
+        "nro": "98",
+        "piloto": "REINOSO BRAIAN",
+        "marca": "GOL",
+        "vueltas": "13",
+        "tiempo": "\"27;16.615\"",
+        "diferencia": "32.358"
+      },
+      {
+        "pos": "19",
+        "nro": "51",
+        "piloto": "KIRSTEIN DAMIAN",
+        "marca": "PEUGEOT",
+        "vueltas": "13",
+        "tiempo": "\"27;19.990\"",
+        "diferencia": "35.733"
+      },
+      {
+        "pos": "20",
+        "nro": "86",
+        "piloto": "SIGNORELLI GONZALO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"27;20.500\"",
+        "diferencia": "36.243"
+      },
+      {
+        "pos": "21",
+        "nro": "102",
+        "piloto": "AYALA AGUSTIN",
+        "marca": "MARCH",
+        "vueltas": "13",
+        "tiempo": "\"27;23.114\"",
+        "diferencia": "38.857"
+      },
+      {
+        "pos": "22",
+        "nro": "147",
+        "piloto": "DIANDA MARCO",
+        "marca": "FIESTA",
+        "vueltas": "13",
+        "tiempo": "\"27;23.132\"",
+        "diferencia": "38.875"
+      },
+      {
+        "pos": "23",
+        "nro": "79",
+        "piloto": "CALDERON ANDRES",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"27;24.403\"",
+        "diferencia": "40.146"
+      },
+      {
+        "pos": "24",
+        "nro": "77",
+        "piloto": "URQUIZA EMILIANO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"27;26.129\"",
+        "diferencia": "41.872"
+      },
+      {
+        "pos": "25",
+        "nro": "44",
+        "piloto": "DAMIANI JUAN MANUEL",
+        "marca": "YARIS",
+        "vueltas": "13",
+        "tiempo": "\"27;27.062\"",
+        "diferencia": "42.805"
+      },
+      {
+        "pos": "26",
+        "nro": "22",
+        "piloto": "COLTRINARI FRANCISCO",
+        "marca": "208",
+        "vueltas": "13",
+        "tiempo": "\"27;27.629\"",
+        "diferencia": "43.372"
+      },
+      {
+        "pos": "27",
+        "nro": "89",
+        "piloto": "ARAMBURU TOMAS",
+        "marca": "FIESTA",
+        "vueltas": "13",
+        "tiempo": "\"27;28.554\"",
+        "diferencia": "44.297"
+      },
+      {
+        "pos": "28",
+        "nro": "159",
+        "piloto": "BONOMO AGUSTIN",
+        "marca": "DS3",
+        "vueltas": "13",
+        "tiempo": "\"27;30.367\"",
+        "diferencia": "46.110"
+      },
+      {
+        "pos": "29",
+        "nro": "75",
+        "piloto": "GRIPPO PEDRO",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"27;30.792\"",
+        "diferencia": "46.535"
+      },
+      {
+        "pos": "30",
+        "nro": "18",
+        "piloto": "BLASIG MARTIN",
+        "marca": "208",
+        "vueltas": "13",
+        "tiempo": "\"27;34.071\"",
+        "diferencia": "49.814"
+      },
+      {
+        "pos": "31",
+        "nro": "101",
+        "piloto": "BATTINI ELIAS",
+        "marca": "YARIS",
+        "vueltas": "13",
+        "tiempo": "\"27;36.042\"",
+        "diferencia": "51.785"
+      },
+      {
+        "pos": "32",
+        "nro": "112",
+        "piloto": "SCORDIA GABRIEL",
+        "marca": "FIESTA",
+        "vueltas": "13",
+        "tiempo": "\"27;39.020\"",
+        "diferencia": "54.763"
+      },
+      {
+        "pos": "33",
+        "nro": "7",
+        "piloto": "PEREZ SEBASTIAN",
+        "marca": "ETIOS",
+        "vueltas": "13",
+        "tiempo": "\"27;46.477\"",
+        "diferencia": "\"1;02.220\""
+      },
+      {
+        "pos": "34",
+        "nro": "72",
+        "piloto": "TILLITU GUILLERMO",
+        "marca": "SANDERO",
+        "vueltas": "11",
+        "tiempo": "\"23;16.751\"",
+        "diferencia": "2 VTAS"
+      },
+      {
+        "pos": "35",
+        "nro": "95",
+        "piloto": "BALERINI SANTINO",
+        "marca": "MARCH",
+        "vueltas": "11",
+        "tiempo": "\"23;22.700\"",
+        "diferencia": "2 VTAS"
+      },
+      {
+        "pos": "36",
+        "nro": "123",
+        "piloto": "MARTINEZ ALEJANDRO",
+        "marca": "FIESTA",
+        "vueltas": "9",
+        "tiempo": "\"20;49.141\"",
+        "diferencia": "4 VTAS"
+      },
+      {
+        "pos": "37",
+        "nro": "124",
+        "piloto": "SALA MARIANO",
+        "marca": "ETIOS",
+        "vueltas": "8",
+        "tiempo": "\"17;28.369\"",
+        "diferencia": "5 VTAS"
+      },
+      {
+        "pos": "38",
+        "nro": "16",
+        "piloto": "ROTONDO FACUNDO",
+        "marca": "ONIX",
+        "vueltas": "6",
+        "tiempo": "\"13;18.350\"",
+        "diferencia": "7 VTAS"
+      },
+      {
+        "pos": "39",
+        "nro": "82",
+        "piloto": "CHIALVO MARTIN",
+        "marca": "ETIOS",
+        "vueltas": "4",
+        "tiempo": "\"09;04.219\"",
+        "diferencia": "9 VTAS"
+      },
+      {
+        "pos": "40",
+        "nro": "114",
+        "piloto": "ORTEGA PABLO",
+        "marca": "GOL",
+        "vueltas": "2",
+        "tiempo": "\"04;33.356\"",
+        "diferencia": "11 VTAS"
+      },
+      {
+        "pos": "41",
+        "nro": "62",
+        "piloto": "CHAS MATIAS",
+        "marca": "208",
+        "vueltas": "1",
+        "tiempo": "\"03;09.039\"",
+        "diferencia": "12 VTAS"
+      },
+      {
+        "pos": "42",
+        "nro": "14",
+        "piloto": "VERONESI MARCO",
+        "marca": "YARIS",
+        "vueltas": "0",
+        "tiempo": "",
+        "diferencia": "13 VTAS"
+      },
+      {
+        "pos": "43",
+        "nro": "23",
+        "piloto": "GUEVARA MARCELO",
+        "marca": "ETIOS",
+        "vueltas": "0",
+        "tiempo": "",
+        "diferencia": "13 VTAS"
+      }
+    ]
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  }
+]

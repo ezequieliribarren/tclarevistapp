@@ -86,6 +86,7 @@ async function obtenerResultados(url) {
         }
       }
     });
+    tablaPosiciones.splice(0, 2);
 
     return tablaPosiciones;
   } catch (error) {

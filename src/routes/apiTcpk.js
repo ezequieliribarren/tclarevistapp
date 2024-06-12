@@ -1,216 +1,325 @@
 const express = require('express');
 const router = express.Router();
 const fsPromises = require('fs').promises;
-const { en1 } = require('./tcpk/entrenamiento1.js')
-const { en2 } = require('./tcpk/entrenamiento2.js')
-const { en3 } = require('./tcpk/entrenamiento3.js')
-const { en4 } = require('./tcpk/entrenamiento4.js')
-const { en5 } = require('./tcpk/entrenamiento5.js')
-const { en6 } = require('./tcpk/entrenamiento6.js')
-const { clasificacion } = require('./tcpk/clasificacion.js')
-const { serie1 } = require('./tcpk/serie1.js')
-const { serie2 } = require('./tcpk/serie2.js')
-const { final } = require('./tcpk/final.js')
-const { obtenerYMostrarDatos } = require('./tcpk/horarios.js');
+const {en1} = require ('./tcpk/entrenamiento1.js')
+const {en2} = require ('./tcpk/entrenamiento2.js')
+const {en3} = require ('./tcpk/entrenamiento3.js')
+const {clasificacion} = require ('./tcpk/clasificacion.js')
+const {serie1} = require ('./tcpk/serie1.js')
+const {serie2} = require ('./tcpk/serie2.js')
+const {final} = require ('./tcpk/final.js')
+const { obtenerYMostrarDatos, horarios } = require('./tcpk/horarios.js');
 const { pilotos } = require('./tcpk/pilotos.js');
 const { sheets, menu } = require('./tcpk/menu.js');
+const path = require('path'); // Importación del módulo path
+const cron = require('node-cron');
 
+const jsonFilePath1 = path.join(__dirname, 'tcpk', 'en1.json');
+const jsonFilePath2 = path.join(__dirname, 'tcpk', 'en2.json');
+const jsonFilePath3 = path.join(__dirname, 'tcpk', 'en3.json');
+const jsonFilePathClasificacion = path.join(__dirname, 'tcpk', 'clasificacion.json');
+const jsonFilePathSerie1= path.join(__dirname, 'tcpk', 'serie1.json');
+const jsonFilePathSerie2= path.join(__dirname, 'tcpk', 'serie2.json');
+const jsonFilePathFinal= path.join(__dirname, 'tcpk', 'final.json');
+const jsonFilePathPilotos= path.join(__dirname, 'tcpk', 'pilotos.json');
+const jsonFilePathHorarios= path.join(__dirname, 'tc', 'horarios.json');
 
 
 // 1° ENTRENAMIENTO
 router.get('/en1/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {
-        const datos = await en1();
+        const data = await fsPromises.readFile(jsonFilePath1, 'utf-8');
+        const datos = JSON.parse(data);
         if (indice < datos.length) {
             res.send(datos[indice]);
         } else {
             res.status(404).json({ error: 'No se encontró el índice especificado' });
         }
     } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
     }
 });
-
 // 2° ENTRENAMIENTO
 router.get('/en2/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {
-        const datos = await en2();
+        const data = await fsPromises.readFile(jsonFilePath2, 'utf-8');
+        const datos = JSON.parse(data);
         if (indice < datos.length) {
             res.send(datos[indice]);
         } else {
             res.status(404).json({ error: 'No se encontró el índice especificado' });
         }
     } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
     }
 });
-
 // 3° ENTRENAMIENTO
 router.get('/en3/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {
-        const datos = await en3();
+        const data = await fsPromises.readFile(jsonFilePath3, 'utf-8');
+        const datos = JSON.parse(data);
         if (indice < datos.length) {
             res.send(datos[indice]);
         } else {
             res.status(404).json({ error: 'No se encontró el índice especificado' });
         }
     } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
     }
 });
-
-// 4° ENTRENAMIENTO
-router.get('/en4/:indice', async (req, res) => {
-    const indice = parseInt(req.params.indice);
-    try {
-        const datos = await en4();
-        if (indice < datos.length) {
-            res.send(datos[indice]);
-        } else {
-            res.status(404).json({ error: 'No se encontró el índice especificado' });
-        }
-    } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
-    }
-});
-
-// 5° ENTRENAMIENTO
-router.get('/en5/:indice', async (req, res) => {
-    const indice = parseInt(req.params.indice);
-    try {
-        const datos = await en5();
-        if (indice < datos.length) {
-            res.send(datos[indice]);
-        } else {
-            res.status(404).json({ error: 'No se encontró el índice especificado' });
-        }
-    } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
-    }
-});
-
-// 6° ENTRENAMIENTO
-router.get('/en6/:indice', async (req, res) => {
-    const indice = parseInt(req.params.indice);
-    try {
-        const datos = await en6();
-        if (indice < datos.length) {
-            res.send(datos[indice]);
-        } else {
-            res.status(404).json({ error: 'No se encontró el índice especificado' });
-        }
-    } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
-    }
-});
-
 // CLASIFICACION
 router.get('/clasificacion/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {
-        const datos = await clasificacion();
+        const data = await fsPromises.readFile(jsonFilePathClasificacion, 'utf-8');
+        const datos = JSON.parse(data);
         if (indice < datos.length) {
             res.send(datos[indice]);
         } else {
             res.status(404).json({ error: 'No se encontró el índice especificado' });
         }
     } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
     }
 });
-
-// 1° SERIE
+// SERIE 1
 router.get('/serie1/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {
-        const datos = await serie1();
+        const data = await fsPromises.readFile(jsonFilePathSerie1, 'utf-8');
+        const datos = JSON.parse(data);
         if (indice < datos.length) {
             res.send(datos[indice]);
         } else {
             res.status(404).json({ error: 'No se encontró el índice especificado' });
         }
     } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
     }
 });
-
-// 2° SERIE
+// SERIE 2
 router.get('/serie2/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {
-        const datos = await serie2();
+        const data = await fsPromises.readFile(jsonFilePathSerie2, 'utf-8');
+        const datos = JSON.parse(data);
         if (indice < datos.length) {
             res.send(datos[indice]);
         } else {
             res.status(404).json({ error: 'No se encontró el índice especificado' });
         }
     } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
     }
 });
-
-// 6° FINAL
+// FINAL
 router.get('/final/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {
-        const datos = await final();
+        const data = await fsPromises.readFile(jsonFilePathFinal, 'utf-8');
+        const datos = JSON.parse(data);
         if (indice < datos.length) {
             res.send(datos[indice]);
         } else {
             res.status(404).json({ error: 'No se encontró el índice especificado' });
         }
     } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
     }
 });
-
-
+// PILOTOS
+router.get('/pilotos/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const data = await fsPromises.readFile(jsonFilePathPilotos, 'utf-8');
+        const datos = JSON.parse(data);
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+});
 // HORARIOS
 router.get('/horarios/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {
-        const datos = await horarios();
+        const data = await fsPromises.readFile(jsonFilePathHorarios, 'utf-8');
+        const datos = JSON.parse(data);
         if (indice < datos.length) {
             res.send(datos[indice]);
         } else {
             res.status(404).json({ error: 'No se encontró el índice especificado' });
         }
     } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+        console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
     }
-  });
+});
 
-// PILOTOS
 
-router.get('/pilotos/:indice', async (req, res) => {
-    const indice = parseInt(req.params.indice);
+async function realizarScrapeYGuardar() {
+    try {
+        const datos = await en1();
+        await fsPromises.writeFile(jsonFilePath1, JSON.stringify(datos, null, 2), 'utf-8');
+        console.log('Scrape realizado y datos guardados en en1.json.');
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
+    }
+  }
+async function realizarScrapeYGuardar2() {
+    try {
+        const datos = await en2();
+        await fsPromises.writeFile(jsonFilePath2, JSON.stringify(datos, null, 2), 'utf-8');
+        console.log('Scrape realizado y datos guardados en en2.json.');
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en2.json:', error);
+    }
+}
+async function realizarScrapeYGuardar3() {
+    try {
+        const datos = await en3();
+        await fsPromises.writeFile(jsonFilePath3, JSON.stringify(datos, null, 2), 'utf-8');
+        console.log('Scrape realizado y datos guardados en en3.json.');
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en3.json:', error);
+    }
+}
+async function realizarScrapeYGuardarClasificacion() {
+    try {
+        const datos = await clasificacion();
+        await fsPromises.writeFile(jsonFilePathClasificacion, JSON.stringify(datos, null, 2), 'utf-8');
+        console.log('Scrape realizado y datos guardados en en3.json.');
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en3.json:', error);
+    }
+}
+async function realizarScrapeYGuardarSerie1() {
+    try {
+        const datos = await serie1();
+        await fsPromises.writeFile(jsonFilePathSerie1, JSON.stringify(datos, null, 2), 'utf-8');
+        console.log('Scrape realizado y datos guardados en en3.json.');
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en3.json:', error);
+    }
+}
+async function realizarScrapeYGuardarSerie2() {
+    try {
+        const datos = await serie2();
+        await fsPromises.writeFile(jsonFilePathSerie2, JSON.stringify(datos, null, 2), 'utf-8');
+        console.log('Scrape realizado y datos guardados en en3.json.');
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en3.json:', error);
+    }
+}
+async function realizarScrapeYGuardarFinal() {
+    try {
+        const datos = await final();
+        await fsPromises.writeFile(jsonFilePathFinal, JSON.stringify(datos, null, 2), 'utf-8');
+        console.log('Scrape realizado y datos guardados en en3.json.');
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en3.json:', error);
+    }
+}
+async function realizarScrapeYGuardarPilotos() {
     try {
         const datos = await pilotos();
-        if (indice < datos.length) {
-            res.send(datos[indice]);
-        } else {
-            res.status(404).json({ error: 'No se encontró el índice especificado' });
-        }
+        await fsPromises.writeFile(jsonFilePathPilotos, JSON.stringify(datos, null, 2), 'utf-8');
+        console.log('Scrape realizado y datos guardados en en3.json.');
     } catch (error) {
-        console.error(`Error al obtener los resultados del array ${indice}:`, error);
-        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+        console.error('Error al realizar el scrape y guardar los datos en en3.json:', error);
+    }
+}
+async function realizarScrapeYGuardarHorarios() {
+    try {
+        const datos = await horarios();
+        await fsPromises.writeFile(jsonFilePathHorarios, JSON.stringify(datos, null, 2), 'utf-8');
+        console.log('Scrape realizado y datos guardados en en3.json.');
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en3.json:', error);
+    }
+}
+
+
+
+  cron.schedule('16 16 * * *', async () => {
+    try {
+        await realizarScrapeYGuardar();
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
+    }
+  });
+  cron.schedule('17 16 * * *', async () => {
+    try {
+        await realizarScrapeYGuardar2();
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
+    }
+  });
+  cron.schedule('18 16 * * *', async () => {
+    try {
+        await realizarScrapeYGuardar3();
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
+    }
+  });
+  cron.schedule('26 16 * * *', async () => {
+    try {
+        await realizarScrapeYGuardarClasificacion();
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
+    }
+  });
+  cron.schedule('27 16 * * *', async () => {
+    try {
+        await realizarScrapeYGuardarSerie1();
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
+    }
+  });
+  cron.schedule('21 16 * * *', async () => {
+    try {
+        await realizarScrapeYGuardarSerie2();
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
+    }
+  });
+  cron.schedule('23 16 * * *', async () => {
+    try {
+        await realizarScrapeYGuardarFinal();
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
+    }
+  });
+  cron.schedule('24 16 * * *', async () => {
+    try {
+        await realizarScrapeYGuardarPilotos();
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
+    }
+  });
+  cron.schedule('25 16 * * *', async () => {
+    try {
+        await realizarScrapeYGuardarHorarios();
+    } catch (error) {
+        console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
 
+//   MENU
   router.get('/menu/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
     try {

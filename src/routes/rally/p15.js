@@ -5,7 +5,7 @@ const path = require('path');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 const unorm = require('unorm');
 
-async function p1() {
+async function p15() {
   try {
     // Obtener los datos desde Google Sheets
     const sheetId = "934475876"; // ID de la hoja que deseas obtener
@@ -36,7 +36,7 @@ async function p1() {
     console.log('Resultados por URL:', resultadosConUrl);
 
     // Guardar los resultados en un archivo JSON
-    const jsonFileName = path.join(__dirname, 'p1.json');
+    const jsonFileName = path.join(__dirname, 'p15.json');
     await fs.writeFile(jsonFileName, JSON.stringify(resultadosConUrl, null, 2), 'utf-8');
 
     console.log('Datos guardados en:', jsonFileName);
@@ -86,6 +86,7 @@ async function obtenerResultados(url) {
         }
       }
     });
+    tablaPosiciones.splice(0, 2);
 
     return tablaPosiciones;
   } catch (error) {
@@ -95,5 +96,5 @@ async function obtenerResultados(url) {
 }
 
 module.exports = {
-  p1
+  p15
 };

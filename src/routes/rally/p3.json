@@ -3,22 +3,6 @@
     "url": "https://www.rallyargentino.com/tiempos2010/2024/carrera01/ARGGR_PE03.HTM",
     "resultado": [
       {
-        "posicion": "POS.",
-        "numero": "PILOTO / NAVEGANTE",
-        "piloto": "TIEMPO",
-        "tiempo": "DIF. 1º",
-        "dif": "PROM.",
-        "dif2": ""
-      },
-      {
-        "posicion": "POS.",
-        "numero": "PILOTO / NAVEGANTE",
-        "piloto": "VEHICULO",
-        "tiempo": "TIEMPO",
-        "dif": "PENALIZ.",
-        "dif2": "CLA."
-      },
-      {
         "posicion": "1",
         "numero": "4",
         "piloto": "PASTEN, Gaston RAMOS, Matias",
@@ -823,22 +807,6 @@
   {
     "url": "https://www.rallyargentino.com/tiempos2010/2024/carrera02/ARGGR_PE03.HTM",
     "resultado": [
-      {
-        "posicion": "POS.",
-        "numero": "PILOTO / NAVEGANTE",
-        "piloto": "TIEMPO",
-        "tiempo": "DIF. 1º",
-        "dif": "PROM.",
-        "dif2": ""
-      },
-      {
-        "posicion": "POS.",
-        "numero": "PILOTO / NAVEGANTE",
-        "piloto": "VEHICULO",
-        "tiempo": "TIEMPO",
-        "dif": "PENALIZ.",
-        "dif2": "CLA."
-      },
       {
         "posicion": "1",
         "numero": "4",
@@ -1820,22 +1788,6 @@
   {
     "url": "https://www.rallyargentino.com/tiempos2010/2024/carrera03/ARGGR_PE03.HTM",
     "resultado": [
-      {
-        "posicion": "POS.",
-        "numero": "PILOTO / NAVEGANTE",
-        "piloto": "TIEMPO",
-        "tiempo": "DIF. 1º",
-        "dif": "PROM.",
-        "dif2": ""
-      },
-      {
-        "posicion": "POS.",
-        "numero": "PILOTO / NAVEGANTE",
-        "piloto": "VEHICULO",
-        "tiempo": "TIEMPO",
-        "dif": "PENALIZ.",
-        "dif2": "CLA."
-      },
       {
         "posicion": "1",
         "numero": "6",

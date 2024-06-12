@@ -1,7 +1,6 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
-
 async function menu() {
   try {
     // Obtener los datos desde Google Sheets

@@ -1,0 +1,109 @@
+[
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1702&intIDTanda=352",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1703&intIDTanda=352",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "54",
+        "nombre": "Ochoa,",
+        "apellido": "Joaquín",
+        "piloto": "Ochoa, Joaquín",
+        "marca": "Ford",
+        "vueltas": "8",
+        "tiempo": "01:30.570",
+        "diferencia": "",
+        "nacionalidad": "Ochoa, Joaquín"
+      },
+      {
+        "pos": "2°",
+        "nro": "71",
+        "nombre": "Brezzo,",
+        "apellido": "Tomás",
+        "piloto": "Brezzo, Tomás",
+        "marca": "NISSAN",
+        "vueltas": "6",
+        "tiempo": "01:32.897",
+        "diferencia": "2.327",
+        "nacionalidad": "Brezzo, Tomás"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1704&intIDTanda=352",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "66",
+        "nombre": "González,",
+        "apellido": "Lucas",
+        "piloto": "González, Lucas",
+        "marca": "Ford",
+        "vueltas": "9",
+        "tiempo": "01:30.465",
+        "diferencia": "",
+        "nacionalidad": "González, Lucas"
+      },
+      {
+        "pos": "2°",
+        "nro": "48",
+        "nombre": "Schenone,",
+        "apellido": "Mauro",
+        "piloto": "Schenone, Mauro",
+        "marca": "Toyota",
+        "vueltas": "4",
+        "tiempo": "01:33.967",
+        "diferencia": "3.502",
+        "nacionalidad": "Schenone, Mauro"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1705&intIDTanda=352",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "68",
+        "nombre": "Gallo",
+        "apellido": ",",
+        "piloto": "Gallo , Sebastian",
+        "marca": "VOLKSWAGEN",
+        "vueltas": "3",
+        "tiempo": "01:30.525",
+        "diferencia": "",
+        "nacionalidad": "Gallo , Sebastian"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1706&intIDTanda=352",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1707&intIDTanda=352",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1708&intIDTanda=352",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1709&intIDTanda=352",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1710&intIDTanda=352",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1711&intIDTanda=352",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1712&intIDTanda=352 ",
+    "resultado": []
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1691&intIDTanda=360",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "4",
+        "nombre": "Mazzacane,",
+        "apellido": "Gastón",
+        "piloto": "Mazzacane, Gastón",
+        "marca": "Volkswagen",
+        "vueltas": "5",
+        "tiempo": "07:39.272",
+        "diferencia": "",
+        "nacionalidad": "Mazzacane, Gastón"
+      },
+      {
+        "pos": "2°",
+        "nro": "1",
+        "nombre": "Werner,",
+        "apellido": "Mariano",
+        "piloto": "Werner, Mariano",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:42.081",
+        "diferencia": "2.809",
+        "nacionalidad": "Werner, Mariano"
+      },
+      {
+        "pos": "3°",
+        "nro": "119",
+        "nombre": "Palazzo,",
+        "apellido": "Hernán",
+        "piloto": "Palazzo, Hernán",
+        "marca": "Y",
+        "vueltas": "5",
+        "tiempo": "07:42.082",
+        "diferencia": "2.810",
+        "nacionalidad": "Palazzo, Hernán"
+      },
+      {
+        "pos": "4°",
+        "nro": "56",
+        "nombre": "Todino,",
+        "apellido": "Germán",
+        "piloto": "Todino, Germán",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:42.432",
+        "diferencia": "3.160",
+        "nacionalidad": "Todino, Germán"
+      },
+      {
+        "pos": "5°",
+        "nro": "122",
+        "nombre": "Jakos,",
+        "apellido": "Andrés",
+        "piloto": "Jakos, Andrés",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:42.829",
+        "diferencia": "3.557",
+        "nacionalidad": "Jakos, Andrés"
+      },
+      {
+        "pos": "6°",
+        "nro": "32",
+        "nombre": "Álvarez,",
+        "apellido": "Santiago",
+        "piloto": "Álvarez, Santiago",
+        "marca": "Volkswagen",
+        "vueltas": "5",
+        "tiempo": "07:43.284",
+        "diferencia": "4.012",
+        "nacionalidad": "Álvarez, Santiago"
+      },
+      {
+        "pos": "7°",
+        "nro": "11",
+        "nombre": "Pezzucchi,",
+        "apellido": "Nicolás",
+        "piloto": "Pezzucchi, Nicolás",
+        "marca": "NISSAN",
+        "vueltas": "5",
+        "tiempo": "07:43.649",
+        "diferencia": "4.377",
+        "nacionalidad": "Pezzucchi, Nicolás"
+      },
+      {
+        "pos": "8°",
+        "nro": "83",
+        "nombre": "Ardusso,",
+        "apellido": "Facundo",
+        "piloto": "Ardusso, Facundo",
+        "marca": "Chevrolet",
+        "vueltas": "5",
+        "tiempo": "07:47.486",
+        "diferencia": "8.214",
+        "nacionalidad": "Ardusso, Facundo"
+      },
+      {
+        "pos": "9°",
+        "nro": "30",
+        "nombre": "Dose,",
+        "apellido": "Christian",
+        "piloto": "Dose, Christian",
+        "marca": "Chevrolet",
+        "vueltas": "5",
+        "tiempo": "07:56.955",
+        "diferencia": "17.683",
+        "nacionalidad": "Dose, Christian"
+      },
+      {
+        "pos": "10°",
+        "nro": "117",
+        "nombre": "Abdala,",
+        "apellido": "Tomás",
+        "piloto": "Abdala, Tomás",
+        "marca": "Ford",
+        "vueltas": "2",
+        "tiempo": "03:07.566",
+        "diferencia": "3 VTAS",
+        "nacionalidad": "Abdala, Tomás"
+      },
+      {
+        "pos": "11°",
+        "nro": "87",
+        "nombre": "Impiombato,",
+        "apellido": "Nicolás",
+        "piloto": "Impiombato, Nicolás",
+        "marca": "Toyota",
+        "vueltas": "2",
+        "tiempo": "03:08.161",
+        "diferencia": "3 VTAS",
+        "nacionalidad": "Impiombato, Nicolás"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1692&intIDTanda=360",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "16",
+        "nombre": "Rodríguez,",
+        "apellido": "Matías",
+        "piloto": "Rodríguez, Matías",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:35.526",
+        "diferencia": "",
+        "nacionalidad": "Rodríguez, Matías"
+      },
+      {
+        "pos": "2°",
+        "nro": "119",
+        "nombre": "Palazzo,",
+        "apellido": "Hernán",
+        "piloto": "Palazzo, Hernán",
+        "marca": "Y",
+        "vueltas": "5",
+        "tiempo": "07:37.297",
+        "diferencia": "1.771",
+        "nacionalidad": "Palazzo, Hernán"
+      },
+      {
+        "pos": "3°",
+        "nro": "15",
+        "nombre": "Lambiris,",
+        "apellido": "Mauricio",
+        "piloto": "Lambiris, Mauricio",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:37.499",
+        "diferencia": "1.973",
+        "nacionalidad": "Lambiris, Mauricio"
+      },
+      {
+        "pos": "4°",
+        "nro": "11",
+        "nombre": "Pezzucchi,",
+        "apellido": "Nicolás",
+        "piloto": "Pezzucchi, Nicolás",
+        "marca": "NISSAN",
+        "vueltas": "5",
+        "tiempo": "07:40.560",
+        "diferencia": "5.034",
+        "nacionalidad": "Pezzucchi, Nicolás"
+      },
+      {
+        "pos": "5°",
+        "nro": "56",
+        "nombre": "Todino,",
+        "apellido": "Germán",
+        "piloto": "Todino, Germán",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:40.869",
+        "diferencia": "5.343",
+        "nacionalidad": "Todino, Germán"
+      },
+      {
+        "pos": "6°",
+        "nro": "66",
+        "nombre": "Jack,",
+        "apellido": "Javier",
+        "piloto": "Jack, Javier",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:41.862",
+        "diferencia": "6.336",
+        "nacionalidad": "Jack, Javier"
+      },
+      {
+        "pos": "7°",
+        "nro": "9",
+        "nombre": "Trucco,",
+        "apellido": "Juan",
+        "piloto": "Trucco, Juan Martín",
+        "marca": "Volkswagen",
+        "vueltas": "5",
+        "tiempo": "07:42.124",
+        "diferencia": "6.598",
+        "nacionalidad": "Trucco, Juan Martín"
+      },
+      {
+        "pos": "8°",
+        "nro": "113",
+        "nombre": "Lugón,",
+        "apellido": "Rodrigo",
+        "piloto": "Lugón, Rodrigo",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:42.731",
+        "diferencia": "7.205",
+        "nacionalidad": "Lugón, Rodrigo"
+      },
+      {
+        "pos": "9°",
+        "nro": "83",
+        "nombre": "Ardusso,",
+        "apellido": "Facundo",
+        "piloto": "Ardusso, Facundo",
+        "marca": "Chevrolet",
+        "vueltas": "5",
+        "tiempo": "07:43.241",
+        "diferencia": "7.715",
+        "nacionalidad": "Ardusso, Facundo"
+      },
+      {
+        "pos": "10°",
+        "nro": "114",
+        "nombre": "Ferrante,",
+        "apellido": "Gastón",
+        "piloto": "Ferrante, Gastón",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:43.580",
+        "diferencia": "8.054",
+        "nacionalidad": "Ferrante, Gastón"
+      },
+      {
+        "pos": "11°",
+        "nro": "87",
+        "nombre": "Impiombato,",
+        "apellido": "Nicolás",
+        "piloto": "Impiombato, Nicolás",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:46.108",
+        "diferencia": "10.582",
+        "nacionalidad": "Impiombato, Nicolás"
+      },
+      {
+        "pos": "12°",
+        "nro": "64",
+        "nombre": "Morillo,",
+        "apellido": "Franco",
+        "piloto": "Morillo, Franco",
+        "marca": "Fiat",
+        "vueltas": "0",
+        "tiempo": "00:26.848",
+        "diferencia": "5 VTAS",
+        "nacionalidad": "Morillo, Franco"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1693&intIDTanda=360",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "122",
+        "nombre": "Jakos,",
+        "apellido": "Andrés",
+        "piloto": "Jakos, Andrés",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:28.286",
+        "diferencia": "",
+        "nacionalidad": "Jakos, Andrés"
+      },
+      {
+        "pos": "2°",
+        "nro": "16",
+        "nombre": "Rodríguez,",
+        "apellido": "Matías",
+        "piloto": "Rodríguez, Matías",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:28.916",
+        "diferencia": "0.630",
+        "nacionalidad": "Rodríguez, Matías"
+      },
+      {
+        "pos": "3°",
+        "nro": "11",
+        "nombre": "Pezzucchi,",
+        "apellido": "Nicolás",
+        "piloto": "Pezzucchi, Nicolás",
+        "marca": "NISSAN",
+        "vueltas": "5",
+        "tiempo": "07:29.365",
+        "diferencia": "1.079",
+        "nacionalidad": "Pezzucchi, Nicolás"
+      },
+      {
+        "pos": "4°",
+        "nro": "66",
+        "nombre": "Jack,",
+        "apellido": "Javier",
+        "piloto": "Jack, Javier",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:29.759",
+        "diferencia": "1.473",
+        "nacionalidad": "Jack, Javier"
+      },
+      {
+        "pos": "5°",
+        "nro": "56",
+        "nombre": "Todino,",
+        "apellido": "Germán",
+        "piloto": "Todino, Germán",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:30.298",
+        "diferencia": "2.012",
+        "nacionalidad": "Todino, Germán"
+      },
+      {
+        "pos": "6°",
+        "nro": "9",
+        "nombre": "Trucco,",
+        "apellido": "Juan",
+        "piloto": "Trucco, Juan Martín",
+        "marca": "VOLKSWAGEN",
+        "vueltas": "5",
+        "tiempo": "07:31.105",
+        "diferencia": "2.819",
+        "nacionalidad": "Trucco, Juan Martín"
+      },
+      {
+        "pos": "7°",
+        "nro": "117",
+        "nombre": "Abdala,",
+        "apellido": "Tomás",
+        "piloto": "Abdala, Tomás",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:32.586",
+        "diferencia": "4.300",
+        "nacionalidad": "Abdala, Tomás"
+      },
+      {
+        "pos": "8°",
+        "nro": "133",
+        "nombre": "Aguirre,",
+        "apellido": "Valentín",
+        "piloto": "Aguirre, Valentín",
+        "marca": "CHEVROLET",
+        "vueltas": "5",
+        "tiempo": "07:34.404",
+        "diferencia": "6.118",
+        "nacionalidad": "Aguirre, Valentín"
+      },
+      {
+        "pos": "9°",
+        "nro": "4",
+        "nombre": "Mazzacane,",
+        "apellido": "Gastón",
+        "piloto": "Mazzacane, Gastón",
+        "marca": "VOLKSWAGEN",
+        "vueltas": "5",
+        "tiempo": "07:35.616",
+        "diferencia": "7.330",
+        "nacionalidad": "Mazzacane, Gastón"
+      },
+      {
+        "pos": "10°",
+        "nro": "87",
+        "nombre": "Impiombato,",
+        "apellido": "Nicolás",
+        "piloto": "Impiombato, Nicolás",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:36.006",
+        "diferencia": "7.720",
+        "nacionalidad": "Impiombato, Nicolás"
+      },
+      {
+        "pos": "11°",
+        "nro": "64",
+        "nombre": "Morillo,",
+        "apellido": "Franco",
+        "piloto": "Morillo, Franco",
+        "marca": "Ford",
+        "vueltas": "4",
+        "tiempo": "06:05.817",
+        "diferencia": "1 VTA",
+        "nacionalidad": "Morillo, Franco"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1694&intIDTanda=360",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "51",
+        "nombre": "Gianini,",
+        "apellido": "Juan",
+        "piloto": "Gianini, Juan Pablo",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:55.723",
+        "diferencia": "",
+        "nacionalidad": "Gianini, Juan Pablo"
+      },
+      {
+        "pos": "2°",
+        "nro": "4",
+        "nombre": "Mazzacane,",
+        "apellido": "Gastón",
+        "piloto": "Mazzacane, Gastón",
+        "marca": "VOLKSWAGEN",
+        "vueltas": "5",
+        "tiempo": "07:58.428",
+        "diferencia": "2.705",
+        "nacionalidad": "Mazzacane, Gastón"
+      },
+      {
+        "pos": "3°",
+        "nro": "1",
+        "nombre": "Werner,",
+        "apellido": "Mariano",
+        "piloto": "Werner, Mariano",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:58.670",
+        "diferencia": "2.947",
+        "nacionalidad": "Werner, Mariano"
+      },
+      {
+        "pos": "4°",
+        "nro": "16",
+        "nombre": "Rodríguez,",
+        "apellido": "Matías",
+        "piloto": "Rodríguez, Matías",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:59.495",
+        "diferencia": "3.772",
+        "nacionalidad": "Rodríguez, Matías"
+      },
+      {
+        "pos": "5°",
+        "nro": "107",
+        "nombre": "Martínez,",
+        "apellido": "Tobías",
+        "piloto": "Martínez, Tobías",
+        "marca": "CHEVROLET",
+        "vueltas": "5",
+        "tiempo": "08:02.124",
+        "diferencia": "6.401",
+        "nacionalidad": "Martínez, Tobías"
+      },
+      {
+        "pos": "6°",
+        "nro": "11",
+        "nombre": "Pezzucchi,",
+        "apellido": "Nicolás",
+        "piloto": "Pezzucchi, Nicolás",
+        "marca": "NISSAN",
+        "vueltas": "5",
+        "tiempo": "08:02.125",
+        "diferencia": "6.402",
+        "nacionalidad": "Pezzucchi, Nicolás"
+      },
+      {
+        "pos": "7°",
+        "nro": "15",
+        "nombre": "Lambiris,",
+        "apellido": "Mauricio",
+        "piloto": "Lambiris, Mauricio",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "08:02.371",
+        "diferencia": "6.648",
+        "nacionalidad": "Lambiris, Mauricio"
+      },
+      {
+        "pos": "8°",
+        "nro": "64",
+        "nombre": "Morillo,",
+        "apellido": "Franco",
+        "piloto": "Morillo, Franco",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "08:03.006",
+        "diferencia": "7.283",
+        "nacionalidad": "Morillo, Franco"
+      },
+      {
+        "pos": "9°",
+        "nro": "87",
+        "nombre": "Impiombato,",
+        "apellido": "Nicolás",
+        "piloto": "Impiombato, Nicolás",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "08:03.399",
+        "diferencia": "7.676",
+        "nacionalidad": "Impiombato, Nicolás"
+      },
+      {
+        "pos": "10°",
+        "nro": "117",
+        "nombre": "Abdala,",
+        "apellido": "Tomás",
+        "piloto": "Abdala, Tomás",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "08:03.764",
+        "diferencia": "8.041",
+        "nacionalidad": "Abdala, Tomás"
+      },
+      {
+        "pos": "11°",
+        "nro": "114",
+        "nombre": "Ferrante,",
+        "apellido": "Gastón",
+        "piloto": "Ferrante, Gastón",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "08:08.572",
+        "diferencia": "12.849",
+        "nacionalidad": "Ferrante, Gastón"
+      },
+      {
+        "pos": "12°",
+        "nro": "30",
+        "nombre": "Dose,",
+        "apellido": "Christian",
+        "piloto": "Dose, Christian",
+        "marca": "CHEVROLET",
+        "vueltas": "5",
+        "tiempo": "08:45.897",
+        "diferencia": "50.174",
+        "nacionalidad": "Dose, Christian"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1695&intIDTanda=360",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1696&intIDTanda=360",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1697&intIDTanda=360",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1698&intIDTanda=360",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1699&intIDTanda=360",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1700&intIDTanda=360​",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1701&intIDTanda=360​",
+    "resultado": []
+  }
+]

@@ -1,0 +1,1096 @@
+[
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1496",
+    "resultado": [
+      {
+        "horario": "13:05 a 13:25",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "13:30 a 13:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "14:00 a 14:20",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "14:25 a 14:45",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "15:00 a 15:20",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "15:25 a 15:45",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "15:55 a 16:15",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "16:20 a 16:40",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "10:00 a 10:30",
+        "tanda": "3º Entrenamientos",
+        "categoria": "TCP",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "10:35 a 11:05",
+        "tanda": "3º Entrenamientos",
+        "categoria": "TCP",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "11:10 a 11:30",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "11:35 a 11:55",
+        "tanda": "3º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "12:00 a 12:30",
+        "tanda": "4º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "12:35 a 13:05",
+        "tanda": "4º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "13:10 a 13:40",
+        "tanda": "4º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "13:45 a 14:15",
+        "tanda": "4º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "15:10 a 15:18",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:23 a 15:31",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:36 a 15:44",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "16:05 a 16:13",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "1er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:16 a 16:24",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "2do Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:27 a 16:35",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "3er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:38 a 16:46",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "4to Cuarto (8 minutos)"
+      },
+      {
+        "horario": "17:10 a 17:20",
+        "tanda": "1º Serie",
+        "categoria": "TCP",
+        "grupo": "1ERA SERIE TC PISTA  5 VUELTAS"
+      },
+      {
+        "horario": "17:35 a 17:45",
+        "tanda": "2º Serie",
+        "categoria": "TCP",
+        "grupo": "2DA SERIE TC PISTA  5 VUELTAS."
+      },
+      {
+        "horario": "10:05 a 10:15",
+        "tanda": "1º Serie",
+        "categoria": "TC",
+        "grupo": "1ERA SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "10:30 a 10:40",
+        "tanda": "2º Serie",
+        "categoria": "TC",
+        "grupo": "2DA SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "10:55 a 11:05",
+        "tanda": "3º Serie",
+        "categoria": "TC",
+        "grupo": "3ERA SERIE TC 5VUELTAS"
+      },
+      {
+        "horario": "11:35 a 12:15",
+        "tanda": "Final",
+        "categoria": "TCP",
+        "grupo": "FINAL TC PISTA 20 VUELTAS O 40 MINUTOS"
+      },
+      {
+        "horario": "12:55 a 13:45",
+        "tanda": "Final",
+        "categoria": "TC",
+        "grupo": "FINAL TC 25 VUELTAS O 50 MINUTOS ."
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1497",
+    "resultado": [
+      {
+        "horario": "09:40 a 10:10",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "10:15 a 10:45",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "10:50 a 11:10",
+        "tanda": "1° ENTRENAMIENTO",
+        "categoria": "F2",
+        "grupo": "1ER ENTRENAMIENTO F2 20 MINUTOS"
+      },
+      {
+        "horario": "11:15 a 11:35",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "11:40 a 12:00",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "12:10 a 12:30",
+        "tanda": "2° ENTRENAMIENTO",
+        "categoria": "F2",
+        "grupo": "2DO ENTRENAMIENTO F2 20 MINUTOS"
+      },
+      {
+        "horario": "12:35 a 13:05",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "13:10 a 13:40",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "13:45 a 14:15",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "14:20 a 14:50",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "15:05 a 15:15",
+        "tanda": "CLASIFICACION",
+        "categoria": "F2",
+        "grupo": "CLASIFICACION  F2  10 MINUTOS"
+      },
+      {
+        "horario": "15:20 a 15:28",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:33 a 15:41",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:46 a 15:54",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:59 a 16:07",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "2do Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:12 a 16:20",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "3er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:25 a 16:33",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "4to Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:38 a 16:46",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "1er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "17:10 a 17:20",
+        "tanda": "1º Serie",
+        "categoria": "TCP",
+        "grupo": "1ERA SERIE TC PISTA 5 VUELTAS"
+      },
+      {
+        "horario": "17:35 a 17:45",
+        "tanda": "2º Serie",
+        "categoria": "TCP",
+        "grupo": "2DA SERIE TC PISTA  5 VUELTAS"
+      },
+      {
+        "horario": "09:15 a 09:35",
+        "tanda": "FINAL",
+        "categoria": "F2",
+        "grupo": "FINAL FORMULA 2  10 VUELTAS  O  20 MINUTOS"
+      },
+      {
+        "horario": "10:05 a 10:15",
+        "tanda": "1º Serie",
+        "categoria": "TC",
+        "grupo": "1ERA SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "10:30 a 10:40",
+        "tanda": "2º Serie",
+        "categoria": "TC",
+        "grupo": "2DA SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "10:55 a 11:05",
+        "tanda": "3º Serie",
+        "categoria": "TC",
+        "grupo": "3ERA SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "11:45 a 12:25",
+        "tanda": "Final",
+        "categoria": "TCP",
+        "grupo": "FINAL TC PISTA 20 VUELTAS O 40 MINUTOS"
+      },
+      {
+        "horario": "12:55 a 13:45",
+        "tanda": "Final",
+        "categoria": "TC",
+        "grupo": "FINAL TC  25 VUELTAS O 50 MINUTOS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1498",
+    "resultado": [
+      {
+        "horario": "09:20 a 09:40",
+        "tanda": "1º Entrenamiento",
+        "categoria": "F2",
+        "grupo": "1ER ENTRENAMIENTO F2 20 MINUTOS"
+      },
+      {
+        "horario": "09:45 a 10:15",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "10:20 a 10:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "11:05 a 11:25",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "11:30 a 11:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "11:55 a 12:15",
+        "tanda": "2º Entrenamiento",
+        "categoria": "F2",
+        "grupo": "2DO ENTRENAMIENTO F2 20 MINUTOS"
+      },
+      {
+        "horario": "12:20 a 12:50",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "12:55 a 13:25",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "13:30 a 14:00",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "14:00 a 14:30",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "15:05 a 15:15",
+        "tanda": "Clasificación",
+        "categoria": "F2",
+        "grupo": "CLASIFICACION F2 10 MINUTOS"
+      },
+      {
+        "horario": "15:20 a 15:28",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:33 a 15:41",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:46 a 15:54",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:59 a 16:07",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "3er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:12 a 16:20",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "4to Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:25 a 16:33",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "1er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:38 a 16:46",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "2do Cuarto (8 minutos)"
+      },
+      {
+        "horario": "17:10 a 17:20",
+        "tanda": "1º Serie",
+        "categoria": "TCP",
+        "grupo": "1ERA SERIE TC PISTA 5 VUELTAS"
+      },
+      {
+        "horario": "17:35 a 17:45",
+        "tanda": "2º Serie",
+        "categoria": "TCP",
+        "grupo": "2DA SERIE TC PISTA  5 VUELTAS"
+      },
+      {
+        "horario": "09:20 a 09:40",
+        "tanda": "Final",
+        "categoria": "F2",
+        "grupo": "FINAL F2 10 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "10:05 a 10:15",
+        "tanda": "1º Serie",
+        "categoria": "TC",
+        "grupo": "1ERA SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "10:30 a 10:40",
+        "tanda": "2º Serie",
+        "categoria": "TC",
+        "grupo": "2DA SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "10:55 a 11:05",
+        "tanda": "3º Serie",
+        "categoria": "TC",
+        "grupo": "3ERA SERIE TC 5VUELTAS"
+      },
+      {
+        "horario": "11:45 a 12:25",
+        "tanda": "Final",
+        "categoria": "TCP",
+        "grupo": "FINAL TC PISTA 20 VUELTAS O 40 MINUTOS"
+      },
+      {
+        "horario": "12:55 a 13:45",
+        "tanda": "Final",
+        "categoria": "TC",
+        "grupo": "FINAL TC 25 VUELTAS O 50 MINUTOS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1499",
+    "resultado": [
+      {
+        "horario": "08:50 a 09:20",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "09:25 a 09:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "10:50 a 11:20",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "11:43 a 12:13",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "12:36 a 13:06",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo C (30 minutos)"
+      },
+      {
+        "horario": "13:30 a 14:00",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "14:05 a 14:35",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "15:45 a 15:53",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:56 a 16:04",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "16:07 a 16:15",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "16:25 a 16:33",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "4to Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:38 a 16:46",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "1er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:51 a 16:59",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "2do Cuarto (8 minutos)"
+      },
+      {
+        "horario": "17:04 a 17:12",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "3er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "09:15 a 09:25",
+        "tanda": "1º Serie",
+        "categoria": "TCP",
+        "grupo": "1ERA SERIE TC PISTA 5 VUELTAS"
+      },
+      {
+        "horario": "09:40 a 09:50",
+        "tanda": "2º Serie",
+        "categoria": "TCP",
+        "grupo": "2DA SERIE TC PISTA 5 VUELTAS"
+      },
+      {
+        "horario": "10:05 a 10:15",
+        "tanda": "1º Serie",
+        "categoria": "TC",
+        "grupo": "1era SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "10:30 a 10:40",
+        "tanda": "2º Serie",
+        "categoria": "TC",
+        "grupo": "2DA SERIE TC 5 VUELTAS."
+      },
+      {
+        "horario": "10:55 a 11:05",
+        "tanda": "3º Serie",
+        "categoria": "TC",
+        "grupo": "3ERA SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "11:45 a 12:25",
+        "tanda": "Final",
+        "categoria": "TCP",
+        "grupo": "FINAL TC PISTA  25 VUELTAS O 40 MINUTOS ."
+      },
+      {
+        "horario": "13:00 a 13:50",
+        "tanda": "Final",
+        "categoria": "TC",
+        "grupo": "FINAL TC 3O VUELTAS O 50 MINUTOS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1500",
+    "resultado": [
+      {
+        "horario": "09:00 a 09:30",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TN 2",
+        "grupo": "Grupo A - Entrenamientos (30 minutos)"
+      },
+      {
+        "horario": "09:40 a 10:10",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TN 2",
+        "grupo": "Grupo B - Entrenamientos (30 minutos)"
+      },
+      {
+        "horario": "10:20 a 10:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TN 3",
+        "grupo": "Grupo A - Entrenamientos (30 minutos)"
+      },
+      {
+        "horario": "11:00 a 11:30",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TN 3",
+        "grupo": "Grupo B - Entrenamientos (30 minutos)"
+      },
+      {
+        "horario": "12:30 a 12:50",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TN 2",
+        "grupo": "Grupo A - Entrenamientos (20 minutos)"
+      },
+      {
+        "horario": "13:00 a 13:20",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TN 2",
+        "grupo": "Grupo B - Entrenamientos (20 minutos)"
+      },
+      {
+        "horario": "13:30 a 13:50",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TN 3",
+        "grupo": "Grupo A - Entrenamientos (20 minutos)"
+      },
+      {
+        "horario": "14:00 a 14:20",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TN 3",
+        "grupo": "Grupo B - Entrenamientos (20 minutos)"
+      },
+      {
+        "horario": "16:00 a 16:10",
+        "tanda": "Clasificación General",
+        "categoria": "TN 2",
+        "grupo": "Grupo B - Clasificación (10 minutos)"
+      },
+      {
+        "horario": "16:20 a 16:30",
+        "tanda": "Clasificación General",
+        "categoria": "TN 2",
+        "grupo": "Grupo C - Clasificación (10 minutos)"
+      },
+      {
+        "horario": "16:40 a 16:50",
+        "tanda": "Clasificación General",
+        "categoria": "TN 2",
+        "grupo": "Grupo A - Clasificación (10 minutos)"
+      },
+      {
+        "horario": "17:00 a 17:10",
+        "tanda": "Clasificación General",
+        "categoria": "TN 3",
+        "grupo": "Grupo B - Clasificación (10 minutos)"
+      },
+      {
+        "horario": "17:20 a 17:30",
+        "tanda": "Clasificación General",
+        "categoria": "TN 3",
+        "grupo": "Grupo C - Clasificación (10 minutos)"
+      },
+      {
+        "horario": "17:40 a 17:50",
+        "tanda": "Clasificación General",
+        "categoria": "TN 3",
+        "grupo": "Grupo A - Clasificación (10 minutos)"
+      },
+      {
+        "horario": "08:30 a 09:10",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo A (40 minutos)"
+      },
+      {
+        "horario": "09:15 a 09:55",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo B (40 minutos)"
+      },
+      {
+        "horario": "10:30 a 10:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "10:55 a 11:15",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "11:20 a 11:28",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "11:33 a 11:41",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "11:46 a 11:54",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "12:00 a 12:30",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "12:35 a 13:05",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "13:20 a 13:30",
+        "tanda": "1º Serie",
+        "categoria": "TN 2",
+        "grupo": "Serie 1 C2"
+      },
+      {
+        "horario": "13:45 a 13:55",
+        "tanda": "2º Serie",
+        "categoria": "TN 2",
+        "grupo": "Serie 2 C2"
+      },
+      {
+        "horario": "14:10 a 14:20",
+        "tanda": "3º Serie",
+        "categoria": "TN 2",
+        "grupo": "Serie 3 C2"
+      },
+      {
+        "horario": "15:05 a 15:15",
+        "tanda": "1º Serie",
+        "categoria": "TN 3",
+        "grupo": "Serie 1 C3"
+      },
+      {
+        "horario": "15:30 a 15:40",
+        "tanda": "2º Serie",
+        "categoria": "TN 3",
+        "grupo": "Serie 2 C3"
+      },
+      {
+        "horario": "15:55 a 16:05",
+        "tanda": "3º Serie",
+        "categoria": "TN 3",
+        "grupo": "Serie 3 C3"
+      },
+      {
+        "horario": "16:20 a 16:28",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "1er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:32 a 16:40",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "2do Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:44 a 16:52",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "3er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:56 a 17:04",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "4to Cuarto (8 minutos)"
+      },
+      {
+        "horario": "17:20 a 17:35",
+        "tanda": "1º Serie",
+        "categoria": "TCP",
+        "grupo": "1ERA SERIE TC PISTA 5 VUELTAS"
+      },
+      {
+        "horario": "17:45 a 18:00",
+        "tanda": "2º Serie",
+        "categoria": "TCP",
+        "grupo": "2DA SERIE TC PISTA  5 VUELTAS"
+      },
+      {
+        "horario": "08:50 a 09:05",
+        "tanda": "1º Serie",
+        "categoria": "TC",
+        "grupo": "1ERA SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "09:15 a 09:30",
+        "tanda": "2º Serie",
+        "categoria": "TC",
+        "grupo": "2DA SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "09:40 a 09:55",
+        "tanda": "3º Serie",
+        "categoria": "TC",
+        "grupo": "3ERA SERIE TC 5VUELTAS"
+      },
+      {
+        "horario": "10:10 a 10:45",
+        "tanda": "Final",
+        "categoria": "TN 2",
+        "grupo": "Final - 15 Vueltas o 35 Min. Max."
+      },
+      {
+        "horario": "11:00 a 11:40",
+        "tanda": "Final",
+        "categoria": "TN 3",
+        "grupo": "Final - 18 Vueltas o 40 Min. Max."
+      },
+      {
+        "horario": "11:55 a 12:35",
+        "tanda": "Final",
+        "categoria": "TCP",
+        "grupo": "FINAL TC PISTA 20 VUELTAS O 40 MINUTOS"
+      },
+      {
+        "horario": "13:30 a 14:20",
+        "tanda": "Final",
+        "categoria": "TC",
+        "grupo": "FINAL TC 25 VUELTAS O 50 MINUTOS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1501",
+    "resultado": [
+      {
+        "horario": "09:05 a 09:25",
+        "tanda": "1º Entrenamiento",
+        "categoria": "F2",
+        "grupo": "1er ENTRENAMEINTO F2 20 MINUTOS"
+      },
+      {
+        "horario": "09:30 a 10:00",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "10:05 a 10:35",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "10:40 a 11:00",
+        "tanda": "2º Entrenamiento",
+        "categoria": "F2",
+        "grupo": "2DO ENTRENAMEINTO F2 20 MINUTOS"
+      },
+      {
+        "horario": "11:05 a 11:25",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (20 minutos)"
+      },
+      {
+        "horario": "11:30 a 11:50",
+        "tanda": "1º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (20 minutos)"
+      },
+      {
+        "horario": "12:05 a 12:15",
+        "tanda": "Clasificación",
+        "categoria": "F2",
+        "grupo": "CLASIFICACION F2 10 MINUTOS"
+      },
+      {
+        "horario": "12:20 a 12:50",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "12:55 a 13:25",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TCP",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "13:30 a 14:00",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo A (30 minutos)"
+      },
+      {
+        "horario": "14:05 a 14:35",
+        "tanda": "2º Entrenamiento",
+        "categoria": "TC",
+        "grupo": "Grupo B (30 minutos)"
+      },
+      {
+        "horario": "15:05 a 15:15",
+        "tanda": "Pre Final  Clasificatoria",
+        "categoria": "F2",
+        "grupo": "PRE FINAL CLASIFICATORIA 6 VUELTAS 10 MINUTOS"
+      },
+      {
+        "horario": "15:20 a 15:28",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "3er Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:32 a 15:40",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "1er Tercio (8 minutos)"
+      },
+      {
+        "horario": "15:44 a 15:52",
+        "tanda": "Clasificación",
+        "categoria": "TCP",
+        "grupo": "2do Tercio (8 minutos)"
+      },
+      {
+        "horario": "16:00 a 16:08",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "2do Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:12 a 16:20",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "3er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:24 a 16:32",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "4to Cuarto (8 minutos)"
+      },
+      {
+        "horario": "16:36 a 16:44",
+        "tanda": "Clasificación",
+        "categoria": "TC",
+        "grupo": "1er Cuarto (8 minutos)"
+      },
+      {
+        "horario": "17:05 a 17:15",
+        "tanda": "1º Serie",
+        "categoria": "TCP",
+        "grupo": "1ERA SERIE TC PISTA 5 VUELTAS"
+      },
+      {
+        "horario": "17:30 a 17:40",
+        "tanda": "2º Serie",
+        "categoria": "TCP",
+        "grupo": "2DA SERIE TC PISTA  5 VUELTAS"
+      },
+      {
+        "horario": "09:20 a 09:40",
+        "tanda": "Final",
+        "categoria": "F2",
+        "grupo": "FINAL F2 12 VUELTAS O 20 MINUTOS"
+      },
+      {
+        "horario": "10:05 a 10:15",
+        "tanda": "1º Serie",
+        "categoria": "TC",
+        "grupo": "1ERA SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "10:30 a 10:40",
+        "tanda": "2º Serie",
+        "categoria": "TC",
+        "grupo": "2DA SERIE TC 5 VUELTAS"
+      },
+      {
+        "horario": "10:55 a 11:05",
+        "tanda": "3º Serie",
+        "categoria": "TC",
+        "grupo": "3ERA SERIE TC 5VUELTAS"
+      },
+      {
+        "horario": "11:45 a 12:25",
+        "tanda": "Final",
+        "categoria": "TCP",
+        "grupo": "FINAL TC PISTA 20 VUELTAS O 40 MINUTOS"
+      },
+      {
+        "horario": "12:55 a 13:45",
+        "tanda": "Final",
+        "categoria": "TC",
+        "grupo": "FINAL TC 25 VUELTAS O 50 MINUTOS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1502",
+    "resultado": []
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1503",
+    "resultado": []
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1504",
+    "resultado": []
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1505",
+    "resultado": []
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1506",
+    "resultado": []
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1507",
+    "resultado": []
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1508",
+    "resultado": []
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1509",
+    "resultado": []
+  }
+]

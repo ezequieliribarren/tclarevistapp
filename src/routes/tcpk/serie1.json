@@ -1,0 +1,626 @@
+[
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1691&intIDTanda=359",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "113",
+        "nombre": "Lugón,",
+        "apellido": "Rodrigo",
+        "piloto": "Lugón, Rodrigo",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:35.464",
+        "diferencia": "",
+        "nacionalidad": "Lugón, Rodrigo"
+      },
+      {
+        "pos": "2°",
+        "nro": "51",
+        "nombre": "Gianini,",
+        "apellido": "Juan",
+        "piloto": "Gianini, Juan Pablo",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:35.951",
+        "diferencia": "0.487",
+        "nacionalidad": "Gianini, Juan Pablo"
+      },
+      {
+        "pos": "3°",
+        "nro": "137",
+        "nombre": "Fritzler,",
+        "apellido": "Otto",
+        "piloto": "Fritzler, Otto",
+        "marca": "NISSAN",
+        "vueltas": "5",
+        "tiempo": "07:37.432",
+        "diferencia": "1.968",
+        "nacionalidad": "Fritzler, Otto"
+      },
+      {
+        "pos": "4°",
+        "nro": "9",
+        "nombre": "Trucco,",
+        "apellido": "Juan",
+        "piloto": "Trucco, Juan Martín",
+        "marca": "Volkswagen",
+        "vueltas": "5",
+        "tiempo": "07:37.870",
+        "diferencia": "2.406",
+        "nacionalidad": "Trucco, Juan Martín"
+      },
+      {
+        "pos": "5°",
+        "nro": "68",
+        "nombre": "Santero,",
+        "apellido": "Julián",
+        "piloto": "Santero, Julián",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:39.658",
+        "diferencia": "4.194",
+        "nacionalidad": "Santero, Julián"
+      },
+      {
+        "pos": "6°",
+        "nro": "66",
+        "nombre": "Jack,",
+        "apellido": "Javier",
+        "piloto": "Jack, Javier",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:40.148",
+        "diferencia": "4.684",
+        "nacionalidad": "Jack, Javier"
+      },
+      {
+        "pos": "7°",
+        "nro": "13",
+        "nombre": "Valle,",
+        "apellido": "Lucas",
+        "piloto": "Valle, Lucas",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:41.181",
+        "diferencia": "5.717",
+        "nacionalidad": "Valle, Lucas"
+      },
+      {
+        "pos": "8°",
+        "nro": "16",
+        "nombre": "Rodríguez,",
+        "apellido": "Matías",
+        "piloto": "Rodríguez, Matías",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:42.145",
+        "diferencia": "6.681",
+        "nacionalidad": "Rodríguez, Matías"
+      },
+      {
+        "pos": "9°",
+        "nro": "114",
+        "nombre": "Ferrante,",
+        "apellido": "Gastón",
+        "piloto": "Ferrante, Gastón",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:45.740",
+        "diferencia": "10.276",
+        "nacionalidad": "Ferrante, Gastón"
+      },
+      {
+        "pos": "10°",
+        "nro": "133",
+        "nombre": "Aguirre,",
+        "apellido": "Valentín",
+        "piloto": "Aguirre, Valentín",
+        "marca": "Chevrolet",
+        "vueltas": "5",
+        "tiempo": "07:45.805",
+        "diferencia": "10.341",
+        "nacionalidad": "Aguirre, Valentín"
+      },
+      {
+        "pos": "11°",
+        "nro": "69",
+        "nombre": "Mión,",
+        "apellido": "Eddy",
+        "piloto": "Mión, Eddy",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:50.784",
+        "diferencia": "15.320",
+        "nacionalidad": "Mión, Eddy"
+      },
+      {
+        "pos": "12°",
+        "nro": "15",
+        "nombre": "Lambiris,",
+        "apellido": "Mauricio",
+        "piloto": "Lambiris, Mauricio",
+        "marca": "Ford",
+        "vueltas": "0",
+        "tiempo": "01:39.312",
+        "diferencia": "5 VTAS",
+        "nacionalidad": "Lambiris, Mauricio"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1692&intIDTanda=359",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "51",
+        "nombre": "Gianini,",
+        "apellido": "Juan",
+        "piloto": "Gianini, Juan Pablo",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "09:11.212",
+        "diferencia": "",
+        "nacionalidad": "Gianini, Juan Pablo"
+      },
+      {
+        "pos": "2°",
+        "nro": "4",
+        "nombre": "Mazzacane,",
+        "apellido": "Gastón",
+        "piloto": "Mazzacane, Gastón",
+        "marca": "Volkswagen",
+        "vueltas": "5",
+        "tiempo": "09:12.197",
+        "diferencia": "0.985",
+        "nacionalidad": "Mazzacane, Gastón"
+      },
+      {
+        "pos": "3°",
+        "nro": "68",
+        "nombre": "Santero,",
+        "apellido": "Julián",
+        "piloto": "Santero, Julián",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "09:12.437",
+        "diferencia": "1.225",
+        "nacionalidad": "Santero, Julián"
+      },
+      {
+        "pos": "4°",
+        "nro": "32",
+        "nombre": "Álvarez,",
+        "apellido": "Santiago",
+        "piloto": "Álvarez, Santiago",
+        "marca": "Volkswagen",
+        "vueltas": "5",
+        "tiempo": "09:12.728",
+        "diferencia": "1.516",
+        "nacionalidad": "Álvarez, Santiago"
+      },
+      {
+        "pos": "5°",
+        "nro": "137",
+        "nombre": "Fritzler,",
+        "apellido": "Otto",
+        "piloto": "Fritzler, Otto",
+        "marca": "NISSAN",
+        "vueltas": "5",
+        "tiempo": "09:13.064",
+        "diferencia": "1.852",
+        "nacionalidad": "Fritzler, Otto"
+      },
+      {
+        "pos": "6°",
+        "nro": "1",
+        "nombre": "Werner,",
+        "apellido": "Mariano",
+        "piloto": "Werner, Mariano",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "09:13.327",
+        "diferencia": "2.115",
+        "nacionalidad": "Werner, Mariano"
+      },
+      {
+        "pos": "7°",
+        "nro": "117",
+        "nombre": "Abdala,",
+        "apellido": "Tomás",
+        "piloto": "Abdala, Tomás",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "09:20.805",
+        "diferencia": "9.593",
+        "nacionalidad": "Abdala, Tomás"
+      },
+      {
+        "pos": "8°",
+        "nro": "69",
+        "nombre": "Mión,",
+        "apellido": "Eddy",
+        "piloto": "Mión, Eddy",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "09:23.490",
+        "diferencia": "12.278",
+        "nacionalidad": "Mión, Eddy"
+      },
+      {
+        "pos": "9°",
+        "nro": "13",
+        "nombre": "Valle,",
+        "apellido": "Lucas",
+        "piloto": "Valle, Lucas",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "09:23.656",
+        "diferencia": "12.444",
+        "nacionalidad": "Valle, Lucas"
+      },
+      {
+        "pos": "10°",
+        "nro": "30",
+        "nombre": "Dose,",
+        "apellido": "Christian",
+        "piloto": "Dose, Christian",
+        "marca": "Chevrolet",
+        "vueltas": "4",
+        "tiempo": "07:55.601",
+        "diferencia": "1 VTA",
+        "nacionalidad": "Dose, Christian"
+      },
+      {
+        "pos": "11°",
+        "nro": "122",
+        "nombre": "Jakos,",
+        "apellido": "Andrés",
+        "piloto": "Jakos, Andrés",
+        "marca": "Toyota",
+        "vueltas": "4",
+        "tiempo": "09:38.752",
+        "diferencia": "1 VTA",
+        "nacionalidad": "Jakos, Andrés"
+      },
+      {
+        "pos": "12°",
+        "nro": "133",
+        "nombre": "Aguirre,",
+        "apellido": "Valentín",
+        "piloto": "Aguirre, Valentín",
+        "marca": "Chevrolet",
+        "vueltas": "0",
+        "tiempo": "",
+        "diferencia": "5 VTAS",
+        "nacionalidad": "Aguirre, Valentín"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1693&intIDTanda=359",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "1",
+        "nombre": "Werner,",
+        "apellido": "Mariano",
+        "piloto": "Werner, Mariano",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:24.189",
+        "diferencia": "",
+        "nacionalidad": "Werner, Mariano"
+      },
+      {
+        "pos": "2°",
+        "nro": "119",
+        "nombre": "Palazzo,",
+        "apellido": "Hernán",
+        "piloto": "Palazzo, Hernán",
+        "marca": "Y",
+        "vueltas": "5",
+        "tiempo": "07:28.876",
+        "diferencia": "4.687",
+        "nacionalidad": "Palazzo, Hernán"
+      },
+      {
+        "pos": "3°",
+        "nro": "51",
+        "nombre": "Gianini,",
+        "apellido": "Juan",
+        "piloto": "Gianini, Juan Pablo",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:29.182",
+        "diferencia": "4.993",
+        "nacionalidad": "Gianini, Juan Pablo"
+      },
+      {
+        "pos": "4°",
+        "nro": "68",
+        "nombre": "Santero,",
+        "apellido": "Julián",
+        "piloto": "Santero, Julián",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:32.716",
+        "diferencia": "8.527",
+        "nacionalidad": "Santero, Julián"
+      },
+      {
+        "pos": "5°",
+        "nro": "115",
+        "nombre": "De",
+        "apellido": "Carlo,",
+        "piloto": "De Carlo, Diego",
+        "marca": "VOLKSWAGEN",
+        "vueltas": "5",
+        "tiempo": "07:36.666",
+        "diferencia": "12.477",
+        "nacionalidad": "De Carlo, Diego"
+      },
+      {
+        "pos": "6°",
+        "nro": "32",
+        "nombre": "Álvarez,",
+        "apellido": "Santiago",
+        "piloto": "Álvarez, Santiago",
+        "marca": "VOLKSWAGEN",
+        "vueltas": "5",
+        "tiempo": "07:37.036",
+        "diferencia": "12.847",
+        "nacionalidad": "Álvarez, Santiago"
+      },
+      {
+        "pos": "7°",
+        "nro": "114",
+        "nombre": "Ferrante,",
+        "apellido": "Gastón",
+        "piloto": "Ferrante, Gastón",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:37.816",
+        "diferencia": "13.627",
+        "nacionalidad": "Ferrante, Gastón"
+      },
+      {
+        "pos": "8°",
+        "nro": "137",
+        "nombre": "Fritzler,",
+        "apellido": "Otto",
+        "piloto": "Fritzler, Otto",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "07:38.415",
+        "diferencia": "14.226",
+        "nacionalidad": "Fritzler, Otto"
+      },
+      {
+        "pos": "9°",
+        "nro": "15",
+        "nombre": "Lambiris,",
+        "apellido": "Mauricio",
+        "piloto": "Lambiris, Mauricio",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:38.688",
+        "diferencia": "14.499",
+        "nacionalidad": "Lambiris, Mauricio"
+      },
+      {
+        "pos": "10°",
+        "nro": "30",
+        "nombre": "Dose,",
+        "apellido": "Christian",
+        "piloto": "Dose, Christian",
+        "marca": "CHEVROLET",
+        "vueltas": "5",
+        "tiempo": "07:46.494",
+        "diferencia": "22.305",
+        "nacionalidad": "Dose, Christian"
+      },
+      {
+        "pos": "11°",
+        "nro": "13",
+        "nombre": "Valle,",
+        "apellido": "Lucas",
+        "piloto": "Valle, Lucas",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "07:50.890",
+        "diferencia": "26.701",
+        "nacionalidad": "Valle, Lucas"
+      },
+      {
+        "pos": "12°",
+        "nro": "113",
+        "nombre": "Lugón,",
+        "apellido": "Rodrigo",
+        "piloto": "Lugón, Rodrigo",
+        "marca": "Ford",
+        "vueltas": "3",
+        "tiempo": "05:16.167",
+        "diferencia": "2 VTAS",
+        "nacionalidad": "Lugón, Rodrigo"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1694&intIDTanda=359",
+    "resultado": [
+      {
+        "pos": "1°",
+        "nro": "68",
+        "nombre": "Santero,",
+        "apellido": "Julián",
+        "piloto": "Santero, Julián",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "10:22.257",
+        "diferencia": "",
+        "nacionalidad": "Santero, Julián"
+      },
+      {
+        "pos": "2°",
+        "nro": "113",
+        "nombre": "Lugón,",
+        "apellido": "Rodrigo",
+        "piloto": "Lugón, Rodrigo",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "10:24.000",
+        "diferencia": "1.743",
+        "nacionalidad": "Lugón, Rodrigo"
+      },
+      {
+        "pos": "3°",
+        "nro": "122",
+        "nombre": "Jakos,",
+        "apellido": "Andrés",
+        "piloto": "Jakos, Andrés",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "10:25.410",
+        "diferencia": "3.153",
+        "nacionalidad": "Jakos, Andrés"
+      },
+      {
+        "pos": "4°",
+        "nro": "133",
+        "nombre": "Aguirre,",
+        "apellido": "Valentín",
+        "piloto": "Aguirre, Valentín",
+        "marca": "CHEVROLET",
+        "vueltas": "5",
+        "tiempo": "10:27.573",
+        "diferencia": "5.316",
+        "nacionalidad": "Aguirre, Valentín"
+      },
+      {
+        "pos": "5°",
+        "nro": "9",
+        "nombre": "Trucco,",
+        "apellido": "Juan",
+        "piloto": "Trucco, Juan Martín",
+        "marca": "VOLKSWAGEN",
+        "vueltas": "5",
+        "tiempo": "10:28.518",
+        "diferencia": "6.261",
+        "nacionalidad": "Trucco, Juan Martín"
+      },
+      {
+        "pos": "6°",
+        "nro": "119",
+        "nombre": "Palazzo,",
+        "apellido": "Hernán",
+        "piloto": "Palazzo, Hernán",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "10:29.605",
+        "diferencia": "7.348",
+        "nacionalidad": "Palazzo, Hernán"
+      },
+      {
+        "pos": "7°",
+        "nro": "115",
+        "nombre": "De",
+        "apellido": "Carlo,",
+        "piloto": "De Carlo, Diego",
+        "marca": "VOLKSWAGEN",
+        "vueltas": "5",
+        "tiempo": "10:36.351",
+        "diferencia": "14.094",
+        "nacionalidad": "De Carlo, Diego"
+      },
+      {
+        "pos": "8°",
+        "nro": "69",
+        "nombre": "Mión,",
+        "apellido": "Eddy",
+        "piloto": "Mión, Eddy",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "10:41.188",
+        "diferencia": "18.931",
+        "nacionalidad": "Mión, Eddy"
+      },
+      {
+        "pos": "9°",
+        "nro": "32",
+        "nombre": "Álvarez,",
+        "apellido": "Santiago",
+        "piloto": "Álvarez, Santiago",
+        "marca": "VOLKSWAGEN",
+        "vueltas": "2",
+        "tiempo": "04:28.960",
+        "diferencia": "3 VTAS",
+        "nacionalidad": "Álvarez, Santiago"
+      },
+      {
+        "pos": "10°",
+        "nro": "56",
+        "nombre": "Todino,",
+        "apellido": "Germán",
+        "piloto": "Todino, Germán",
+        "marca": "Toyota",
+        "vueltas": "0",
+        "tiempo": "",
+        "diferencia": "5 VTAS",
+        "nacionalidad": "Todino, Germán"
+      },
+      {
+        "pos": "11°",
+        "nro": "137",
+        "nombre": "Fritzler,",
+        "apellido": "Otto",
+        "piloto": "Fritzler, Otto",
+        "marca": "Toyota",
+        "vueltas": "0",
+        "tiempo": "",
+        "diferencia": "5 VTAS",
+        "nacionalidad": "Fritzler, Otto"
+      },
+      {
+        "pos": "12°",
+        "nro": "66",
+        "nombre": "Jack,",
+        "apellido": "Javier",
+        "piloto": "Jack, Javier",
+        "marca": "Ford",
+        "vueltas": "0",
+        "tiempo": "",
+        "diferencia": "5 VTAS",
+        "nacionalidad": "Jack, Javier"
+      }
+    ]
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1695&intIDTanda=359",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1696&intIDTanda=359",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1697&intIDTanda=359",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1698&intIDTanda=359",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1699&intIDTanda=359",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1700&intIDTanda=359​",
+    "resultado": []
+  },
+  {
+    "url": "https://actc.org.ar/v3/carrera-on-line-resultados.ajax.php?intIDCarrera=1701&intIDTanda=359​",
+    "resultado": []
+  }
+]

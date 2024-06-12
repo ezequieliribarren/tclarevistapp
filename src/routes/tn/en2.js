@@ -1,5 +1,7 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
+const fs = require('fs').promises;
+const path = require('path');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 
 async function en2() {
@@ -16,9 +18,21 @@ async function en2() {
 
     const resultadosPorUrl = await Promise.all(promesasSolicitudes);
 
-    console.log('Resultados por URL:', JSON.stringify(resultadosPorUrl, null, 2));
+    // Transformar los resultados al formato deseado
+    const resultadosFormateados = urlsEntrenamiento.map((url, index) => ({
+      url: url,
+      resultado: resultadosPorUrl[index]
+    }));
 
-    return resultadosPorUrl;
+    console.log('Resultados por URL:', JSON.stringify(resultadosFormateados, null, 2));
+
+    // Guardar los resultados en un archivo JSON
+    const jsonFileName = path.join(__dirname, 'en2.json');
+    await fs.writeFile(jsonFileName, JSON.stringify(resultadosFormateados, null, 2), 'utf-8');
+
+    console.log('Datos guardados en:', jsonFileName);
+
+    return resultadosFormateados;
   } catch (error) {
     console.error('Error al obtener y mostrar datos:', error);
     throw error;
@@ -38,9 +52,7 @@ async function obtenerResultados(url) {
 
     let resultados = [];
 
-    // Encuentra todas las tablas con la clase 'lista_resultados'
     $('table.lista_resultados').each((index, table) => {
-      // Revisa si la tabla contiene el título '1° ENTRENAMIENTO'
       const titulo = $(table).find('td.TabResTitulo').text().trim();
       if (titulo.includes('2° ENTRENAMIENTO')) {
         $(table).find('tr.TabResData').each((i, row) => {
