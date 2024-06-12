@@ -1,0 +1,1801 @@
+[
+  {
+    "url": "https://www.apat.org.ar/resultados/3/2024-02-18",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "14",
+        "piloto": "YANNANTUONI, FABIAN",
+        "marca": "TIPO",
+        "vueltas": "22",
+        "tiempo": "\"32;22.590\"",
+        "diferencia": ""
+      },
+      {
+        "pos": "2",
+        "nro": "1",
+        "piloto": "PERNIA, LEONEL",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;22.992\"",
+        "diferencia": "0.402"
+      },
+      {
+        "pos": "3",
+        "nro": "122",
+        "piloto": "JAKOS, ANDRES",
+        "marca": "COROLLA",
+        "vueltas": "22",
+        "tiempo": "\"32;24.393\"",
+        "diferencia": "1.803"
+      },
+      {
+        "pos": "4",
+        "nro": "6",
+        "piloto": "CHAPUR, FACUNDO",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;25.573\"",
+        "diferencia": "2.983"
+      },
+      {
+        "pos": "5",
+        "nro": "5",
+        "piloto": "IANSA, GAST",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;26.146\"",
+        "diferencia": "3.556"
+      },
+      {
+        "pos": "6",
+        "nro": "10",
+        "piloto": "MUNOZ M., MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;33.415\"",
+        "diferencia": "10.825"
+      },
+      {
+        "pos": "7",
+        "nro": "11",
+        "piloto": "DOMENECH, ALFONSO",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;35.014\"",
+        "diferencia": "12.424"
+      },
+      {
+        "pos": "8",
+        "nro": "8",
+        "piloto": "CASTELLANO, JONATAN",
+        "marca": "CRUZE",
+        "vueltas": "22",
+        "tiempo": "\"32;35.525\"",
+        "diferencia": "12.935"
+      },
+      {
+        "pos": "9",
+        "nro": "12",
+        "piloto": "FRANETOVICH, EVER",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;35.990\"",
+        "diferencia": "13.400"
+      },
+      {
+        "pos": "10",
+        "nro": "7",
+        "piloto": "GASSMANN, JOEL",
+        "marca": "CRUZE",
+        "vueltas": "22",
+        "tiempo": "\"32;36.298\"",
+        "diferencia": "13.708"
+      },
+      {
+        "pos": "11",
+        "nro": "114",
+        "piloto": "SIGNORELLI, MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;36.768\"",
+        "diferencia": "14.178"
+      },
+      {
+        "pos": "12",
+        "nro": "16",
+        "piloto": "CARDUCCI, LEANDRO",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;37.011\"",
+        "diferencia": "14.421"
+      },
+      {
+        "pos": "13",
+        "nro": "63",
+        "piloto": "MERLO, CARLOS JAVIER",
+        "marca": "VIRTUS",
+        "vueltas": "22",
+        "tiempo": "\"32;38.469\"",
+        "diferencia": "15.879"
+      },
+      {
+        "pos": "14",
+        "nro": "144",
+        "piloto": "VICINO, LUCAS",
+        "marca": "COROLLA",
+        "vueltas": "22",
+        "tiempo": "\"32;39.339\"",
+        "diferencia": "16.749"
+      },
+      {
+        "pos": "15",
+        "nro": "156",
+        "piloto": "GARBIGLIA, CRISTIAN",
+        "marca": "C-ELYSEE",
+        "vueltas": "22",
+        "tiempo": "\"32;46.568\"",
+        "diferencia": "23.978"
+      },
+      {
+        "pos": "16",
+        "nro": "231",
+        "piloto": "URCERA, JOSE MANUEL",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;47.388\"",
+        "diferencia": "24.798"
+      },
+      {
+        "pos": "17",
+        "nro": "88",
+        "piloto": "MARQUES, FACUNDO",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;48.420\"",
+        "diferencia": "25.830"
+      },
+      {
+        "pos": "18",
+        "nro": "178",
+        "piloto": "RIVA, FRANCO",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;51.026\"",
+        "diferencia": "28.436"
+      },
+      {
+        "pos": "19",
+        "nro": "84",
+        "piloto": "CANELA, JUAN IGNACIO",
+        "marca": "CRUZE",
+        "vueltas": "22",
+        "tiempo": "\"32;51.565\"",
+        "diferencia": "28.975"
+      },
+      {
+        "pos": "20",
+        "nro": "82",
+        "piloto": "OKULOVICH, CARLOS",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;51.793\"",
+        "diferencia": "29.203"
+      },
+      {
+        "pos": "21",
+        "nro": "61",
+        "piloto": "NOCETI, DIEGO",
+        "marca": "FOCUS",
+        "vueltas": "22",
+        "tiempo": "\"32;54.848\"",
+        "diferencia": "32.258"
+      },
+      {
+        "pos": "22",
+        "nro": "112",
+        "piloto": "PIPKIN, JUAN",
+        "marca": "CRUZE",
+        "vueltas": "22",
+        "tiempo": "\"32;55.898\"",
+        "diferencia": "33.308"
+      },
+      {
+        "pos": "23",
+        "nro": "118",
+        "piloto": "GARCIA, ANTONINO",
+        "marca": "COROLLA",
+        "vueltas": "22",
+        "tiempo": "\"32;56.099\"",
+        "diferencia": "33.509"
+      },
+      {
+        "pos": "24",
+        "nro": "41",
+        "piloto": "BARRIO, JORGE",
+        "marca": "COROLLA",
+        "vueltas": "22",
+        "tiempo": "\"32;56.401\"",
+        "diferencia": "33.811"
+      },
+      {
+        "pos": "25",
+        "nro": "35",
+        "piloto": "POZNER, THOMAS",
+        "marca": "TIPO",
+        "vueltas": "22",
+        "tiempo": "\"33;02.048\"",
+        "diferencia": "39.458"
+      },
+      {
+        "pos": "26",
+        "nro": "111",
+        "piloto": "BLOTTA, RENZO",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"29;42.273\"",
+        "diferencia": "2 VTAS"
+      },
+      {
+        "pos": "27",
+        "nro": "108",
+        "piloto": "LUNA, ROBERTO",
+        "marca": "408",
+        "vueltas": "20",
+        "tiempo": "\"30;10.438\"",
+        "diferencia": "2 VTAS"
+      },
+      {
+        "pos": "28",
+        "nro": "77",
+        "piloto": "COHEN, MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "19",
+        "tiempo": "\"33;20.820\"",
+        "diferencia": "3 VTAS"
+      },
+      {
+        "pos": "29",
+        "nro": "113",
+        "piloto": "PEZZINI, FABRICIO",
+        "marca": "COROLLA",
+        "vueltas": "17",
+        "tiempo": "\"25;53.947\"",
+        "diferencia": "5 VTAS"
+      },
+      {
+        "pos": "30",
+        "nro": "81",
+        "piloto": "GEYMONAT, MAURICIO",
+        "marca": "C-ELYSEE",
+        "vueltas": "16",
+        "tiempo": "\"24;15.570\"",
+        "diferencia": "6 VTAS"
+      },
+      {
+        "pos": "31",
+        "nro": "22",
+        "piloto": "LARRAURI, LEONEL",
+        "marca": "CIVIC",
+        "vueltas": "14",
+        "tiempo": "\"21;06.027\"",
+        "diferencia": "8 VTAS"
+      },
+      {
+        "pos": "32",
+        "nro": "85",
+        "piloto": "PERNIA, TIAGO",
+        "marca": "CIVIC",
+        "vueltas": "12",
+        "tiempo": "\"18;26.233\"",
+        "diferencia": "10 VTAS"
+      },
+      {
+        "pos": "33",
+        "nro": "78",
+        "piloto": "GOMEZ, SEBASTIAN",
+        "marca": "CRUZE",
+        "vueltas": "7",
+        "tiempo": "\"11;11.035\"",
+        "diferencia": "15 VTAS"
+      },
+      {
+        "pos": "34",
+        "nro": "99",
+        "piloto": "MALLO, SANTIAGO",
+        "marca": "CRUZE",
+        "vueltas": "7",
+        "tiempo": "\"11;17.909\"",
+        "diferencia": "15 VTAS"
+      },
+      {
+        "pos": "35",
+        "nro": "150",
+        "piloto": "GRIPPO, PABLO",
+        "marca": "COROLLA",
+        "vueltas": "7",
+        "tiempo": "\"11;22.690\"",
+        "diferencia": "15 VTAS"
+      },
+      {
+        "pos": "36",
+        "nro": "30",
+        "piloto": "CIAURRO, MIGUEL",
+        "marca": "COROLLA",
+        "vueltas": "6",
+        "tiempo": "\"09;37.402\"",
+        "diferencia": "16 VTAS"
+      },
+      {
+        "pos": "37",
+        "nro": "177",
+        "piloto": "PERNIA, MARIANO",
+        "marca": "COROLLA",
+        "vueltas": "5",
+        "tiempo": "\"08;11.531\"",
+        "diferencia": "17 VTAS"
+      },
+      {
+        "pos": "38",
+        "nro": "55",
+        "piloto": "MALLO, MANUEL",
+        "marca": "CRUZE",
+        "vueltas": "2",
+        "tiempo": "\"02;51.481\"",
+        "diferencia": "20 VTAS"
+      },
+      {
+        "pos": "39",
+        "nro": "138",
+        "piloto": "CRAVERO, MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "2",
+        "tiempo": "\"02;56.815\"",
+        "diferencia": "20 VTAS"
+      },
+      {
+        "pos": "40",
+        "nro": "4",
+        "piloto": "TETI, JERONIMO",
+        "marca": "CRUZE",
+        "vueltas": "1",
+        "tiempo": "\"01;18.639\"",
+        "diferencia": "21 VTAS"
+      },
+      {
+        "pos": "41",
+        "nro": "72",
+        "piloto": "TEDESCHI, LUCAS",
+        "marca": "FOCUS",
+        "vueltas": "1",
+        "tiempo": "\"01;19.997\"",
+        "diferencia": "21 VTAS"
+      },
+      {
+        "pos": "42",
+        "nro": "66",
+        "piloto": "PERCAZ, ADRIAN",
+        "marca": "FOCUS",
+        "vueltas": "1",
+        "tiempo": "\"35;12.693\"",
+        "diferencia": "21 VTAS"
+      },
+      {
+        "pos": "",
+        "nro": "",
+        "piloto": "",
+        "marca": "",
+        "vueltas": "",
+        "tiempo": "",
+        "diferencia": ""
+      }
+    ]
+  },
+  {
+    "url": "https://www.apat.org.ar/resultados/3/2024-03-10",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "7",
+        "piloto": "GASSMANN JOEL",
+        "marca": "CRUZE",
+        "vueltas": "20",
+        "tiempo": "\"32;33.176\"",
+        "diferencia": ""
+      },
+      {
+        "pos": "2",
+        "nro": "63",
+        "piloto": "MERLO CARLOS JAVIER",
+        "marca": "VIRTUS",
+        "vueltas": "20",
+        "tiempo": "\"32;36.340\"",
+        "diferencia": "3.164"
+      },
+      {
+        "pos": "3",
+        "nro": "41",
+        "piloto": "BARRIO JORGE",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"32;42.843\"",
+        "diferencia": "9.667"
+      },
+      {
+        "pos": "4",
+        "nro": "11",
+        "piloto": "DOMENECH ALFONSO",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"32;43.640\"",
+        "diferencia": "10.464"
+      },
+      {
+        "pos": "5",
+        "nro": "122",
+        "piloto": "JAKOS ANDRES",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"32;43.641\"",
+        "diferencia": "10.465"
+      },
+      {
+        "pos": "6",
+        "nro": "1",
+        "piloto": "PERNIA LEONEL",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"32;43.754\"",
+        "diferencia": "10.578"
+      },
+      {
+        "pos": "7",
+        "nro": "4",
+        "piloto": "TETI JERONIMO",
+        "marca": "CRUZE",
+        "vueltas": "20",
+        "tiempo": "\"32;46.664\"",
+        "diferencia": "13.488"
+      },
+      {
+        "pos": "8",
+        "nro": "8",
+        "piloto": "CASTELLANO JONATAN",
+        "marca": "CRUZE",
+        "vueltas": "20",
+        "tiempo": "\"32;49.656\"",
+        "diferencia": "16.480"
+      },
+      {
+        "pos": "9",
+        "nro": "78",
+        "piloto": "GOMEZ SEBASTI",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"32;50.264\"",
+        "diferencia": "17.088"
+      },
+      {
+        "pos": "10",
+        "nro": "14",
+        "piloto": "YANNANTUONI FABI",
+        "marca": "TIPO",
+        "vueltas": "20",
+        "tiempo": "\"32;50.637\"",
+        "diferencia": "17.461"
+      },
+      {
+        "pos": "11",
+        "nro": "12",
+        "piloto": "FRANETOVICH EVER",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"32;50.932\"",
+        "diferencia": "17.756"
+      },
+      {
+        "pos": "12",
+        "nro": "5",
+        "piloto": "IANSA GASTON",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"32;51.074\"",
+        "diferencia": "17.898"
+      },
+      {
+        "pos": "13",
+        "nro": "6",
+        "piloto": "CHAPUR FACUNDO",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"32;52.016\"",
+        "diferencia": "18.840"
+      },
+      {
+        "pos": "14",
+        "nro": "10",
+        "piloto": "MUNOZ M. MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"32;52.317\"",
+        "diferencia": "19.141"
+      },
+      {
+        "pos": "15",
+        "nro": "177",
+        "piloto": "PERNIA MARIANO",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"32;53.566\"",
+        "diferencia": "20.390"
+      },
+      {
+        "pos": "16",
+        "nro": "82",
+        "piloto": "OKULOVICH CARLOS",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"32;57.978\"",
+        "diferencia": "24.802"
+      },
+      {
+        "pos": "17",
+        "nro": "231",
+        "piloto": "URCERA JOSE MANUEL",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"32;58.375\"",
+        "diferencia": "25.199"
+      },
+      {
+        "pos": "18",
+        "nro": "56",
+        "piloto": "TODINO GERMAN",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"33;02.958\"",
+        "diferencia": "29.782"
+      },
+      {
+        "pos": "19",
+        "nro": "144",
+        "piloto": "VICINO LUCAS",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"33;03.865\"",
+        "diferencia": "30.689"
+      },
+      {
+        "pos": "20",
+        "nro": "118",
+        "piloto": "GARCIA ANTONINO",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"33;06.737\"",
+        "diferencia": "33.561"
+      },
+      {
+        "pos": "21",
+        "nro": "111",
+        "piloto": "BLOTTA RENZO",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"33;07.438\"",
+        "diferencia": "34.262"
+      },
+      {
+        "pos": "22",
+        "nro": "16",
+        "piloto": "CARDUCCI LEANDRO",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"33;14.452\"",
+        "diferencia": "41.276"
+      },
+      {
+        "pos": "23",
+        "nro": "85",
+        "piloto": "PERNIA TIAGO",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"33;17.166\"",
+        "diferencia": "43.990"
+      },
+      {
+        "pos": "24",
+        "nro": "84",
+        "piloto": "CANELA JUAN IGNACIO",
+        "marca": "CRUZE",
+        "vueltas": "20",
+        "tiempo": "\"33;30.315\"",
+        "diferencia": "57.139"
+      },
+      {
+        "pos": "25",
+        "nro": "88",
+        "piloto": "MARQUES FACUNDO",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"33;35.745\"",
+        "diferencia": "\"1;02.569\""
+      },
+      {
+        "pos": "26",
+        "nro": "72",
+        "piloto": "TEDESCHI LUCAS",
+        "marca": "FOCUS",
+        "vueltas": "19",
+        "tiempo": "\"31;48.856\"",
+        "diferencia": "1 VTA"
+      },
+      {
+        "pos": "27",
+        "nro": "55",
+        "piloto": "MALLO MANUEL",
+        "marca": "CRUZE",
+        "vueltas": "16",
+        "tiempo": "\"26;28.943\"",
+        "diferencia": "4 VTAS"
+      },
+      {
+        "pos": "28",
+        "nro": "112",
+        "piloto": "PIPKIN JUAN",
+        "marca": "CRUZE",
+        "vueltas": "12",
+        "tiempo": "\"19;52.660\"",
+        "diferencia": "8 VTAS"
+      },
+      {
+        "pos": "29",
+        "nro": "156",
+        "piloto": "GARBIGLIA CRISTIAN",
+        "marca": "C-ELYSEE",
+        "vueltas": "11",
+        "tiempo": "\"18;21.535\"",
+        "diferencia": "9 VTAS"
+      },
+      {
+        "pos": "30",
+        "nro": "61",
+        "piloto": "NOCETI DIEGO",
+        "marca": "FOCUS",
+        "vueltas": "11",
+        "tiempo": "\"18;35.423\"",
+        "diferencia": "9 VTAS"
+      },
+      {
+        "pos": "31",
+        "nro": "51",
+        "piloto": "SCHENONE MAURO",
+        "marca": "CHEVROLET",
+        "vueltas": "8",
+        "tiempo": "\"14;16.125\"",
+        "diferencia": "12 VTAS"
+      },
+      {
+        "pos": "32",
+        "nro": "138",
+        "piloto": "CRAVERO MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "6",
+        "tiempo": "\"09;50.710\"",
+        "diferencia": "14 VTAS"
+      },
+      {
+        "pos": "33",
+        "nro": "114",
+        "piloto": "SIGNORELLI MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "5",
+        "tiempo": "\"08;34.002\"",
+        "diferencia": "15 VTAS"
+      },
+      {
+        "pos": "34",
+        "nro": "81",
+        "piloto": "GEYMONAT MAURICIO",
+        "marca": "C-ELYSEE",
+        "vueltas": "5",
+        "tiempo": "\"08;45.689\"",
+        "diferencia": "15 VTAS"
+      },
+      {
+        "pos": "35",
+        "nro": "30",
+        "piloto": "CIAURRO MIGUEL",
+        "marca": "COROLLA",
+        "vueltas": "5",
+        "tiempo": "\"09;13.426\"",
+        "diferencia": "15 VTAS"
+      },
+      {
+        "pos": "36",
+        "nro": "178",
+        "piloto": "RIVA FRANCO",
+        "marca": "FOCUS",
+        "vueltas": "5",
+        "tiempo": "\"09;16.290\"",
+        "diferencia": "15 VTAS"
+      },
+      {
+        "pos": "37",
+        "nro": "77",
+        "piloto": "COHEN MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "3",
+        "tiempo": "\"05;01.989\"",
+        "diferencia": "17 VTAS"
+      },
+      {
+        "pos": "38",
+        "nro": "22",
+        "piloto": "LARRAURI LEONEL",
+        "marca": "CIVIC",
+        "vueltas": "2",
+        "tiempo": "\"04;08.383\"",
+        "diferencia": "18 VTAS"
+      },
+      {
+        "pos": "39",
+        "nro": "108",
+        "piloto": "LUNA ROBERTO",
+        "marca": "408",
+        "vueltas": "1",
+        "tiempo": "\"01;49.970\"",
+        "diferencia": "19 VTAS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.apat.org.ar/resultados/3/2024-03-31",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "41",
+        "piloto": "BARRIO JORGE",
+        "marca": "CRUZE",
+        "vueltas": "18",
+        "tiempo": "\"40;43.609\"",
+        "diferencia": ""
+      },
+      {
+        "pos": "2",
+        "nro": "4",
+        "piloto": "TETI JERONIMO",
+        "marca": "CRUZE",
+        "vueltas": "18",
+        "tiempo": "\"40;47.274\"",
+        "diferencia": "3.665"
+      },
+      {
+        "pos": "3",
+        "nro": "5",
+        "piloto": "IANSA GASTON",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"40;55.046\"",
+        "diferencia": "11.437"
+      },
+      {
+        "pos": "4",
+        "nro": "122",
+        "piloto": "JAKOS ANDRES",
+        "marca": "COROLLA",
+        "vueltas": "18",
+        "tiempo": "\"40;56.965\"",
+        "diferencia": "13.356"
+      },
+      {
+        "pos": "5",
+        "nro": "82",
+        "piloto": "OKULOVICH CARLOS",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"40;58.533\"",
+        "diferencia": "14.924"
+      },
+      {
+        "pos": "6",
+        "nro": "138",
+        "piloto": "CRAVERO MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"40;58.592\"",
+        "diferencia": "14.983"
+      },
+      {
+        "pos": "7",
+        "nro": "1",
+        "piloto": "PERNIA LEONEL",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"40;59.089\"",
+        "diferencia": "15.480"
+      },
+      {
+        "pos": "8",
+        "nro": "114",
+        "piloto": "SIGNORELLI MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"40;59.439\"",
+        "diferencia": "15.830"
+      },
+      {
+        "pos": "9",
+        "nro": "56",
+        "piloto": "TODINO GERM",
+        "marca": "COROLLA",
+        "vueltas": "18",
+        "tiempo": "\"40;59.996\"",
+        "diferencia": "16.387"
+      },
+      {
+        "pos": "10",
+        "nro": "63",
+        "piloto": "MERLO CARLOS JAVIER",
+        "marca": "COROLLA",
+        "vueltas": "18",
+        "tiempo": "\"41;00.628\"",
+        "diferencia": "17.019"
+      },
+      {
+        "pos": "11",
+        "nro": "8",
+        "piloto": "CASTELLANO JONATAN",
+        "marca": "CRUZE",
+        "vueltas": "18",
+        "tiempo": "\"41;01.255\"",
+        "diferencia": "17.646"
+      },
+      {
+        "pos": "12",
+        "nro": "14",
+        "piloto": "YANNANTUONI FABIAN",
+        "marca": "TIPO",
+        "vueltas": "18",
+        "tiempo": "\"41;01.955\"",
+        "diferencia": "18.346"
+      },
+      {
+        "pos": "13",
+        "nro": "99",
+        "piloto": "MALLO SANTIAGO",
+        "marca": "CRUZE",
+        "vueltas": "18",
+        "tiempo": "\"41;02.086\"",
+        "diferencia": "18.477"
+      },
+      {
+        "pos": "14",
+        "nro": "10",
+        "piloto": "MUNOZ M. MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"41;02.180\"",
+        "diferencia": "18.571"
+      },
+      {
+        "pos": "15",
+        "nro": "6",
+        "piloto": "CHAPUR FACUNDO",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"41;02.903\"",
+        "diferencia": "19.294"
+      },
+      {
+        "pos": "16",
+        "nro": "156",
+        "piloto": "GARBIGLIA CRISTIAN",
+        "marca": "C-ELYSEE",
+        "vueltas": "18",
+        "tiempo": "\"41;03.616\"",
+        "diferencia": "20.007"
+      },
+      {
+        "pos": "17",
+        "nro": "61",
+        "piloto": "NOCETI DIEGO",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"41;03.836\"",
+        "diferencia": "20.227"
+      },
+      {
+        "pos": "18",
+        "nro": "7",
+        "piloto": "GASSMANN JOEL",
+        "marca": "CRUZE",
+        "vueltas": "18",
+        "tiempo": "\"41;04.873\"",
+        "diferencia": "21.264"
+      },
+      {
+        "pos": "19",
+        "nro": "88",
+        "piloto": "MARQUES FACUNDO",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"41;05.289\"",
+        "diferencia": "21.680"
+      },
+      {
+        "pos": "20",
+        "nro": "178",
+        "piloto": "RIVA FRANCO",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"41;08.235\"",
+        "diferencia": "24.626"
+      },
+      {
+        "pos": "21",
+        "nro": "177",
+        "piloto": "PERNIA MARIANO",
+        "marca": "COROLLA",
+        "vueltas": "18",
+        "tiempo": "\"41;15.324\"",
+        "diferencia": "31.715"
+      },
+      {
+        "pos": "22",
+        "nro": "11",
+        "piloto": "DOMENECH ALFONSO",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"41;16.620\"",
+        "diferencia": "33.011"
+      },
+      {
+        "pos": "23",
+        "nro": "112",
+        "piloto": "PIPKIN JUAN",
+        "marca": "CRUZE",
+        "vueltas": "18",
+        "tiempo": "\"41;25.326\"",
+        "diferencia": "41.717"
+      },
+      {
+        "pos": "24",
+        "nro": "66",
+        "piloto": "PERCAZ ADRIAN",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"41;26.276\"",
+        "diferencia": "42.667"
+      },
+      {
+        "pos": "25",
+        "nro": "85",
+        "piloto": "PERNIA TIAGO",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"41;33.242\"",
+        "diferencia": "49.633"
+      },
+      {
+        "pos": "26",
+        "nro": "22",
+        "piloto": "LARRAURI LEONEL",
+        "marca": "CIVIC",
+        "vueltas": "16",
+        "tiempo": "\"36;50.822\"",
+        "diferencia": "2 VTAS"
+      },
+      {
+        "pos": "27",
+        "nro": "231",
+        "piloto": "URCERA JOSE MANUEL",
+        "marca": "FOCUS",
+        "vueltas": "15",
+        "tiempo": "\"34;44.276\"",
+        "diferencia": "3 VTAS"
+      },
+      {
+        "pos": "28",
+        "nro": "77",
+        "piloto": "COHEN MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "15",
+        "tiempo": "\"34;48.231\"",
+        "diferencia": "3 VTAS"
+      },
+      {
+        "pos": "29",
+        "nro": "30",
+        "piloto": "CIAURRO MIGUEL",
+        "marca": "COROLLA",
+        "vueltas": "15",
+        "tiempo": "\"36;23.456\"",
+        "diferencia": "3 VTAS"
+      },
+      {
+        "pos": "30",
+        "nro": "55",
+        "piloto": "MALLO MANUEL",
+        "marca": "CRUZE",
+        "vueltas": "13",
+        "tiempo": "\"29;43.606\"",
+        "diferencia": "5 VTAS"
+      },
+      {
+        "pos": "31",
+        "nro": "81",
+        "piloto": "GEYMONAT MAURICIO",
+        "marca": "C-ELYSEE",
+        "vueltas": "13",
+        "tiempo": "\"44;40.594\"",
+        "diferencia": "5 VTAS"
+      },
+      {
+        "pos": "32",
+        "nro": "108",
+        "piloto": "LUNA ROBERTO",
+        "marca": "408",
+        "vueltas": "9",
+        "tiempo": "\"19;51.243\"",
+        "diferencia": "9 VTAS"
+      },
+      {
+        "pos": "33",
+        "nro": "35",
+        "piloto": "POZNER THOMAS",
+        "marca": "TIPO",
+        "vueltas": "8",
+        "tiempo": "\"17;46.200\"",
+        "diferencia": "10 VTAS"
+      },
+      {
+        "pos": "34",
+        "nro": "12",
+        "piloto": "FRANETOVICH EVER",
+        "marca": "FOCUS",
+        "vueltas": "8",
+        "tiempo": "\"17;47.545\"",
+        "diferencia": "10 VTAS"
+      },
+      {
+        "pos": "35",
+        "nro": "51",
+        "piloto": "SCHENONE MAURO",
+        "marca": "CHEVROLET",
+        "vueltas": "8",
+        "tiempo": "\"17;52.709\"",
+        "diferencia": "10 VTAS"
+      },
+      {
+        "pos": "36",
+        "nro": "144",
+        "piloto": "VICINO LUCAS",
+        "marca": "COROLLA",
+        "vueltas": "6",
+        "tiempo": "\"13;34.434\"",
+        "diferencia": "12 VTAS"
+      },
+      {
+        "pos": "37",
+        "nro": "84",
+        "piloto": "CANELA JUAN IGNACIO",
+        "marca": "CRUZE",
+        "vueltas": "3",
+        "tiempo": "\"06;33.914\"",
+        "diferencia": "15 VTAS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.apat.org.ar/resultados/3/2024-04-21",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "56",
+        "piloto": "TODINO GERMAN",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"38;19.139\"",
+        "diferencia": ""
+      },
+      {
+        "pos": "2",
+        "nro": "41",
+        "piloto": "BARRIO JORGE",
+        "marca": "CRUZE",
+        "vueltas": "20",
+        "tiempo": "\"38;19.839\"",
+        "diferencia": "0.700"
+      },
+      {
+        "pos": "3",
+        "nro": "11",
+        "piloto": "DOMENECH ALFONSO",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"38;24.633\"",
+        "diferencia": "5.494"
+      },
+      {
+        "pos": "4",
+        "nro": "1",
+        "piloto": "PERNIA LEONEL",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"38;27.129\"",
+        "diferencia": "7.990"
+      },
+      {
+        "pos": "5",
+        "nro": "22",
+        "piloto": "LARRAURI LEONEL",
+        "marca": "CIVIC",
+        "vueltas": "20",
+        "tiempo": "\"38;36.001\"",
+        "diferencia": "16.862"
+      },
+      {
+        "pos": "6",
+        "nro": "8",
+        "piloto": "CASTELLANO JONATAN",
+        "marca": "CRUZE",
+        "vueltas": "20",
+        "tiempo": "\"38;36.002\"",
+        "diferencia": "16.863"
+      },
+      {
+        "pos": "7",
+        "nro": "4",
+        "piloto": "TETI JERONIMO",
+        "marca": "CRUZE",
+        "vueltas": "20",
+        "tiempo": "\"38;37.121\"",
+        "diferencia": "17.982"
+      },
+      {
+        "pos": "8",
+        "nro": "12",
+        "piloto": "FRANETOVICH EVER",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"38;38.097\"",
+        "diferencia": "18.958"
+      },
+      {
+        "pos": "9",
+        "nro": "6",
+        "piloto": "CHAPUR FACUNDO",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"38;38.416\"",
+        "diferencia": "19.277"
+      },
+      {
+        "pos": "10",
+        "nro": "78",
+        "piloto": "GOMEZ SEBASTIAN",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"38;41.864\"",
+        "diferencia": "22.725"
+      },
+      {
+        "pos": "11",
+        "nro": "144",
+        "piloto": "VICINO LUCAS",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"38;45.262\"",
+        "diferencia": "26.123"
+      },
+      {
+        "pos": "12",
+        "nro": "111",
+        "piloto": "BLOTTA RENZO",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"38;45.267\"",
+        "diferencia": "26.128"
+      },
+      {
+        "pos": "13",
+        "nro": "114",
+        "piloto": "SIGNORELLI MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"38;50.098\"",
+        "diferencia": "30.959"
+      },
+      {
+        "pos": "14",
+        "nro": "63",
+        "piloto": "MERLO CARLOS JAVIER",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"38;52.788\"",
+        "diferencia": "33.649"
+      },
+      {
+        "pos": "15",
+        "nro": "122",
+        "piloto": "JAKOS ANDR",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"38;54.048\"",
+        "diferencia": "34.909"
+      },
+      {
+        "pos": "16",
+        "nro": "85",
+        "piloto": "PERNIA TIAGO",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"38;54.574\"",
+        "diferencia": "35.435"
+      },
+      {
+        "pos": "17",
+        "nro": "112",
+        "piloto": "PIPKIN JUAN",
+        "marca": "CRUZE",
+        "vueltas": "20",
+        "tiempo": "\"39;00.571\"",
+        "diferencia": "41.432"
+      },
+      {
+        "pos": "18",
+        "nro": "178",
+        "piloto": "RIVA FRANCO",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"39;01.652\"",
+        "diferencia": "42.513"
+      },
+      {
+        "pos": "19",
+        "nro": "82",
+        "piloto": "OKULOVICH CARLOS",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"39;09.725\"",
+        "diferencia": "50.586"
+      },
+      {
+        "pos": "20",
+        "nro": "30",
+        "piloto": "CIAURRO MIGUEL",
+        "marca": "COROLLA",
+        "vueltas": "20",
+        "tiempo": "\"39;22.948\"",
+        "diferencia": "\"1;03.809\""
+      },
+      {
+        "pos": "21",
+        "nro": "88",
+        "piloto": "MARQUES FACUNDO",
+        "marca": "FOCUS",
+        "vueltas": "20",
+        "tiempo": "\"39;27.816\"",
+        "diferencia": "\"1;08.677\""
+      },
+      {
+        "pos": "22",
+        "nro": "51",
+        "piloto": "SCHENONE MAURO",
+        "marca": "CRUZE",
+        "vueltas": "20",
+        "tiempo": "\"39;44.540\"",
+        "diferencia": "\"1;25.401\""
+      },
+      {
+        "pos": "23",
+        "nro": "108",
+        "piloto": "LUNA ROBERTO",
+        "marca": "408",
+        "vueltas": "20",
+        "tiempo": "\"40;06.233\"",
+        "diferencia": "\"1;47.094\""
+      },
+      {
+        "pos": "24",
+        "nro": "39",
+        "piloto": "MENVIELLE MATIAS",
+        "marca": "CRUZE",
+        "vueltas": "17",
+        "tiempo": "\"33;52.344\"",
+        "diferencia": "3 VTAS"
+      },
+      {
+        "pos": "25",
+        "nro": "7",
+        "piloto": "GASSMANN JOEL",
+        "marca": "CRUZE",
+        "vueltas": "17",
+        "tiempo": "\"34;38.897\"",
+        "diferencia": "3 VTAS"
+      },
+      {
+        "pos": "26",
+        "nro": "35",
+        "piloto": "POZNER THOMAS",
+        "marca": "TIPO",
+        "vueltas": "11",
+        "tiempo": "\"22;39.820\"",
+        "diferencia": "9 VTAS"
+      },
+      {
+        "pos": "27",
+        "nro": "81",
+        "piloto": "GEYMONAT MAURICIO",
+        "marca": "C-ELYSEE",
+        "vueltas": "9",
+        "tiempo": "\"19;11.832\"",
+        "diferencia": "11 VTAS"
+      },
+      {
+        "pos": "28",
+        "nro": "14",
+        "piloto": "YANNANTUONI FABIAN",
+        "marca": "TIPO",
+        "vueltas": "6",
+        "tiempo": "\"13;50.609\"",
+        "diferencia": "14 VTAS"
+      },
+      {
+        "pos": "29",
+        "nro": "156",
+        "piloto": "GARBIGLIA CRISTIAN",
+        "marca": "C-ELYSEE",
+        "vueltas": "6",
+        "tiempo": "\"14;11.742\"",
+        "diferencia": "14 VTAS"
+      },
+      {
+        "pos": "30",
+        "nro": "231",
+        "piloto": "URCERA JOSE MANUEL",
+        "marca": "FOCUS",
+        "vueltas": "5",
+        "tiempo": "\"11;24.915\"",
+        "diferencia": "15 VTAS"
+      },
+      {
+        "pos": "31",
+        "nro": "5",
+        "piloto": "IANSA GASTON",
+        "marca": "FOCUS",
+        "vueltas": "3",
+        "tiempo": "\"07;58.082\"",
+        "diferencia": "17 VTAS"
+      },
+      {
+        "pos": "32",
+        "nro": "16",
+        "piloto": "CARDUCCI LEANDRO",
+        "marca": "FOCUS",
+        "vueltas": "3",
+        "tiempo": "\"08;09.947\"",
+        "diferencia": "17 VTAS"
+      },
+      {
+        "pos": "33",
+        "nro": "84",
+        "piloto": "CANELA JUAN IGNACIO",
+        "marca": "COROLLA",
+        "vueltas": "2",
+        "tiempo": "\"05;28.774\"",
+        "diferencia": "18 VTAS"
+      },
+      {
+        "pos": "34",
+        "nro": "177",
+        "piloto": "PERNIA MARIANO",
+        "marca": "COROLLA",
+        "vueltas": "1",
+        "tiempo": "\"02;18.633\"",
+        "diferencia": "19 VTAS"
+      },
+      {
+        "pos": "35",
+        "nro": "138",
+        "piloto": "CRAVERO MATIAS",
+        "marca": "COROLLA",
+        "vueltas": "1",
+        "tiempo": "\"02;30.358\"",
+        "diferencia": "19 VTAS"
+      },
+      {
+        "pos": "36",
+        "nro": "10",
+        "piloto": "MUNOZ M. MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "0",
+        "tiempo": "",
+        "diferencia": "20 VTAS"
+      },
+      {
+        "pos": "37",
+        "nro": "77",
+        "piloto": "COHEN MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "0",
+        "tiempo": "",
+        "diferencia": "20 VTAS"
+      }
+    ]
+  },
+  {
+    "url": "https://www.apat.org.ar/resultados/3/2024-05-12",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "14",
+        "piloto": "YANNANTUONI, FABI",
+        "marca": "TIPO",
+        "vueltas": "18",
+        "tiempo": "\"35;27.753\"",
+        "diferencia": ""
+      },
+      {
+        "pos": "2",
+        "nro": "1",
+        "piloto": "PERNIA, LEONEL",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"35;28.255\"",
+        "diferencia": "0.502"
+      },
+      {
+        "pos": "3",
+        "nro": "231",
+        "piloto": "URCERA, JOSE MANUEL",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"35;32.041\"",
+        "diferencia": "4.288"
+      },
+      {
+        "pos": "4",
+        "nro": "41",
+        "piloto": "BARRIO, JORGE",
+        "marca": "CRUZE",
+        "vueltas": "18",
+        "tiempo": "\"35;37.815\"",
+        "diferencia": "10.062"
+      },
+      {
+        "pos": "5",
+        "nro": "56",
+        "piloto": "TODINO, GERMAN",
+        "marca": "COROLLA",
+        "vueltas": "18",
+        "tiempo": "\"35;38.989\"",
+        "diferencia": "11.236"
+      },
+      {
+        "pos": "6",
+        "nro": "122",
+        "piloto": "JAKOS, ANDRES",
+        "marca": "COROLLA",
+        "vueltas": "18",
+        "tiempo": "\"35;39.672\"",
+        "diferencia": "11.919"
+      },
+      {
+        "pos": "7",
+        "nro": "144",
+        "piloto": "VICINO, LUCAS",
+        "marca": "COROLLA",
+        "vueltas": "18",
+        "tiempo": "\"35;43.721\"",
+        "diferencia": "15.968"
+      },
+      {
+        "pos": "8",
+        "nro": "7",
+        "piloto": "GASSMANN, JOEL",
+        "marca": "CRUZE",
+        "vueltas": "18",
+        "tiempo": "\"35;43.983\"",
+        "diferencia": "16.230"
+      },
+      {
+        "pos": "9",
+        "nro": "11",
+        "piloto": "DOMENECH, ALFONSO",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"35;49.095\"",
+        "diferencia": "21.342"
+      },
+      {
+        "pos": "10",
+        "nro": "78",
+        "piloto": "GOMEZ, SEBASTIAN",
+        "marca": "COROLLA",
+        "vueltas": "18",
+        "tiempo": "\"35;50.140\"",
+        "diferencia": "22.387"
+      },
+      {
+        "pos": "11",
+        "nro": "55",
+        "piloto": "MALLO, MANUEL",
+        "marca": "CRUZE",
+        "vueltas": "18",
+        "tiempo": "\"35;50.691\"",
+        "diferencia": "22.938"
+      },
+      {
+        "pos": "12",
+        "nro": "88",
+        "piloto": "MARQUES, FACUNDO",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"35;52.692\"",
+        "diferencia": "24.939"
+      },
+      {
+        "pos": "13",
+        "nro": "10",
+        "piloto": "MUNOZ M., MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"35;54.190\"",
+        "diferencia": "26.437"
+      },
+      {
+        "pos": "14",
+        "nro": "108",
+        "piloto": "LUNA, ROBERTO",
+        "marca": "408",
+        "vueltas": "18",
+        "tiempo": "\"35;56.735\"",
+        "diferencia": "28.982"
+      },
+      {
+        "pos": "15",
+        "nro": "16",
+        "piloto": "CARDUCCI, LEANDRO",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"35;57.270\"",
+        "diferencia": "29.517"
+      },
+      {
+        "pos": "16",
+        "nro": "177",
+        "piloto": "PERNIA, MARIANO",
+        "marca": "COROLLA",
+        "vueltas": "18",
+        "tiempo": "\"35;58.116\"",
+        "diferencia": "30.363"
+      },
+      {
+        "pos": "17",
+        "nro": "30",
+        "piloto": "CIAURRO, MIGUEL",
+        "marca": "COROLLA",
+        "vueltas": "18",
+        "tiempo": "\"36;04.564\"",
+        "diferencia": "36.811"
+      },
+      {
+        "pos": "18",
+        "nro": "35",
+        "piloto": "POZNER, THOMAS",
+        "marca": "TIPO",
+        "vueltas": "18",
+        "tiempo": "\"36;05.849\"",
+        "diferencia": "38.096"
+      },
+      {
+        "pos": "19",
+        "nro": "85",
+        "piloto": "PERNIA, TIAGO",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"36;07.392\"",
+        "diferencia": "39.639"
+      },
+      {
+        "pos": "20",
+        "nro": "61",
+        "piloto": "NOCETI, DIEGO",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"36;08.794\"",
+        "diferencia": "41.041"
+      },
+      {
+        "pos": "21",
+        "nro": "114",
+        "piloto": "SIGNORELLI, MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"36;13.911\"",
+        "diferencia": "46.158"
+      },
+      {
+        "pos": "22",
+        "nro": "39",
+        "piloto": "MENVIELLE, MATIAS",
+        "marca": "CRUZE",
+        "vueltas": "18",
+        "tiempo": "\"36;13.912\"",
+        "diferencia": "46.158"
+      },
+      {
+        "pos": "23",
+        "nro": "22",
+        "piloto": "LARRAURI, LEONEL",
+        "marca": "CIVIC",
+        "vueltas": "18",
+        "tiempo": "\"36;15.574\"",
+        "diferencia": "47.821"
+      },
+      {
+        "pos": "24",
+        "nro": "77",
+        "piloto": "COHEN, MATIAS",
+        "marca": "FOCUS",
+        "vueltas": "18",
+        "tiempo": "\"36;19.515\"",
+        "diferencia": "51.762"
+      },
+      {
+        "pos": "25",
+        "nro": "81",
+        "piloto": "GEYMONAT, MAURICIO",
+        "marca": "C-ELYSEE",
+        "vueltas": "18",
+        "tiempo": "\"36;27.106\"",
+        "diferencia": "59.353"
+      },
+      {
+        "pos": "26",
+        "nro": "8",
+        "piloto": "CASTELLANO, JONATAN",
+        "marca": "CRUZE",
+        "vueltas": "18",
+        "tiempo": "\"37;06.694\"",
+        "diferencia": "\"1;38.941\""
+      },
+      {
+        "pos": "27",
+        "nro": "84",
+        "piloto": "CANELA, JUAN IGNACIO",
+        "marca": "COROLLA",
+        "vueltas": "16",
+        "tiempo": "\"32;14.177\"",
+        "diferencia": "2 VTAS"
+      },
+      {
+        "pos": "28",
+        "nro": "118",
+        "piloto": "GARCIA, ANTONINO",
+        "marca": "COROLLA",
+        "vueltas": "13",
+        "tiempo": "\"26;28.858\"",
+        "diferencia": "5 VTAS"
+      },
+      {
+        "pos": "29",
+        "nro": "6",
+        "piloto": "CHAPUR, FACUNDO",
+        "marca": "FOCUS",
+        "vueltas": "11",
+        "tiempo": "\"21;45.081\"",
+        "diferencia": "7 VTAS"
+      },
+      {
+        "pos": "30",
+        "nro": "138",
+        "piloto": "CRAVERO, MATIAS",
+        "marca": "COROLLA",
+        "vueltas": "11",
+        "tiempo": "\"21;47.663\"",
+        "diferencia": "7 VTAS"
+      },
+      {
+        "pos": "31",
+        "nro": "5",
+        "piloto": "IANSA, GASTON",
+        "marca": "FOCUS",
+        "vueltas": "11",
+        "tiempo": "\"22;08.236\"",
+        "diferencia": "7 VTAS"
+      },
+      {
+        "pos": "32",
+        "nro": "99",
+        "piloto": "MALLO, SANTIAGO",
+        "marca": "CRUZE",
+        "vueltas": "10",
+        "tiempo": "\"20;35.110\"",
+        "diferencia": "8 VTAS"
+      },
+      {
+        "pos": "33",
+        "nro": "4",
+        "piloto": "TETI, JERONIMO",
+        "marca": "CRUZE",
+        "vueltas": "9",
+        "tiempo": "\"17;48.056\"",
+        "diferencia": "9 VTAS"
+      },
+      {
+        "pos": "34",
+        "nro": "51",
+        "piloto": "SCHENONE, MAURO",
+        "marca": "CRUZE",
+        "vueltas": "6",
+        "tiempo": "\"12;19.775\"",
+        "diferencia": "12 VTAS"
+      },
+      {
+        "pos": "35",
+        "nro": "178",
+        "piloto": "RIVA, FRANCO",
+        "marca": "FOCUS",
+        "vueltas": "6",
+        "tiempo": "\"12;20.328\"",
+        "diferencia": "12 VTAS"
+      },
+      {
+        "pos": "36",
+        "nro": "150",
+        "piloto": "GRIPPO, PABLO",
+        "marca": "COROLLA",
+        "vueltas": "4",
+        "tiempo": "\"08;08.909\"",
+        "diferencia": "14 VTAS"
+      },
+      {
+        "pos": "37",
+        "nro": "12",
+        "piloto": "FRANETOVICH, EVER",
+        "marca": "FOCUS",
+        "vueltas": "2",
+        "tiempo": "\"04;21.603\"",
+        "diferencia": "16 VTAS"
+      },
+      {
+        "pos": "38",
+        "nro": "82",
+        "piloto": "OKULOVICH, CARLOS",
+        "marca": "VENTO",
+        "vueltas": "1",
+        "tiempo": "\"02;30.660\"",
+        "diferencia": "17 VTAS"
+      }
+    ]
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  }
+]

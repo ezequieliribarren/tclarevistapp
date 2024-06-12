@@ -4,7 +4,7 @@ const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 
 async function pilotos() {
   try {
-    const sheetId = "249354540"; // ID de la hoja que deseas obtener
+    const sheetId = "162407611"; // ID de la hoja que deseas obtener
     const datos = await obtenerDatosDesdeGoogleSheets([sheetId]);
 
     const urlsEntrenamiento = datos[0].data

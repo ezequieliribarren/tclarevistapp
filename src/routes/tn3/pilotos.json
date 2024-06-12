@@ -1,0 +1,345 @@
+[
+  [
+    {
+      "piloto": "Pernia Leonel",
+      "numero": "1",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Barrio Jorge",
+      "numero": "41",
+      "marca": "Cruze"
+    },
+    {
+      "piloto": "Domenech Alfonso",
+      "numero": "11",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Jakos Andres",
+      "numero": "122",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Gassmann Joel",
+      "numero": "7",
+      "marca": "Cruze"
+    },
+    {
+      "piloto": "Yannantuoni Fabian",
+      "numero": "14",
+      "marca": "Tipo"
+    },
+    {
+      "piloto": "Teti Jeronimo",
+      "numero": "4",
+      "marca": "Cruze"
+    },
+    {
+      "piloto": "Castellano Jonatan",
+      "numero": "8",
+      "marca": "Cruze"
+    },
+    {
+      "piloto": "Todino German",
+      "numero": "56",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Chapur Facundo",
+      "numero": "6",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Iansa Gaston",
+      "numero": "5",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Munoz Marchesi Matias",
+      "numero": "10",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Vicino Lucas",
+      "numero": "144",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Merlo Javier",
+      "numero": "63",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Urcera Jose Manuel",
+      "numero": "231",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Franetovich Ever",
+      "numero": "12",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Mallo Manuel",
+      "numero": "55",
+      "marca": "Cruze"
+    },
+    {
+      "piloto": "Mallo Santiago",
+      "numero": "99",
+      "marca": "Cruze"
+    },
+    {
+      "piloto": "Larrauri Leonel",
+      "numero": "22",
+      "marca": "Civic"
+    },
+    {
+      "piloto": "Signorelli Matias",
+      "numero": "114",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Gomez Sebastian",
+      "numero": "78",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Cravero Matias",
+      "numero": "138",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Okulovich Carlos",
+      "numero": "82",
+      "marca": "Vento"
+    },
+    {
+      "piloto": "Santero Julian",
+      "numero": "68",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Carducci Leandro",
+      "numero": "16",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Blotta Renzo",
+      "numero": "111",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Pernia Mariano",
+      "numero": "177",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Garbiglia Cristian",
+      "numero": "156",
+      "marca": "C-Elysee"
+    },
+    {
+      "piloto": "Ciaurro Miguel",
+      "numero": "30",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Marques Facundo",
+      "numero": "88",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Pernia Tiago",
+      "numero": "85",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Luna Roberto",
+      "numero": "108",
+      "marca": "408"
+    },
+    {
+      "piloto": "Cohen Matias",
+      "numero": "77",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Pozner Thomas",
+      "numero": "35",
+      "marca": "Tipo"
+    },
+    {
+      "piloto": "Canela Juan Ignacio",
+      "numero": "84",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Garcia Antonino",
+      "numero": "118",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Riva Franco",
+      "numero": "178",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Pipkin Juan",
+      "numero": "112",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Pezzini Fabricio",
+      "numero": "113",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Noceti Diego",
+      "numero": "61",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Tedeschi Lucas",
+      "numero": "72",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Geymonat Mauricio",
+      "numero": "81",
+      "marca": "C-Elysee"
+    },
+    {
+      "piloto": "Rossotti Juan Pablo",
+      "numero": "44",
+      "marca": "Vento"
+    },
+    {
+      "piloto": "Lorio Juan Manuel",
+      "numero": "58",
+      "marca": "Vento"
+    },
+    {
+      "piloto": "Schenone Mauro",
+      "numero": "51",
+      "marca": "Cruze"
+    },
+    {
+      "piloto": "Menvielle Matias",
+      "numero": "39",
+      "marca": "Cruze"
+    },
+    {
+      "piloto": "De Benedictis Juan Bautista",
+      "numero": "17",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Bustos Facundo",
+      "numero": "45",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Percaz Adrian",
+      "numero": "66",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Werner Mariano",
+      "numero": "25",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Bagnera Lucas",
+      "numero": "148",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Nunez Geronimo",
+      "numero": "59",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Abdala Emanuel",
+      "numero": "34",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Salvi Mauro",
+      "numero": "54",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Chialvo Martin",
+      "numero": "69",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Montanari Nicolas",
+      "numero": "38",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Risatti Ricardo",
+      "numero": "28",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Chorne Ayrton",
+      "numero": "57",
+      "marca": "Sentra"
+    },
+    {
+      "piloto": "Zanazzi Ianina",
+      "numero": "46",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Beguiristain Nazareno",
+      "numero": "42",
+      "marca": "Civic"
+    },
+    {
+      "piloto": "Iglesias Fernando",
+      "numero": "31",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Abdala Christian",
+      "numero": "60",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Maurelli Jonas",
+      "numero": "50",
+      "marca": "408"
+    },
+    {
+      "piloto": "Bessone Figgo",
+      "numero": "47",
+      "marca": "Corolla"
+    },
+    {
+      "piloto": "Abdala Tomas",
+      "numero": "52",
+      "marca": "Focus"
+    },
+    {
+      "piloto": "Grippo Pablo",
+      "numero": "150",
+      "marca": "Corolla"
+    }
+  ],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  []
+]

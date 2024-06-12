@@ -159,83 +159,1049 @@
     ]
   },
   {
-    "url": "-",
+    "url": "https://www.marca.com/motor/motogp/gp-portugal/libres2.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nacionalidad": "ESP",
+        "piloto": "Maverick Vinales",
+        "marca": "APRILIA",
+        "tiempo": "01:38.720"
+      },
+      {
+        "pos": "2",
+        "nacionalidad": "ESP",
+        "piloto": "Pedro Acosta",
+        "marca": "KTM",
+        "tiempo": "a 00:00.295"
+      },
+      {
+        "pos": "3",
+        "nacionalidad": "ESP",
+        "piloto": "Aleix Espargaro",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.488"
+      },
+      {
+        "pos": "4",
+        "nacionalidad": "ESP",
+        "piloto": "Marc Marquez",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.536"
+      },
+      {
+        "pos": "5",
+        "nacionalidad": "ESP",
+        "piloto": "Raul Fernandez",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.681"
+      },
+      {
+        "pos": "6",
+        "nacionalidad": "ESP",
+        "piloto": "Jorge Martin",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.724"
+      },
+      {
+        "pos": "7",
+        "nacionalidad": "ITA",
+        "piloto": "Francesco Bagnaia",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.730"
+      },
+      {
+        "pos": "8",
+        "nacionalidad": "FRA",
+        "piloto": "Fabio Quartararo",
+        "marca": "YAMAHA",
+        "tiempo": "a 00:00.763"
+      },
+      {
+        "pos": "9",
+        "nacionalidad": "ITA",
+        "piloto": "Marco Bezzecchi",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.790"
+      },
+      {
+        "pos": "10",
+        "nacionalidad": "RSA",
+        "piloto": "Brad Binder",
+        "marca": "KTM",
+        "tiempo": "a 00:00.803"
+      },
+      {
+        "pos": "11",
+        "nacionalidad": "ESP",
+        "piloto": "Alex Rins",
+        "marca": "YAMAHA",
+        "tiempo": "a 00:00.817"
+      },
+      {
+        "pos": "12",
+        "nacionalidad": "ITA",
+        "piloto": "Franco Morbidelli",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.823"
+      },
+      {
+        "pos": "13",
+        "nacionalidad": "JPN",
+        "piloto": "Takaaki Nakagami",
+        "marca": "HONDA",
+        "tiempo": "a 00:00.888"
+      },
+      {
+        "pos": "14",
+        "nacionalidad": "ESP",
+        "piloto": "Alex Marquez",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.894"
+      },
+      {
+        "pos": "15",
+        "nacionalidad": "ITA",
+        "piloto": "Fabio Di Giannantonio",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.895"
+      },
+      {
+        "pos": "16",
+        "nacionalidad": "ITA",
+        "piloto": "Enea Bastianini",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.972"
+      },
+      {
+        "pos": "17",
+        "nacionalidad": "POR",
+        "piloto": "Miguel Oliveira",
+        "marca": "APRILIA",
+        "tiempo": "a 00:01.096"
+      },
+      {
+        "pos": "18",
+        "nacionalidad": "FRA",
+        "piloto": "Johann Zarco",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.152"
+      },
+      {
+        "pos": "19",
+        "nacionalidad": "AUS",
+        "piloto": "Jack Miller",
+        "marca": "KTM",
+        "tiempo": "a 00:01.202"
+      },
+      {
+        "pos": "20",
+        "nacionalidad": "ESP",
+        "piloto": "Augusto Fernandez",
+        "marca": "KTM",
+        "tiempo": "a 00:01.363"
+      },
+      {
+        "pos": "21",
+        "nacionalidad": "ESP",
+        "piloto": "Joan Mir",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.524"
+      },
+      {
+        "pos": "22",
+        "nacionalidad": "ITA",
+        "piloto": "Luca Marini",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.774"
+      }
+    ]
+  },
+  {
+    "url": "https://www.marca.com/motor/motogp/gp-americas/libres2.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nacionalidad": "ESP",
+        "piloto": "Pedro Acosta",
+        "marca": "KTM",
+        "tiempo": "02:02.243"
+      },
+      {
+        "pos": "2",
+        "nacionalidad": "ITA",
+        "piloto": "Francesco Bagnaia",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.171"
+      },
+      {
+        "pos": "3",
+        "nacionalidad": "ESP",
+        "piloto": "Marc Marquez",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.197"
+      },
+      {
+        "pos": "4",
+        "nacionalidad": "ESP",
+        "piloto": "Maverick Vinales",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.313"
+      },
+      {
+        "pos": "5",
+        "nacionalidad": "ESP",
+        "piloto": "Alex Marquez",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.362"
+      },
+      {
+        "pos": "6",
+        "nacionalidad": "ESP",
+        "piloto": "Jorge Martin",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.364"
+      },
+      {
+        "pos": "7",
+        "nacionalidad": "ESP",
+        "piloto": "Aleix Espargaro",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.438"
+      },
+      {
+        "pos": "8",
+        "nacionalidad": "ITA",
+        "piloto": "Franco Morbidelli",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.537"
+      },
+      {
+        "pos": "9",
+        "nacionalidad": "ESP",
+        "piloto": "Raul Fernandez",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.564"
+      },
+      {
+        "pos": "10",
+        "nacionalidad": "ITA",
+        "piloto": "Marco Bezzecchi",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.586"
+      },
+      {
+        "pos": "11",
+        "nacionalidad": "AUS",
+        "piloto": "Jack Miller",
+        "marca": "KTM",
+        "tiempo": "a 00:00.611"
+      },
+      {
+        "pos": "12",
+        "nacionalidad": "POR",
+        "piloto": "Miguel Oliveira",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.712"
+      },
+      {
+        "pos": "13",
+        "nacionalidad": "ITA",
+        "piloto": "Fabio Di Giannantonio",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.742"
+      },
+      {
+        "pos": "14",
+        "nacionalidad": "ITA",
+        "piloto": "Enea Bastianini",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.820"
+      },
+      {
+        "pos": "15",
+        "nacionalidad": "RSA",
+        "piloto": "Brad Binder",
+        "marca": "KTM",
+        "tiempo": "a 00:01.060"
+      },
+      {
+        "pos": "16",
+        "nacionalidad": "FRA",
+        "piloto": "Fabio Quartararo",
+        "marca": "YAMAHA",
+        "tiempo": "a 00:01.079"
+      },
+      {
+        "pos": "17",
+        "nacionalidad": "ESP",
+        "piloto": "Alex Rins",
+        "marca": "YAMAHA",
+        "tiempo": "a 00:01.142"
+      },
+      {
+        "pos": "18",
+        "nacionalidad": "ESP",
+        "piloto": "Augusto Fernandez",
+        "marca": "KTM",
+        "tiempo": "a 00:01.260"
+      },
+      {
+        "pos": "19",
+        "nacionalidad": "ESP",
+        "piloto": "Joan Mir",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.360"
+      },
+      {
+        "pos": "20",
+        "nacionalidad": "JPN",
+        "piloto": "Takaaki Nakagami",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.499"
+      },
+      {
+        "pos": "21",
+        "nacionalidad": "ITA",
+        "piloto": "Luca Marini",
+        "marca": "HONDA",
+        "tiempo": "a 00:02.002"
+      },
+      {
+        "pos": "22",
+        "nacionalidad": "FRA",
+        "piloto": "Johann Zarco",
+        "marca": "HONDA",
+        "tiempo": "a 00:02.026"
+      }
+    ]
+  },
+  {
+    "url": "https://www.marca.com/motor/motogp/gp-jerez/libres2.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nacionalidad": "ESP",
+        "piloto": "Marc Marquez",
+        "marca": "DUCATI",
+        "tiempo": "01:48.183"
+      },
+      {
+        "pos": "2",
+        "nacionalidad": "ITA",
+        "piloto": "Fabio Di Giannantonio",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.076"
+      },
+      {
+        "pos": "3",
+        "nacionalidad": "ITA",
+        "piloto": "Francesco Bagnaia",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.470"
+      },
+      {
+        "pos": "4",
+        "nacionalidad": "ESP",
+        "piloto": "Raul Fernandez",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.539"
+      },
+      {
+        "pos": "5",
+        "nacionalidad": "ESP",
+        "piloto": "Maverick Vinales",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.566"
+      },
+      {
+        "pos": "6",
+        "nacionalidad": "POR",
+        "piloto": "Miguel Oliveira",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.611"
+      },
+      {
+        "pos": "7",
+        "nacionalidad": "ESP",
+        "piloto": "Pedro Acosta",
+        "marca": "KTM",
+        "tiempo": "a 00:00.667"
+      },
+      {
+        "pos": "8",
+        "nacionalidad": "ITA",
+        "piloto": "Franco Morbidelli",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.692"
+      },
+      {
+        "pos": "9",
+        "nacionalidad": "ESP",
+        "piloto": "Alex Marquez",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.718"
+      },
+      {
+        "pos": "10",
+        "nacionalidad": "ESP",
+        "piloto": "Aleix Espargaro",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.719"
+      },
+      {
+        "pos": "11",
+        "nacionalidad": "ITA",
+        "piloto": "Marco Bezzecchi",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.805"
+      },
+      {
+        "pos": "12",
+        "nacionalidad": "ESP",
+        "piloto": "Jorge Martin",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.900"
+      },
+      {
+        "pos": "13",
+        "nacionalidad": "AUS",
+        "piloto": "Jack Miller",
+        "marca": "KTM",
+        "tiempo": "a 00:00.962"
+      },
+      {
+        "pos": "14",
+        "nacionalidad": "ESP",
+        "piloto": "Dani Pedrosa",
+        "marca": "KTM",
+        "tiempo": "a 00:01.066"
+      },
+      {
+        "pos": "15",
+        "nacionalidad": "ITA",
+        "piloto": "Enea Bastianini",
+        "marca": "DUCATI",
+        "tiempo": "a 00:01.331"
+      },
+      {
+        "pos": "16",
+        "nacionalidad": "ESP",
+        "piloto": "Augusto Fernandez",
+        "marca": "KTM",
+        "tiempo": "a 00:01.332"
+      },
+      {
+        "pos": "17",
+        "nacionalidad": "FRA",
+        "piloto": "Fabio Quartararo",
+        "marca": "YAMAHA",
+        "tiempo": "a 00:01.627"
+      },
+      {
+        "pos": "18",
+        "nacionalidad": "FRA",
+        "piloto": "Johann Zarco",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.747"
+      },
+      {
+        "pos": "19",
+        "nacionalidad": "GER",
+        "piloto": "Stefan Bradl",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.753"
+      },
+      {
+        "pos": "20",
+        "nacionalidad": "RSA",
+        "piloto": "Brad Binder",
+        "marca": "KTM",
+        "tiempo": "a 00:01.844"
+      },
+      {
+        "pos": "21",
+        "nacionalidad": "ESP",
+        "piloto": "Joan Mir",
+        "marca": "HONDA",
+        "tiempo": "a 00:02.009"
+      },
+      {
+        "pos": "22",
+        "nacionalidad": "ESP",
+        "piloto": "Alex Rins",
+        "marca": "YAMAHA",
+        "tiempo": "a 00:02.037"
+      },
+      {
+        "pos": "23",
+        "nacionalidad": "JPN",
+        "piloto": "Takaaki Nakagami",
+        "marca": "HONDA",
+        "tiempo": "a 00:02.175"
+      },
+      {
+        "pos": "24",
+        "nacionalidad": "ITA",
+        "piloto": "Lorenzo Savadori",
+        "marca": "APRILIA",
+        "tiempo": "a 00:02.565"
+      },
+      {
+        "pos": "25",
+        "nacionalidad": "ITA",
+        "piloto": "Luca Marini",
+        "marca": "HONDA",
+        "tiempo": "a 00:02.641"
+      }
+    ]
+  },
+  {
+    "url": "https://www.marca.com/motor/motogp/gp-francia/libres2.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nacionalidad": "ESP",
+        "piloto": "Maverick Vinales",
+        "marca": "APRILIA",
+        "tiempo": "01:31.033"
+      },
+      {
+        "pos": "2",
+        "nacionalidad": "ITA",
+        "piloto": "Francesco Bagnaia",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.072"
+      },
+      {
+        "pos": "3",
+        "nacionalidad": "ITA",
+        "piloto": "Enea Bastianini",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.203"
+      },
+      {
+        "pos": "4",
+        "nacionalidad": "ESP",
+        "piloto": "Jorge Martin",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.216"
+      },
+      {
+        "pos": "5",
+        "nacionalidad": "ESP",
+        "piloto": "Alex Marquez",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.233"
+      },
+      {
+        "pos": "6",
+        "nacionalidad": "ESP",
+        "piloto": "Marc Marquez",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.310"
+      },
+      {
+        "pos": "7",
+        "nacionalidad": "ESP",
+        "piloto": "Aleix Espargaro",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.353"
+      },
+      {
+        "pos": "8",
+        "nacionalidad": "AUS",
+        "piloto": "Jack Miller",
+        "marca": "KTM",
+        "tiempo": "a 00:00.366"
+      },
+      {
+        "pos": "9",
+        "nacionalidad": "ESP",
+        "piloto": "Raul Fernandez",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.370"
+      },
+      {
+        "pos": "10",
+        "nacionalidad": "ITA",
+        "piloto": "Franco Morbidelli",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.386"
+      },
+      {
+        "pos": "11",
+        "nacionalidad": "ESP",
+        "piloto": "Pedro Acosta",
+        "marca": "KTM",
+        "tiempo": "a 00:00.394"
+      },
+      {
+        "pos": "12",
+        "nacionalidad": "ESP",
+        "piloto": "Augusto Fernandez",
+        "marca": "KTM",
+        "tiempo": "a 00:00.394"
+      },
+      {
+        "pos": "13",
+        "nacionalidad": "ITA",
+        "piloto": "Fabio Di Giannantonio",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.410"
+      },
+      {
+        "pos": "14",
+        "nacionalidad": "FRA",
+        "piloto": "Fabio Quartararo",
+        "marca": "YAMAHA",
+        "tiempo": "a 00:00.433"
+      },
+      {
+        "pos": "15",
+        "nacionalidad": "POR",
+        "piloto": "Miguel Oliveira",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.523"
+      },
+      {
+        "pos": "16",
+        "nacionalidad": "RSA",
+        "piloto": "Brad Binder",
+        "marca": "KTM",
+        "tiempo": "a 00:00.645"
+      },
+      {
+        "pos": "17",
+        "nacionalidad": "ITA",
+        "piloto": "Marco Bezzecchi",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.651"
+      },
+      {
+        "pos": "18",
+        "nacionalidad": "JPN",
+        "piloto": "Takaaki Nakagami",
+        "marca": "HONDA",
+        "tiempo": "a 00:00.659"
+      },
+      {
+        "pos": "19",
+        "nacionalidad": "ESP",
+        "piloto": "Joan Mir",
+        "marca": "HONDA",
+        "tiempo": "a 00:00.780"
+      },
+      {
+        "pos": "20",
+        "nacionalidad": "ESP",
+        "piloto": "Alex Rins",
+        "marca": "YAMAHA",
+        "tiempo": "a 00:01.021"
+      },
+      {
+        "pos": "21",
+        "nacionalidad": "FRA",
+        "piloto": "Johann Zarco",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.052"
+      },
+      {
+        "pos": "22",
+        "nacionalidad": "ITA",
+        "piloto": "Luca Marini",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.742"
+      }
+    ]
+  },
+  {
+    "url": "https://www.marca.com/motor/motogp/gp-catalunya/libres2.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nacionalidad": "ESP",
+        "piloto": "Aleix Espargaro",
+        "marca": "APRILIA",
+        "tiempo": "01:39.294"
+      },
+      {
+        "pos": "2",
+        "nacionalidad": "ITA",
+        "piloto": "Francesco Bagnaia",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.012"
+      },
+      {
+        "pos": "3",
+        "nacionalidad": "ITA",
+        "piloto": "Franco Morbidelli",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.263"
+      },
+      {
+        "pos": "4",
+        "nacionalidad": "ESP",
+        "piloto": "Jorge Martin",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.315"
+      },
+      {
+        "pos": "5",
+        "nacionalidad": "ESP",
+        "piloto": "Pedro Acosta",
+        "marca": "KTM",
+        "tiempo": "a 00:00.352"
+      },
+      {
+        "pos": "6",
+        "nacionalidad": "POR",
+        "piloto": "Miguel Oliveira",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.387"
+      },
+      {
+        "pos": "7",
+        "nacionalidad": "FRA",
+        "piloto": "Fabio Quartararo",
+        "marca": "YAMAHA",
+        "tiempo": "a 00:00.389"
+      },
+      {
+        "pos": "8",
+        "nacionalidad": "ESP",
+        "piloto": "Raul Fernandez",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.406"
+      },
+      {
+        "pos": "9",
+        "nacionalidad": "ESP",
+        "piloto": "Alex Marquez",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.470"
+      },
+      {
+        "pos": "10",
+        "nacionalidad": "ESP",
+        "piloto": "Marc Marquez",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.479"
+      },
+      {
+        "pos": "11",
+        "nacionalidad": "ITA",
+        "piloto": "Fabio Di Giannantonio",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.531"
+      },
+      {
+        "pos": "12",
+        "nacionalidad": "RSA",
+        "piloto": "Brad Binder",
+        "marca": "KTM",
+        "tiempo": "a 00:00.542"
+      },
+      {
+        "pos": "13",
+        "nacionalidad": "AUS",
+        "piloto": "Jack Miller",
+        "marca": "KTM",
+        "tiempo": "a 00:00.543"
+      },
+      {
+        "pos": "14",
+        "nacionalidad": "ESP",
+        "piloto": "Joan Mir",
+        "marca": "HONDA",
+        "tiempo": "a 00:00.617"
+      },
+      {
+        "pos": "15",
+        "nacionalidad": "ESP",
+        "piloto": "Augusto Fernandez",
+        "marca": "KTM",
+        "tiempo": "a 00:00.658"
+      },
+      {
+        "pos": "16",
+        "nacionalidad": "ITA",
+        "piloto": "Enea Bastianini",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.662"
+      },
+      {
+        "pos": "17",
+        "nacionalidad": "ESP",
+        "piloto": "Maverick Vinales",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.719"
+      },
+      {
+        "pos": "18",
+        "nacionalidad": "ITA",
+        "piloto": "Marco Bezzecchi",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.785"
+      },
+      {
+        "pos": "19",
+        "nacionalidad": "ESP",
+        "piloto": "Alex Rins",
+        "marca": "YAMAHA",
+        "tiempo": "a 00:00.860"
+      },
+      {
+        "pos": "20",
+        "nacionalidad": "JPN",
+        "piloto": "Takaaki Nakagami",
+        "marca": "HONDA",
+        "tiempo": "a 00:00.887"
+      },
+      {
+        "pos": "21",
+        "nacionalidad": "FRA",
+        "piloto": "Johann Zarco",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.043"
+      },
+      {
+        "pos": "22",
+        "nacionalidad": "ITA",
+        "piloto": "Luca Marini",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.244"
+      },
+      {
+        "pos": "23",
+        "nacionalidad": "GER",
+        "piloto": "Stefan Bradl",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.381"
+      }
+    ]
+  },
+  {
+    "url": "https://www.marca.com/motor/motogp/gp-italia/libres2.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nacionalidad": "ITA",
+        "piloto": "Francesco Bagnaia",
+        "marca": "DUCATI",
+        "tiempo": "01:45.608"
+      },
+      {
+        "pos": "2",
+        "nacionalidad": "ESP",
+        "piloto": "Marc Marquez",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.339"
+      },
+      {
+        "pos": "3",
+        "nacionalidad": "ITA",
+        "piloto": "Franco Morbidelli",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.428"
+      },
+      {
+        "pos": "4",
+        "nacionalidad": "ITA",
+        "piloto": "Enea Bastianini",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.476"
+      },
+      {
+        "pos": "5",
+        "nacionalidad": "ESP",
+        "piloto": "Pedro Acosta",
+        "marca": "KTM",
+        "tiempo": "a 00:00.491"
+      },
+      {
+        "pos": "6",
+        "nacionalidad": "ESP",
+        "piloto": "Maverick Vinales",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.492"
+      },
+      {
+        "pos": "7",
+        "nacionalidad": "FRA",
+        "piloto": "Fabio Quartararo",
+        "marca": "YAMAHA",
+        "tiempo": "a 00:00.652"
+      },
+      {
+        "pos": "8",
+        "nacionalidad": "RSA",
+        "piloto": "Brad Binder",
+        "marca": "KTM",
+        "tiempo": "a 00:00.665"
+      },
+      {
+        "pos": "9",
+        "nacionalidad": "ESP",
+        "piloto": "Alex Marquez",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.676"
+      },
+      {
+        "pos": "10",
+        "nacionalidad": "ITA",
+        "piloto": "Marco Bezzecchi",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.696"
+      },
+      {
+        "pos": "11",
+        "nacionalidad": "ITA",
+        "piloto": "Fabio Di Giannantonio",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.760"
+      },
+      {
+        "pos": "12",
+        "nacionalidad": "ESP",
+        "piloto": "Aleix Espargaro",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.822"
+      },
+      {
+        "pos": "13",
+        "nacionalidad": "ESP",
+        "piloto": "Raul Fernandez",
+        "marca": "APRILIA",
+        "tiempo": "a 00:00.868"
+      },
+      {
+        "pos": "14",
+        "nacionalidad": "AUS",
+        "piloto": "Jack Miller",
+        "marca": "KTM",
+        "tiempo": "a 00:00.890"
+      },
+      {
+        "pos": "15",
+        "nacionalidad": "ESP",
+        "piloto": "Jorge Martin",
+        "marca": "DUCATI",
+        "tiempo": "a 00:00.941"
+      },
+      {
+        "pos": "16",
+        "nacionalidad": "ESP",
+        "piloto": "Pol Espargaro",
+        "marca": "KTM",
+        "tiempo": "a 00:01.026"
+      },
+      {
+        "pos": "17",
+        "nacionalidad": "ESP",
+        "piloto": "Alex Rins",
+        "marca": "YAMAHA",
+        "tiempo": "a 00:01.049"
+      },
+      {
+        "pos": "18",
+        "nacionalidad": "POR",
+        "piloto": "Miguel Oliveira",
+        "marca": "APRILIA",
+        "tiempo": "a 00:01.092"
+      },
+      {
+        "pos": "19",
+        "nacionalidad": "ESP",
+        "piloto": "Augusto Fernandez",
+        "marca": "KTM",
+        "tiempo": "a 00:01.248"
+      },
+      {
+        "pos": "20",
+        "nacionalidad": "JPN",
+        "piloto": "Takaaki Nakagami",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.491"
+      },
+      {
+        "pos": "21",
+        "nacionalidad": "FRA",
+        "piloto": "Johann Zarco",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.605"
+      },
+      {
+        "pos": "22",
+        "nacionalidad": "ESP",
+        "piloto": "Joan Mir",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.637"
+      },
+      {
+        "pos": "23",
+        "nacionalidad": "ITA",
+        "piloto": "Lorenzo Savadori",
+        "marca": "APRILIA",
+        "tiempo": "a 00:01.808"
+      },
+      {
+        "pos": "24",
+        "nacionalidad": "ITA",
+        "piloto": "Luca Marini",
+        "marca": "HONDA",
+        "tiempo": "a 00:01.860"
+      }
+    ]
+  },
+  {
+    "url": "https://www.marca.com/motor/motogp/gp-paises-bajos/libres2.html",
     "resultado": []
   },
   {
-    "url": "-",
+    "url": "https://www.marca.com/motor/motogp/gp-alemania/libres2.html",
     "resultado": []
   },
   {
-    "url": "-",
+    "url": "https://www.marca.com/motor/motogp/gp-bretana/libres2.html",
     "resultado": []
   },
   {
-    "url": "-",
+    "url": "https://www.marca.com/motor/motogp/gp-austria/libres2.html",
     "resultado": []
   },
   {
-    "url": "-",
+    "url": "https://www.marca.com/motor/motogp/gp-aragon/libres2.html",
     "resultado": []
   },
   {
-    "url": "-",
+    "url": "https://www.marca.com/motor/motogp/gp-san-marino/libres2.html",
     "resultado": []
   },
   {
-    "url": "-",
+    "url": "https://www.marca.com/motor/motogp/gp-kazajistan/libres2.html",
     "resultado": []
   },
   {
-    "url": "-",
+    "url": "https://www.marca.com/motor/motogp/gp-indonesia/libres2.html",
     "resultado": []
   },
   {
-    "url": "-",
+    "url": "https://www.marca.com/motor/motogp/gp-japon/libres2.html",
     "resultado": []
   },
   {
-    "url": "-",
+    "url": "https://www.marca.com/motor/motogp/gp-australia/libres2.html",
     "resultado": []
   },
   {
-    "url": "-",
+    "url": "https://www.marca.com/motor/motogp/gp-tailandia/libres2.html",
     "resultado": []
   },
   {
-    "url": "-",
-    "resultado": []
+    "url": "https://www.marca.com/motor/motogp/gp-malasia/libres2.html"
   },
   {
-    "url": "-",
-    "resultado": []
-  },
-  {
-    "url": "-",
-    "resultado": []
-  },
-  {
-    "url": "-",
-    "resultado": []
-  },
-  {
-    "url": "-",
-    "resultado": []
-  },
-  {
-    "url": "-",
-    "resultado": []
-  },
-  {
-    "url": "-",
-    "resultado": []
-  },
-  {
-    "url": "-",
-    "resultado": []
-  },
-  {
-    "url": "-",
-    "resultado": []
+    "url": "https://www.marca.com/motor/motogp/gp-valencia/libres2.html"
   }
 ]

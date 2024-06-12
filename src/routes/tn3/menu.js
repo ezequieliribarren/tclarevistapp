@@ -63,15 +63,30 @@ function organizarTitulosPorDia(titulos) {
   const sabado = [];
   const domingo = [];
 
+  const clasificaciones = [];
+  const series = [];
+
   titulos.forEach(titulo => {
     if (titulo.includes("ENTRENAMIENTO")) {
       viernes.push(titulo);
-    } else if (titulo.includes("SERIE") || titulo.includes("CLASIFICACIÓN")) {
-      sabado.push(titulo);
+    } else if (titulo.includes("CLASIFICACIÓN")) {
+      clasificaciones.push(titulo);
+    } else if (titulo.includes("SERIE")) {
+      series.push(titulo);
     } else if (titulo.includes("FINAL")) {
       domingo.push(titulo);
     }
   });
+
+  // Ordenar las clasificaciones en orden ascendente
+  clasificaciones.sort((a, b) => {
+    const numA = parseInt(a.match(/\d+/)[0], 10);
+    const numB = parseInt(b.match(/\d+/)[0], 10);
+    return numA - numB;
+  });
+
+  // Combinar clasificaciones y series para el sábado
+  sabado.push(...clasificaciones, ...series);
 
   return { Vie: viernes, Sab: sabado, Dom: domingo };
 }
