@@ -1,5 +1,7 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
+const fs = require('fs').promises;
+const path = require('path');
 const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
 
 async function en5() {
@@ -11,7 +13,7 @@ async function en5() {
     // Filtrar y obtener solo las URL que no son null
     const urlsEntrenamiento = datos[0].data
       .filter(fila => fila.c[12] !== null) // Filtrar las filas con valor null
-      .map(fila => fila.c[12].v);
+      .map(fila => fila.c[12].v)
 
     // Array para almacenar todas las promesas de las solicitudes
     const promesasSolicitudes = [];
@@ -24,10 +26,22 @@ async function en5() {
     // Esperar a que todas las solicitudes se completen
     const resultadosPorUrl = await Promise.all(promesasSolicitudes);
 
-    console.log('Resultados por URL:', resultadosPorUrl);
+    // Formatear los resultados en el formato deseado
+    const resultadosFormateados = urlsEntrenamiento.map((url, index) => ({
+      url: url === "" || url === "-" ? "-" : url,
+      resultado: resultadosPorUrl[index]
+    }));
+
+    console.log('Resultados por URL:', resultadosFormateados);
+
+    // Guardar los resultados en un archivo JSON
+    const jsonFileName = path.join(__dirname, 'en5.json');
+    await fs.writeFile(jsonFileName, JSON.stringify(resultadosFormateados, null, 2), 'utf-8');
+
+    console.log('Datos guardados en:', jsonFileName);
 
     // Devolver los resultados obtenidos
-    return resultadosPorUrl;
+    return resultadosFormateados;
   } catch (error) {
     console.error('Error al obtener y mostrar datos:', error);
     throw error;
@@ -40,7 +54,6 @@ async function obtenerResultados(url) {
       return [];
     }
 
-
     let resultados = [];
 
     // Función para realizar el fetch y el scraping
@@ -51,7 +64,7 @@ async function obtenerResultados(url) {
       });
 
       // Realizar scraping para la página actual
-      $('.tablepress.tablepress-id-1539 tbody tr').each((i, row) => {
+      $('.tablepress.tablepress-id-1567 tbody tr').each((i, row) => {
         const columns = $(row).find('td');
         const pos = $(columns[0]).text().trim();
         const auto = $(columns[1]).text().trim();
@@ -94,10 +107,10 @@ async function obtenerResultados(url) {
     return resultados;
   } catch (error) {
     console.error('Error fetching data:', error);
-    throw error;
+    return [];
   }
 }
 
-  module.exports = {
-    en5
-  };
+module.exports = {
+  en5
+};

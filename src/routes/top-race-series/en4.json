@@ -1,0 +1,607 @@
+[
+  {
+    "url": "https://toprace.com.ar/trseries/resultados/2024/fecha-1-rosario-1-pruebas-libres_356_1.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "1",
+        "nombre": "Bohdanowicz",
+        "apellido": ",",
+        "piloto": "Bohdanowicz , Lucas",
+        "marca": "Toyota",
+        "vueltas": "5",
+        "tiempo": "01:46.813",
+        "diferencia": "",
+        "nacionalidad": "Bohdanowicz , Lucas"
+      },
+      {
+        "pos": "2",
+        "nro": "111",
+        "nombre": "Campillay,",
+        "apellido": "Ulises",
+        "piloto": "Campillay, Ulises",
+        "marca": "M. Benz",
+        "vueltas": "8",
+        "tiempo": "01:47.144",
+        "diferencia": "0.331",
+        "nacionalidad": "Campillay, Ulises"
+      },
+      {
+        "pos": "3",
+        "nro": "77",
+        "nombre": "Vallejos",
+        "apellido": "S.,",
+        "piloto": "Vallejos S., Christian",
+        "marca": "M. Benz",
+        "vueltas": "5",
+        "tiempo": "01:47.406",
+        "diferencia": "0.593",
+        "nacionalidad": "Vallejos S., Christian"
+      },
+      {
+        "pos": "4",
+        "nro": "2",
+        "nombre": "Verriello,",
+        "apellido": "Diego",
+        "piloto": "Verriello, Diego",
+        "marca": "Fiat",
+        "vueltas": "5",
+        "tiempo": "01:47.538",
+        "diferencia": "0.725",
+        "nacionalidad": "Verriello, Diego"
+      },
+      {
+        "pos": "5",
+        "nro": "66",
+        "nombre": "Alessi,",
+        "apellido": "Martín",
+        "piloto": "Alessi, Martín",
+        "marca": "Fiat",
+        "vueltas": "9",
+        "tiempo": "01:48.360",
+        "diferencia": "1,547",
+        "nacionalidad": "Alessi, Martín"
+      },
+      {
+        "pos": "6",
+        "nro": "55",
+        "nombre": "Reilly,",
+        "apellido": "Gonzalo",
+        "piloto": "Reilly, Gonzalo",
+        "marca": "Fiat",
+        "vueltas": "8",
+        "tiempo": "01:48.483",
+        "diferencia": "1,670",
+        "nacionalidad": "Reilly, Gonzalo"
+      },
+      {
+        "pos": "7",
+        "nro": "121",
+        "nombre": "Sava,",
+        "apellido": "Valentin",
+        "piloto": "Sava, Valentin",
+        "marca": "Chevrolet",
+        "vueltas": "6",
+        "tiempo": "01:49.430",
+        "diferencia": "2,617",
+        "nacionalidad": "Sava, Valentin"
+      },
+      {
+        "pos": "8",
+        "nro": "32",
+        "nombre": "Grosso,",
+        "apellido": "Norberto",
+        "piloto": "Grosso, Norberto",
+        "marca": "Ford",
+        "vueltas": "6",
+        "tiempo": "01:49.437",
+        "diferencia": "2,624",
+        "nacionalidad": "Grosso, Norberto"
+      },
+      {
+        "pos": "9",
+        "nro": "69",
+        "nombre": "Hamze,",
+        "apellido": "Adrián",
+        "piloto": "Hamze, Adrián (M)",
+        "marca": "Fiat",
+        "vueltas": "7",
+        "tiempo": "01:50.263",
+        "diferencia": "3,450",
+        "nacionalidad": "Hamze, Adrián (M)"
+      },
+      {
+        "pos": "10",
+        "nro": "122",
+        "nombre": "Martinez,",
+        "apellido": "Lucas",
+        "piloto": "Martinez, Lucas",
+        "marca": "Toyota",
+        "vueltas": "6",
+        "tiempo": "01:50.365",
+        "diferencia": "3,552",
+        "nacionalidad": "Martinez, Lucas"
+      },
+      {
+        "pos": "11",
+        "nro": "246",
+        "nombre": "Roca,",
+        "apellido": "Juan",
+        "piloto": "Roca, Juan Cruz",
+        "marca": "Toyota",
+        "vueltas": "9",
+        "tiempo": "01:51.244",
+        "diferencia": "4,431",
+        "nacionalidad": "Roca, Juan Cruz"
+      },
+      {
+        "pos": "12",
+        "nro": "15",
+        "nombre": "Chiappetta,",
+        "apellido": "Marcelo",
+        "piloto": "Chiappetta, Marcelo (M)",
+        "marca": "Toyota",
+        "vueltas": "7",
+        "tiempo": "01:51.280",
+        "diferencia": "4,467",
+        "nacionalidad": "Chiappetta, Marcelo (M)"
+      },
+      {
+        "pos": "13",
+        "nro": "14",
+        "nombre": "Hamze,",
+        "apellido": "Zamir",
+        "piloto": "Hamze, Zamir (M)",
+        "marca": "Fiat",
+        "vueltas": "7",
+        "tiempo": "01:53.181",
+        "diferencia": "6,368",
+        "nacionalidad": "Hamze, Zamir (M)"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/trseries/resultados/2024/fecha-2-concordia-1-pruebas-libres_357_1.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "122",
+        "nombre": "Martinez,",
+        "apellido": "Lucas",
+        "piloto": "Martinez, Lucas",
+        "marca": "Toyota",
+        "vueltas": "11",
+        "tiempo": "02:05.324",
+        "diferencia": "",
+        "nacionalidad": "Martinez, Lucas"
+      },
+      {
+        "pos": "2",
+        "nro": "111",
+        "nombre": "Campillay,",
+        "apellido": "Ulises",
+        "piloto": "Campillay, Ulises",
+        "marca": "M. Benz",
+        "vueltas": "10",
+        "tiempo": "02:06.335",
+        "diferencia": "1,011",
+        "nacionalidad": "Campillay, Ulises"
+      },
+      {
+        "pos": "3",
+        "nro": "121",
+        "nombre": "Sava,",
+        "apellido": "Valentin",
+        "piloto": "Sava, Valentin",
+        "marca": "Chevrolet",
+        "vueltas": "10",
+        "tiempo": "02:08.594",
+        "diferencia": "3,270",
+        "nacionalidad": "Sava, Valentin"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/trseries/resultados/2024/fecha-3-parana-1-pruebas-libres_358_1.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "107",
+        "nombre": "Mendaña,",
+        "apellido": "Sami",
+        "piloto": "Mendaña, Sami",
+        "marca": "Fiat",
+        "vueltas": "11",
+        "tiempo": "1:39:1900",
+        "diferencia": "",
+        "nacionalidad": "Mendaña, Sami"
+      },
+      {
+        "pos": "2",
+        "nro": "66",
+        "nombre": "Alessi,",
+        "apellido": "Martín",
+        "piloto": "Alessi, Martín",
+        "marca": "Fiat",
+        "vueltas": "12",
+        "tiempo": "1:41:1800",
+        "diferencia": "1.059",
+        "nacionalidad": "Alessi, Martín"
+      },
+      {
+        "pos": "3",
+        "nro": "122",
+        "nombre": "Martinez,",
+        "apellido": "Lucas",
+        "piloto": "Martinez, Lucas",
+        "marca": "Toyota",
+        "vueltas": "9",
+        "tiempo": "1:42:3600",
+        "diferencia": "1.137",
+        "nacionalidad": "Martinez, Lucas"
+      },
+      {
+        "pos": "4",
+        "nro": "111",
+        "nombre": "Campillay,",
+        "apellido": "Ulises",
+        "piloto": "Campillay, Ulises",
+        "marca": "M. Benz",
+        "vueltas": "6",
+        "tiempo": "1:45:1600",
+        "diferencia": "1.297",
+        "nacionalidad": "Campillay, Ulises"
+      },
+      {
+        "pos": "5",
+        "nro": "121",
+        "nombre": "Sava,",
+        "apellido": "Valentin",
+        "piloto": "Sava, Valentin",
+        "marca": "Chevrolet",
+        "vueltas": "9",
+        "tiempo": "1:45:4800",
+        "diferencia": "1.329",
+        "nacionalidad": "Sava, Valentin"
+      },
+      {
+        "pos": "6",
+        "nro": "55",
+        "nombre": "Reilly,",
+        "apellido": "Gonzalo",
+        "piloto": "Reilly, Gonzalo",
+        "marca": "Fiat",
+        "vueltas": "10",
+        "tiempo": "1:46:2200",
+        "diferencia": "1.363",
+        "nacionalidad": "Reilly, Gonzalo"
+      },
+      {
+        "pos": "7",
+        "nro": "15",
+        "nombre": "Chiappetta,",
+        "apellido": "Marcelo",
+        "piloto": "Chiappetta, Marcelo (M)",
+        "marca": "Toyota",
+        "vueltas": "9",
+        "tiempo": "1:40:0000",
+        "diferencia": "1.921",
+        "nacionalidad": "Chiappetta, Marcelo (M)"
+      },
+      {
+        "pos": "8",
+        "nro": "69",
+        "nombre": "Hamze,",
+        "apellido": "Adrián",
+        "piloto": "Hamze, Adrián (M)",
+        "marca": "Fiat",
+        "vueltas": "9",
+        "tiempo": "1:43:1100",
+        "diferencia": "2.112",
+        "nacionalidad": "Hamze, Adrián (M)"
+      },
+      {
+        "pos": "9",
+        "nro": "14",
+        "nombre": "Hamze,",
+        "apellido": "Zamir",
+        "piloto": "Hamze, Zamir (M)",
+        "marca": "Fiat",
+        "vueltas": "5",
+        "tiempo": "1:50:1300",
+        "diferencia": "3.474",
+        "nacionalidad": "Hamze, Zamir (M)"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/trseries/resultados/2024/fecha-4-buenos-aires-1-pruebas-libres_359_1.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "111",
+        "nombre": "Campillay,",
+        "apellido": "Ulises",
+        "piloto": "Campillay, Ulises",
+        "marca": "M. Benz",
+        "vueltas": "7",
+        "tiempo": "01:26.719",
+        "diferencia": "",
+        "nacionalidad": "Campillay, Ulises"
+      },
+      {
+        "pos": "2",
+        "nro": "122",
+        "nombre": "Martinez,",
+        "apellido": "Lucas",
+        "piloto": "Martinez, Lucas",
+        "marca": "Toyota",
+        "vueltas": "7",
+        "tiempo": "01:26.743",
+        "diferencia": "0.024",
+        "nacionalidad": "Martinez, Lucas"
+      },
+      {
+        "pos": "3",
+        "nro": "69",
+        "nombre": "Hamze,",
+        "apellido": "Adrián",
+        "piloto": "Hamze, Adrián (M)",
+        "marca": "Fiat",
+        "vueltas": "14",
+        "tiempo": "01:27.094",
+        "diferencia": "0.375",
+        "nacionalidad": "Hamze, Adrián (M)"
+      },
+      {
+        "pos": "4",
+        "nro": "246",
+        "nombre": "Roca,",
+        "apellido": "Juan",
+        "piloto": "Roca, Juan Cruz",
+        "marca": "Toyota",
+        "vueltas": "13",
+        "tiempo": "01:27.592",
+        "diferencia": "0.873",
+        "nacionalidad": "Roca, Juan Cruz"
+      },
+      {
+        "pos": "5",
+        "nro": "29",
+        "nombre": "Novillo,",
+        "apellido": "Gabriel",
+        "piloto": "Novillo, Gabriel",
+        "marca": "BMW",
+        "vueltas": "6",
+        "tiempo": "01:27.748",
+        "diferencia": "1,029",
+        "nacionalidad": "Novillo, Gabriel"
+      },
+      {
+        "pos": "6",
+        "nro": "99",
+        "nombre": "Montero,",
+        "apellido": "Matias",
+        "piloto": "Montero, Matias",
+        "marca": "Toyota",
+        "vueltas": "8",
+        "tiempo": "01:28.226",
+        "diferencia": "1,507",
+        "nacionalidad": "Montero, Matias"
+      },
+      {
+        "pos": "7",
+        "nro": "14",
+        "nombre": "Hamze,",
+        "apellido": "Zamir",
+        "piloto": "Hamze, Zamir (M)",
+        "marca": "Fiat",
+        "vueltas": "11",
+        "tiempo": "01:28.626",
+        "diferencia": "1,907",
+        "nacionalidad": "Hamze, Zamir (M)"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/trseries/resultados/2024/fecha-5-buenos-aires-clasificacion-1_360_5.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "122",
+        "nombre": "Martinez,",
+        "apellido": "Lucas",
+        "piloto": "Martinez, Lucas",
+        "marca": "Toyota",
+        "vueltas": "4",
+        "tiempo": "01:53.580",
+        "diferencia": "",
+        "nacionalidad": "Martinez, Lucas"
+      },
+      {
+        "pos": "2",
+        "nro": "1",
+        "nombre": "Bohdanowicz",
+        "apellido": ",",
+        "piloto": "Bohdanowicz , Lucas",
+        "marca": "Toyota",
+        "vueltas": "4",
+        "tiempo": "01:54.430",
+        "diferencia": "0.850",
+        "nacionalidad": "Bohdanowicz , Lucas"
+      },
+      {
+        "pos": "3",
+        "nro": "246",
+        "nombre": "Roca,",
+        "apellido": "Juan",
+        "piloto": "Roca, Juan Cruz",
+        "marca": "Toyota",
+        "vueltas": "4",
+        "tiempo": "01:54.619",
+        "diferencia": "1,039",
+        "nacionalidad": "Roca, Juan Cruz"
+      },
+      {
+        "pos": "4",
+        "nro": "111",
+        "nombre": "Campillay,",
+        "apellido": "Ulises",
+        "piloto": "Campillay, Ulises",
+        "marca": "M. Benz",
+        "vueltas": "4",
+        "tiempo": "01:54.667",
+        "diferencia": "1,087",
+        "nacionalidad": "Campillay, Ulises"
+      },
+      {
+        "pos": "5",
+        "nro": "121",
+        "nombre": "Sava,",
+        "apellido": "Valentin",
+        "piloto": "Sava, Valentin",
+        "marca": "Chevrolet",
+        "vueltas": "3",
+        "tiempo": "01:54.744",
+        "diferencia": "1,164",
+        "nacionalidad": "Sava, Valentin"
+      },
+      {
+        "pos": "6",
+        "nro": "2",
+        "nombre": "Verriello,",
+        "apellido": "Diego",
+        "piloto": "Verriello, Diego",
+        "marca": "Fiat",
+        "vueltas": "5",
+        "tiempo": "01:54.811",
+        "diferencia": "1,231",
+        "nacionalidad": "Verriello, Diego"
+      },
+      {
+        "pos": "7",
+        "nro": "107",
+        "nombre": "Mendaña,",
+        "apellido": "Sami",
+        "piloto": "Mendaña, Sami",
+        "marca": "Fiat",
+        "vueltas": "4",
+        "tiempo": "01:54.849",
+        "diferencia": "1,269",
+        "nacionalidad": "Mendaña, Sami"
+      },
+      {
+        "pos": "8",
+        "nro": "55",
+        "nombre": "Reilly,",
+        "apellido": "Gonzalo",
+        "piloto": "Reilly, Gonzalo",
+        "marca": "Fiat",
+        "vueltas": "3",
+        "tiempo": "01:54.893",
+        "diferencia": "1,313",
+        "nacionalidad": "Reilly, Gonzalo"
+      },
+      {
+        "pos": "9",
+        "nro": "66",
+        "nombre": "Alessi,",
+        "apellido": "Martín",
+        "piloto": "Alessi, Martín",
+        "marca": "Fiat",
+        "vueltas": "4",
+        "tiempo": "01:54.956",
+        "diferencia": "1,376",
+        "nacionalidad": "Alessi, Martín"
+      },
+      {
+        "pos": "10",
+        "nro": "77",
+        "nombre": "Vallejos",
+        "apellido": "S.,",
+        "piloto": "Vallejos S., Christian",
+        "marca": "M. Benz",
+        "vueltas": "4",
+        "tiempo": "01:55.283",
+        "diferencia": "1,703",
+        "nacionalidad": "Vallejos S., Christian"
+      },
+      {
+        "pos": "11",
+        "nro": "99",
+        "nombre": "Montero,",
+        "apellido": "Matias",
+        "piloto": "Montero, Matias",
+        "marca": "Toyota",
+        "vueltas": "4",
+        "tiempo": "01:55.911",
+        "diferencia": "2,331",
+        "nacionalidad": "Montero, Matias"
+      },
+      {
+        "pos": "12",
+        "nro": "69",
+        "nombre": "Hamze,",
+        "apellido": "Adrián",
+        "piloto": "Hamze, Adrián (M)",
+        "marca": "Fiat",
+        "vueltas": "3",
+        "tiempo": "01:56.399",
+        "diferencia": "2,819",
+        "nacionalidad": "Hamze, Adrián (M)"
+      },
+      {
+        "pos": "13",
+        "nro": "29",
+        "nombre": "Novillo,",
+        "apellido": "Gabriel",
+        "piloto": "Novillo, Gabriel",
+        "marca": "BMW",
+        "vueltas": "4",
+        "tiempo": "01:56.435",
+        "diferencia": "2,855",
+        "nacionalidad": "Novillo, Gabriel"
+      },
+      {
+        "pos": "14",
+        "nro": "15",
+        "nombre": "Chiappetta,",
+        "apellido": "Marcelo",
+        "piloto": "Chiappetta, Marcelo (M)",
+        "marca": "Toyota",
+        "vueltas": "4",
+        "tiempo": "01:58.116",
+        "diferencia": "4,536",
+        "nacionalidad": "Chiappetta, Marcelo (M)"
+      }
+    ]
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  }
+]

@@ -95,37 +95,23 @@
                <label for="file">Audio</label>
                <input class='form-control' type="file" id="audio" name="audio" accept="audio/*" multiple>
             </div>
-            <div class="form-group">
-               <label for="url">URL del endpoint:</label>
-               <input type="text" id="url" name="url" required>
-           </div>
-           <button type="submit">Generar HTML</button>
             <div class="form-group" style="margin-top: 0.5rem;">
-               <label for="title">Resumen de tanda</label>
-               <input class="form-control" type="file" name="htmlFile" autofocus required>
-            </div>
+               <label for="endpoint">URL Tanda</label>
+               <input class="form-control" type="text" id="endpoint" placeholder="Enter endpoint URL" required>
+           </div>
             <div class="form-group" style="margin-top: 1rem;">
                <button type="button" onclick="agregarCitaTextual()">Cita Textual</button>
                <button type="button" onclick="destacar()">Destacar</button>
                <button type="button" onclick="vinculo()">Vinculo</button>
                <button type="button" onclick="agregarImagen()">Foto</button>
                <button type="button" onclick="agregarVideo()">Video</button>
-               <button type="button" onclick="tanda()">Tanda</button>
+               <button type="button" onclick="tanda()">Tanda</button> <!-- Nuevo botón -->
                <button type="button" onclick="linkFecha()">Link Fecha</button>
                <textarea id="editor" cols="30" rows="10" class="form-control" type="text" name="cuerpo"
                   placeholder="Ingresa el texto" autofocus></textarea>
             </div>
             <input type="submit" value="Guardar Noticia" class="btn btn-secondary">
          </form>
-         <!-- <form action="/procesar" method="POST">
-            <label for="url">URL:</label>
-            <input type="text" id="url" name="url" required>
-            <br>
-            <label for="fileName">Nombre de archivo:</label>
-            <input type="text" id="fileName" name="fileName" required>
-            <br>
-            <button type="submit">Procesar y Guardar</button>
-         </form> -->
          <div>
             <h2 style="color: white; margin: 1rem 0;">General</h2>
             <ul
@@ -333,15 +319,36 @@
          }
       }
    </script>
-   <script>
-      function tanda() {
-         var editor = document.getElementById("editor");
-         var iframeSrc = "URL_DEL_IFRAME"; // Reemplaza "URL_DEL_IFRAME" con la URL del iframe que deseas agregar
-         var iframe = "<iframe class='custom-iframe' src='" + iframeSrc + "' width='100%' scrolling='yes' frameborder='0' allowfullscreen='allowfullscreen' style='height: calc(100% - 70rem - 50rem); margin-top: 70rem; margin-bottom: 50rem;'></iframe>";
-         editor.value += "\n" + iframe;
-      }
-
-   </script>
+<script>
+   function tanda() {
+       const endpoint = document.getElementById('endpoint').value; // Obtener el valor del campo de entrada de la URL
+       fetch(endpoint)
+           .then(response => response.json())
+           .then(data => {
+               const resultado = data.resultado;
+               let tablaHtml = '<table class="table"><thead><tr><th>Pos</th><th>Nro</th><th>Piloto</th><th>Marca</th><th>Vueltas</th><th>Tiempo</th><th>Diferencia</th></tr></thead><tbody>';
+               
+               resultado.forEach(item => {
+                   tablaHtml += `<tr>
+                       <td>${item.pos}</td>
+                       <td>${item.nro}</td>
+                       <td>${item.piloto}</td>
+                       <td>${item.marca}</td>
+                       <td>${item.vueltas}</td>
+                       <td>${item.tiempo}</td>
+                       <td>${item.diferencia}</td>
+                   </tr>`;
+               });
+               
+               tablaHtml += '</tbody></table>';
+               
+               // Insertar la tabla en el editor
+               const editor = document.getElementById('editor');
+               editor.value += tablaHtml;
+           })
+           .catch(error => console.error('Error fetching data:', error));
+   }
+</script>
 </body>
 
 </html>

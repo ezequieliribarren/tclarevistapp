@@ -1,7 +1,7 @@
 async function menu() {
     try {
       const defaultMenu = {
-        Vie: ["E1", "E2", "EG", "TLL"],
+        Vie: ["E1", "E2", "EG"],
         Sab: ["C1", "C2", "CG"],
         Dom: ["Serie 1", "Serie 2", "Serie 3", "Final"]
       };

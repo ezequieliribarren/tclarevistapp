@@ -1,0 +1,343 @@
+[
+  {
+    "url": "https://toprace.com.ar/trseries/resultados/2024/fecha-1-rosario-clasificacion-2-1-al-5-2024_356_132.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "1",
+        "nombre": "Bohdanowicz",
+        "apellido": ",",
+        "piloto": "Bohdanowicz , Lucas",
+        "marca": "Toyota",
+        "vueltas": "2",
+        "tiempo": "01:45.791",
+        "diferencia": "",
+        "nacionalidad": "Bohdanowicz , Lucas"
+      },
+      {
+        "pos": "2",
+        "nro": "2",
+        "nombre": "Verriello,",
+        "apellido": "Diego",
+        "piloto": "Verriello, Diego",
+        "marca": "Fiat",
+        "vueltas": "2",
+        "tiempo": "01:46.845",
+        "diferencia": "1,054",
+        "nacionalidad": "Verriello, Diego"
+      },
+      {
+        "pos": "3",
+        "nro": "122",
+        "nombre": "Martinez,",
+        "apellido": "Lucas",
+        "piloto": "Martinez, Lucas",
+        "marca": "Toyota",
+        "vueltas": "2",
+        "tiempo": "01:47.084",
+        "diferencia": "1,293",
+        "nacionalidad": "Martinez, Lucas"
+      },
+      {
+        "pos": "4",
+        "nro": "32",
+        "nombre": "Grosso,",
+        "apellido": "Norberto",
+        "piloto": "Grosso, Norberto",
+        "marca": "Ford",
+        "vueltas": "2",
+        "tiempo": "01:47.359",
+        "diferencia": "1,568",
+        "nacionalidad": "Grosso, Norberto"
+      },
+      {
+        "pos": "5",
+        "nro": "121",
+        "nombre": "Sava,",
+        "apellido": "Valentin",
+        "piloto": "Sava, Valentin",
+        "marca": "Chevrolet",
+        "vueltas": "2",
+        "tiempo": "01:47.880",
+        "diferencia": "2,089",
+        "nacionalidad": "Sava, Valentin"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/trseries/resultados/2024/fecha-2-concordia-clasificacion-2-especial-1-al-5-2024_357_138.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "1",
+        "nombre": "Bohdanowicz",
+        "apellido": ",",
+        "piloto": "Bohdanowicz , Lucas",
+        "marca": "Toyota",
+        "vueltas": "1",
+        "tiempo": "01:52.423",
+        "diferencia": "",
+        "nacionalidad": "Bohdanowicz , Lucas"
+      },
+      {
+        "pos": "2",
+        "nro": "66",
+        "nombre": "Alessi,",
+        "apellido": "Martín",
+        "piloto": "Alessi, Martín",
+        "marca": "Fiat",
+        "vueltas": "2",
+        "tiempo": "01:52.670",
+        "diferencia": "0.247",
+        "nacionalidad": "Alessi, Martín"
+      },
+      {
+        "pos": "3",
+        "nro": "2",
+        "nombre": "Verriello,",
+        "apellido": "Diego",
+        "piloto": "Verriello, Diego",
+        "marca": "Fiat",
+        "vueltas": "2",
+        "tiempo": "01:52.699",
+        "diferencia": "0.276",
+        "nacionalidad": "Verriello, Diego"
+      },
+      {
+        "pos": "4",
+        "nro": "32",
+        "nombre": "Grosso,",
+        "apellido": "Norberto",
+        "piloto": "Grosso, Norberto",
+        "marca": "Ford",
+        "vueltas": "1",
+        "tiempo": "01:53.651",
+        "diferencia": "1,228",
+        "nacionalidad": "Grosso, Norberto"
+      },
+      {
+        "pos": "5",
+        "nro": "111",
+        "nombre": "Campillay,",
+        "apellido": "Ulises",
+        "piloto": "Campillay, Ulises",
+        "marca": "M. Benz",
+        "vueltas": "1",
+        "tiempo": "01:54.470",
+        "diferencia": "2,047",
+        "nacionalidad": "Campillay, Ulises"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/trseries/resultados/2024/fecha-3-parana-clasificacion-2-1-al-5-2024_358_132.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "1",
+        "nombre": "Bohdanowicz",
+        "apellido": ",",
+        "piloto": "Bohdanowicz , Lucas",
+        "marca": "Toyota",
+        "vueltas": "3",
+        "tiempo": "01:35.616",
+        "diferencia": "",
+        "nacionalidad": "Bohdanowicz , Lucas"
+      },
+      {
+        "pos": "2",
+        "nro": "66",
+        "nombre": "Alessi,",
+        "apellido": "Martín",
+        "piloto": "Alessi, Martín",
+        "marca": "Fiat",
+        "vueltas": "3",
+        "tiempo": "01:36.095",
+        "diferencia": "0.479",
+        "nacionalidad": "Alessi, Martín"
+      },
+      {
+        "pos": "3",
+        "nro": "2",
+        "nombre": "Verriello,",
+        "apellido": "Diego",
+        "piloto": "Verriello, Diego",
+        "marca": "Fiat",
+        "vueltas": "3",
+        "tiempo": "01:36.129",
+        "diferencia": "0.513",
+        "nacionalidad": "Verriello, Diego"
+      },
+      {
+        "pos": "4",
+        "nro": "111",
+        "nombre": "Campillay,",
+        "apellido": "Ulises",
+        "piloto": "Campillay, Ulises",
+        "marca": "M. Benz",
+        "vueltas": "3",
+        "tiempo": "01:36.156",
+        "diferencia": "0.540",
+        "nacionalidad": "Campillay, Ulises"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/trseries/resultados/2024/fecha-4-buenos-aires-clasificacion-2-especial-1-al-5-2024_359_145.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "111",
+        "nombre": "Campillay,",
+        "apellido": "Ulises",
+        "piloto": "Campillay, Ulises",
+        "marca": "M. Benz",
+        "vueltas": "3",
+        "tiempo": "01:25.718",
+        "diferencia": "",
+        "nacionalidad": "Campillay, Ulises"
+      },
+      {
+        "pos": "2",
+        "nro": "1",
+        "nombre": "Bohdanowicz",
+        "apellido": ",",
+        "piloto": "Bohdanowicz , Lucas",
+        "marca": "Toyota",
+        "vueltas": "2",
+        "tiempo": "01:25.723",
+        "diferencia": "0.005",
+        "nacionalidad": "Bohdanowicz , Lucas"
+      },
+      {
+        "pos": "3",
+        "nro": "2",
+        "nombre": "Verriello,",
+        "apellido": "Diego",
+        "piloto": "Verriello, Diego",
+        "marca": "Fiat",
+        "vueltas": "3",
+        "tiempo": "01:25.771",
+        "diferencia": "0.053",
+        "nacionalidad": "Verriello, Diego"
+      },
+      {
+        "pos": "4",
+        "nro": "122",
+        "nombre": "Martinez,",
+        "apellido": "Lucas",
+        "piloto": "Martinez, Lucas",
+        "marca": "Toyota",
+        "vueltas": "3",
+        "tiempo": "01:26.074",
+        "diferencia": "0.356",
+        "nacionalidad": "Martinez, Lucas"
+      },
+      {
+        "pos": "5",
+        "nro": "121",
+        "nombre": "Sava,",
+        "apellido": "Valentin",
+        "piloto": "Sava, Valentin",
+        "marca": "Chevrolet",
+        "vueltas": "2",
+        "tiempo": "01:26.796",
+        "diferencia": "1,078",
+        "nacionalidad": "Sava, Valentin"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/trseries/resultados/2024/fecha-5-buenos-aires-clasificacion-2-especial-1-al-5-2024_360_145.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "122",
+        "nombre": "Martinez,",
+        "apellido": "Lucas",
+        "piloto": "Martinez, Lucas",
+        "marca": "Toyota",
+        "vueltas": "1",
+        "tiempo": "01:53.687",
+        "diferencia": "",
+        "nacionalidad": "Martinez, Lucas"
+      },
+      {
+        "pos": "2",
+        "nro": "1",
+        "nombre": "Bohdanowicz",
+        "apellido": ",",
+        "piloto": "Bohdanowicz , Lucas",
+        "marca": "Toyota",
+        "vueltas": "2",
+        "tiempo": "01:53.865",
+        "diferencia": "0.178",
+        "nacionalidad": "Bohdanowicz , Lucas"
+      },
+      {
+        "pos": "3",
+        "nro": "2",
+        "nombre": "Verriello,",
+        "apellido": "Diego",
+        "piloto": "Verriello, Diego",
+        "marca": "Fiat",
+        "vueltas": "2",
+        "tiempo": "01:54.410",
+        "diferencia": "0.723",
+        "nacionalidad": "Verriello, Diego"
+      },
+      {
+        "pos": "4",
+        "nro": "121",
+        "nombre": "Sava,",
+        "apellido": "Valentin",
+        "piloto": "Sava, Valentin",
+        "marca": "Chevrolet",
+        "vueltas": "1",
+        "tiempo": "01:54.688",
+        "diferencia": "1,001",
+        "nacionalidad": "Sava, Valentin"
+      },
+      {
+        "pos": "5",
+        "nro": "246",
+        "nombre": "Roca,",
+        "apellido": "Juan",
+        "piloto": "Roca, Juan Cruz",
+        "marca": "Toyota",
+        "vueltas": "2",
+        "tiempo": "01:54.853",
+        "diferencia": "1,166",
+        "nacionalidad": "Roca, Juan Cruz"
+      }
+    ]
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  }
+]

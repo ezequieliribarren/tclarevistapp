@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1702",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1691",
     "resultado": [
       {
         "horario": "09:35 a 09:55",
@@ -359,7 +359,7 @@
     ]
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1703",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1692",
     "resultado": [
       {
         "horario": "08:00 a 08:25",
@@ -790,7 +790,7 @@
     ]
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1704",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1693",
     "resultado": [
       {
         "horario": "08:10 a 08:35",
@@ -1191,7 +1191,7 @@
     ]
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1705",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1694",
     "resultado": [
       {
         "horario": "08:10 a 08:25",
@@ -1598,31 +1598,31 @@
     ]
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1706",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1695",
     "resultado": []
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1707",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1696",
     "resultado": []
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1708",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1697",
     "resultado": []
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1709",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1698",
     "resultado": []
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1710",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1699",
     "resultado": []
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1711",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1700",
     "resultado": []
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1712",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-cronograma.ajax.php?intIDCarrera=1701",
     "resultado": []
   }
 ]

@@ -1,0 +1,403 @@
+[
+  {
+    "url": "https://toprace.com.ar/toprace/resultados/2024/fecha-1-rosario-1-pruebas-libres_344_9.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "117",
+        "nombre": "Rossi,",
+        "apellido": "Matías",
+        "piloto": "Rossi, Matías",
+        "marca": "Ford",
+        "vueltas": "5",
+        "tiempo": "01:43.240",
+        "diferencia": "",
+        "nacionalidad": "Rossi, Matías"
+      },
+      {
+        "pos": "2",
+        "nro": "83",
+        "nombre": "Aldrighetti,",
+        "apellido": "Facundo",
+        "piloto": "Aldrighetti, Facundo",
+        "marca": "Lexus",
+        "vueltas": "6",
+        "tiempo": "01:43.284",
+        "diferencia": "0.044",
+        "nacionalidad": "Aldrighetti, Facundo"
+      },
+      {
+        "pos": "3",
+        "nro": "40",
+        "nombre": "Ciarrocchi,",
+        "apellido": "Marcelo",
+        "piloto": "Ciarrocchi, Marcelo",
+        "marca": "Lexus",
+        "vueltas": "5",
+        "tiempo": "01:44.702",
+        "diferencia": "1,462",
+        "nacionalidad": "Ciarrocchi, Marcelo"
+      },
+      {
+        "pos": "4",
+        "nro": "116",
+        "nombre": "Micheloud,",
+        "apellido": "Thomas",
+        "piloto": "Micheloud, Thomas",
+        "marca": "Fiat",
+        "vueltas": "9",
+        "tiempo": "01:44.901",
+        "diferencia": "1,661",
+        "nacionalidad": "Micheloud, Thomas"
+      },
+      {
+        "pos": "5",
+        "nro": "87",
+        "nombre": "Guerra,",
+        "apellido": "Lucas",
+        "piloto": "Guerra, Lucas",
+        "marca": "Chevrolet",
+        "vueltas": "3",
+        "tiempo": "01:45.015",
+        "diferencia": "1,775",
+        "nacionalidad": "Guerra, Lucas"
+      },
+      {
+        "pos": "6",
+        "nro": "3",
+        "nombre": "Felippo,",
+        "apellido": "Kevin",
+        "piloto": "Felippo, Kevin",
+        "marca": "Lexus",
+        "vueltas": "6",
+        "tiempo": "01:45.248",
+        "diferencia": "2,008",
+        "nacionalidad": "Felippo, Kevin"
+      },
+      {
+        "pos": "7",
+        "nro": "90",
+        "nombre": "Bonnin,",
+        "apellido": "Michell",
+        "piloto": "Bonnin, Michell",
+        "marca": "Ford",
+        "vueltas": "7",
+        "tiempo": "01:46.118",
+        "diferencia": "2,878",
+        "nacionalidad": "Bonnin, Michell"
+      },
+      {
+        "pos": "8",
+        "nro": "97",
+        "nombre": "Cingolani,",
+        "apellido": "Tomas",
+        "piloto": "Cingolani, Tomas",
+        "marca": "Lexus",
+        "vueltas": "6",
+        "tiempo": "01:46.271",
+        "diferencia": "3,031",
+        "nacionalidad": "Cingolani, Tomas"
+      },
+      {
+        "pos": "9",
+        "nro": "11",
+        "nombre": "Bessone,",
+        "apellido": "Figgo",
+        "piloto": "Bessone, Figgo",
+        "marca": "Lexus",
+        "vueltas": "4",
+        "tiempo": "01:47.603",
+        "diferencia": "4,363",
+        "nacionalidad": "Bessone, Figgo"
+      },
+      {
+        "pos": "10",
+        "nro": "12",
+        "nombre": "Giustozzi",
+        "apellido": ",",
+        "piloto": "Giustozzi , Dario (M)",
+        "marca": "Fiat",
+        "vueltas": "7",
+        "tiempo": "01:47.876",
+        "diferencia": "4,636",
+        "nacionalidad": "Giustozzi , Dario (M)"
+      },
+      {
+        "pos": "11",
+        "nro": "1",
+        "nombre": "Di",
+        "apellido": "Palma,",
+        "piloto": "Di Palma, Luis José",
+        "marca": "Fiat",
+        "vueltas": "4",
+        "tiempo": "01:52.993",
+        "diferencia": "9,753",
+        "nacionalidad": "Di Palma, Luis José"
+      },
+      {
+        "pos": "12",
+        "nro": "14",
+        "nombre": "Bava,",
+        "apellido": "Carli",
+        "piloto": "Bava, Carli",
+        "marca": "Lexus",
+        "vueltas": "2",
+        "tiempo": "01:58.329",
+        "diferencia": "15,089",
+        "nacionalidad": "Bava, Carli"
+      },
+      {
+        "pos": "13",
+        "nro": "86",
+        "nombre": "Pérez",
+        "apellido": "Bravo,",
+        "piloto": "Pérez Bravo, Emmanuel",
+        "marca": "M. Benz",
+        "vueltas": "2",
+        "tiempo": "01:58.681",
+        "diferencia": "15,441",
+        "nacionalidad": "Pérez Bravo, Emmanuel"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/toprace/resultados/2024/pruebas-libres_345_9.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "87",
+        "nombre": "Guerra,",
+        "apellido": "Lucas",
+        "piloto": "Guerra, Lucas",
+        "marca": "Chevrolet",
+        "vueltas": "9",
+        "tiempo": "02:00.524",
+        "diferencia": "",
+        "nacionalidad": "Guerra, Lucas"
+      },
+      {
+        "pos": "2",
+        "nro": "116",
+        "nombre": "Micheloud,",
+        "apellido": "Thomas",
+        "piloto": "Micheloud, Thomas",
+        "marca": "Fiat",
+        "vueltas": "7",
+        "tiempo": "02:01.131",
+        "diferencia": "0.607",
+        "nacionalidad": "Micheloud, Thomas"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/toprace/resultados/2024/pruebas-libres_346_9.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "62",
+        "nombre": "Stang,",
+        "apellido": "Emiliano",
+        "piloto": "Stang, Emiliano",
+        "marca": "Fiat",
+        "vueltas": "9",
+        "tiempo": "01:32.536",
+        "diferencia": "",
+        "nacionalidad": "Stang, Emiliano"
+      },
+      {
+        "pos": "2",
+        "nro": "3",
+        "nombre": "Felippo,",
+        "apellido": "Kevin",
+        "piloto": "Felippo, Kevin",
+        "marca": "Lexus",
+        "vueltas": "10",
+        "tiempo": "01:32.861",
+        "diferencia": "0.325",
+        "nacionalidad": "Felippo, Kevin"
+      },
+      {
+        "pos": "3",
+        "nro": "99",
+        "nombre": "Capurro,",
+        "apellido": "Matías",
+        "piloto": "Capurro, Matías",
+        "marca": "Lexus",
+        "vueltas": "6",
+        "tiempo": "01:34.771",
+        "diferencia": "2,235",
+        "nacionalidad": "Capurro, Matías"
+      },
+      {
+        "pos": "4",
+        "nro": "90",
+        "nombre": "Bonnin,",
+        "apellido": "Michell",
+        "piloto": "Bonnin, Michell",
+        "marca": "Ford",
+        "vueltas": "9",
+        "tiempo": "01:35.026",
+        "diferencia": "2,490",
+        "nacionalidad": "Bonnin, Michell"
+      },
+      {
+        "pos": "5",
+        "nro": "33",
+        "nombre": "Guttlein,",
+        "apellido": "Carlos",
+        "piloto": "Guttlein, Carlos (M)",
+        "marca": "Lexus",
+        "vueltas": "8",
+        "tiempo": "01:36.140",
+        "diferencia": "3,604",
+        "nacionalidad": "Guttlein, Carlos (M)"
+      },
+      {
+        "pos": "6",
+        "nro": "116",
+        "nombre": "Micheloud,",
+        "apellido": "Thomas",
+        "piloto": "Micheloud, Thomas",
+        "marca": "Fiat",
+        "vueltas": "4",
+        "tiempo": "01:46.439",
+        "diferencia": "13,903",
+        "nacionalidad": "Micheloud, Thomas"
+      },
+      {
+        "pos": "7",
+        "nro": "97",
+        "nombre": "Cingolani,",
+        "apellido": "Tomas",
+        "piloto": "Cingolani, Tomas",
+        "marca": "Lexus",
+        "vueltas": "1",
+        "tiempo": "24:09.718",
+        "diferencia": "22:37.182",
+        "nacionalidad": "Cingolani, Tomas"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/toprace/resultados/2024/pruebas-libres_347_9.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "62",
+        "nombre": "Stang,",
+        "apellido": "Emiliano",
+        "piloto": "Stang, Emiliano",
+        "marca": "Fiat",
+        "vueltas": "14",
+        "tiempo": "01:23.323",
+        "diferencia": "",
+        "nacionalidad": "Stang, Emiliano"
+      },
+      {
+        "pos": "2",
+        "nro": "87",
+        "nombre": "Guerra,",
+        "apellido": "Lucas",
+        "piloto": "Guerra, Lucas",
+        "marca": "Chevrolet",
+        "vueltas": "8",
+        "tiempo": "01:23.776",
+        "diferencia": "0.453",
+        "nacionalidad": "Guerra, Lucas"
+      },
+      {
+        "pos": "3",
+        "nro": "99",
+        "nombre": "Capurro,",
+        "apellido": "Matías",
+        "piloto": "Capurro, Matías",
+        "marca": "Lexus",
+        "vueltas": "9",
+        "tiempo": "01:23.889",
+        "diferencia": "0.566",
+        "nacionalidad": "Capurro, Matías"
+      },
+      {
+        "pos": "4",
+        "nro": "97",
+        "nombre": "Cingolani,",
+        "apellido": "Tomas",
+        "piloto": "Cingolani, Tomas",
+        "marca": "Lexus",
+        "vueltas": "12",
+        "tiempo": "01:24.192",
+        "diferencia": "0.869",
+        "nacionalidad": "Cingolani, Tomas"
+      },
+      {
+        "pos": "5",
+        "nro": "90",
+        "nombre": "Bonnin,",
+        "apellido": "Michell",
+        "piloto": "Bonnin, Michell",
+        "marca": "Ford",
+        "vueltas": "9",
+        "tiempo": "01:24.459",
+        "diferencia": "1,136",
+        "nacionalidad": "Bonnin, Michell"
+      },
+      {
+        "pos": "6",
+        "nro": "50",
+        "nombre": "Sánchez,",
+        "apellido": "O.",
+        "piloto": "Sánchez, O.",
+        "marca": "Lexus",
+        "vueltas": "3",
+        "tiempo": "01:25.527",
+        "diferencia": "2,204",
+        "nacionalidad": "Sánchez, O."
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/toprace/resultados/2024/pruebas-libres_348_9.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "62",
+        "nombre": "Stang,",
+        "apellido": "Emiliano",
+        "piloto": "Stang, Emiliano",
+        "marca": "Fiat",
+        "vueltas": "5",
+        "tiempo": "01:52.467",
+        "diferencia": "",
+        "nacionalidad": "Stang, Emiliano"
+      },
+      {
+        "pos": "2",
+        "nro": "87",
+        "nombre": "Guerra,",
+        "apellido": "Lucas",
+        "piloto": "Guerra, Lucas",
+        "marca": "Chevrolet",
+        "vueltas": "3",
+        "tiempo": "01:53.978",
+        "diferencia": "1,511",
+        "nacionalidad": "Guerra, Lucas"
+      },
+      {
+        "pos": "3",
+        "nro": "99",
+        "nombre": "Capurro,",
+        "apellido": "Matías",
+        "piloto": "Capurro, Matías",
+        "marca": "Lexus",
+        "vueltas": "2",
+        "tiempo": "01:56.722",
+        "diferencia": "4,255",
+        "nacionalidad": "Capurro, Matías"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/toprace/resultados/2024/pruebas-libres_349_9.html",
+    "resultado": []
+  }
+]

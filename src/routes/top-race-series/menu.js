@@ -5,7 +5,7 @@ const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 async function menu() {
   try {
     // Obtener los datos desde Google Sheets
-    const sheetId = "1197579525"; // ID de la hoja que deseas obtener
+    const sheetId = "435208865"; // ID de la hoja que deseas obtener
     const datos = await obtenerDatosDesdeGoogleSheets([sheetId]); // Pasar el sheetId como un arreglo
 
     // Filtrar y obtener solo las URL que no son null y que comiencen con 'https://'
@@ -62,25 +62,12 @@ async function obtenerResultados(url) {
       calendario.Dom.push($(entrenamiento).text().trim());
     });
 
-    // Buscar el Sprint 2024 dentro de los spans de Sábado
-    $('.lyt-sab span').each((i, span) => {
-      if ($(span).text().trim() === 'Sprint 2024') {
-        calendario.Sab.push($(span).text().trim());
-      }
-    });
-
     return calendario;
   } catch (error) {
     console.error('Error al obtener datos del calendario:', error);
     throw error;
   }
 }
-
-
-
-
-
-
 
 
 module.exports = {

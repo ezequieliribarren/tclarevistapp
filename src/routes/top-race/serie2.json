@@ -1,0 +1,282 @@
+[
+  {
+    "url": "https://toprace.com.ar/toprace/resultados/2024/fecha-1-rosario-clasificacion-1-al-5-trv6-2024_344_130.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "83",
+        "nombre": "Aldrighetti,",
+        "apellido": "Facundo",
+        "piloto": "Aldrighetti, Facundo",
+        "marca": "Lexus",
+        "vueltas": "1",
+        "tiempo": "01:43.061",
+        "diferencia": "",
+        "nacionalidad": "Aldrighetti, Facundo"
+      },
+      {
+        "pos": "2",
+        "nro": "87",
+        "nombre": "Guerra,",
+        "apellido": "Lucas",
+        "piloto": "Guerra, Lucas",
+        "marca": "Chevrolet",
+        "vueltas": "2",
+        "tiempo": "01:43.211",
+        "diferencia": "0.150",
+        "nacionalidad": "Guerra, Lucas"
+      },
+      {
+        "pos": "3",
+        "nro": "117",
+        "nombre": "Rossi,",
+        "apellido": "Matías",
+        "piloto": "Rossi, Matías",
+        "marca": "Ford",
+        "vueltas": "2",
+        "tiempo": "01:43.452",
+        "diferencia": "0.391",
+        "nacionalidad": "Rossi, Matías"
+      },
+      {
+        "pos": "4",
+        "nro": "3",
+        "nombre": "Felippo,",
+        "apellido": "Kevin",
+        "piloto": "Felippo, Kevin",
+        "marca": "Lexus",
+        "vueltas": "1",
+        "tiempo": "01:43.629",
+        "diferencia": "0.568",
+        "nacionalidad": "Felippo, Kevin"
+      },
+      {
+        "pos": "5",
+        "nro": "40",
+        "nombre": "Ciarrocchi,",
+        "apellido": "Marcelo",
+        "piloto": "Ciarrocchi, Marcelo",
+        "marca": "Lexus",
+        "vueltas": "2",
+        "tiempo": "01:43.855",
+        "diferencia": "0.794",
+        "nacionalidad": "Ciarrocchi, Marcelo"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/toprace/resultados/2024/fecha-2-concordia-clasificacion-1-al-5-trv6-2024_345_130.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "40",
+        "nombre": "Ciarrocchi,",
+        "apellido": "Marcelo",
+        "piloto": "Ciarrocchi, Marcelo",
+        "marca": "Lexus",
+        "vueltas": "1",
+        "tiempo": "01:47.476",
+        "diferencia": "",
+        "nacionalidad": "Ciarrocchi, Marcelo"
+      },
+      {
+        "pos": "2",
+        "nro": "1",
+        "nombre": "Di",
+        "apellido": "Palma,",
+        "piloto": "Di Palma, Luis José",
+        "marca": "Fiat",
+        "vueltas": "2",
+        "tiempo": "01:47.744",
+        "diferencia": "0.268",
+        "nacionalidad": "Di Palma, Luis José"
+      },
+      {
+        "pos": "3",
+        "nro": "117",
+        "nombre": "Rossi,",
+        "apellido": "Matías",
+        "piloto": "Rossi, Matías",
+        "marca": "Ford",
+        "vueltas": "1",
+        "tiempo": "01:48.529",
+        "diferencia": "1,053",
+        "nacionalidad": "Rossi, Matías"
+      },
+      {
+        "pos": "4",
+        "nro": "116",
+        "nombre": "Micheloud,",
+        "apellido": "Thomas",
+        "piloto": "Micheloud, Thomas",
+        "marca": "Fiat",
+        "vueltas": "2",
+        "tiempo": "01:48.666",
+        "diferencia": "1,190",
+        "nacionalidad": "Micheloud, Thomas"
+      }
+    ]
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "https://toprace.com.ar/toprace/resultados/2024/fecha-4-buenos-aires-clasificacion-1-al-5-trv6-2024_347_130.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "117",
+        "nombre": "Rossi,",
+        "apellido": "Matías",
+        "piloto": "Rossi, Matías",
+        "marca": "Ford",
+        "vueltas": "2",
+        "tiempo": "01:23.080",
+        "diferencia": "",
+        "nacionalidad": "Rossi, Matías"
+      },
+      {
+        "pos": "2",
+        "nro": "1",
+        "nombre": "Di",
+        "apellido": "Palma,",
+        "piloto": "Di Palma, Luis José",
+        "marca": "Fiat",
+        "vueltas": "3",
+        "tiempo": "01:23.375",
+        "diferencia": "0.295",
+        "nacionalidad": "Di Palma, Luis José"
+      },
+      {
+        "pos": "3",
+        "nro": "83",
+        "nombre": "Aldrighetti,",
+        "apellido": "Facundo",
+        "piloto": "Aldrighetti, Facundo",
+        "marca": "Lexus",
+        "vueltas": "3",
+        "tiempo": "01:23.441",
+        "diferencia": "0.361",
+        "nacionalidad": "Aldrighetti, Facundo"
+      },
+      {
+        "pos": "4",
+        "nro": "3",
+        "nombre": "Felippo,",
+        "apellido": "Kevin",
+        "piloto": "Felippo, Kevin",
+        "marca": "Lexus",
+        "vueltas": "3",
+        "tiempo": "01:23.639",
+        "diferencia": "0.559",
+        "nacionalidad": "Felippo, Kevin"
+      },
+      {
+        "pos": "5",
+        "nro": "99",
+        "nombre": "Capurro,",
+        "apellido": "Matías",
+        "piloto": "Capurro, Matías",
+        "marca": "Lexus",
+        "vueltas": "3",
+        "tiempo": "01:24.145",
+        "diferencia": "1,065",
+        "nacionalidad": "Capurro, Matías"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/toprace/resultados/2024/fecha-5-buenos-aires-clasificacion-1-al-5-trv6-2024_348_130.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "117",
+        "nombre": "Rossi,",
+        "apellido": "Matías",
+        "piloto": "Rossi, Matías",
+        "marca": "Ford",
+        "vueltas": "1",
+        "tiempo": "01:49.800",
+        "diferencia": "",
+        "nacionalidad": "Rossi, Matías"
+      },
+      {
+        "pos": "2",
+        "nro": "1",
+        "nombre": "Di",
+        "apellido": "Palma,",
+        "piloto": "Di Palma, Luis José",
+        "marca": "Fiat",
+        "vueltas": "1",
+        "tiempo": "01:49.910",
+        "diferencia": "0.110",
+        "nacionalidad": "Di Palma, Luis José"
+      },
+      {
+        "pos": "3",
+        "nro": "83",
+        "nombre": "Aldrighetti,",
+        "apellido": "Facundo",
+        "piloto": "Aldrighetti, Facundo",
+        "marca": "Lexus",
+        "vueltas": "1",
+        "tiempo": "01:50.166",
+        "diferencia": "0.366",
+        "nacionalidad": "Aldrighetti, Facundo"
+      },
+      {
+        "pos": "4",
+        "nro": "3",
+        "nombre": "Felippo,",
+        "apellido": "Kevin",
+        "piloto": "Felippo, Kevin",
+        "marca": "Lexus",
+        "vueltas": "2",
+        "tiempo": "01:50.503",
+        "diferencia": "0.703",
+        "nacionalidad": "Felippo, Kevin"
+      },
+      {
+        "pos": "5",
+        "nro": "87",
+        "nombre": "Guerra,",
+        "apellido": "Lucas",
+        "piloto": "Guerra, Lucas",
+        "marca": "Chevrolet",
+        "vueltas": "2",
+        "tiempo": "01:50.813",
+        "diferencia": "1,013",
+        "nacionalidad": "Guerra, Lucas"
+      }
+    ]
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  }
+]

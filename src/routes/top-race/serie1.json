@@ -1,0 +1,288 @@
+[
+  {
+    "url": "https://toprace.com.ar/toprace/resultados/2024/fecha-1-rosario-clasificacion-1-al-10-trv6-2024_344_129.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "117",
+        "nombre": "Rossi,",
+        "apellido": "Matías",
+        "piloto": "Rossi, Matías",
+        "marca": "Ford",
+        "vueltas": "1",
+        "tiempo": "01:42.467",
+        "diferencia": "",
+        "nacionalidad": "Rossi, Matías"
+      },
+      {
+        "pos": "2",
+        "nro": "83",
+        "nombre": "Aldrighetti,",
+        "apellido": "Facundo",
+        "piloto": "Aldrighetti, Facundo",
+        "marca": "Lexus",
+        "vueltas": "1",
+        "tiempo": "01:43.155",
+        "diferencia": "0.688",
+        "nacionalidad": "Aldrighetti, Facundo"
+      },
+      {
+        "pos": "3",
+        "nro": "87",
+        "nombre": "Guerra,",
+        "apellido": "Lucas",
+        "piloto": "Guerra, Lucas",
+        "marca": "Chevrolet",
+        "vueltas": "1",
+        "tiempo": "01:43.489",
+        "diferencia": "1,022",
+        "nacionalidad": "Guerra, Lucas"
+      },
+      {
+        "pos": "4",
+        "nro": "40",
+        "nombre": "Ciarrocchi,",
+        "apellido": "Marcelo",
+        "piloto": "Ciarrocchi, Marcelo",
+        "marca": "Lexus",
+        "vueltas": "2",
+        "tiempo": "01:43.640",
+        "diferencia": "1,173",
+        "nacionalidad": "Ciarrocchi, Marcelo"
+      },
+      {
+        "pos": "5",
+        "nro": "3",
+        "nombre": "Felippo,",
+        "apellido": "Kevin",
+        "piloto": "Felippo, Kevin",
+        "marca": "Lexus",
+        "vueltas": "4",
+        "tiempo": "01:43.780",
+        "diferencia": "1,313",
+        "nacionalidad": "Felippo, Kevin"
+      },
+      {
+        "pos": "6",
+        "nro": "1",
+        "nombre": "Di",
+        "apellido": "Palma,",
+        "piloto": "Di Palma, Luis José",
+        "marca": "Fiat",
+        "vueltas": "3",
+        "tiempo": "01:44.234",
+        "diferencia": "1,767",
+        "nacionalidad": "Di Palma, Luis José"
+      },
+      {
+        "pos": "7",
+        "nro": "11",
+        "nombre": "Bessone,",
+        "apellido": "Figgo",
+        "piloto": "Bessone, Figgo",
+        "marca": "Lexus",
+        "vueltas": "3",
+        "tiempo": "01:44.446",
+        "diferencia": "1,979",
+        "nacionalidad": "Bessone, Figgo"
+      },
+      {
+        "pos": "8",
+        "nro": "97",
+        "nombre": "Cingolani,",
+        "apellido": "Tomas",
+        "piloto": "Cingolani, Tomas",
+        "marca": "Lexus",
+        "vueltas": "4",
+        "tiempo": "01:44.566",
+        "diferencia": "2,099",
+        "nacionalidad": "Cingolani, Tomas"
+      },
+      {
+        "pos": "9",
+        "nro": "86",
+        "nombre": "Pérez",
+        "apellido": "Bravo,",
+        "piloto": "Pérez Bravo, Emmanuel",
+        "marca": "M. Benz",
+        "vueltas": "3",
+        "tiempo": "01:44.975",
+        "diferencia": "2,508",
+        "nacionalidad": "Pérez Bravo, Emmanuel"
+      },
+      {
+        "pos": "10",
+        "nro": "90",
+        "nombre": "Bonnin,",
+        "apellido": "Michell",
+        "piloto": "Bonnin, Michell",
+        "marca": "Ford",
+        "vueltas": "4",
+        "tiempo": "01:45.368",
+        "diferencia": "2,901",
+        "nacionalidad": "Bonnin, Michell"
+      }
+    ]
+  },
+  {
+    "url": "https://toprace.com.ar/toprace/resultados/2024/fecha-2-concordia-clasificacion-1-al-10-trv6-2024_345_129.html",
+    "resultado": [
+      {
+        "pos": "1",
+        "nro": "1",
+        "nombre": "Di",
+        "apellido": "Palma,",
+        "piloto": "Di Palma, Luis José",
+        "marca": "Fiat",
+        "vueltas": "2",
+        "tiempo": "01:48.056",
+        "diferencia": "",
+        "nacionalidad": "Di Palma, Luis José"
+      },
+      {
+        "pos": "2",
+        "nro": "117",
+        "nombre": "Rossi,",
+        "apellido": "Matías",
+        "piloto": "Rossi, Matías",
+        "marca": "Ford",
+        "vueltas": "2",
+        "tiempo": "01:48.094",
+        "diferencia": "0.038",
+        "nacionalidad": "Rossi, Matías"
+      },
+      {
+        "pos": "3",
+        "nro": "83",
+        "nombre": "Aldrighetti,",
+        "apellido": "Facundo",
+        "piloto": "Aldrighetti, Facundo",
+        "marca": "Lexus",
+        "vueltas": "2",
+        "tiempo": "01:48.282",
+        "diferencia": "0.226",
+        "nacionalidad": "Aldrighetti, Facundo"
+      },
+      {
+        "pos": "4",
+        "nro": "40",
+        "nombre": "Ciarrocchi,",
+        "apellido": "Marcelo",
+        "piloto": "Ciarrocchi, Marcelo",
+        "marca": "Lexus",
+        "vueltas": "2",
+        "tiempo": "01:48.314",
+        "diferencia": "0.258",
+        "nacionalidad": "Ciarrocchi, Marcelo"
+      },
+      {
+        "pos": "5",
+        "nro": "116",
+        "nombre": "Micheloud,",
+        "apellido": "Thomas",
+        "piloto": "Micheloud, Thomas",
+        "marca": "Fiat",
+        "vueltas": "3",
+        "tiempo": "01:48.529",
+        "diferencia": "0.473",
+        "nacionalidad": "Micheloud, Thomas"
+      },
+      {
+        "pos": "6",
+        "nro": "3",
+        "nombre": "Felippo,",
+        "apellido": "Kevin",
+        "piloto": "Felippo, Kevin",
+        "marca": "Lexus",
+        "vueltas": "4",
+        "tiempo": "01:48.848",
+        "diferencia": "0.792",
+        "nacionalidad": "Felippo, Kevin"
+      },
+      {
+        "pos": "7",
+        "nro": "90",
+        "nombre": "Bonnin,",
+        "apellido": "Michell",
+        "piloto": "Bonnin, Michell",
+        "marca": "Ford",
+        "vueltas": "3",
+        "tiempo": "01:49.280",
+        "diferencia": "1,224",
+        "nacionalidad": "Bonnin, Michell"
+      },
+      {
+        "pos": "8",
+        "nro": "87",
+        "nombre": "Guerra,",
+        "apellido": "Lucas",
+        "piloto": "Guerra, Lucas",
+        "marca": "Chevrolet",
+        "vueltas": "3",
+        "tiempo": "01:49.566",
+        "diferencia": "1,510",
+        "nacionalidad": "Guerra, Lucas"
+      },
+      {
+        "pos": "9",
+        "nro": "88",
+        "nombre": "Chiriano,",
+        "apellido": "Adrián",
+        "piloto": "Chiriano, Adrián (M)",
+        "marca": "M. Benz",
+        "vueltas": "2",
+        "tiempo": "01:50.134",
+        "diferencia": "2,078",
+        "nacionalidad": "Chiriano, Adrián (M)"
+      },
+      {
+        "pos": "10",
+        "nro": "86",
+        "nombre": "Pérez",
+        "apellido": "Bravo,",
+        "piloto": "Pérez Bravo, Emmanuel",
+        "marca": "M. Benz",
+        "vueltas": "3",
+        "tiempo": "01:50.176",
+        "diferencia": "2,120",
+        "nacionalidad": "Pérez Bravo, Emmanuel"
+      }
+    ]
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  },
+  {
+    "url": "-",
+    "resultado": []
+  }
+]

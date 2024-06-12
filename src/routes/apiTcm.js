@@ -255,7 +255,7 @@ async function realizarScrapeYGuardar3() {
 async function realizarScrapeYGuardar4() {
     try {
         const datos = await en4();
-        await fsPromises.writeFile(jsonFilePath3, JSON.stringify(datos, null, 2), 'utf-8');
+        await fsPromises.writeFile(jsonFilePath4, JSON.stringify(datos, null, 2), 'utf-8');
         console.log('Scrape realizado y datos guardados en en3.json.');
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en3.json:', error);
@@ -264,7 +264,7 @@ async function realizarScrapeYGuardar4() {
 async function realizarScrapeYGuardar5() {
     try {
         const datos = await en5();
-        await fsPromises.writeFile(jsonFilePath3, JSON.stringify(datos, null, 2), 'utf-8');
+        await fsPromises.writeFile(jsonFilePath5, JSON.stringify(datos, null, 2), 'utf-8');
         console.log('Scrape realizado y datos guardados en en3.json.');
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en3.json:', error);

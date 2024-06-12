@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-grupos.ajax.php?intIDCarrera=1496",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-grupos.ajax.php?intIDCarrera=1526",
     "resultado": [
       {
         "numero": "",
@@ -9,129 +9,51 @@
         "title": "GRUPO A"
       },
       {
-        "numero": "1",
-        "piloto": "Werner, Mariano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "3",
-        "piloto": "Todino, Germán",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "4",
-        "piloto": "Castellano, Jonatan",
+        "numero": "6",
+        "piloto": "Cravero, Matias",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "5",
-        "piloto": "Mangoni, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "6",
-        "piloto": "Lambiris, Mauricio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "7",
-        "piloto": "Landa, Marcos",
+        "numero": "33",
+        "piloto": "Bernasconi, Felipe",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "9",
-        "piloto": "Trucco, Juan Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-challenger-xs.png\" class=\"lazy\">",
+        "numero": "38",
+        "piloto": "Montanari, Nicolás",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "10",
-        "piloto": "Aguirre, Valentín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "11",
-        "piloto": "Ledesma, Christian",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "12",
-        "piloto": "Mazzacane, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "13",
-        "piloto": "Catalán Magni, Juan Tomás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "19",
-        "piloto": "Ciantini, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "21",
-        "piloto": "Fritzler, Otto",
+        "numero": "44",
+        "piloto": "Pozner, Thomas",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "22",
-        "piloto": "Ebarlín, Juan José",
+        "numero": "50",
+        "piloto": "Ayala, Agustín",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "23",
-        "piloto": "Gini, Esteban",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "63",
-        "piloto": "Bonelli, Nicolás",
+        "numero": "53",
+        "piloto": "Provens, Eugenio",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "88",
-        "piloto": "Trosset, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "96",
-        "piloto": "Benvenuti, Juan Cruz",
+        "numero": "55",
+        "piloto": "Iansa, Gastón",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "127",
-        "piloto": "Agrelo, Marcelo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "231",
-        "piloto": "Urcera, José Manuel",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "68",
-        "piloto": "Santero, Julián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "numero": "102",
+        "piloto": "Jakos, Alexander",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
@@ -141,411 +63,171 @@
         "title": "GRUPO B"
       },
       {
-        "numero": "34",
-        "piloto": "Spataro, Emiliano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "38",
-        "piloto": "Cotignola, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "47",
-        "piloto": "Fontana, Norberto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "53",
-        "piloto": "Iribarne, Federico",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "71",
-        "piloto": "Abella, Sebastián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "75",
-        "piloto": "Alaux, Sergio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "77",
-        "piloto": "Carinelli, Augusto",
+        "numero": "66",
+        "piloto": "Rasetto, Genaro",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "79",
-        "piloto": "Chapur, Facundo",
+        "numero": "67",
+        "piloto": "Biagi, Santiago",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "83",
-        "piloto": "Ardusso, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "85",
-        "piloto": "Risatti, Ricardo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "94",
-        "piloto": "De La Iglesia, Lautaro",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "95",
-        "piloto": "Martínez, Agustín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "107",
-        "piloto": "Martínez, Tobías",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-ng-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "114",
-        "piloto": "Ferrante, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "121",
-        "piloto": "Craparo, Elio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "157",
-        "piloto": "De Benedictis , Juan B.",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "161",
-        "piloto": "Candela, Kevin",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "172",
-        "piloto": "Álvarez, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "177",
-        "piloto": "Londero, Ayrton",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "197",
-        "piloto": "Quijada, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "122",
-        "piloto": "Jakos, Andrés",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "1ER CUARTO"
-      },
-      {
-        "numero": "1",
-        "piloto": "Werner, Mariano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "3",
-        "piloto": "Todino, Germán",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "4",
-        "piloto": "Castellano, Jonatan",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "5",
-        "piloto": "Mangoni, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "6",
-        "piloto": "Lambiris, Mauricio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "7",
-        "piloto": "Landa, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "9",
-        "piloto": "Trucco, Juan Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-challenger-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "10",
-        "piloto": "Aguirre, Valentín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "11",
-        "piloto": "Ledesma, Christian",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "68",
-        "piloto": "Santero, Julián",
+        "piloto": "Torres, Joaquín",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "111",
+        "piloto": "Ochoa, Benja",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "231",
-        "piloto": "Urcera, José Manuel",
+        "numero": "116",
+        "piloto": "Polakovich, Mateo",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "123",
+        "piloto": "Santilli Pazos, Nicanor",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "144",
+        "piloto": "Cifre, Faustino",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "147",
+        "piloto": "Dianda, Marco",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "",
         "piloto": "",
         "marca": null,
-        "title": "2DO CUARTO"
+        "title": "1ER TERCIO"
       },
       {
-        "numero": "12",
-        "piloto": "Mazzacane, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "13",
-        "piloto": "Catalán Magni, Juan Tomás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "19",
-        "piloto": "Ciantini, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "21",
-        "piloto": "Fritzler, Otto",
+        "numero": "6",
+        "piloto": "Cravero, Matias",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "22",
-        "piloto": "Ebarlín, Juan José",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "23",
-        "piloto": "Gini, Esteban",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "63",
-        "piloto": "Bonelli, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "88",
-        "piloto": "Trosset, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "96",
-        "piloto": "Benvenuti, Juan Cruz",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "127",
-        "piloto": "Agrelo, Marcelo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "85",
-        "piloto": "Risatti, Ricardo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "3ER CUARTO"
-      },
-      {
-        "numero": "34",
-        "piloto": "Spataro, Emiliano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "38",
-        "piloto": "Cotignola, Nicolás",
+        "numero": "33",
+        "piloto": "Bernasconi, Felipe",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "75",
-        "piloto": "Alaux, Sergio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "numero": "38",
+        "piloto": "Montanari, Nicolás",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "83",
-        "piloto": "Ardusso, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "121",
-        "piloto": "Craparo, Elio",
+        "numero": "44",
+        "piloto": "Pozner, Thomas",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "122",
-        "piloto": "Jakos, Andrés",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
+        "numero": "50",
+        "piloto": "Ayala, Agustín",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "157",
-        "piloto": "De Benedictis , Juan B.",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "172",
-        "piloto": "Álvarez, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "177",
-        "piloto": "Londero, Ayrton",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "197",
-        "piloto": "Quijada, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
+        "numero": "102",
+        "piloto": "Jakos, Alexander",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "",
         "piloto": "",
         "marca": null,
-        "title": "4TO CUARTO"
+        "title": "2DO TERCIO"
       },
       {
-        "numero": "71",
-        "piloto": "Abella, Sebastián",
+        "numero": "55",
+        "piloto": "Iansa, Gastón",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "79",
-        "piloto": "Chapur, Facundo",
+        "numero": "66",
+        "piloto": "Rasetto, Genaro",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "94",
-        "piloto": "De La Iglesia, Lautaro",
+        "numero": "67",
+        "piloto": "Biagi, Santiago",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "95",
-        "piloto": "Martínez, Agustín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "107",
-        "piloto": "Martínez, Tobías",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-ng-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "47",
-        "piloto": "Fontana, Norberto",
+        "numero": "68",
+        "piloto": "Torres, Joaquín",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "53",
-        "piloto": "Iribarne, Federico",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "piloto": "Provens, Eugenio",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "77",
-        "piloto": "Carinelli, Augusto",
+        "numero": "",
+        "piloto": "",
+        "marca": null,
+        "title": "3ER TERCIO"
+      },
+      {
+        "numero": "111",
+        "piloto": "Ochoa, Benja",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "116",
+        "piloto": "Polakovich, Mateo",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "114",
-        "piloto": "Ferrante, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
+        "numero": "123",
+        "piloto": "Santilli Pazos, Nicanor",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "161",
-        "piloto": "Candela, Kevin",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
+        "numero": "144",
+        "piloto": "Cifre, Faustino",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "147",
+        "piloto": "Dianda, Marco",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       }
     ]
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-grupos.ajax.php?intIDCarrera=1497",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-grupos.ajax.php?intIDCarrera=1527",
     "resultado": [
       {
         "numero": "",
@@ -554,140 +236,50 @@
         "title": "GRUPO A"
       },
       {
-        "numero": "1",
-        "piloto": "Werner, Mariano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "68",
-        "piloto": "Santero, Julián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "3",
-        "piloto": "Todino, Germán",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
         "numero": "6",
-        "piloto": "Lambiris, Mauricio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "4",
-        "piloto": "Castellano, Jonatan",
+        "piloto": "Cravero, Matias",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "7",
-        "piloto": "Landa, Marcos",
+        "numero": "33",
+        "piloto": "Bernasconi, Felipe",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "5",
-        "piloto": "Mangoni, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "231",
-        "piloto": "Urcera, José Manuel",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "9",
-        "piloto": "Trucco, Juan Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-challenger-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "10",
-        "piloto": "Aguirre, Valentín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "12",
-        "piloto": "Mazzacane, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "11",
-        "piloto": "Ledesma, Christian",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "13",
-        "piloto": "Catalán Magni, Juan Tomás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "127",
-        "piloto": "Agrelo, Marcelo",
+        "numero": "44",
+        "piloto": "Pozner, Thomas",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "88",
-        "piloto": "Trosset, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "63",
-        "piloto": "Bonelli, Nicolás",
+        "numero": "53",
+        "piloto": "Provens, Eugenio",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "23",
-        "piloto": "Gini, Esteban",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "19",
-        "piloto": "Ciantini, Diego",
+        "numero": "55",
+        "piloto": "Iansa, Gastón",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "21",
-        "piloto": "Fritzler, Otto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "numero": "111",
+        "piloto": "Ochoa, Benja",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "96",
-        "piloto": "Benvenuti, Juan Cruz",
+        "numero": "123",
+        "piloto": "Santilli Pazos, Nicanor",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "85",
-        "piloto": "Risatti, Ricardo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "121",
-        "piloto": "Craparo, Elio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "172",
-        "piloto": "Álvarez, Santiago",
+        "numero": "147",
+        "piloto": "Dianda, Marco",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
@@ -698,447 +290,171 @@
         "title": "GRUPO B"
       },
       {
-        "numero": "83",
-        "piloto": "Ardusso, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "22",
-        "piloto": "Ebarlín, Juan José",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "177",
-        "piloto": "Londero, Ayrton",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "122",
-        "piloto": "Jakos, Andrés",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "157",
-        "piloto": "De Benedictis , Juan B.",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "197",
-        "piloto": "Quijada, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "34",
-        "piloto": "Spataro, Emiliano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "75",
-        "piloto": "Alaux, Sergio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
         "numero": "38",
-        "piloto": "Cotignola, Nicolás",
+        "piloto": "Montanari, Nicolás",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "161",
-        "piloto": "Candela, Kevin",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
+        "numero": "50",
+        "piloto": "Ayala, Agustín",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "123",
-        "piloto": "Vázquez, Martín",
+        "numero": "66",
+        "piloto": "Rasetto, Genaro",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "77",
-        "piloto": "Carinelli, Augusto",
+        "numero": "67",
+        "piloto": "Biagi, Santiago",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "114",
-        "piloto": "Ferrante, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "47",
-        "piloto": "Fontana, Norberto",
+        "numero": "68",
+        "piloto": "Torres, Joaquín",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "115",
-        "piloto": "De Carlo, Diego",
+        "numero": "102",
+        "piloto": "Jakos, Alexander",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "53",
-        "piloto": "Iribarne, Federico",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "numero": "116",
+        "piloto": "Polakovich, Mateo",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "134",
-        "piloto": "Jalaf, Matías",
+        "numero": "144",
+        "piloto": "Cifre, Faustino",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "107",
-        "piloto": "Martínez, Tobías",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-ng-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "111",
-        "piloto": "Garbelino, Juan",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "95",
-        "piloto": "Martínez, Agustín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "94",
-        "piloto": "De La Iglesia, Lautaro",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "71",
-        "piloto": "Abella, Sebastián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "79",
-        "piloto": "Chapur, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "",
         "piloto": "",
         "marca": null,
-        "title": "1ER CUARTO"
+        "title": "1ER TERCIO"
       },
       {
-        "numero": "1",
-        "piloto": "Werner, Mariano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "3",
-        "piloto": "Todino, Germán",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "4",
-        "piloto": "Castellano, Jonatan",
+        "numero": "147",
+        "piloto": "Dianda, Marco",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "5",
-        "piloto": "Mangoni, Santiago",
+        "numero": "111",
+        "piloto": "Ochoa, Benja",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "55",
+        "piloto": "Iansa, Gastón",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "123",
+        "piloto": "Santilli Pazos, Nicanor",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "6",
-        "piloto": "Lambiris, Mauricio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "piloto": "Cravero, Matias",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "7",
-        "piloto": "Landa, Marcos",
+        "numero": "33",
+        "piloto": "Bernasconi, Felipe",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "9",
-        "piloto": "Trucco, Juan Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-challenger-xs.png\" class=\"lazy\">",
+        "numero": "",
+        "piloto": "",
+        "marca": null,
+        "title": "2DO TERCIO"
+      },
+      {
+        "numero": "53",
+        "piloto": "Provens, Eugenio",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "10",
-        "piloto": "Aguirre, Valentín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "numero": "44",
+        "piloto": "Pozner, Thomas",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "11",
-        "piloto": "Ledesma, Christian",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
+        "numero": "38",
+        "piloto": "Montanari, Nicolás",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "12",
-        "piloto": "Mazzacane, Gastón",
+        "numero": "50",
+        "piloto": "Ayala, Agustín",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "68",
-        "piloto": "Santero, Julián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "231",
-        "piloto": "Urcera, José Manuel",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "piloto": "Torres, Joaquín",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "",
         "piloto": "",
         "marca": null,
-        "title": "2DO CUARTO"
+        "title": "3ER TERCIO"
       },
       {
-        "numero": "13",
-        "piloto": "Catalán Magni, Juan Tomás",
+        "numero": "144",
+        "piloto": "Cifre, Faustino",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "19",
-        "piloto": "Ciantini, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "21",
-        "piloto": "Fritzler, Otto",
+        "numero": "67",
+        "piloto": "Biagi, Santiago",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "23",
-        "piloto": "Gini, Esteban",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "63",
-        "piloto": "Bonelli, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "83",
-        "piloto": "Ardusso, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "85",
-        "piloto": "Risatti, Ricardo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "88",
-        "piloto": "Trosset, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "96",
-        "piloto": "Benvenuti, Juan Cruz",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "121",
-        "piloto": "Craparo, Elio",
+        "numero": "116",
+        "piloto": "Polakovich, Mateo",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "127",
-        "piloto": "Agrelo, Marcelo",
+        "numero": "66",
+        "piloto": "Rasetto, Genaro",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "172",
-        "piloto": "Álvarez, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "3ER CUARTO"
-      },
-      {
-        "numero": "22",
-        "piloto": "Ebarlín, Juan José",
+        "numero": "102",
+        "piloto": "Jakos, Alexander",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "34",
-        "piloto": "Spataro, Emiliano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "38",
-        "piloto": "Cotignola, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "75",
-        "piloto": "Alaux, Sergio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "77",
-        "piloto": "Carinelli, Augusto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "122",
-        "piloto": "Jakos, Andrés",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "123",
-        "piloto": "Vázquez, Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "157",
-        "piloto": "De Benedictis , Juan B.",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "161",
-        "piloto": "Candela, Kevin",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "177",
-        "piloto": "Londero, Ayrton",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "197",
-        "piloto": "Quijada, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "4TO CUARTO"
-      },
-      {
-        "numero": "47",
-        "piloto": "Fontana, Norberto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "53",
-        "piloto": "Iribarne, Federico",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "71",
-        "piloto": "Abella, Sebastián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "79",
-        "piloto": "Chapur, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "94",
-        "piloto": "De La Iglesia, Lautaro",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "95",
-        "piloto": "Martínez, Agustín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "107",
-        "piloto": "Martínez, Tobías",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-ng-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "111",
-        "piloto": "Garbelino, Juan",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "114",
-        "piloto": "Ferrante, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "115",
-        "piloto": "De Carlo, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "134",
-        "piloto": "Jalaf, Matías",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       }
     ]
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-grupos.ajax.php?intIDCarrera=1498",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-grupos.ajax.php?intIDCarrera=1528",
     "resultado": [
       {
         "numero": "",
@@ -1147,141 +463,45 @@
         "title": "GRUPO A"
       },
       {
-        "numero": "1",
-        "piloto": "Werner, Mariano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "68",
-        "piloto": "Santero, Julián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "3",
-        "piloto": "Todino, Germán",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
         "numero": "6",
-        "piloto": "Lambiris, Mauricio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "piloto": "Cravero, Matías",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "231",
-        "piloto": "Urcera, José Manuel",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "7",
-        "piloto": "Landa, Marcos",
+        "numero": "33",
+        "piloto": "Bernasconi, Felipe",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "4",
-        "piloto": "Castellano, Jonatan",
+        "numero": "55",
+        "piloto": "Iansa, Gastón",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "67",
+        "piloto": "Biagi, Santiago",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "5",
-        "piloto": "Mangoni, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "9",
-        "piloto": "Trucco, Juan Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-challenger-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "10",
-        "piloto": "Aguirre, Valentín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "13",
-        "piloto": "Catalán Magni, Juan Tomás",
+        "numero": "111",
+        "piloto": "Ochoa, Benjamin",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "12",
-        "piloto": "Mazzacane, Gastón",
+        "numero": "123",
+        "piloto": "Santilli Pazos, Nicanor",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "11",
-        "piloto": "Ledesma, Christian",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "127",
-        "piloto": "Agrelo, Marcelo",
+        "numero": "147",
+        "piloto": "Dianda, Marco",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "23",
-        "piloto": "Gini, Esteban",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "21",
-        "piloto": "Fritzler, Otto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "88",
-        "piloto": "Trosset, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "63",
-        "piloto": "Bonelli, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "96",
-        "piloto": "Benvenuti, Juan Cruz",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "19",
-        "piloto": "Ciantini, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "22",
-        "piloto": "Ebarlín, Juan José",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "83",
-        "piloto": "Ardusso, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "85",
-        "piloto": "Risatti, Ricardo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
@@ -1291,134 +511,50 @@
         "title": "GRUPO B"
       },
       {
-        "numero": "172",
-        "piloto": "Álvarez, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "121",
-        "piloto": "Craparo, Elio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "197",
-        "piloto": "Quijada, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "122",
-        "piloto": "Jakos, Andrés",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "177",
-        "piloto": "Londero, Ayrton",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "157",
-        "piloto": "De Benedictis , Juan B.",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "34",
-        "piloto": "Spataro, Emiliano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "75",
-        "piloto": "Alaux, Sergio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
         "numero": "38",
-        "piloto": "Cotignola, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "77",
-        "piloto": "Carinelli, Augusto",
+        "piloto": "Montanari, Nicolás",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "161",
-        "piloto": "Candela, Kevin",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "123",
-        "piloto": "Vázquez, Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "114",
-        "piloto": "Ferrante, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "47",
-        "piloto": "Fontana, Norberto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "115",
-        "piloto": "De Carlo, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "53",
-        "piloto": "Iribarne, Federico",
+        "piloto": "Provens, Eugenio",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "66",
+        "piloto": "Rasetto, Genaro",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "68",
+        "piloto": "Torres, Joaquín",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "94",
-        "piloto": "De La Iglesia, Lautaro",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "111",
-        "piloto": "Garbelino, Juan",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "134",
-        "piloto": "Jalaf, Matías",
+        "numero": "88",
+        "piloto": "Boccanera, Bruno",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "107",
-        "piloto": "Martínez, Tobías",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-ng-xs.png\" class=\"lazy\">",
+        "numero": "102",
+        "piloto": "Jakos, Alexander",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "95",
-        "piloto": "Martínez, Agustín",
+        "numero": "144",
+        "piloto": "Cifre, Faustino",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "79",
-        "piloto": "Chapur, Facundo",
+        "numero": "44",
+        "piloto": "Pozner, Thomas",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
@@ -1426,300 +562,114 @@
         "numero": "",
         "piloto": "",
         "marca": null,
-        "title": "1ER CUARTO"
+        "title": "1ER TERCIO"
       },
       {
-        "numero": "1",
-        "piloto": "Werner, Mariano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "3",
-        "piloto": "Todino, Germán",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "4",
-        "piloto": "Castellano, Jonatan",
+        "numero": "6",
+        "piloto": "Cravero, Matías",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "5",
-        "piloto": "Mangoni, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "6",
-        "piloto": "Lambiris, Mauricio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "7",
-        "piloto": "Landa, Marcos",
+        "numero": "33",
+        "piloto": "Bernasconi, Felipe",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "9",
-        "piloto": "Trucco, Juan Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-challenger-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "10",
-        "piloto": "Aguirre, Valentín",
+        "numero": "55",
+        "piloto": "Iansa, Gastón",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "12",
-        "piloto": "Mazzacane, Gastón",
+        "numero": "111",
+        "piloto": "Ochoa, Benjamin",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "147",
+        "piloto": "Dianda, Marco",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "",
+        "piloto": "",
+        "marca": null,
+        "title": "2DO TERCIO"
+      },
+      {
+        "numero": "44",
+        "piloto": "Pozner, Thomas",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "53",
+        "piloto": "Provens, Eugenio",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "102",
+        "piloto": "Jakos, Alexander",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "13",
-        "piloto": "Catalán Magni, Juan Tomás",
+        "numero": "123",
+        "piloto": "Santilli Pazos, Nicanor",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "67",
+        "piloto": "Biagi, Santiago",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "",
+        "piloto": "",
+        "marca": null,
+        "title": "3ER TERCIO"
+      },
+      {
+        "numero": "38",
+        "piloto": "Montanari, Nicolás",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "66",
+        "piloto": "Rasetto, Genaro",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "88",
+        "piloto": "Boccanera, Bruno",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "144",
+        "piloto": "Cifre, Faustino",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "68",
-        "piloto": "Santero, Julián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "231",
-        "piloto": "Urcera, José Manuel",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "2DO CUARTO"
-      },
-      {
-        "numero": "11",
-        "piloto": "Ledesma, Christian",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "19",
-        "piloto": "Ciantini, Diego",
+        "piloto": "Torres, Joaquín",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "21",
-        "piloto": "Fritzler, Otto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "22",
-        "piloto": "Ebarlín, Juan José",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "23",
-        "piloto": "Gini, Esteban",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "63",
-        "piloto": "Bonelli, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "83",
-        "piloto": "Ardusso, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "85",
-        "piloto": "Risatti, Ricardo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "88",
-        "piloto": "Trosset, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "96",
-        "piloto": "Benvenuti, Juan Cruz",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "127",
-        "piloto": "Agrelo, Marcelo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "3ER CUARTO"
-      },
-      {
-        "numero": "34",
-        "piloto": "Spataro, Emiliano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "38",
-        "piloto": "Cotignola, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "75",
-        "piloto": "Alaux, Sergio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "77",
-        "piloto": "Carinelli, Augusto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "121",
-        "piloto": "Craparo, Elio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "122",
-        "piloto": "Jakos, Andrés",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "157",
-        "piloto": "De Benedictis , Juan B.",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "161",
-        "piloto": "Candela, Kevin",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "172",
-        "piloto": "Álvarez, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "177",
-        "piloto": "Londero, Ayrton",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "197",
-        "piloto": "Quijada, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "4TO CUARTO"
-      },
-      {
-        "numero": "47",
-        "piloto": "Fontana, Norberto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "53",
-        "piloto": "Iribarne, Federico",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "79",
-        "piloto": "Chapur, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "94",
-        "piloto": "De La Iglesia, Lautaro",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "95",
-        "piloto": "Martínez, Agustín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "107",
-        "piloto": "Martínez, Tobías",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-ng-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "111",
-        "piloto": "Garbelino, Juan",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "114",
-        "piloto": "Ferrante, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "115",
-        "piloto": "De Carlo, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "123",
-        "piloto": "Vázquez, Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "134",
-        "piloto": "Jalaf, Matías",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       }
     ]
   },
   {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-grupos.ajax.php?intIDCarrera=1499",
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-grupos.ajax.php?intIDCarrera=1529",
     "resultado": [
       {
         "numero": "",
@@ -1728,98 +678,253 @@
         "title": "GRUPO A"
       },
       {
-        "numero": "1",
-        "piloto": "Werner, Mariano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
         "numero": "6",
-        "piloto": "Lambiris, Mauricio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "piloto": "Cravero, Matías",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "7",
-        "piloto": "Landa, Marcos",
+        "numero": "33",
+        "piloto": "Bernasconi, Felipe",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "10",
-        "piloto": "Aguirre, Valentín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "13",
-        "piloto": "Catalán Magni, Juan Tomás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "47",
-        "piloto": "Fontana, Norberto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "56",
-        "piloto": "Mulet, Leandro",
+        "numero": "44",
+        "piloto": "Pozner, Thomas",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "63",
-        "piloto": "Bonelli, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "numero": "55",
+        "piloto": "Iansa, Gastón",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "88",
-        "piloto": "Trosset, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
+        "numero": "67",
+        "piloto": "Biagi, Santiago",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "111",
-        "piloto": "Garbelino, Juan",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "115",
-        "piloto": "De Carlo, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "122",
-        "piloto": "Jakos, Andrés",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "123",
-        "piloto": "Vázquez, Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "157",
-        "piloto": "De Benedictis , Juan B.",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "177",
-        "piloto": "Londero, Ayrton",
+        "piloto": "Ochoa, Benjamin",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "231",
-        "piloto": "Urcera, José Manuel",
+        "numero": "147",
+        "piloto": "Dianda, Marco",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "",
+        "piloto": "",
+        "marca": null,
+        "title": "GRUPO B"
+      },
+      {
+        "numero": "38",
+        "piloto": "Montanari, Nicolás",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "53",
+        "piloto": "Provens, Eugenio",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "66",
+        "piloto": "Rasetto, Genaro",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "70",
+        "piloto": "Videle, Roberto",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "102",
+        "piloto": "Jakos, Alexander",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "144",
+        "piloto": "Cifre, Faustino",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "123",
+        "piloto": "Santilli Pazos, Nicanor",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "",
+        "piloto": "",
+        "marca": null,
+        "title": "1ER TERCIO"
+      },
+      {
+        "numero": "55",
+        "piloto": "Iansa, Gastón",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "111",
+        "piloto": "Ochoa, Benjamin",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "67",
+        "piloto": "Biagi, Santiago",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "33",
+        "piloto": "Bernasconi, Felipe",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "147",
+        "piloto": "Dianda, Marco",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "",
+        "piloto": "",
+        "marca": null,
+        "title": "2DO TERCIO"
+      },
+      {
+        "numero": "44",
+        "piloto": "Pozner, Thomas",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "6",
+        "piloto": "Cravero, Matías",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "123",
+        "piloto": "Santilli Pazos, Nicanor",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "66",
+        "piloto": "Rasetto, Genaro",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "102",
+        "piloto": "Jakos, Alexander",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "",
+        "piloto": "",
+        "marca": null,
+        "title": "3ER TERCIO"
+      },
+      {
+        "numero": "38",
+        "piloto": "Montanari, Nicolás",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "53",
+        "piloto": "Provens, Eugenio",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "70",
+        "piloto": "Videle, Roberto",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "144",
+        "piloto": "Cifre, Faustino",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "url": "https://www.actc.org.ar/v3/carrera-on-line-grupos.ajax.php?intIDCarrera=1530",
+    "resultado": [
+      {
+        "numero": "",
+        "piloto": "",
+        "marca": null,
+        "title": "GRUPO A"
+      },
+      {
+        "numero": "6",
+        "piloto": "Cravero, Matías",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "33",
+        "piloto": "Bernasconi, Felipe",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "55",
+        "piloto": "Iansa, Gastón",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "67",
+        "piloto": "Biagi, Santiago",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "102",
+        "piloto": "Jakos, Alexander",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "111",
+        "piloto": "Ochoa, Benjamin",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "147",
+        "piloto": "Dianda, Marco",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "144",
+        "piloto": "Cifre, Faustino",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
@@ -1830,1065 +935,150 @@
         "title": "GRUPO B"
       },
       {
-        "numero": "4",
-        "piloto": "Castellano, Jonatan",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "11",
-        "piloto": "Ledesma, Christian",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "23",
-        "piloto": "Gini, Esteban",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "60",
-        "piloto": "Dose, Christian",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "75",
-        "piloto": "Alaux, Sergio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "77",
-        "piloto": "Carinelli, Augusto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "79",
-        "piloto": "Chapur, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "83",
-        "piloto": "Ardusso, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "95",
-        "piloto": "Martínez, Agustín",
+        "numero": "20",
+        "piloto": "López, José Luis",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "96",
-        "piloto": "Benvenuti, Juan Cruz",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "107",
-        "piloto": "Martínez, Tobías",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-ng-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "114",
-        "piloto": "Ferrante, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "161",
-        "piloto": "Candela, Kevin",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "172",
-        "piloto": "Álvarez, Santiago",
+        "numero": "44",
+        "piloto": "Pozner, Thomas",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "197",
-        "piloto": "Quijada, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "85",
-        "piloto": "Risatti, Ricardo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "GRUPO C"
-      },
-      {
-        "numero": "3",
-        "piloto": "Todino, Germán",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "5",
-        "piloto": "Mangoni, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "9",
-        "piloto": "Trucco, Juan Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-challenger-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "12",
-        "piloto": "Mazzacane, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "19",
-        "piloto": "Ciantini, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "21",
-        "piloto": "Fritzler, Otto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "22",
-        "piloto": "Ebarlín, Juan José",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "31",
-        "piloto": "Ponce de León, Gabriel",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "34",
-        "piloto": "Spataro, Emiliano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "38",
-        "piloto": "Cotignola, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "53",
-        "piloto": "Iribarne, Federico",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "68",
-        "piloto": "Santero, Julián",
+        "piloto": "Provens, Eugenio",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "71",
-        "piloto": "Abella, Sebastián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "94",
-        "piloto": "De La Iglesia, Lautaro",
+        "numero": "66",
+        "piloto": "Rasetto, Genaro",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "121",
-        "piloto": "Craparo, Elio",
+        "numero": "70",
+        "piloto": "Videle, Roberto",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "127",
-        "piloto": "Agrelo, Marcelo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
+        "numero": "116",
+        "piloto": "Polakovich, Mateo",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "title": ""
+      },
+      {
+        "numero": "123",
+        "piloto": "Santilli Pazos, Nicanor",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "",
         "piloto": "",
         "marca": null,
-        "title": "1ER CUARTO"
-      },
-      {
-        "numero": "1",
-        "piloto": "Werner, Mariano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "3",
-        "piloto": "Todino, Germán",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "4",
-        "piloto": "Castellano, Jonatan",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "5",
-        "piloto": "Mangoni, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
+        "title": "1ER GRUPO"
       },
       {
         "numero": "6",
-        "piloto": "Lambiris, Mauricio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
+        "piloto": "Cravero, Matías",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "7",
-        "piloto": "Landa, Marcos",
+        "numero": "33",
+        "piloto": "Bernasconi, Felipe",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "9",
-        "piloto": "Trucco, Juan Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-challenger-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "10",
-        "piloto": "Aguirre, Valentín",
+        "numero": "55",
+        "piloto": "Iansa, Gastón",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "11",
-        "piloto": "Ledesma, Christian",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "13",
-        "piloto": "Catalán Magni, Juan Tomás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "68",
-        "piloto": "Santero, Julián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "231",
-        "piloto": "Urcera, José Manuel",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "2DO CUARTO"
-      },
-      {
-        "numero": "12",
-        "piloto": "Mazzacane, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "19",
-        "piloto": "Ciantini, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "21",
-        "piloto": "Fritzler, Otto",
+        "numero": "67",
+        "piloto": "Biagi, Santiago",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "22",
-        "piloto": "Ebarlín, Juan José",
+        "numero": "102",
+        "piloto": "Jakos, Alexander",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "23",
-        "piloto": "Gini, Esteban",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "63",
-        "piloto": "Bonelli, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "85",
-        "piloto": "Risatti, Ricardo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "88",
-        "piloto": "Trosset, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "96",
-        "piloto": "Benvenuti, Juan Cruz",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "121",
-        "piloto": "Craparo, Elio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "127",
-        "piloto": "Agrelo, Marcelo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "172",
-        "piloto": "Álvarez, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "3ER CUARTO"
-      },
-      {
-        "numero": "31",
-        "piloto": "Ponce de León, Gabriel",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "34",
-        "piloto": "Spataro, Emiliano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "38",
-        "piloto": "Cotignola, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "75",
-        "piloto": "Alaux, Sergio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "77",
-        "piloto": "Carinelli, Augusto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "83",
-        "piloto": "Ardusso, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "114",
-        "piloto": "Ferrante, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "122",
-        "piloto": "Jakos, Andrés",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "157",
-        "piloto": "De Benedictis , Juan B.",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "161",
-        "piloto": "Candela, Kevin",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "177",
-        "piloto": "Londero, Ayrton",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "197",
-        "piloto": "Quijada, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "4TO CUARTO"
-      },
-      {
-        "numero": "47",
-        "piloto": "Fontana, Norberto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "53",
-        "piloto": "Iribarne, Federico",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "56",
-        "piloto": "Mulet, Leandro",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "60",
-        "piloto": "Dose, Christian",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "71",
-        "piloto": "Abella, Sebastián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "79",
-        "piloto": "Chapur, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "94",
-        "piloto": "De La Iglesia, Lautaro",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "95",
-        "piloto": "Martínez, Agustín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "107",
-        "piloto": "Martínez, Tobías",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-ng-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "111",
-        "piloto": "Garbelino, Juan",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "115",
-        "piloto": "De Carlo, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "123",
-        "piloto": "Vázquez, Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      }
-    ]
-  },
-  {
-    "url": "https://www.actc.org.ar/v3/carrera-on-line-grupos.ajax.php?intIDCarrera=1500",
-    "resultado": [
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "GRUPO A"
-      },
-      {
-        "numero": "1",
-        "piloto": "Werner, Mariano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "3",
-        "piloto": "Todino, Germán",
+        "piloto": "Ochoa, Benjamin",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "4",
-        "piloto": "Castellano, Jonatan",
+        "numero": "147",
+        "piloto": "Dianda, Marco",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "5",
-        "piloto": "Mangoni, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "6",
-        "piloto": "Lambiris, Mauricio",
+        "numero": "144",
+        "piloto": "Cifre, Faustino",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "7",
-        "piloto": "Landa, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "9",
-        "piloto": "Trucco, Juan Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-challenger-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "10",
-        "piloto": "Aguirre, Valentín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "11",
-        "piloto": "Ledesma, Christian",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "12",
-        "piloto": "Mazzacane, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "13",
-        "piloto": "Catalán Magni, Juan Tomás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "19",
-        "piloto": "Ciantini, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "21",
-        "piloto": "Fritzler, Otto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "23",
-        "piloto": "Gini, Esteban",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "63",
-        "piloto": "Bonelli, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "68",
-        "piloto": "Santero, Julián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "88",
-        "piloto": "Trosset, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "96",
-        "piloto": "Benvenuti, Juan Cruz",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "121",
-        "piloto": "Craparo, Elio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "127",
-        "piloto": "Agrelo, Marcelo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "172",
-        "piloto": "Álvarez, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "231",
-        "piloto": "Urcera, José Manuel",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "85",
-        "piloto": "Risatti, Ricardo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "",
         "piloto": "",
         "marca": null,
-        "title": "GRUPO B"
+        "title": "2DO GRUPO"
       },
       {
-        "numero": "22",
-        "piloto": "Ebarlín, Juan José",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "34",
-        "piloto": "Spataro, Emiliano",
+        "numero": "20",
+        "piloto": "López, José Luis",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "38",
-        "piloto": "Cotignola, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "47",
-        "piloto": "Fontana, Norberto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
+        "numero": "44",
+        "piloto": "Pozner, Thomas",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "53",
-        "piloto": "Iribarne, Federico",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "77",
-        "piloto": "Carinelli, Augusto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "79",
-        "piloto": "Chapur, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "83",
-        "piloto": "Ardusso, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "94",
-        "piloto": "De La Iglesia, Lautaro",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "95",
-        "piloto": "Martínez, Agustín",
+        "piloto": "Provens, Eugenio",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "107",
-        "piloto": "Martínez, Tobías",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-ng-xs.png\" class=\"lazy\">",
+        "numero": "66",
+        "piloto": "Rasetto, Genaro",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "114",
-        "piloto": "Ferrante, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
+        "numero": "70",
+        "piloto": "Videle, Roberto",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
-        "numero": "115",
-        "piloto": "De Carlo, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "122",
-        "piloto": "Jakos, Andrés",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
+        "numero": "116",
+        "piloto": "Polakovich, Mateo",
+        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
         "title": ""
       },
       {
         "numero": "123",
-        "piloto": "Vázquez, Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "157",
-        "piloto": "De Benedictis , Juan B.",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "161",
-        "piloto": "Candela, Kevin",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "177",
-        "piloto": "Londero, Ayrton",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "197",
-        "piloto": "Quijada, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "1ER CUARTO"
-      },
-      {
-        "numero": "1",
-        "piloto": "Werner, Mariano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "3",
-        "piloto": "Todino, Germán",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "4",
-        "piloto": "Castellano, Jonatan",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "5",
-        "piloto": "Mangoni, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "6",
-        "piloto": "Lambiris, Mauricio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "7",
-        "piloto": "Landa, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "9",
-        "piloto": "Trucco, Juan Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-challenger-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "10",
-        "piloto": "Aguirre, Valentín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "13",
-        "piloto": "Catalán Magni, Juan Tomás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "68",
-        "piloto": "Santero, Julián",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "231",
-        "piloto": "Urcera, José Manuel",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "2DO CUARTO"
-      },
-      {
-        "numero": "11",
-        "piloto": "Ledesma, Christian",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "12",
-        "piloto": "Mazzacane, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "19",
-        "piloto": "Ciantini, Diego",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "21",
-        "piloto": "Fritzler, Otto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "23",
-        "piloto": "Gini, Esteban",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "85",
-        "piloto": "Risatti, Ricardo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "88",
-        "piloto": "Trosset, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "96",
-        "piloto": "Benvenuti, Juan Cruz",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "121",
-        "piloto": "Craparo, Elio",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "127",
-        "piloto": "Agrelo, Marcelo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "172",
-        "piloto": "Álvarez, Santiago",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "3ER CUARTO"
-      },
-      {
-        "numero": "22",
-        "piloto": "Ebarlín, Juan José",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "34",
-        "piloto": "Spataro, Emiliano",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "63",
-        "piloto": "Bonelli, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "83",
-        "piloto": "Ardusso, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "122",
-        "piloto": "Jakos, Andrés",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "123",
-        "piloto": "Vázquez, Martín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "157",
-        "piloto": "De Benedictis , Juan B.",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-mustang-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "161",
-        "piloto": "Candela, Kevin",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "177",
-        "piloto": "Londero, Ayrton",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "197",
-        "piloto": "Quijada, Marcos",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "",
-        "piloto": "",
-        "marca": null,
-        "title": "4TO CUARTO"
-      },
-      {
-        "numero": "38",
-        "piloto": "Cotignola, Nicolás",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "47",
-        "piloto": "Fontana, Norberto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "53",
-        "piloto": "Iribarne, Federico",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-camaro-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "77",
-        "piloto": "Carinelli, Augusto",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "79",
-        "piloto": "Chapur, Facundo",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "94",
-        "piloto": "De La Iglesia, Lautaro",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-dodge-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "95",
-        "piloto": "Martínez, Agustín",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-ford-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "107",
-        "piloto": "Martínez, Tobías",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-torino-ng-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "114",
-        "piloto": "Ferrante, Gastón",
-        "marca": "<img data-original=\"/vistas/v3/images/logos/logo-toyota-xs.png\" class=\"lazy\">",
-        "title": ""
-      },
-      {
-        "numero": "115",
-        "piloto": "De Carlo, Diego",
+        "piloto": "Santilli Pazos, Nicanor",
         "marca": "<img data-original=\"/vistas/v3/images/logos/logo-chevrolet-xs.png\" class=\"lazy\">",
         "title": ""
       }
     ]
-  },
-  {
-    "url": "-",
-    "resultado": []
   },
   {
     "url": "-",

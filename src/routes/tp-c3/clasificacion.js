@@ -1,6 +1,8 @@
 const cheerio = require('cheerio');
 const request = require('request-promise');
-const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets'); 
+const fs = require('fs').promises;
+const path = require('path');
+const { obtenerDatosDesdeGoogleSheets } = require('../googleSheets');
 
 async function clasificacion() {
   try {
@@ -14,20 +16,27 @@ async function clasificacion() {
       .map(fila => fila.c[14].v);
 
     // Array para almacenar todas las promesas de las solicitudes
-    const promesasSolicitudes = [];
-
-    // Enviar solicitudes en paralelo
-    for (const url of urlsEntrenamiento) {
-      promesasSolicitudes.push(obtenerResultados(url));
-    }
+    const promesasSolicitudes = urlsEntrenamiento.map(url => obtenerResultados(url));
 
     // Esperar a que todas las solicitudes se completen
     const resultadosPorUrl = await Promise.all(promesasSolicitudes);
 
-    console.log('Resultados por URL:', resultadosPorUrl);
+    // Formatear los resultados en el formato deseado
+    const resultadosFormateados = urlsEntrenamiento.map((url, index) => ({
+      url: url === "" || url === "-" ? "-" : url,
+      resultado: resultadosPorUrl[index]
+    }));
+
+    console.log('Resultados por URL:', resultadosFormateados);
+
+    // Guardar los resultados en un archivo JSON
+    const jsonFileName = path.join(__dirname, 'clasificacion.json');
+    await fs.writeFile(jsonFileName, JSON.stringify(resultadosFormateados, null, 2), 'utf-8');
+
+    console.log('Datos guardados en:', jsonFileName);
 
     // Devolver los resultados obtenidos
-    return resultadosPorUrl;
+    return resultadosFormateados;
   } catch (error) {
     console.error('Error al obtener y mostrar datos:', error);
     throw error;
@@ -39,7 +48,6 @@ async function obtenerResultados(url) {
     if (url === "" || url === "-") {
       return [];
     }
-
 
     const $ = await request({
       uri: url,
@@ -54,12 +62,14 @@ async function obtenerResultados(url) {
       const pos = $(columns[0]).text().trim();
       const nro = $(columns[1]).text().trim();
       const piloto = $(columns[2]).text().trim();
+      const [nombre, apellido] = piloto.split(' ').length > 1 ? piloto.split(' ') : [piloto, ''];
       const marca = $(columns[3]).text().trim();
       const vueltas = $(columns[4]).text().trim();
       const tiempo = $(columns[5]).text().trim();
       const diferencia = $(columns[6]).text().trim();
+      const nacionalidad = piloto; // Si nacionalidad y piloto son los mismos
 
-      resultados.push({ pos, nro, piloto, marca, vueltas, tiempo, diferencia });
+      resultados.push({ pos, nro, nombre, apellido, piloto, marca, vueltas, tiempo, diferencia, nacionalidad });
     });
 
     // Eliminar los objetos vacíos si existen
@@ -70,9 +80,10 @@ async function obtenerResultados(url) {
     return resultadosFiltrados;
   } catch (error) {
     console.error('Error fetching data:', error);
-    throw error;
+    return [];
   }
 }
-  module.exports = {
-    clasificacion
-  };
+
+module.exports = {
+  clasificacion
+};
