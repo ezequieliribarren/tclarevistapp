@@ -17,6 +17,21 @@ const { sheets, menu } = require('./tn3/menu.js');
 const path = require('path'); // Importación del módulo path
 const cron = require('node-cron');
 
+// VIVO
+const {en1V} = require ('./tn3/tn/en1.js');
+const { en2V } = require('./tn3/tn/en2.js');
+const { en3V } = require('./tn3/tn/en3.js');
+const { en5V } = require('./tn3/tn/en5.js');
+const { en6V } = require('./tn3/tn/en6.js');
+const { clasificacionV } = require('./tn3/tn/clasificacion.js');
+const { serie1V } = require('./tn3/tn/serie1.js');
+const { serie2V } = require('./tn3/tn/serie2.js');
+const { serie3V } = require('./tn3/tn/serie3.js');
+const { finalV } = require('./tn3/tn/final.js');
+const { menuV } = require('./tn3/tn/menu.js');
+const { pilotosV } = require('./tn3/tn/pilotos.js');
+
+
 const jsonFilePath1 = path.join(__dirname, 'tn3', 'en1.json');
 const jsonFilePath2 = path.join(__dirname, 'tn3', 'en2.json');
 const jsonFilePath3 = path.join(__dirname, 'tn3', 'en3.json');
@@ -308,88 +323,87 @@ async function realizarScrapeYGuardarPilotos() {
     }
 }
 
-// realizarScrapeYGuardarClasificacion();
 
-  cron.schedule('57 14 * * *', async () => {
+
+  cron.schedule('02 18 * * *', async () => {
     try {
         await realizarScrapeYGuardar();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('23 11 * * *', async () => {
+  cron.schedule('22 08 * * *', async () => {
     try {
         await realizarScrapeYGuardar2();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('24 11 * * *', async () => {
+  cron.schedule('04 18 * * *', async () => {
     try {
         await realizarScrapeYGuardar3();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('25 11 * * *', async () => {
+  cron.schedule('05 18 * * *', async () => {
     try {
         await realizarScrapeYGuardar5();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('26 11 * * *', async () => {
+  cron.schedule('56 08 * * *', async () => {
     try {
         await realizarScrapeYGuardar6();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('27 11 * * *', async () => {
+  cron.schedule('55 08 * * *', async () => {
     try {
         await realizarScrapeYGuardarClasificacion();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('28 11 * * *', async () => {
+  cron.schedule('54 08 * * *', async () => {
     try {
         await realizarScrapeYGuardarSerie1();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('29 11 * * *', async () => {
+  cron.schedule('53 08 * * *', async () => {
     try {
         await realizarScrapeYGuardarSerie2();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('30 11 * * *', async () => {
+  cron.schedule('06 11 * * *', async () => {
     try {
         await realizarScrapeYGuardarSerie3();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('31 11 * * *', async () => {
+  cron.schedule('10 18 * * *', async () => {
     try {
         await realizarScrapeYGuardarFinal();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('32 11 * * *', async () => {
+  cron.schedule('17 11 * * *', async () => {
     try {
         await realizarScrapeYGuardarPilotos();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
- 
 
-  
+
 // MENU
   router.get('/menu/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
@@ -406,5 +420,216 @@ async function realizarScrapeYGuardarPilotos() {
     }
   });
   
+
+//   VIVO
+
+// 1° ENTRENAMIENTO
+router.get('/en1/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+      const datos = await en1V();
+      if (indice < datos.length) {
+          res.send(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+  } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+  }
+  });
+  
+  // 2° ENTRENAMIENTO
+  router.get('/en2/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+      const datos = await en2V();
+      if (indice < datos.length) {
+          res.send(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+  } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+  }
+  });
+  
+    // 3° ENTRENAMIENTO
+    router.get('/en3/vivo/:indice', async (req, res) => {
+      const indice = parseInt(req.params.indice);
+      try {
+        const datos = await en3V();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+    });
+  
+    // 5° ENTRENAMIENTO
+    router.get('/en5/vivo/:indice', async (req, res) => {
+      const indice = parseInt(req.params.indice);
+      try {
+        const datos = await en5V();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+    });
+  
+    // 6° ENTRENAMIENTO
+    router.get('/en6/vivo/:indice', async (req, res) => {
+      const indice = parseInt(req.params.indice);
+      try {
+        const datos = await en6V();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+    });
+  
+  // CLASIFICACION
+  router.get('/clasificacion/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+      const datos = await clasificacionV();
+      if (indice < datos.length) {
+          res.send(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+  } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+  }
+  });
+  
+  // 1° SERIE
+  router.get('/serie1/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+      const datos = await serie1V();
+      if (indice < datos.length) {
+          res.send(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+  } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+  }
+  });
+  
+  // 2° SERIE
+  router.get('/serie2/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+      const datos = await serie2V();
+      if (indice < datos.length) {
+          res.send(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+  } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+  }
+  });
+  
+  // 3° SERIE
+  router.get('/serie3/vivo/:indice', async (req, res) => {
+      const indice = parseInt(req.params.indice);
+      try {
+        const datos = await serie3V();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+    });
+  
+  // 6° FINAL
+  router.get('/final/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await finalV();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+  });
+  
+  // HORARIOS
+  router.get('/horarios/vivo/:indice', async (req, res) => {
+      const indice = parseInt(req.params.indice);
+      try {
+          const datos = await horariosV();
+          if (indice < datos.length) {
+              res.send(datos[indice]);
+          } else {
+              res.status(404).json({ error: 'No se encontró el índice especificado' });
+          }
+      } catch (error) {
+          console.error(`Error al obtener los resultados del array ${indice}:`, error);
+          res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+      }
+    });
+  
+  // PILOTOS
+  
+  router.get('/pilotos/vivo/:indice', async (req, res) => {
+      const indice = parseInt(req.params.indice);
+      try {
+          const datos = await pilotosV();
+          if (indice < datos.length) {
+              res.send(datos[indice]);
+          } else {
+              res.status(404).json({ error: 'No se encontró el índice especificado' });
+          }
+      } catch (error) {
+          console.error(`Error al obtener los resultados del array ${indice}:`, error);
+          res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+      }
+    });
+    
+  // MENU
+    router.get('/menu/vivo/:indice', async (req, res) => {
+      const indice = parseInt(req.params.indice);
+      try {
+        const datos = await menuV();
+        if (indice < datos.length) {
+          res.json(datos[indice]);
+        } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+      } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+      }
+    });
   
   module.exports = router;

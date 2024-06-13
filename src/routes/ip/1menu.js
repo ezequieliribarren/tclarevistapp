@@ -103,7 +103,7 @@ async function scrapeData1menu() {
                 }, h3);
 
                 const liDatasJson = await liDatas.jsonValue();
-                
+
                 // Asignar el índice global a cada elemento
                 liDatasJson.forEach(data => {
                     data.indice = globalIndice;

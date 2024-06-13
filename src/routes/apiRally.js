@@ -19,6 +19,25 @@ const { p15 } = require('./rally/p15.js');
 const { p16 } = require('./rally/p16.js');
 const { shake } = require('./rally/shake.js');
 
+// VIVO
+const { p1V } = require('./rally/rally/p1.js');
+const { p2V } = require('./rally/rally/p2.js');
+const { p3V } = require('./rally/rally/p3.js');
+const { p4V } = require('./rally/rally/p4.js');
+const { p5V } = require('./rally/rally/p5.js');
+const { p6V } = require('./rally/rally/p6.js');
+const { p7V } = require('./rally/rally/p7.js');
+const { p8V } = require('./rally/rally/p8.js');
+const { p9V } = require('./rally/rally/p9.js');
+const { p10V } = require('./rally/rally/p10.js');
+const { p11V } = require('./rally/rally/p11.js');
+const { p12V } = require('./rally/rally/p12.js');
+const { p13V } = require('./rally/rally/p13.js');
+const { p14V } = require('./rally/rally/p14.js');
+const { p15V } = require('./rally/rally/p15.js');
+const { p16V } = require('./rally/rally/p16.js');
+const { shakeV } = require('./rally/rally/shake.js');
+
 const path = require('path'); // Importación del módulo path
 const cron = require('node-cron');
 const jsonFilePath1 = path.join(__dirname, 'rally', 'p1.json');
@@ -540,6 +559,349 @@ cron.schedule('57 15 * * *', async () => {
     }
   });
 
+
+// VIVO
+// SHAKE
+router.get('/shake/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await shakeV();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P1
+  router.get('/p1/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p1V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P2
+  router.get('/p2/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p2V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P3
+  router.get('/p3/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p3V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P4
+  router.get('/p4/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p4V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P5
+  router.get('/p5/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p5V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P6
+  router.get('/p6/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p6V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P7
+  router.get('/p7/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p7V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P8
+  router.get('/p8/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p8V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P9
+  router.get('/p9/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p9V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P10
+  router.get('/p10/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p10V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P11
+  router.get('/p11/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p11V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P12
+  router.get('/p12/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p12V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P13
+  router.get('/13/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p13V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P14
+  router.get('/p14/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p14V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P15
+  router.get('/p15/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p15V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  // P16
+  router.get('/final/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+  
+    try {
+      const datos = await p16V();
+  
+      
+      // Verificar si el índice es válido
+      if (datos && datos.length > indice) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del índice ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del índice ${indice}` });
+    }
+  });
+  
+  
 
 
 

@@ -9,14 +9,20 @@ const { pilotos } = require('./fe/pilotos.js');
 const path = require('path'); // Importación del módulo path
 const cron = require('node-cron');
 
+// VIVO
+const { en1V } = require('./fe/fe/entrenamiento1.js')
+const { en2V } = require('./fe/fe/entrenamiento2.js')
+const { clasificacionV } = require('./fe/fe/clasificacion.js')
+const { finalV } = require('./fe/fe/final.js')
+const { pilotosV } = require('./fe/fe/pilotos.js');
+
 const jsonFilePath1 = path.join(__dirname, 'fe', 'en1.json');
 const jsonFilePath2 = path.join(__dirname, 'fe', 'en2.json');
 const jsonFilePathClasificacion = path.join(__dirname, 'fe', 'clasificacion.json');
-const jsonFilePathSprint= path.join(__dirname, 'fe', 'sprint.json');
 const jsonFilePathFinal= path.join(__dirname, 'fe', 'final.json');
 const jsonFilePathPilotos= path.join(__dirname, 'fe', 'pilotos.json');
 
-
+// JSON
 // 1° ENTRENAMIENTO
 router.get('/en1/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
@@ -181,13 +187,6 @@ cron.schedule('48 20 * * *', async () => {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
 });
-cron.schedule('49 20 * * *', async () => {
-    try {
-        await realizarScrapeYGuardarSprint();
-    } catch (error) {
-        console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
-    }
-});
 cron.schedule('50 20 * * *', async () => {
     try {
         await realizarScrapeYGuardarFinal();
@@ -203,6 +202,83 @@ cron.schedule('51 20 * * *', async () => {
     }
 });
 
+
+// VIVO
+// 1° ENTRENAMIENTO
+router.get('/en1/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await en1V();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+// 2° ENTRENAMIENTO
+router.get('/en2/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await en2V();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+// CLASIFICACION (Q1)
+router.get('/clasificacion/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await clasificacionV();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+// 6° FINAL (RACE)
+router.get('/final/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await finalV();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+// PILOTOS
+router.get('/pilotos/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await pilotosV();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+  });
 
 module.exports = router;
 

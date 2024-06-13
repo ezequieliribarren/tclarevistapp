@@ -9,6 +9,16 @@ const { sprint } = require('./f1/sprint.js');
 const { final } = require('./f1/final.js');
 const { pilotos } = require('./f1/pilotos.js');
 const { menu } = require('./f1/menu.js');
+// VIVO
+const { en1V } = require('./f1/f1/entrenamiento1.js')
+const { en2V } = require('./f1/f1/entrenamiento2.js')
+const { en3V } = require('./f1/f1/entrenamiento3.js')
+const { clasificacionV } = require('./f1/f1/clasificacion.js')
+const { sprintV } = require('./f1/f1/sprint.js')
+const { finalV } = require('./f1/f1/final.js');
+const { pilotosV } = require('./f1/f1/pilotos.js');
+const { menuV } = require('./f1/f1/menu.js');
+
 
 const path = require('path'); // Importación del módulo path
 const cron = require('node-cron');
@@ -21,9 +31,7 @@ const jsonFilePathFinal= path.join(__dirname, 'f1', 'final.json');
 const jsonFilePathPilotos= path.join(__dirname, 'f1', 'pilotos.json');
 
 
-
-
-
+// JSON
 // 1° ENTRENAMIENTO
 router.get('/en1/:indice', async (req, res) => {
     const indice = parseInt(req.params.indice);
@@ -267,6 +275,137 @@ cron.schedule('20 20 * * *', async () => {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
 });
+
+
+// VIVO
+// 1° ENTRENAMIENTO
+router.get('/en1/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await en1V();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+
+// 2° ENTRENAMIENTO
+router.get('/en2/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await en2V();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+
+// 3° ENTRENAMIENTO
+router.get('/en3/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await en3V();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+
+// CLASIFICACION
+router.get('/clasificacion/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await clasificacionV();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+
+// SPRINT
+router.get('/serie3/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await sprintV();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+
+// FINAL
+router.get('/final/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await finalV();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+
+// PILOTOS
+router.get('/pilotos/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+        const datos = await pilotosV();
+        if (indice < datos.length) {
+            res.send(datos[indice]);
+        } else {
+            res.status(404).json({ error: 'No se encontró el índice especificado' });
+        }
+    } catch (error) {
+        console.error(`Error al obtener los resultados del array ${indice}:`, error);
+        res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+});
+
+// MENU
+router.get('/menu/vivo/:indice', async (req, res) => {
+    const indice = parseInt(req.params.indice);
+    try {
+      const datos = await menuV();
+      if (indice < datos.length) {
+          res.json(datos[indice]);
+      } else {
+          res.status(404).json({ error: 'No se encontró el índice especificado' });
+      }
+    } catch (error) {
+      console.error(`Error al obtener los resultados del array ${indice}:`, error);
+      res.status(500).json({ error: `Error al obtener los resultados del array ${indice}` });
+    }
+  });
+
 
 
 module.exports = router;
