@@ -6,8 +6,10 @@ const { v4: uuidv4 } = require('uuid');
 const fsPromises = require('fs').promises;
 const moment = require('moment-timezone');
 const multer = require('multer');
-const path = require('path');
 const puppeteer = require('puppeteer');
+const cron = require('node-cron');
+const path = require('path');
+const { spawn } = require('child_process');
 
 
 // RUTA NOTICIAS GENERALES
@@ -569,6 +571,21 @@ router.post('/procesar', tableUpload.single('tableHTML'), async (req, res) => {
 //   .catch(error => {
 //     console.error('Error ejecutando el scraping:', error);
 //   });
+
+// const { verificarYGuardarResultados } = require('./ip/guardaTandas.js');
+// const { verificarYGuardarResultados2 } = require('./ip/guardaTandas2.js');
+
+// cron.schedule('0 * * * 5-7', async () => {
+//     console.log('Ejecutando tarea programada para verificar y guardar resultados finalizados');
+
+//     try {
+//         await verificarYGuardarResultados();
+//     } catch (error) {
+//         console.error('Error al ejecutar verificarYGuardarResultados:', error);
+//     }
+// });
+
+// verificarYGuardarResultados2();
 
 module.exports = router;
  

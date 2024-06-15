@@ -7,6 +7,8 @@ console.log(FRONTEND_URL)
 // Configuración de la aplicación
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+const fs = require('fs').promises;
+
 
 const cors = require('cors');
 app.use(cors({
@@ -317,6 +319,42 @@ app.get('/f1/live', async (req, res) => {
         res.status(500).json({ error: 'Error al obtener la clasificación de F1' });
     }
 }); 
+
+
+// RUTAS JSON FIN DE SEMANA
+
+app.use(express.json());
+
+// Ruta para obtener datos del endpoint ip1
+app.get('/iframe/1/:indice', async (req, res) => {
+    const indice = req.params.indice;
+    const filePath = path.join(__dirname, 'routes', 'ip', 'ip1', `${indice}.json`);
+
+    try {
+        const data = await fs.readFile(filePath, 'utf-8');
+        const jsonData = JSON.parse(data);
+        res.json(jsonData);
+    } catch (error) {
+        console.error('Error al leer el archivo JSON:', error);
+        res.status(500).json({ error: 'Error al leer el archivo JSON' });
+    }
+});
+
+// Ruta para obtener datos del endpoint ip2
+app.get('/iframe/2/:indice', async (req, res) => {
+    const indice = req.params.indice;
+    const filePath = path.join(__dirname, 'routes','ip','ip2', `${indice}.json`);
+
+    try {
+        const data = await fs.readFile(filePath, 'utf-8');
+        const jsonData = JSON.parse(data);
+        res.json(jsonData);
+    } catch (error) {
+        console.error('Error al leer el archivo JSON:', error);
+        res.status(500).json({ error: 'Error al leer el archivo JSON' });
+    }
+});
+
 
 
 

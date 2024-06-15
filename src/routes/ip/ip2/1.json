@@ -1,0 +1,367 @@
+{
+  "Indice": 1,
+  "Tanda": "2º ENTRENAMIENTO",
+  "Estado": "finalizado",
+  "DatosTabla": [
+    {
+      "Pos": "Verificado por Cronometraje:\n\t\t\t\t\t\t\n\t\t\t\t\t\tVerificado por Técnica:\n\t\t\t\t\t\t\n\t\t\t\t\t\tVerificado por Deportiva:",
+      "Numero": "Verificado por Cronometraje:",
+      "Piloto": "",
+      "Marca": "",
+      "Vueltas": "",
+      "Tiempo": "Verificado por Deportiva:",
+      "Diferencia": "",
+      "Flag": null
+    },
+    {
+      "Pos": "Verificado por Cronometraje:",
+      "Numero": "",
+      "Piloto": "Verificado por Técnica:",
+      "Marca": "/admin/vistas/images/on_aprobacion.png",
+      "Vueltas": "Verificado por Deportiva:",
+      "Tiempo": "",
+      "Diferencia": "",
+      "Flag": null
+    },
+    {
+      "Pos": "1",
+      "Numero": "21",
+      "Piloto": "Pilo, Juan Pablo",
+      "Marca": "/upload/marcas/1.jpg",
+      "Vueltas": "9",
+      "Tiempo": "01:27.847",
+      "Diferencia": "",
+      "Flag": null
+    },
+    {
+      "Pos": "2",
+      "Numero": "119",
+      "Piloto": "Palazzo, Hernán",
+      "Marca": "/upload/marcas/2.jpg",
+      "Vueltas": "10",
+      "Tiempo": "01:27.917",
+      "Diferencia": "0.070",
+      "Flag": null
+    },
+    {
+      "Pos": "3",
+      "Numero": "10",
+      "Piloto": "Azar, Diego",
+      "Marca": "/upload/marcas/54.jpg",
+      "Vueltas": "10",
+      "Tiempo": "01:28.007",
+      "Diferencia": "0.160",
+      "Flag": null
+    },
+    {
+      "Pos": "4",
+      "Numero": "11",
+      "Piloto": "Canapino, Matías",
+      "Marca": "/upload/marcas/2.jpg",
+      "Vueltas": "11",
+      "Tiempo": "01:28.040",
+      "Diferencia": "0.193",
+      "Flag": null
+    },
+    {
+      "Pos": "5",
+      "Numero": "193",
+      "Piloto": "Castro, Marcos",
+      "Marca": "/upload/marcas/1.jpg",
+      "Vueltas": "10",
+      "Tiempo": "01:28.252",
+      "Diferencia": "0.405",
+      "Flag": null
+    },
+    {
+      "Pos": "6",
+      "Numero": "3",
+      "Piloto": "Olmedo, Jeremías",
+      "Marca": "/upload/marcas/1.jpg",
+      "Vueltas": "10",
+      "Tiempo": "01:28.269",
+      "Diferencia": "0.422",
+      "Flag": null
+    },
+    {
+      "Pos": "7",
+      "Numero": "178",
+      "Piloto": "Tomasello, Juan Manuel",
+      "Marca": "/upload/marcas/2.jpg",
+      "Vueltas": "12",
+      "Tiempo": "01:28.313",
+      "Diferencia": "0.466",
+      "Flag": null
+    },
+    {
+      "Pos": "8",
+      "Numero": "86",
+      "Piloto": "Faín, Ignacio",
+      "Marca": "/upload/marcas/4.jpg",
+      "Vueltas": "10",
+      "Tiempo": "01:28.421",
+      "Diferencia": "0.574",
+      "Flag": null
+    },
+    {
+      "Pos": "9",
+      "Numero": "23",
+      "Piloto": "Gandulia, Gabriel",
+      "Marca": "/upload/marcas/1.jpg",
+      "Vueltas": "9",
+      "Tiempo": "01:28.510",
+      "Diferencia": "0.663",
+      "Flag": null
+    },
+    {
+      "Pos": "10",
+      "Numero": "113",
+      "Piloto": "Lugón, Rodrigo",
+      "Marca": "/upload/marcas/1.jpg",
+      "Vueltas": "7",
+      "Tiempo": "01:28.539",
+      "Diferencia": "0.692",
+      "Flag": null
+    },
+    {
+      "Pos": "11",
+      "Numero": "131",
+      "Piloto": "Rasuk, José",
+      "Marca": "/upload/marcas/3.jpg",
+      "Vueltas": "11",
+      "Tiempo": "01:28.635",
+      "Diferencia": "0.788",
+      "Flag": null
+    },
+    {
+      "Pos": "12",
+      "Numero": "25",
+      "Piloto": "Cotignola, Luciano",
+      "Marca": "/upload/marcas/4.jpg",
+      "Vueltas": "15",
+      "Tiempo": "01:28.661",
+      "Diferencia": "0.814",
+      "Flag": null
+    },
+    {
+      "Pos": "13",
+      "Numero": "12",
+      "Piloto": "Moscardini, Nicolás",
+      "Marca": "/upload/marcas/1.jpg",
+      "Vueltas": "8",
+      "Tiempo": "01:28.663",
+      "Diferencia": "0.816",
+      "Flag": null
+    },
+    {
+      "Pos": "14",
+      "Numero": "8",
+      "Piloto": "Impiombato, Nicolás",
+      "Marca": "/upload/marcas/2.jpg",
+      "Vueltas": "11",
+      "Tiempo": "01:28.666",
+      "Diferencia": "0.819",
+      "Flag": null
+    },
+    {
+      "Pos": "15",
+      "Numero": "51",
+      "Piloto": "Ricciardi, Thomas",
+      "Marca": "/upload/marcas/1.jpg",
+      "Vueltas": "13",
+      "Tiempo": "01:28.761",
+      "Diferencia": "0.914",
+      "Flag": null
+    },
+    {
+      "Pos": "16",
+      "Numero": "137",
+      "Piloto": "Scoltore, Juan",
+      "Marca": "/upload/marcas/2.jpg",
+      "Vueltas": "10",
+      "Tiempo": "01:28.918",
+      "Diferencia": "1.071",
+      "Flag": null
+    },
+    {
+      "Pos": "17",
+      "Numero": "133",
+      "Piloto": "Maceira, Juan Ignacio",
+      "Marca": "/upload/marcas/1.jpg",
+      "Vueltas": "13",
+      "Tiempo": "01:28.940",
+      "Diferencia": "1.093",
+      "Flag": null
+    },
+    {
+      "Pos": "18",
+      "Numero": "20",
+      "Piloto": "Teti, Jerónimo",
+      "Marca": "/upload/marcas/4.jpg",
+      "Vueltas": "11",
+      "Tiempo": "01:29.094",
+      "Diferencia": "1.247",
+      "Flag": null
+    },
+    {
+      "Pos": "19",
+      "Numero": "140",
+      "Piloto": "Chansard, Gaspar",
+      "Marca": "/upload/marcas/3.jpg",
+      "Vueltas": "11",
+      "Tiempo": "01:29.142",
+      "Diferencia": "1.295",
+      "Flag": null
+    },
+    {
+      "Pos": "20",
+      "Numero": "54",
+      "Piloto": "Ochoa, Joaquín",
+      "Marca": "/upload/marcas/3.jpg",
+      "Vueltas": "6",
+      "Tiempo": "01:29.154",
+      "Diferencia": "1.307",
+      "Flag": null
+    },
+    {
+      "Pos": "21",
+      "Numero": "55",
+      "Piloto": "Domenech, Alfonso",
+      "Marca": "/upload/marcas/1.jpg",
+      "Vueltas": "12",
+      "Tiempo": "01:29.187",
+      "Diferencia": "1.340",
+      "Flag": null
+    },
+    {
+      "Pos": "22",
+      "Numero": "197",
+      "Piloto": "Scialchi, Jeremías",
+      "Marca": "/upload/marcas/4.jpg",
+      "Vueltas": "12",
+      "Tiempo": "01:29.194",
+      "Diferencia": "1.347",
+      "Flag": null
+    },
+    {
+      "Pos": "23",
+      "Numero": "118",
+      "Piloto": "Salse, Sebastián",
+      "Marca": "/upload/marcas/3.jpg",
+      "Vueltas": "10",
+      "Tiempo": "01:29.230",
+      "Diferencia": "1.383",
+      "Flag": null
+    },
+    {
+      "Pos": "24",
+      "Numero": "16",
+      "Piloto": "Valle, Mario",
+      "Marca": "/upload/marcas/2.jpg",
+      "Vueltas": "12",
+      "Tiempo": "01:29.250",
+      "Diferencia": "1.403",
+      "Flag": null
+    },
+    {
+      "Pos": "25",
+      "Numero": "123",
+      "Piloto": "Gonnet, Gerónimo",
+      "Marca": "/upload/marcas/4.jpg",
+      "Vueltas": "12",
+      "Tiempo": "01:29.341",
+      "Diferencia": "1.494",
+      "Flag": null
+    },
+    {
+      "Pos": "26",
+      "Numero": "32",
+      "Piloto": "Markel, Damián",
+      "Marca": "/upload/marcas/3.jpg",
+      "Vueltas": "12",
+      "Tiempo": "01:29.401",
+      "Diferencia": "1.554",
+      "Flag": null
+    },
+    {
+      "Pos": "27",
+      "Numero": "109",
+      "Piloto": "Leguizamón, Baltazar",
+      "Marca": "/upload/marcas/3.jpg",
+      "Vueltas": "10",
+      "Tiempo": "01:29.420",
+      "Diferencia": "1.573",
+      "Flag": null
+    },
+    {
+      "Pos": "28",
+      "Numero": "41",
+      "Piloto": "Barrio, Jorge",
+      "Marca": "/upload/marcas/2.jpg",
+      "Vueltas": "11",
+      "Tiempo": "01:29.475",
+      "Diferencia": "1.628",
+      "Flag": null
+    },
+    {
+      "Pos": "29",
+      "Numero": "71",
+      "Piloto": "Calvani, Lucio",
+      "Marca": "/upload/marcas/3.jpg",
+      "Vueltas": "12",
+      "Tiempo": "01:29.584",
+      "Diferencia": "1.737",
+      "Flag": null
+    },
+    {
+      "Pos": "30",
+      "Numero": "27",
+      "Piloto": "Reynoso, Sebastián",
+      "Marca": "/upload/marcas/1.jpg",
+      "Vueltas": "10",
+      "Tiempo": "01:29.768",
+      "Diferencia": "1.921",
+      "Flag": null
+    },
+    {
+      "Pos": "31",
+      "Numero": "101",
+      "Piloto": "Weimann, Alejandro",
+      "Marca": "/upload/marcas/3.jpg",
+      "Vueltas": "12",
+      "Tiempo": "01:30.168",
+      "Diferencia": "2.321",
+      "Flag": null
+    },
+    {
+      "Pos": "32",
+      "Numero": "188",
+      "Piloto": "Jaime, Alberto Daniel",
+      "Marca": "/upload/marcas/3.jpg",
+      "Vueltas": "5",
+      "Tiempo": "01:36.229",
+      "Diferencia": "8.382",
+      "Flag": null
+    },
+    {
+      "Pos": "33",
+      "Numero": "9",
+      "Piloto": "Valle, Lucas",
+      "Marca": "/upload/marcas/3.jpg",
+      "Vueltas": "2",
+      "Tiempo": "01:41.370",
+      "Diferencia": "13.523",
+      "Flag": null
+    },
+    {
+      "Pos": "34",
+      "Numero": "14",
+      "Piloto": "De Brabandere, Agustín",
+      "Marca": "/upload/marcas/1.jpg",
+      "Vueltas": "1",
+      "Tiempo": "10:48.380",
+      "Diferencia": "9:20.533",
+      "Flag": null
+    }
+  ]
+}

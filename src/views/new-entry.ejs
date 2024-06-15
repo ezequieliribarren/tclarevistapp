@@ -320,35 +320,88 @@
       }
    </script>
 <script>
+   // Función para obtener la ruta de la imagen de la marca según el número
+   function obtenerRutaImagen(numeroMarca) {
+        switch (numeroMarca) {
+            case '1':
+                return 'images/marcas/ford.png';
+            case '2':
+                return 'images/marcas/chevrolet.png';
+            case '46':
+                return 'images/marcas/mustang.png';
+            case '4':
+            case '52':
+                return 'images/marcas/torino.png';
+            case '3':
+            case '50':
+                return 'images/marcas/dodge.png';
+            case '48':
+                return 'images/marcas/camaro.png';
+            case '54':
+                return 'images/marcas/toyota.png';
+            case '21':
+                return 'images/marcas/nissan.png';
+            default:
+                return null;
+        }
+    }
+
+    // Función para obtener el número de marca desde la ruta de la imagen
+    function obtenerNumeroMarca(rutaImagen) {
+        if (!rutaImagen) return null; // Retornar null si la ruta de imagen es nula o indefinida
+        const regex = /\/(\d+)\.png$/;  // Expresión regular para obtener el número de la marca desde la ruta de la imagen
+        const match = rutaImagen.match(regex);
+        if (match) {
+            return match[1];
+        } else {
+            return null;
+        }
+    }
+
+   // Función para procesar los datos de la tanda desde el endpoint
    function tanda() {
        const endpoint = document.getElementById('endpoint').value; // Obtener el valor del campo de entrada de la URL
        fetch(endpoint)
            .then(response => response.json())
            .then(data => {
-               const resultado = data.resultado;
-               let tablaHtml = '<table class="table"><thead><tr><th>Pos</th><th>Nro</th><th>Piloto</th><th>Marca</th><th>Vueltas</th><th>Tiempo</th><th>Diferencia</th></tr></thead><tbody>';
-               
-               resultado.forEach(item => {
-                   tablaHtml += `<tr>
-                       <td>${item.pos}</td>
-                       <td>${item.nro}</td>
-                       <td>${item.piloto}</td>
-                       <td>${item.marca}</td>
-                       <td>${item.vueltas}</td>
-                       <td>${item.tiempo}</td>
-                       <td>${item.diferencia}</td>
-                   </tr>`;
-               });
-               
+               const resultado = data.DatosTabla; // Acceder al array DatosTabla del JSON
+
+               // Filtrar los primeros 3 elementos que no son parte de la tabla de resultados
+               const datosFiltrados = resultado.filter(item => item.Pos && !isNaN(parseInt(item.Pos)));
+
+               let tablaHtml = '<table class="tabla-resultado-cuerpo-noticia"><thead><tr class="row"><th class="vueltas-carreras-td col-1">Pos</th><th class="vueltas-carreras-td col-1">Nro</th><th class="vueltas-carreras-td col-3">Piloto</th><th class="vueltas-carreras-td col-2">Marca</th><th class="vueltas-carreras-td col-1">Vueltas</th><th class="vueltas-carreras-td col-2">Tiempo</th><th class="vueltas-carreras-td col-1">Diferencia</th></tr></thead><tbody>';
+
+                  datosFiltrados.forEach(item => {
+                    const numeroMarca = obtenerNumeroMarca(item.Marca); // Obtener el número de marca desde la ruta de la imagen
+                    const rutaImagen = numeroMarca ? obtenerRutaImagen(numeroMarca) : ''; // Obtener la ruta de la imagen según el número de marca
+
+                    const imagenHtml = rutaImagen ? `<img src="${rutaImagen}" alt="Marca" style="max-width: 50px; max-height: 50px;">` : '';
+
+                    tablaHtml += `<tr class="row">
+                        <td class='vueltas-carreras-td col-1'>${item.Pos}</td>
+                        <td class='vueltas-carreras-td col-1'>${item.Numero}</td>
+                        <td class='vueltas-carreras-td col-3'>${item.Piloto}</td>
+                        <td class='img-carreras-td col-2'>${imagenHtml}</td>
+                        <td class='vueltas-carreras-td col-1'>${item.Vueltas}</td>
+                        <td class='vueltas-carreras-td col-2'>${item.Tiempo}</td>
+                        <td class='vueltas-carreras-td col-1'>${item.Diferencia}</td>
+                    </tr>`;
+                });
+
+
                tablaHtml += '</tbody></table>';
-               
+
                // Insertar la tabla en el editor
                const editor = document.getElementById('editor');
-               editor.value += tablaHtml;
+               editor.innerHTML = tablaHtml; // Usar innerHTML en lugar de value para insertar contenido HTML
            })
            .catch(error => console.error('Error fetching data:', error));
    }
 </script>
+
+
+
+
 </body>
 
 </html>
