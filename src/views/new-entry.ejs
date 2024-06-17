@@ -96,7 +96,7 @@
                <input class='form-control' type="file" id="audio" name="audio" accept="audio/*" multiple>
             </div>
             <div class="form-group" style="margin-top: 0.5rem;">
-               <label for="endpoint">URL Tanda</label>
+               <button type="button" onclick="verificarYGuardar()">Verificar y Guardar</button> <!-- Nuevo botón -->
                <input class="form-control" type="text" id="endpoint" placeholder="Enter endpoint URL" required>
            </div>
             <div class="form-group" style="margin-top: 1rem;">
@@ -398,6 +398,29 @@
            .catch(error => console.error('Error fetching data:', error));
    }
 </script>
+
+<script>
+   async function verificarYGuardar() {
+       try {
+           const response = await fetch('/verificar-y-guardar-resultados', {
+               method: 'POST',
+               headers: {
+                   'Content-Type': 'application/json'
+               }
+           });
+   
+           if (response.ok) {
+               const result = await response.json();
+               alert('Resultados verificados y guardados exitosamente.');
+           } else {
+               alert('Error al verificar y guardar resultados.');
+           }
+       } catch (error) {
+           console.error('Error:', error);
+           alert('Hubo un error al intentar verificar y guardar los resultados.');
+       }
+   }
+   </script>
 
 
 

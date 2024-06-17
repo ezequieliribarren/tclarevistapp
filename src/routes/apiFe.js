@@ -166,35 +166,35 @@ async function realizarScrapeYGuardarPilotos() {
 }
 
 
-cron.schedule('42 20 * * *', async () => {
+cron.schedule('52 04 * * *', async () => {
     try {
         await realizarScrapeYGuardar();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
 });
-cron.schedule('47 20 * * *', async () => {
+cron.schedule('53 04 * * *', async () => {
     try {
         await realizarScrapeYGuardar2();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
 });
-cron.schedule('48 20 * * *', async () => {
+cron.schedule('54 04 * * *', async () => {
     try {
         await realizarScrapeYGuardarClasificacion();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
 });
-cron.schedule('50 20 * * *', async () => {
+cron.schedule('55 04 * * *', async () => {
     try {
         await realizarScrapeYGuardarFinal();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
 });
-cron.schedule('51 20 * * *', async () => {
+cron.schedule('56 04 * * *', async () => {
     try {
         await realizarScrapeYGuardarPilotos();
     } catch (error) {

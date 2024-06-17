@@ -355,7 +355,22 @@ app.get('/iframe/2/:indice', async (req, res) => {
     }
 });
 
+// GUARDAR DATOS DE TANDAS EN JSON DESDE FORMULARIO (COMPLETAR EN FIN DE SEMANA)
+const { verificarYGuardarResultados } = require('./routes/ip/guardaTandas.js'); 
+const { verificarYGuardarResultados1 } = require('./routes/ip/guardaTandas2.js'); 
+const { verificarYGuardarResultados2 } = require('./routes/ip/guardaTandas3.js'); 
+const { verificarYGuardarResultados3 } = require('./routes/ip/guardaTandas4.js'); 
+app.use(express.json());
 
+app.post('/verificar-y-guardar-resultados', async (req, res) => {
+    try {
+        await verificarYGuardarResultados();
+        res.status(200).json({ message: 'Resultados verificados y guardados exitosamente.' });
+    } catch (error) {
+        console.error('Error al verificar y guardar resultados:', error);
+        res.status(500).json({ message: 'Error al verificar y guardar resultados.' });
+    }
+});
 
 
 

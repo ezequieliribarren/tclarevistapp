@@ -325,77 +325,77 @@ async function realizarScrapeYGuardarPilotos() {
 
 
 
-  cron.schedule('02 18 * * *', async () => {
+  cron.schedule('08 01 * * *', async () => {
     try {
         await realizarScrapeYGuardar();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('22 08 * * *', async () => {
+  cron.schedule('09 01 * * *', async () => {
     try {
         await realizarScrapeYGuardar2();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('04 18 * * *', async () => {
+  cron.schedule('10 01 * * *', async () => {
     try {
         await realizarScrapeYGuardar3();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('05 18 * * *', async () => {
+  cron.schedule('11 01 * * *', async () => {
     try {
         await realizarScrapeYGuardar5();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('56 08 * * *', async () => {
+  cron.schedule('12 01 * * *', async () => {
     try {
         await realizarScrapeYGuardar6();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('55 08 * * *', async () => {
+  cron.schedule('13 01 * * *', async () => {
     try {
         await realizarScrapeYGuardarClasificacion();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('54 08 * * *', async () => {
+  cron.schedule('14 01 * * *', async () => {
     try {
         await realizarScrapeYGuardarSerie1();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('53 08 * * *', async () => {
+  cron.schedule('15 01 * * *', async () => {
     try {
         await realizarScrapeYGuardarSerie2();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('06 11 * * *', async () => {
+  cron.schedule('16 01 * * *', async () => {
     try {
         await realizarScrapeYGuardarSerie3();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('10 18 * * *', async () => {
+  cron.schedule('17 01 * * *', async () => {
     try {
         await realizarScrapeYGuardarFinal();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('17 11 * * *', async () => {
+  cron.schedule('18 01 * * *', async () => {
     try {
         await realizarScrapeYGuardarPilotos();
     } catch (error) {

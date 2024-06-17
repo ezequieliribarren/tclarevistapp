@@ -446,112 +446,112 @@ async function realizarScrapeYGuardar2() {
   }
 
 
-cron.schedule('37 15 * * *', async () => {
+cron.schedule('37 05 * * *', async () => {
   try {
       await realizarScrapeYGuardar();
   } catch (error) {
       console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
   }
 });
-cron.schedule('43 15 * * *', async () => {
+cron.schedule('43 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar2();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('44 15 * * *', async () => {
+cron.schedule('44 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar3();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('45 15 * * *', async () => {
+cron.schedule('45 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar4();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('46 15 * * *', async () => {
+cron.schedule('46 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar5();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('47 15 * * *', async () => {
+cron.schedule('47 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar6();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('48 15 * * *', async () => { 
+cron.schedule('48 05 * * *', async () => { 
     try {
         await realizarScrapeYGuardar7();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('49 15 * * *', async () => {
+cron.schedule('49 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar8();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('50 15 * * *', async () => {
+cron.schedule('50 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar9();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('51 15 * * *', async () => {
+cron.schedule('51 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar10();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('52 15 * * *', async () => {
+cron.schedule('52 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar11();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('53 15 * * *', async () => {
+cron.schedule('53 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar12();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('54 15 * * *', async () => {
+cron.schedule('54 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar13();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('55 15 * * *', async () => {
+cron.schedule('55 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar14();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('56 15 * * *', async () => {
+cron.schedule('56 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar15();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-cron.schedule('57 15 * * *', async () => {
+cron.schedule('57 05 * * *', async () => {
     try {
         await realizarScrapeYGuardar16();
     } catch (error) {

@@ -244,56 +244,56 @@ async function realizarScrapeYGuardarHorarios() {
 
 
 
-  cron.schedule('23 17 * * *', async () => {
+  cron.schedule('00 01 * * *', async () => {
     try {
         await realizarScrapeYGuardar();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('20 17 * * *', async () => {
+  cron.schedule('01 01 * * *', async () => {
     try {
         await realizarScrapeYGuardar2();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('10 17 * * *', async () => {
+  cron.schedule('02 01 * * *', async () => {
     try {
         await realizarScrapeYGuardar3();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('42 16 * * *', async () => {
+  cron.schedule('03 01 * * *', async () => {
     try {
         await realizarScrapeYGuardar4();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('43 16 * * *', async () => {
+  cron.schedule('04 01 * * *', async () => {
     try {
         await realizarScrapeYGuardarClasificacion();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('44 16 * * *', async () => {
+  cron.schedule('05 01 * * *', async () => {
     try {
         await realizarScrapeYGuardarFinal();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('45 16 * * *', async () => {
+  cron.schedule('06 01 * * *', async () => {
     try {
         await realizarScrapeYGuardarPilotos();
     } catch (error) {
         console.error('Error al realizar el scrape y guardar los datos en en1.json:', error);
     }
   });
-  cron.schedule('17 17 * * *', async () => {
+  cron.schedule('07 01 * * *', async () => {
     try {
         await realizarScrapeYGuardarHorarios();
     } catch (error) {
