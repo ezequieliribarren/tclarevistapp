@@ -9,6 +9,17 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 const fs = require('fs').promises;
 
+app.use(express.json()); // Parsea el cuerpo de las solicitudes JSON
+// Endpoint para recibir el webhook de GitHub
+app.post('/webhook', (req, res) => {
+    const payload = req.body; // El payload del webhook de GitHub estará en req.body
+
+    // Aquí puedes procesar el payload según tus necesidades
+    console.log('Webhook recibido de GitHub:', payload);
+
+    // Responde a GitHub indicando que recibiste el webhook correctamente
+    res.status(200).send('Webhook recibido correctamente');
+});
 
 const cors = require('cors');
 app.use(cors({
