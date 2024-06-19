@@ -8,6 +8,8 @@ console.log(FRONTEND_URL)
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 const fs = require('fs').promises;
+const cors = require('cors');
+
 
 
 app.use(cors({
@@ -23,7 +25,7 @@ app.listen(PORT, () => {
 
 // // // SERVIR EL FRONTEND
 
-// app.use(express.static(path.join(__dirname, '../tclarevista/dist')));
+app.use(express.static(path.join(__dirname, '../tclarevista/dist')));
 
 // // Ruta para servir el archivo index.html desde tclarevista/dist en /
 // app.get('/', (req, res) => {
