@@ -587,5 +587,17 @@ router.post('/procesar', tableUpload.single('tableHTML'), async (req, res) => {
 
 // verificarYGuardarResultados2();
 
+
+// Ruta para manejar el webhook de GitHub
+router.post('/webhook', (req, res) => {
+    const payload = req.body; // El payload del webhook de GitHub estará en req.body
+
+    // Aquí puedes procesar el payload según tus necesidades
+    console.log('Webhook recibido de GitHub:', payload);
+
+    // Responde a GitHub indicando que recibiste el webhook correctamente
+    res.status(200).send('Webhook recibido correctamente');
+});
+
 module.exports = router;
  
