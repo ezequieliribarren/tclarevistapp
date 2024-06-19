@@ -20,13 +20,13 @@ app.listen(PORT, () => {
     console.log(PORT)
 });
 
-// SERVIR EL FRONTEND
+// // SERVIR EL FRONTEND
 
-app.use(express.static(__dirname + "/tclarevista/dist"));
-//Luego le decimos a express que sirva todo eso desde el home
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "/tclarevista/dist", "index.html"))
-});
+// app.use(express.static(__dirname + "/tclarevista/dist"));
+// //Luego le decimos a express que sirva todo eso desde el home
+// app.get("/", (req, res) => {
+//     res.sendFile(path.join(__dirname, "/tclarevista/dist", "index.html"))
+// });
 
 // Middlewares
 app.use(morgan('dev'));
