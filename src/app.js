@@ -21,14 +21,14 @@ app.listen(PORT, () => {
     console.log(PORT)
 });
 
-// // SERVIR EL FRONTEND
+// // // SERVIR EL FRONTEND
 
-app.use(express.static(path.join(__dirname, '../tclarevista/dist')));
+// app.use(express.static(path.join(__dirname, '../tclarevista/dist')));
 
-// Ruta para servir el archivo index.html desde tclarevista/dist en /
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../tclarevista/dist', 'index.html'));
-});
+// // Ruta para servir el archivo index.html desde tclarevista/dist en /
+// app.get('/', (req, res) => {
+//     res.sendFile(path.join(__dirname, '../tclarevista/dist', 'index.html'));
+// });
 
 // Middlewares
 app.use(morgan('dev'));
