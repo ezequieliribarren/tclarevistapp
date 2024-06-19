@@ -10,9 +10,10 @@ app.set('view engine', 'ejs');
 const fs = require('fs').promises;
 
 
-const cors = require('cors');
 app.use(cors({
-    origin: FRONTEND_URL,
+    origin: FRONTEND_URL, // Permitir solo el origen del frontend
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
+    credentials: true, // Permitir credenciales (cookies, headers, etc.)
 }));
 
 app.listen(PORT, () => {
